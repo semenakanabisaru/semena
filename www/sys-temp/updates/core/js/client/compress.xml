@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filepack>
+	<pack path="commonClient.js" type="js">
+		<file path="../custom.js" delete="false" />
+		<file path="cookie.js" delete="false" />
+		<file path="catalog.js" delete="false" />
+		<file path="stat.js" delete="false" />
+		<file path="vote.js" delete="false" />
+		<file path="users.js" delete="false" />
+		<file path="eshop.js" delete="false" />
+		<file path="forum.js" delete="false" />
+		<file path="mouse.js" delete="false" />
+		<file path="umiTicket.js" delete="false" />
+		<file path="umiTickets.js" delete="false" />
+		<file path="floatReferers.js" delete="false" />
+	</pack>
+</filepack>

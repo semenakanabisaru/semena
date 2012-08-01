@@ -1,0 +1,79 @@
+[_SESSION]
+	[starttime]
+	(integer) 1341899178
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /users/registrate_do/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[errors_1341899178]
+	(array) ['['Слишком короткий логин. Логин должен состоять не менее, чем из 3х символов.', '', '']']
+
+
+[_GET]
+	[path]
+	(string) users/registrate_do/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+
+	[Accept-Language]
+	(string) en-us
+
+	[Accept]
+	(string) */*
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=h1jbmnisc7e1kpqpis8qqvrno4; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0001800]	Can't find error redirect string
+[0.0016019]	#0 /var/www/clients/client0/web1/web/classes/modules/def_module.php(947): def_module-&gt;errorPanic()
+#1 /var/www/clients/client0/web1/web/classes/modules/users/__register.php(138): def_module-&gt;errorNewMessage('%errors_too_sho...')
+#2 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __register_users-&gt;registrate_do()
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#4 /var/www/clients/client0/web1/web/classes/modules/users/class.php(25): def_module-&gt;__call('registrate_do', Array)
+#5 [internal function]: users-&gt;__call('registrate_do', Array)
+#6 [internal function]: users-&gt;registrate_do()
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#9 [internal function]: udataStream-&gt;stream_open('udata://users/r...', 'rb', 4, NULL)
+#10 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://users/r...')
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://users/r...')
+#12 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#13 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#14 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#15 {main}

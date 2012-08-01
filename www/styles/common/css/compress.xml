@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filepack>
+	<pack path="compiled.css" type="css">
+		<file path="contentTable.css" delete="false" />
+		<file path="contentTree.css" delete="false" />
+		<file path="context.css" delete="false" />
+		<file path="photoalbum_zip_upload_from.css" delete="false" />
+	</pack>
+</filepack>

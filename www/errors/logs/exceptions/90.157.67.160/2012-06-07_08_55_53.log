@@ -1,0 +1,83 @@
+[_SESSION]
+	[starttime]
+	(integer) 1339041420
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /producers/paradise_seeds/allkush/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'c4k2fq5h9e05bdv8t3hhh7oq26']
+
+
+[_GET]
+	[path]
+	(string) producers/paradise_seeds/allkush/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) stat_id=c4k2fq5h9e05bdv8t3hhh7oq26; expires=Sun, 05-Jun-2022 04:51:44 GMT; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[39.8679450]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[59.6885982]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT   `rel` ...', false)
+#1 /var/www/clients/client0/web1/web/classes/modules/stat/classes/statistic.php(571): l_mysql_query('SELECT   `rel` ...')
+#2 /var/www/clients/client0/web1/web/classes/modules/stat/classes/statistic.php(720): statistic-&gt;setUpHostId()
+#3 /var/www/clients/client0/web1/web/classes/modules/stat/classes/statistic.php(161): statistic-&gt;addUser()
+#4 /var/www/clients/client0/web1/web/classes/modules/stat/class.php(212): statistic-&gt;run()
+#5 /var/www/clients/client0/web1/web/libs/root-src/index.php(150): stat-&gt;pushStat()
+#6 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#7 {main}

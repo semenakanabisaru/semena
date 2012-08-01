@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432897</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:57 +0400</rfc>
+      <utc>2012-04-26T13:34:57+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/stat" val="stat"/>
+    <key path="modules/stat/name" val="stat"/>
+    <key path="modules/stat/filename" val="modules/stat/class.php"/>
+    <key path="modules/stat/config" val="1" update="1"/>
+    <key path="modules/stat/default_method" val="sess_refresh" update="1"/>
+    <key path="modules/stat/default_method_admin" val="total" update="1"/>
+    <key path="modules/stat/collect" val="1"/>
+    <key path="modules/stat/delete_after" val="30"/>
+    <key path="modules/stat/items_per_page" val="100"/>
+    <key path="modules/stat/func_perms" val="Functions, that should have their own permissions."/>
+    <key path="modules/stat/func_perms/json_get_referer_pages" val="Просмотр переходов на сайте"/>
+    <key path="modules/stat/func_perms/total" val="Просмотр статистики"/>
+    <key path="modules/stat/func_perms/tagsCloud" val="Просмотр облака тегов"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/stat" name="stat">/classes/modules/stat</directory>
+    <directory path="./classes/modules/stat/classes" name="classes">/classes/modules/stat/classes</directory>
+    <directory path="./classes/modules/stat/classes/xml" name="xml">/classes/modules/stat/classes/xml</directory>
+    <directory path="./classes/modules/stat/classes/libs" name="libs">/classes/modules/stat/classes/libs</directory>
+    <directory path="./classes/modules/stat/classes/exceptions" name="exceptions">/classes/modules/stat/classes/exceptions</directory>
+    <directory path="./styles/skins/mac/data/modules/stat" name="stat">/styles/skins/mac/data/modules/stat</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/stat/classes/fastUserTags.php" size="1117" ext="php" hash="c90fa8c0680575bdf5ee6f0b6a075a29" name="fastUserTags.php">/classes/modules/stat/classes/fastUserTags.php</file>
+    <file path="./classes/modules/stat/classes/hostsCommonHours.php" size="4412" ext="php" hash="8198f4da3977ac1128d30b9d59817c18" name="hostsCommonHours.php">/classes/modules/stat/classes/hostsCommonHours.php</file>
+    <file path="./classes/modules/stat/classes/sourcesSEO.php" size="1826" ext="php" hash="b7958dad376278049c7c83a06d3afff1" name="sourcesSEO.php">/classes/modules/stat/classes/sourcesSEO.php</file>
+    <file path="./classes/modules/stat/classes/sectionHits.php" size="3701" ext="php" hash="9a54da5c534cf1743e4ea9cc2e8e2a27" name="sectionHits.php">/classes/modules/stat/classes/sectionHits.php</file>
+    <file path="./classes/modules/stat/classes/visitDeep.php" size="3249" ext="php" hash="fe9949bdc5817e6f57688b625fe7c88e" name="visitDeep.php">/classes/modules/stat/classes/visitDeep.php</file>
+    <file path="./classes/modules/stat/classes/sourcesDomains.php" size="1958" ext="php" hash="f148e39ce1a25c181414ac807085e247" name="sourcesDomains.php">/classes/modules/stat/classes/sourcesDomains.php</file>
+    <file path="./classes/modules/stat/classes/entryPoints.php" size="1887" ext="php" hash="5aac5afd55847cda90e6841d8edcf590" name="entryPoints.php">/classes/modules/stat/classes/entryPoints.php</file>
+    <file path="./classes/modules/stat/classes/statisticFactory.php" size="1258" ext="php" hash="9d7a784aabd19bdef036ae4231d5d62c" name="statisticFactory.php">/classes/modules/stat/classes/statisticFactory.php</file>
+    <file path="./classes/modules/stat/classes/openstatSources.php" size="2132" ext="php" hash="f7a807700d6dad2a198184a1307dd99f" name="openstatSources.php">/classes/modules/stat/classes/openstatSources.php</file>
+    <file path="./classes/modules/stat/classes/openstatServices.php" size="2706" ext="php" hash="f5783dceaf520a4343cb0e0c5b1198cf" name="openstatServices.php">/classes/modules/stat/classes/openstatServices.php</file>
+    <file path="./classes/modules/stat/classes/visitersCommonHours.php" size="4894" ext="php" hash="7d469d1b362a3898ab1192cc458051b0" name="visitersCommonHours.php">/classes/modules/stat/classes/visitersCommonHours.php</file>
+    <file path="./classes/modules/stat/classes/exitPoints.php" size="2621" ext="php" hash="4684ddc6ec8cad532db2185bca193d5b" name="exitPoints.php">/classes/modules/stat/classes/exitPoints.php</file>
+    <file path="./classes/modules/stat/classes/hostsCommon.php" size="5319" ext="php" hash="92daf4c7ff9df2878a6880b67fe84962" name="hostsCommon.php">/classes/modules/stat/classes/hostsCommon.php</file>
+    <file path="./classes/modules/stat/classes/sourcesSEOKeywordsConcrete.php" size="2215" ext="php" hash="3911cf18724b6dbd1637404bdf94c12b" name="sourcesSEOKeywordsConcrete.php">/classes/modules/stat/classes/sourcesSEOKeywordsConcrete.php</file>
+    <file path="./classes/modules/stat/classes/sourcesTop.php" size="4570" ext="php" hash="07f6c16905890e0cc969b9a3dc4c3714" name="sourcesTop.php">/classes/modules/stat/classes/sourcesTop.php</file>
+    <file path="./classes/modules/stat/classes/refererByEntry.php" size="1434" ext="php" hash="73e1edd3e56252b7434a1c5d321cec2c" name="refererByEntry.php">/classes/modules/stat/classes/refererByEntry.php</file>
+    <file path="./classes/modules/stat/classes/statistic.php" size="37089" ext="php" hash="bfe34256b5678a5692a722f6e4f4ca6d" name="statistic.php">/classes/modules/stat/classes/statistic.php</file>
+    <file path="./classes/modules/stat/classes/xml/openstatAdsXml.php" size="162" ext="php" hash="883995ee9762ea0799d9bc3b2b10414f" name="openstatAdsXml.php">/classes/modules/stat/classes/xml/openstatAdsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/userStatXml.php" size="4077" ext="php" hash="8ecbd8fb828ff2e2ae81edbf1b9d590d" name="userStatXml.php">/classes/modules/stat/classes/xml/userStatXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/refusesXml.php" size="158" ext="php" hash="0a63a69ce11a3d829b0f068c81c67b92" name="refusesXml.php">/classes/modules/stat/classes/xml/refusesXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/pathsXml.php" size="898" ext="php" hash="f2ad90ec75a8b8942dae871f92e15352" name="pathsXml.php">/classes/modules/stat/classes/xml/pathsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/auditoryActivityXml.php" size="924" ext="php" hash="781593fa3d2dc9eade354a4c2a9fda48" name="auditoryActivityXml.php">/classes/modules/stat/classes/xml/auditoryActivityXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sectionHitsIncludedXml.php" size="170" ext="php" hash="faa8f29e964bdd6a2243f0d4246330c2" name="sectionHitsIncludedXml.php">/classes/modules/stat/classes/xml/sectionHitsIncludedXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/auditoryLoyalityXml.php" size="176" ext="php" hash="8da4f2eb19d4ba71b70bfe484b175f1f" name="auditoryLoyalityXml.php">/classes/modules/stat/classes/xml/auditoryLoyalityXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/pageInfoXml.php" size="1769" ext="php" hash="7d38537dbed88aad9042aa5cfd83c1a9" name="pageInfoXml.php">/classes/modules/stat/classes/xml/pageInfoXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/auditoryVolumeXml.php" size="165" ext="php" hash="07282fd436d0ae37c51415bfc77bba88" name="auditoryVolumeXml.php">/classes/modules/stat/classes/xml/auditoryVolumeXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/visitCommonHoursXml.php" size="1270" ext="php" hash="a4e9aeedfe025dbbb87744320fa350fb" name="visitCommonHoursXml.php">/classes/modules/stat/classes/xml/visitCommonHoursXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/openstatServicesXml.php" size="167" ext="php" hash="f8589ce47b662a833ca1f7815692f396" name="openstatServicesXml.php">/classes/modules/stat/classes/xml/openstatServicesXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/openstatSourcesXml.php" size="166" ext="php" hash="56cae21da16f9782357df87981db1d5c" name="openstatSourcesXml.php">/classes/modules/stat/classes/xml/openstatSourcesXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/cityStatXml.php" size="168" ext="php" hash="5f836fc24c7e86657c6f968e8ef222b6" name="cityStatXml.php">/classes/modules/stat/classes/xml/cityStatXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesSEOConcreteXml.php" size="169" ext="php" hash="c68ea21c966a721760f40214c820f1af" name="sourcesSEOConcreteXml.php">/classes/modules/stat/classes/xml/sourcesSEOConcreteXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesSEOKeywordsConcreteXml.php" size="177" ext="php" hash="75a56011381f0b240a1906785e50d10c" name="sourcesSEOKeywordsConcreteXml.php">/classes/modules/stat/classes/xml/sourcesSEOKeywordsConcreteXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/refererByEntryXml.php" size="174" ext="php" hash="951f33040b8096d50ab180ee4ebce8ba" name="refererByEntryXml.php">/classes/modules/stat/classes/xml/refererByEntryXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/hostsCommonXml.php" size="876" ext="php" hash="851456d8a3463243fdd9f84c1a5894a4" name="hostsCommonXml.php">/classes/modules/stat/classes/xml/hostsCommonXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/visitsByDateXml.php" size="843" ext="php" hash="ed0718124e2efd2c40cdc28cea4d437f" name="visitsByDateXml.php">/classes/modules/stat/classes/xml/visitsByDateXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/pageNextXml.php" size="159" ext="php" hash="f9cc711aa110b29e128b8ff27b420fc8" name="pageNextXml.php">/classes/modules/stat/classes/xml/pageNextXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/fastUserTagsXml.php" size="862" ext="php" hash="8a29e603e2e60f1a1d34a982bd0abd35" name="fastUserTagsXml.php">/classes/modules/stat/classes/xml/fastUserTagsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/tagXml.php" size="834" ext="php" hash="22ee59075aed1131bb9bf8f22c262310" name="tagXml.php">/classes/modules/stat/classes/xml/tagXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/visitersCommonXml.php" size="879" ext="php" hash="08f0fe1a038f6a950b8c000bca52bdf1" name="visitersCommonXml.php">/classes/modules/stat/classes/xml/visitersCommonXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/visitTimeXml.php" size="169" ext="php" hash="a65b2d49b4f4b460a451f6607a7cd17b" name="visitTimeXml.php">/classes/modules/stat/classes/xml/visitTimeXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesDomainsConcreteXml.php" size="173" ext="php" hash="a6a2d9f4db2b3da5dd39edddd8346f72" name="sourcesDomainsConcreteXml.php">/classes/modules/stat/classes/xml/sourcesDomainsConcreteXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/openstatCampaignsXml.php" size="168" ext="php" hash="f7b045896abeffccb9147b30f3ab7f5e" name="openstatCampaignsXml.php">/classes/modules/stat/classes/xml/openstatCampaignsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesSEOKeywordsXml.php" size="169" ext="php" hash="28ed51567be52adfbca8340d243a02d9" name="sourcesSEOKeywordsXml.php">/classes/modules/stat/classes/xml/sourcesSEOKeywordsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/xmlDecorator.php" size="1987" ext="php" hash="d3790d9ee68b53b08fea5787d4976111" name="xmlDecorator.php">/classes/modules/stat/classes/xml/xmlDecorator.php</file>
+    <file path="./classes/modules/stat/classes/xml/auditoryVolumeGrowthXml.php" size="171" ext="php" hash="713490ed6a496bb5531ba8f90f97c8fe" name="auditoryVolumeGrowthXml.php">/classes/modules/stat/classes/xml/auditoryVolumeGrowthXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesPRXml.php" size="160" ext="php" hash="4c04cb2029632af0e382f708112f42b7" name="sourcesPRXml.php">/classes/modules/stat/classes/xml/sourcesPRXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/pagesHitsXml.php" size="160" ext="php" hash="703b6ed2e696a29c4b20fb3f72794e42" name="pagesHitsXml.php">/classes/modules/stat/classes/xml/pagesHitsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/allTagsXml.php" size="857" ext="php" hash="f76af64f062b490486d20a5946f83b57" name="allTagsXml.php">/classes/modules/stat/classes/xml/allTagsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesSEOXml.php" size="161" ext="php" hash="5245e784ee678894bf334ace661b98fb" name="sourcesSEOXml.php">/classes/modules/stat/classes/xml/sourcesSEOXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/hostsCommonHoursXml.php" size="1270" ext="php" hash="d3912a77c1b377a76b3a033b41c24f6e" name="hostsCommonHoursXml.php">/classes/modules/stat/classes/xml/hostsCommonHoursXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sectionHitsXml.php" size="162" ext="php" hash="360fd6a8fa3fdaf40680bb9cd533853a" name="sectionHitsXml.php">/classes/modules/stat/classes/xml/sectionHitsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/visitDeepXml.php" size="169" ext="php" hash="47231fc6f68efb7c629f98929aec75eb" name="visitDeepXml.php">/classes/modules/stat/classes/xml/visitDeepXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/userTagsXml.php" size="858" ext="php" hash="9fa23b6a7e23c43a6aa0cfc9efc2f438" name="userTagsXml.php">/classes/modules/stat/classes/xml/userTagsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesDomainsXml.php" size="165" ext="php" hash="681e3eee89963a252689ddcfd3687bbf" name="sourcesDomainsXml.php">/classes/modules/stat/classes/xml/sourcesDomainsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/entryPointsXml.php" size="162" ext="php" hash="07d3e53beac5f102133c5a1049fa586f" name="entryPointsXml.php">/classes/modules/stat/classes/xml/entryPointsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesSummaryXml.php" size="923" ext="php" hash="3e800ce3fd3d015c079f9b2cf3408fab" name="sourcesSummaryXml.php">/classes/modules/stat/classes/xml/sourcesSummaryXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/visitersCommonHoursXml.php" size="1273" ext="php" hash="29e46bed0080268c4188d0216fd07e07" name="visitersCommonHoursXml.php">/classes/modules/stat/classes/xml/visitersCommonHoursXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesPagesXml.php" size="163" ext="php" hash="21361b8caa086e8e427b9439938ea4f2" name="sourcesPagesXml.php">/classes/modules/stat/classes/xml/sourcesPagesXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/exitPointsXml.php" size="161" ext="php" hash="9562f85a1044a7f669c6221d0fe2ca8e" name="exitPointsXml.php">/classes/modules/stat/classes/xml/exitPointsXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/sourcesTopXml.php" size="161" ext="php" hash="ecf994ff716916d3c9c911c9d9c74efe" name="sourcesTopXml.php">/classes/modules/stat/classes/xml/sourcesTopXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/entryByRefererXml.php" size="174" ext="php" hash="2babec43ddbbd5f2849e4ef4fa46ea4e" name="entryByRefererXml.php">/classes/modules/stat/classes/xml/entryByRefererXml.php</file>
+    <file path="./classes/modules/stat/classes/xml/visitCommonXml.php" size="876" ext="php" hash="2a060765fe8f357d2ee734d060d383f6" name="visitCommonXml.php">/classes/modules/stat/classes/xml/visitCommonXml.php</file>
+    <file path="./classes/modules/stat/classes/userStat.php" size="18409" ext="php" hash="bc86fa8042c11dcb577c698fa2bf7309" name="userStat.php">/classes/modules/stat/classes/userStat.php</file>
+    <file path="./classes/modules/stat/classes/pageNext.php" size="1675" ext="php" hash="294845bd5ee8542e24fdcbdb604b2eb8" name="pageNext.php">/classes/modules/stat/classes/pageNext.php</file>
+    <file path="./classes/modules/stat/classes/refuses.php" size="2474" ext="php" hash="18dac9b19e9d813ef4de8f1f74a8074f" name="refuses.php">/classes/modules/stat/classes/refuses.php</file>
+    <file path="./classes/modules/stat/classes/tag.php" size="1502" ext="php" hash="aba115a605713677982478ac41599c77" name="tag.php">/classes/modules/stat/classes/tag.php</file>
+    <file path="./classes/modules/stat/classes/sourcesDomainsConcrete.php" size="2580" ext="php" hash="4625218b3b219f2b2f7b64618df7ae6e" name="sourcesDomainsConcrete.php">/classes/modules/stat/classes/sourcesDomainsConcrete.php</file>
+    <file path="./classes/modules/stat/classes/sourcesSEOConcrete.php" size="1968" ext="php" hash="10327c0631ffec0659f01d004c8639ba" name="sourcesSEOConcrete.php">/classes/modules/stat/classes/sourcesSEOConcrete.php</file>
+    <file path="./classes/modules/stat/classes/visitTime.php" size="3404" ext="php" hash="1f7e69c8f62c6c4f1bc8dc21f2917a92" name="visitTime.php">/classes/modules/stat/classes/visitTime.php</file>
+    <file path="./classes/modules/stat/classes/visitCommonHours.php" size="5115" ext="php" hash="7aacd2c1ade7fd61f76844599df54ad1" name="visitCommonHours.php">/classes/modules/stat/classes/visitCommonHours.php</file>
+    <file path="./classes/modules/stat/classes/visitersCommon.php" size="4280" ext="php" hash="7f0738f5a7e8f5c94c88d5af0a13288b" name="visitersCommon.php">/classes/modules/stat/classes/visitersCommon.php</file>
+    <file path="./classes/modules/stat/classes/reportBuilder.php" size="15398" ext="php" hash="c6da3458791eebc969ae58843b506e52" name="reportBuilder.php">/classes/modules/stat/classes/reportBuilder.php</file>
+    <file path="./classes/modules/stat/classes/simpleStat.php" size="12624" ext="php" hash="bb4dbfb98cd320a98d5255ec081b27aa" name="simpleStat.php">/classes/modules/stat/classes/simpleStat.php</file>
+    <file path="./classes/modules/stat/classes/libs/detect.php" size="40931" ext="php" hash="09e2df3d637b2ff1e560d0fb01ca5f54" name="detect.php">/classes/modules/stat/classes/libs/detect.php</file>
+    <file path="./classes/modules/stat/classes/auditoryVolumeGrowth.php" size="2182" ext="php" hash="e4ebc38e1bdfafbc61916da8cfef6360" name="auditoryVolumeGrowth.php">/classes/modules/stat/classes/auditoryVolumeGrowth.php</file>
+    <file path="./classes/modules/stat/classes/sourcesPR.php" size="941" ext="php" hash="0f71bcdb5fa6bc161a6edf6623f8296b" name="sourcesPR.php">/classes/modules/stat/classes/sourcesPR.php</file>
+    <file path="./classes/modules/stat/classes/pagesHits.php" size="2158" ext="php" hash="7141f9c013c94facc4b0ba47f33228df" name="pagesHits.php">/classes/modules/stat/classes/pagesHits.php</file>
+    <file path="./classes/modules/stat/classes/allTags.php" size="3153" ext="php" hash="04115ca874eefd84ac50404b317bca96" name="allTags.php">/classes/modules/stat/classes/allTags.php</file>
+    <file path="./classes/modules/stat/classes/pageInfo.php" size="13316" ext="php" hash="448d11eccc484dfe0ccc716f8bdcd305" name="pageInfo.php">/classes/modules/stat/classes/pageInfo.php</file>
+    <file path="./classes/modules/stat/classes/auditoryVolume.php" size="2165" ext="php" hash="fb096907ec1d7a845650b1b2af87be01" name="auditoryVolume.php">/classes/modules/stat/classes/auditoryVolume.php</file>
+    <file path="./classes/modules/stat/classes/exceptions/baseException.php" size="3037" ext="php" hash="0965060a3efccb803f0c81a0457d6802" name="baseException.php">/classes/modules/stat/classes/exceptions/baseException.php</file>
+    <file path="./classes/modules/stat/classes/exceptions/invalidParameterException.php" size="310" ext="php" hash="93b66c227db2e9c1a01f5ced797b5847" name="invalidParameterException.php">/classes/modules/stat/classes/exceptions/invalidParameterException.php</file>
+    <file path="./classes/modules/stat/classes/__charssequences.ru.php" size="529488" ext="php" hash="6d819f36f998a3edeb59f41b55fb9a4b" name="__charssequences.ru.php">/classes/modules/stat/classes/__charssequences.ru.php</file>
+    <file path="./classes/modules/stat/classes/openstat.php" size="2184" ext="php" hash="e9e4ccb379205ff53158c48413d4bc2d" name="openstat.php">/classes/modules/stat/classes/openstat.php</file>
+    <file path="./classes/modules/stat/classes/userTags.php" size="1999" ext="php" hash="403bf08ce2bcc8d96e4b4440aaca0218" name="userTags.php">/classes/modules/stat/classes/userTags.php</file>
+    <file path="./classes/modules/stat/classes/holidayRoutineCounter.php" size="2067" ext="php" hash="bd37c63d4ec4b93a7d13f6c941ff04ca" name="holidayRoutineCounter.php">/classes/modules/stat/classes/holidayRoutineCounter.php</file>
+    <file path="./classes/modules/stat/classes/sourcesSummary.php" size="12213" ext="php" hash="d52d57940008d0d4a159f3b8f6ec6c66" name="sourcesSummary.php">/classes/modules/stat/classes/sourcesSummary.php</file>
+    <file path="./classes/modules/stat/classes/sourcesPages.php" size="987" ext="php" hash="ac5fad3088c83cbc7aff1d7c8e0f8554" name="sourcesPages.php">/classes/modules/stat/classes/sourcesPages.php</file>
+    <file path="./classes/modules/stat/classes/sectionHitsIncluded.php" size="1638" ext="php" hash="141d234531b6ffee7f04531fa4318b52" name="sectionHitsIncluded.php">/classes/modules/stat/classes/sectionHitsIncluded.php</file>
+    <file path="./classes/modules/stat/classes/cityStat.php" size="726" ext="php" hash="0b0b39fd48cd575bb9316b201c9b124c" name="cityStat.php">/classes/modules/stat/classes/cityStat.php</file>
+    <file path="./classes/modules/stat/classes/entryByReferer.php" size="1299" ext="php" hash="ae74c50e55e97cb53b6e1e897ca8e6d2" name="entryByReferer.php">/classes/modules/stat/classes/entryByReferer.php</file>
+    <file path="./classes/modules/stat/classes/visitCommon.php" size="4958" ext="php" hash="1100ec01ef7d2b33f2579ed82bdb925c" name="visitCommon.php">/classes/modules/stat/classes/visitCommon.php</file>
+    <file path="./classes/modules/stat/classes/visitsByDate.php" size="1098" ext="php" hash="2a10c2178457aa62689c36ed42ce357e" name="visitsByDate.php">/classes/modules/stat/classes/visitsByDate.php</file>
+    <file path="./classes/modules/stat/classes/auditoryActivity.php" size="3680" ext="php" hash="39532d0baf41f7db59225c279ace00af" name="auditoryActivity.php">/classes/modules/stat/classes/auditoryActivity.php</file>
+    <file path="./classes/modules/stat/classes/paths.php" size="3781" ext="php" hash="316298bc2e87e36987801fd03051b74f" name="paths.php">/classes/modules/stat/classes/paths.php</file>
+    <file path="./classes/modules/stat/classes/openstatCampaigns.php" size="2680" ext="php" hash="b0dbd3e866735858bbd89a0901d325b1" name="openstatCampaigns.php">/classes/modules/stat/classes/openstatCampaigns.php</file>
+    <file path="./classes/modules/stat/classes/sourcesSEOKeywords.php" size="1830" ext="php" hash="53957244ccbeed2a58406f21185c4022" name="sourcesSEOKeywords.php">/classes/modules/stat/classes/sourcesSEOKeywords.php</file>
+    <file path="./classes/modules/stat/classes/openstatAds.php" size="2783" ext="php" hash="2564f00f88433e4e30d5538cb61add87" name="openstatAds.php">/classes/modules/stat/classes/openstatAds.php</file>
+    <file path="./classes/modules/stat/classes/auditoryLoyality.php" size="3164" ext="php" hash="935d47d244ea456f3a67a0d1ab9649a6" name="auditoryLoyality.php">/classes/modules/stat/classes/auditoryLoyality.php</file>
+    <file path="./classes/modules/stat/__paths.php" size="14293" ext="php" hash="9c95c1b6105b4d42596a8d02fc55dc0d" name="__paths.php">/classes/modules/stat/__paths.php</file>
+    <file path="./classes/modules/stat/__admin_tags_cloud.php" size="4360" ext="php" hash="aa7208a8f8c4bff60c4ba8feb5d73f71" name="__admin_tags_cloud.php">/classes/modules/stat/__admin_tags_cloud.php</file>
+    <file path="./classes/modules/stat/__openstat.php" size="25561" ext="php" hash="778e1ed49d9537bfb7a1e5c0610264ef" name="__openstat.php">/classes/modules/stat/__openstat.php</file>
+    <file path="./classes/modules/stat/__auditory.php" size="53449" ext="php" hash="c4859b6f32644b96b5b09651a6c81c90" name="__auditory.php">/classes/modules/stat/__auditory.php</file>
+    <file path="./classes/modules/stat/__phrases.php" size="6070" ext="php" hash="a3c87961b48309981327cd8b7620aaab" name="__phrases.php">/classes/modules/stat/__phrases.php</file>
+    <file path="./classes/modules/stat/class.php" size="6846" ext="php" hash="dd1cafd6a2baec4e1e45f6bb2876caa2" name="class.php">/classes/modules/stat/class.php</file>
+    <file path="./classes/modules/stat/install.php" size="10563" ext="php" hash="a19884d5aec97270c0fe951b0a147e24" name="install.php">/classes/modules/stat/install.php</file>
+    <file path="./classes/modules/stat/__json.php" size="1348" ext="php" hash="58786a01ee307a4c659cc1c5c984e78b" name="__json.php">/classes/modules/stat/__json.php</file>
+    <file path="./classes/modules/stat/__tags_cloud.php" size="1469" ext="php" hash="a80a9394650046ec1e9c2693a8cc5890" name="__tags_cloud.php">/classes/modules/stat/__tags_cloud.php</file>
+    <file path="./classes/modules/stat/__countries.php" size="8189" ext="php" hash="4d20168debddcc49572857b77af7ff63" name="__countries.php">/classes/modules/stat/__countries.php</file>
+    <file path="./classes/modules/stat/permissions.php" size="878" ext="php" hash="6f60d49a370e5b05b46a25c8ac784b31" name="permissions.php">/classes/modules/stat/permissions.php</file>
+    <file path="./classes/modules/stat/__visits.php" size="9447" ext="php" hash="df17d59aeb904e1a56e7294718ce6795" name="__visits.php">/classes/modules/stat/__visits.php</file>
+    <file path="./classes/modules/stat/i18n.php" size="17507" ext="php" hash="7e2973d286d9af9d5f0654db8b896fc5" name="i18n.php">/classes/modules/stat/i18n.php</file>
+    <file path="./classes/modules/stat/__visitors.php" size="15687" ext="php" hash="8c1f706feba7deeb631d7df2cac617d0" name="__visitors.php">/classes/modules/stat/__visitors.php</file>
+    <file path="./classes/modules/stat/__popular.php" size="5153" ext="php" hash="d2fb579ebf4f8d3fb153251747804bc4" name="__popular.php">/classes/modules/stat/__popular.php</file>
+    
+    <file path="./classes/modules/stat/__sources.php" size="8818" ext="php" hash="7bdda17199a67225697ac10e951f9796" name="__sources.php">/classes/modules/stat/__sources.php</file>
+    <file path="./classes/modules/stat/lang.php" size="3126" ext="php" hash="747efac6e4951778a1831d2881b351fd" name="lang.php">/classes/modules/stat/lang.php</file>
+    <file path="./classes/modules/stat/__seo.php" size="6049" ext="php" hash="e6c3687635abb5045c91c5feb268cd55" name="__seo.php">/classes/modules/stat/__seo.php</file>
+    <file path="./classes/modules/stat/__sections.php" size="7526" ext="php" hash="f9455ee098dc643352a577454228f0ad" name="__sections.php">/classes/modules/stat/__sections.php</file>
+    <file path="./classes/modules/stat/__yandex.php" size="22892" ext="php" hash="7ef1976c42b5b95f1ae9a03466395f5b" name="__yandex.php">/classes/modules/stat/__yandex.php</file>
+    <file path="./classes/modules/stat/__admin.php" size="35904" ext="php" hash="926ed39e9404ec4e157b747a19f1b0d8" name="__admin.php">/classes/modules/stat/__admin.php</file>
+    <file path="./styles/skins/mac/data/modules/stat/settings.modify.xsl" size="1865" ext="xsl" hash="283f806b9fe93637f0337bc030beeda9" name="settings.modify.xsl">/styles/skins/mac/data/modules/stat/settings.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/stat/settings.view.xsl" size="32312" ext="xsl" hash="3e8c3af5558e56898e95c509d97a085c" name="settings.view.xsl">/styles/skins/mac/data/modules/stat/settings.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

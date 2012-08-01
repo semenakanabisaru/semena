@@ -1,0 +1,126 @@
+[_COOKIE]
+	[toolbar_fonts]
+	(string) on
+
+	[eip-panel-state-first]
+	(string) Y
+
+	[SS_ARE_Override_traceLevel]
+	(string) WARN
+
+	[PHPSESSID]
+	(string) ctvmqs3dhflo0upj76shqnjik4
+
+	[stat_id]
+	(string) ctvmqs3dhflo0upj76shqnjik4
+
+	[expandExtendedFields]
+	(string) 1
+
+	[_ym_visorc]
+	(string) w
+
+	[ilang]
+	(string) ru
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1337114906
+
+	[http_target]
+	(string) /admin/data/getfilelist/?folder=L2ltYWdlcy9jbXMvbWVudQ==&showOnlyImages=1
+
+	[user_id]
+	(integer) 10
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 1
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[cms_login]
+	(string) admin
+
+	[cms_pass]
+	(string) bbe8180d60290154644a9b19677bdad1
+
+	[user_is_sv]
+	(boolean) 1
+
+
+[_GET]
+	[path]
+	(string) admin/catalog/add/16/object/do/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[Cache-Control]
+	(string) max-age=0
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/admin/catalog/add/16/object/do/
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) toolbar_fonts=on; eip-panel-state-first=Y; SS_ARE_Override.traceLevel=WARN; PHPSESSID=ctvmqs3dhflo0upj76shqnjik4; stat_id=ctvmqs3dhflo0upj76shqnjik4; expandExtendedFields=1; _ym_visorc=w; ilang=ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Set-Cookie]
+	(string) ilang=ru; expires=Fri, 15-Jun-2012 20:48:26 GMT; path=/
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0002589]	Необходимо передать параметр &quot;name&quot; в запросе
+[0.0020599]	#0 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): baseModuleAdmin-&gt;saveAddedElementData(Array)
+#1 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#2 /var/www/clients/client0/web1/web/classes/modules/catalog/__admin.php(69): def_module-&gt;__call('saveAddedElemen...', Array)
+#3 /var/www/clients/client0/web1/web/classes/modules/catalog/__admin.php(69): catalog-&gt;saveAddedElementData(Array)
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __catalog-&gt;add()
+#5 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#6 /var/www/clients/client0/web1/web/classes/modules/def_module.php(129): def_module-&gt;__call('add', Array)
+#7 /var/www/clients/client0/web1/web/classes/modules/def_module.php(129): catalog-&gt;add()
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(392): def_module-&gt;cms_callMethod('add', NULL)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(309): cmsController-&gt;prepareAdminSideGlobalVariables()
+#10 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#11 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#12 {main}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432898</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:58 +0400</rfc>
+      <utc>2012-04-26T13:34:58+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/webo" val="webo"/>
+    <key path="modules/webo/name" val="webo"/>
+    <key path="modules/webo/filename" val="modules/webo/class.php"/>
+    <key path="modules/webo/config" val="0" update="1"/>
+    <key path="modules/webo/ico" val="seo"/>
+    <key path="modules/webo/default_method" val="meth" update="1"/>
+    <key path="modules/webo/default_method_admin" val="show" update="1"/>
+    <key path="modules/webo/func_perms" val=""/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/webo" name="webo">/classes/modules/webo</directory>
+    <directory path="./styles/skins/mac/data/modules/webo" name="webo">/styles/skins/mac/data/modules/webo</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/webo/permissions.php" size="61" ext="php" hash="20132e65114a9d0c18bacb09380f479c" name="permissions.php">/classes/modules/webo/permissions.php</file>
+    <file path="./classes/modules/webo/i18n.php" size="1969" ext="php" hash="c7d995a4cf0b9c4836e23a4d5f474d76" name="i18n.php">/classes/modules/webo/i18n.php</file>
+    
+    <file path="./classes/modules/webo/class.php" size="381" ext="php" hash="ffaff284d2a019221d711890ac6460e2" name="class.php">/classes/modules/webo/class.php</file>
+    <file path="./classes/modules/webo/__admin.php" size="648" ext="php" hash="5f9ccb7d7b29533748935822e4a730c8" name="__admin.php">/classes/modules/webo/__admin.php</file>
+    <file path="./classes/modules/webo/install.php" size="588" ext="php" hash="029dac14fd8faaa21d1462a96127b95c" name="install.php">/classes/modules/webo/install.php</file>
+    <file path="./styles/skins/mac/data/modules/webo/list.view.xsl" size="8059" ext="xsl" hash="e1589b6d99873ce5783642527abf8e85" name="list.view.xsl">/styles/skins/mac/data/modules/webo/list.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

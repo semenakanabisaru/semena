@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432897</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:57 +0400</rfc>
+      <utc>2012-04-26T13:34:57+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/autoupdate" val="autoupdate"/>
+    <key path="modules/autoupdate/name" val="autoupdate"/>
+    <key path="modules/autoupdate/filename" val="modules/autoupdate/class.php"/>
+    <key path="modules/autoupdate/config" val="0" update="1"/>
+    <key path="modules/autoupdate/default_method" val="updateall" update="1"/>
+    <key path="modules/autoupdate/default_method_admin" val="versions" update="1"/>
+    <key path="modules/autoupdate/system_version" val="2.8.1.1"/>
+    <key path="modules/autoupdate/system_edition" val="commerce"/>
+    <key path="modules/autoupdate/last_updated" val="1260358009"/>
+    <key path="modules/autoupdate/func_perms" val="Functions, that should have their own permissions."/>
+    <key path="modules/autoupdate/func_perms/service" val="Робот автообновлений UMI.CMS"/>
+    <key path="modules/autoupdate/func_perms/versions" val="Управление обновлениями"/>
+    <key path="modules/autoupdate/system_build" val="13294"/>
+    <key path="modules/autoupdate/disable_patches" val="0"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/autoupdate" name="autoupdate">/classes/modules/autoupdate</directory>
+    <directory path="./styles/skins/mac/data/modules/autoupdate" name="autoupdate">/styles/skins/mac/data/modules/autoupdate</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/autoupdate/permissions.php" size="109" ext="php" hash="b7f57adc02bff05807e8ec917edcc5dc" name="permissions.php">/classes/modules/autoupdate/permissions.php</file>
+    <file path="./classes/modules/autoupdate/i18n.php" size="4095" ext="php" hash="14d074fe3f4aa95c425ccf1373f037f7" name="i18n.php">/classes/modules/autoupdate/i18n.php</file>
+    
+    <file path="./classes/modules/autoupdate/lang.php" size="1462" ext="php" hash="688c9a1e30521f6cb76308e0977fc7be" name="lang.php">/classes/modules/autoupdate/lang.php</file>
+    <file path="./classes/modules/autoupdate/update.php" size="76" ext="php" hash="9813b3fa4694e1f224d59af8dc322fb8" name="update.php">/classes/modules/autoupdate/update.php</file>
+    <file path="./classes/modules/autoupdate/class.php" size="5028" ext="php" hash="96962e013e52a1656c92c799e0d13684" name="class.php">/classes/modules/autoupdate/class.php</file>
+    <file path="./classes/modules/autoupdate/__admin.php" size="6109" ext="php" hash="484878da0546361ec777581888b3a5e1" name="__admin.php">/classes/modules/autoupdate/__admin.php</file>
+    <file path="./classes/modules/autoupdate/ch_m.php" size="2002" ext="php" hash="56803fe897af4147f43791819089c452" name="ch_m.php">/classes/modules/autoupdate/ch_m.php</file>
+    <file path="./classes/modules/autoupdate/install.php" size="1372" ext="php" hash="f5e7654cf6e55ed7b4b3b901609cbdac" name="install.php">/classes/modules/autoupdate/install.php</file>
+    <file path="./classes/modules/autoupdate/__json.php" size="3639" ext="php" hash="58d7c6644b09a9cd94eb72b8657b1f84" name="__json.php">/classes/modules/autoupdate/__json.php</file>
+    <file path="./styles/skins/mac/data/modules/autoupdate/settings.view.xsl" size="19045" ext="xsl" hash="41cffe91e902576436bca6d24347a12f" name="settings.view.xsl">/styles/skins/mac/data/modules/autoupdate/settings.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

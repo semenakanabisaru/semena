@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<buttons format="1" version="1">
+  <button id="custombutton/{filename}" type="dynamic">
+    <placement>6.0</placement>
+    <icon name="{{uuid}}/umi" src="pbz" />
+    <label>UMI.CMS</label>
+    
+    <tooltip>Post photos to {domain}</tooltip>
+    
+    <action verb="hybrid">
+      <param name="url" value="http://{domain}/admin/photoalbum/picasa/"/>
+    </action>
+  </button>
+</buttons>

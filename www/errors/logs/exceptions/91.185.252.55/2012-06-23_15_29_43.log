@@ -1,0 +1,137 @@
+[_COOKIE]
+	[PHPSESSID]
+	(string) ds7gr4e50sl2e65hso6tc9a8m1
+
+	[stat_id]
+	(string) ds7gr4e50sl2e65hso6tc9a8m1
+
+	[customer-id]
+	(string) 20033
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1340450983
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'ds7gr4e50sl2e65hso6tc9a8m1', '1', '31775', '52918', '7', '532', '532']
+
+	[e76fcad4b37585e78574f7b026a2a13d]
+	(array) ['['content', 'content', '1']']
+
+	[http_referer]
+	(NULL) 
+
+	[116a26203f9ad6135b14f1293a1e3ead]
+	(array) ['['catalog', 'object', '225']', '['catalog', 'object', '245']']
+
+	[e64a1f249ec43dff6844c5fc46db13ae]
+	(array) ['['content', 'content', '1']']
+
+	[8130105f3f55818b29341dd2892a4e0f]
+	(array) ['['catalog', 'object', '54']', '['catalog', 'object', '120']', '['catalog', 'object', '124']']
+
+	[4bf3d7aa7070e3e3ba0a1ea660ef814b]
+	(array) ['['content', 'content', '268']']
+
+	[emarket]
+	(array) ['['0', '0']']
+
+	[f3ed7e21a51ea57541a9dbbeae86cfb5]
+	(array) ['['content', 'content', '269']']
+
+	[e9d9fc6eed24d6626461eb5299e6413b]
+	(array) ['['content', 'content', '272']']
+
+	[errors_1340450983]
+	(array) ['['Выберите способ оплаты', '', '']']
+
+
+[_GET]
+	[path]
+	(string) emarket/save_payment_stage/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[Cache-Control]
+	(string) max-age=0
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) PHPSESSID=ds7gr4e50sl2e65hso6tc9a8m1; stat_id=ds7gr4e50sl2e65hso6tc9a8m1; customer-id=20033; _ym_visorc=w
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Set-Cookie]
+	(string) customer-id=20033; expires=Tue, 24-Jul-2012 11:29:43 GMT; path=/
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0003841]	Can't find error redirect string
+[0.0018499]	#0 /var/www/clients/client0/web1/web/classes/modules/def_module.php(947): def_module-&gt;errorPanic()
+#1 /var/www/clients/client0/web1/web/classes/modules/emarket/__custom.php(124): def_module-&gt;errorNewMessage('???????????????...')
+#2 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_custom-&gt;save_payment_stage()
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#4 [internal function]: def_module-&gt;__call('save_payment_st...', Array)
+#5 [internal function]: emarket-&gt;save_payment_stage()
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#8 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://emarket...')
+#10 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://emarket...')
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#12 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#13 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#14 {main}

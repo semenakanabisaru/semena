@@ -1,0 +1,73 @@
+[_SESSION]
+	[starttime]
+	(integer) 1337826760
+
+	[http_target]
+	(string) /
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1; WOW64; rv:9.0.1) Gecko/20100101 Firefox/9.0.1
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.7
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://www.google.ru/url?sa=t&rct=j&q=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D0%B0%D0%B2%D1%82%D0%BE%D1%86%D0%B2%D0%B5%D1%82%D1%83%D1%89%D0%B8%D0%B5%20%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D0%B0%20ak47%20%D0%BD%D0%B0%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC%20%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BE%D0%BC&source=web&cd=3&ved=0CHIQFjAC&url=http%3A%2F%2Fsemena-kanabisa.ru%2F&ei=-Zq9T_u6OoTR-gaTsqww&usg=AFQjCNGEl-XwpiTrZPhKDkmhHYcFfYyd8w&cad=rjt
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=ra3g9ptho6c3hfr9jnotn6hc11; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[3.2521000]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[5.3129408]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT `id` FRO...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectsCollection.php(114): l_mysql_query('SELECT `id` FRO...')
+#2 /var/www/clients/client0/web1/web/classes/modules/users/class.php(12): umiObjectsCollection-&gt;getObjectIdByGUID('system-supervis...')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(66): users-&gt;__construct()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(92): cmsController-&gt;loadModule('users')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(32): cmsController-&gt;getModule('users')
+#6 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): permissionsCollection-&gt;__construct()
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(53): singleton::getInstance('permissionsColl...')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(456): permissionsCollection::getInstance()
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#10 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#11 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#12 {main}

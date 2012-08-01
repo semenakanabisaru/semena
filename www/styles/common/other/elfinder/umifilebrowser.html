@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>elFinder 2.0</title>
+
+		<!-- jQuery and jQuery UI (REQUIRED) -->
+		<link rel="stylesheet" type="text/css" media="screen" href="css/jquery-ui.css">
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script>
+
+		<!-- elFinder CSS (REQUIRED) -->
+		<link rel="stylesheet" type="text/css" media="screen" href="css/elfinder.full.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="css/theme.css">
+
+		<link rel="stylesheet" type="text/css" media="screen" href="css/umi_elfinder.css">
+
+		<!-- elFinder JS (REQUIRED) -->
+		<script type="text/javascript" src="js/elfinder.full.js"></script>
+
+		<!-- elFinder translation (OPTIONAL) -->
+		<script type="text/javascript" src="js/i18n/elfinder.ru.js"></script>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+				if (window.parent && window.parent.edition == 'demo') window.parent.jQuery.jGrowl(window.parent.getLabel('js-filemanager-demo-notice'));
+			});
+		</script>
+
+		<!-- elFinder initialization (REQUIRED) -->
+		<script type="text/javascript" charset="utf-8">
+
+			var maxFileCountAllowed = 1;
+
+			function getArgs() {
+				var args = new Object();
+				var query = location.search.substring(1);
+				var pairs = query.split("&");
+				for(var i = 0; i < pairs.length; i++) {
+					var pos = pairs[i].indexOf('=');
+					if (pos == -1) continue;
+					var argname   = pairs[i].substring(0,pos);
+					var value     = pairs[i].substring(pos+1);
+					args[argname] = unescape(value);
+				}
+				return args;
+			}
+
+			function getIfrDoc(frame) {
+				frame = (frame.length > 1) ? frame[frame.length - 2]:frame;
+				var d = frame.contentWindow || frame.contentDocument;
+				if (d.document)
+				{
+					d = d.document;
+				}
+				return d;
+			}
+
+
+			$().ready(function() {
+				var args   = getArgs();
+				if (!window.parent.selectedFiles) window.parent.selectedFiles = {};
+				var watermark = window.parent.jQuery('#add_watermark').is(':checked') ? 1 : 0;
+
+
+				/**
+				 * Переопределяем функцию mkdir - для кастомного названия новой папки
+				 */
+				elFinder.prototype.commands.mkdir = function() {
+					this.disableOnSearch = true;
+					this.updateOnSelect  = false;
+					this.mime            = 'directory';
+					this.prefix          = 'folder';
+					this.exec            = $.proxy(this.fm.res('mixin', 'make'), this);
+
+					this.shortcuts = [{
+						pattern     : 'ctrl+shift+n'
+					}];
+
+					this.getstate = function() {
+						return this.fm.cwd().write ? 0 : -1;
+					}
+				}
+
+				/**
+				 * Переопределяем функцию uniqueName - для замещения пробела на знак подчёркипания в индексах копий
+				 */
+				elFinder.prototype.uniqueName = function(prefix, phash) {
+					var i = 0, ext = '', p, name;
+
+					prefix = this.i18n(prefix);
+					phash = phash || this.cwd().hash;
+
+					if ((p = prefix.indexOf('.txt')) != -1) {
+						ext    = '.txt';
+						prefix = prefix.substr(0, p);
+					}
+
+					name   = prefix+ext;
+
+					if (!this.fileByName(name, phash)) {
+						return name;
+					}
+					while (i < 10000) {
+						name = prefix + '_' + (++i) + ext;
+						if (!this.fileByName(name, phash)) {
+							return name;
+						}
+					}
+					return prefix + Math.random() + ext;
+				}
+
+				/**
+				 * Переопределяем команду getfile для возможности "снять" файл
+				 */
+				elFinder.prototype.commands.getfile = function(sel) {
+					var self   = this,
+						fm     = this.fm,
+						filter = function(files) {
+							var o = self.options;
+
+							files = $.map(files, function(file) {
+								return file.mime != 'directory' || o.folders ? file : null;
+							});
+
+							return o.multiple || files.length == 1 ? files : [];
+						};
+
+					this.alwaysEnabled = true;
+					this.callback      = fm.options.getFileCallback;
+					this._disabled     = typeof(this.callback) == 'function';
+
+					this.getstate = function(sel) {
+						var sel = this.files(sel),
+							cnt = sel.length;
+				        /////umiru
+				        if(!cnt) return this.callback ? 0 : -1;
+				        /////
+						return this.callback && cnt && filter(sel).length == cnt ? 0 : -1;
+					}
+
+					this.exec = function(hashes) {
+						var fm    = this.fm,
+							opts  = this.options,
+							files = this.files(hashes),
+							cnt   = files.length,
+							url   = fm.option('url'),
+							tmb   = fm.option('tmbUrl'),
+							dfrd  = $.Deferred()
+								.done(function(data) {
+									fm.trigger('getfile', {files : data});
+									self.callback(data, fm);
+
+									if (opts.oncomplete == 'close') {
+										fm.hide();
+									} else if (opts.oncomplete == 'destroy') {
+										fm.destroy();
+									}
+								}),
+							req = [],
+							i, file, dim;
+
+						if (this.getstate() == -1) {
+							return dfrd.reject();
+						}
+
+						for (i = 0; i < cnt; i++) {
+							file = files[i];
+							if (file.mime == 'directory' && !opts.folders) {
+								return dfrd.reject();
+							}
+							file.baseUrl = url;
+							file.url     = fm.url(file.hash);
+							file.path    = fm.path(file.hash);
+							if (file.tmb && file.tmb != 1) {
+								file.tmb = tmb + file.tmb;
+							}
+							if (file.dim) {
+								dim = file.dim.split('x');
+								file.width = dim[0];
+								file.height = dim[1];
+							} else if (file.mime.indexOf('image') !== -1) {
+								req.push(fm.request({
+									data : {cmd : 'dim', target : file.hash},
+									preventDefault : true
+								})
+								.done($.proxy(function(data) {
+									if (data.dim) {
+										dim = data.dim.split('x');
+										this.width = dim[0];
+										this.height = dim[1];
+									}
+									this.dim = data.dim
+								}, files[i])));
+							}
+						}
+
+						if (req.length) {
+							$.when.apply(null, req).always(function() {
+								dfrd.resolve(opts.multiple ? files : files[0]);
+							})
+							return dfrd;
+						}
+
+						return dfrd.resolve(opts.multiple ? files : files[0]);
+					}
+				}
+				var elf = $('#elfinder').elfinder({
+
+					lang: args.lang,
+					showFiles : 1000,
+					height : 500,
+					width: 656,
+					requestType: 'post',
+					url: '/admin/data/elfinder_connector/',
+					getFileCallback: function(files, fm) {
+
+						if(!files) {
+							files = {
+								hash: '',
+								url: ''
+							};
+						}
+
+						window.parent.selectedFiles[args.id] = files.hash;
+						var file   = files.url;
+						file = file.replace(/\\/g, '/');
+
+						if(typeof(args.id) != 'undefined') {
+
+							var select = null;
+							var frame  = window.parent.document.getElementsByTagName('iframe');
+							if (frame.length > 1 && frame[frame.length - 2].src.indexOf(location.host) != -1) {
+								select = frame[frame.length - 2].contentDocument ?
+										  frame[frame.length - 2].contentDocument.getElementById(args.id) :
+										 frame[frame.length - 2].contentWindow.document.getElementById(args.id);
+							}
+							if(!select) {
+								select = window.parent.document.getElementById(args.id);
+							}
+							if(!select && frame.length > 1 && frame[frame.length - 2].src.indexOf(location.host) != -1) {
+								select = frame[frame.length - 2].contentWindow[args.id];
+							}
+							if(select) {
+
+								if(select.control) {
+									select.control.add(file, true);
+								} else {
+									select.value = file;
+									getIfrDoc(frame).getElementById('prev').innerHTML = '<img src="'+select.value+'">';
+								}
+							}
+						}
+
+						window.parent.jQuery.closePopupLayer('Filemanager', [file]);
+						return false;
+					},
+					handlers : {
+						init : function(e, self) {
+							if (args.folder_hash) {
+								self.lastDir(args.folder_hash);
+							}
+							if (args.file_hash) {
+								var selInt = setInterval(function() {
+
+									var els = jQuery('#' + (window.parent.selectedFiles[args.id] ? window.parent.selectedFiles[args.id] : args.file_hash));
+									els.each(function(ind, el) {
+										$el = jQuery(el);
+										jQuery('.elfinder-cwd').scrollTo($el);
+										$el.click();
+										clearInterval(selInt);
+									});
+								}, 500);
+							}
+							jQuery.get('/admin/data/elfinder_connector/getSystemInfo/', {}, function(data) {
+								maxFileCountAllowed = data.maxFilesCount;
+							}, "json");
+						},
+						add : function(e, self) {
+							if (e.data.added) {
+								var id = e.data.added[0].hash;
+								if (id) {
+									var selInt = setInterval(function() {
+										$el = jQuery('#' + id);
+										jQuery('.elfinder-cwd').scrollTo($el);
+										clearInterval(selInt);
+									}, 500);
+								}
+							}
+						}
+					},
+					customData : {
+						water_mark: watermark
+					},
+					contextmenu : {
+						navbar : ['open', '|', 'copy', 'cut', 'paste', 'duplicate', '|', 'rm', '|', 'info'],
+						cwd    : ['reload', 'back', '|', 'upload', 'mkdir', /*'mkfile',*/ 'paste', '|', 'search', '|', 'info'],
+						files  : ['getfile', '|','open', /*'quicklook', */'|', 'download', '|', 'edit', '|', 'copy', 'cut', 'paste', 'duplicate', '|', 'rm', '|', /*'archive', 'extract', '|'*/, 'info']
+					},
+					commands : [
+						'open', 'reload', 'home', 'up', 'back', 'forward', 'getfile', /*'quicklook',*/
+						'download', 'rm', 'duplicate', 'rename', 'mkdir', /*'mkfile',*/ 'upload', 'copy',
+						'cut', 'paste', 'edit', /*'extract', 'archive',*/ 'search', 'info', 'view'/*, 'help'*/
+					],
+
+
+					resizable: false,
+					uiOptions : {
+						// toolbar configuration
+						toolbar : [
+							['back', 'forward'],
+							['getfile'],
+							// ['reload'],
+							// ['home', 'up'],
+							['mkdir', 'mkfile', 'upload'],
+							[/*'open'*/, 'download', 'info'],
+							// ['quicklook'],
+							['copy', 'cut', 'paste'],
+							['rm'],
+							[/*'duplicate',*/ 'rename'/*, 'edit'*/],
+							['extract', 'archive'],
+							['search'],
+							['view'],
+							['help']
+						],
+						// directories tree options
+						tree : {
+							// expand current root on init
+							openRootOnLoad : true,
+							// auto load current dir parents
+							syncTree : true
+						}
+					}
+				}).elfinder('instance');
+
+				window.elf = elf;
+
+				window.parent.jQuery('#add_watermark').change(function() {
+					var watermark = jQuery(this).is(':checked') ? 1 : 0;
+					window.elf.options.customData = {water_mark : watermark};
+				});
+
+			});
+
+
+		</script>
+	</head>
+	<body>
+
+		<!-- Element where elFinder will be created (REQUIRED) -->
+		<div id="elfinder"></div>
+
+	</body>
+</html>

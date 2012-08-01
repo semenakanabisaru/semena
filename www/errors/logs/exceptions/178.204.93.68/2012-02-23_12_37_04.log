@@ -1,0 +1,113 @@
+[_COOKIE]
+	[user_captcha]
+	(string) sb4984
+
+	[stat_id]
+	(string) vqhick0hibq03esfff29kr4sg3
+
+	[ilang]
+	(string) ru
+
+	[PHPSESSID]
+	(string) crqsu7gfv5e5o233lfggr23fd4
+
+	[umi_captcha]
+	(string) 20150e7fb6ce721ae95525528fdc58c4
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1329986094
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'vqhick0hibq03esfff29kr4sg3', '4', '1', '19', '3', '65', '65']
+
+	[e76fcad4b37585e78574f7b026a2a13d]
+	(array) ['['content', '', '1']', '['content', 'content', '1']']
+
+	[aea7c2dc99358decc212a738bb72fc80]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+	[umi_captcha]
+	(string) 20150e7fb6ce721ae95525528fdc58c4
+
+	[umi_captcha_plain]
+	(string) m2xsb9
+
+	[user_captcha]
+	(string) cfcd208495d565ef66e7dff9f98764da
+
+	[errors_1329985682]
+	(array) ['['Вы ввели неверный код с картинки', '', '']']
+
+	[fd3e4512709b553a7cbb1e8f4ed7f858]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+
+[_GET]
+	[1329986094]
+	(string) 
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.10.229 Version/11.61
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/feedback/?_err=1329985682
+
+	[Cookie]
+	(string) user_captcha=sb4984; stat_id=vqhick0hibq03esfff29kr4sg3; ilang=ru; PHPSESSID=crqsu7gfv5e5o233lfggr23fd4; umi_captcha=20150e7fb6ce721ae95525528fdc58c4
+
+	[Cache-Control]
+	(string) no-cache
+
+	[Connection]
+	(string) Keep-Alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0003390]	Class &quot;default_myCaptchaDrawer&quot; not found in &quot;/var/www/clients/client0/web1/web/classes/system/utils/captcha/drawers/default_my.php&quot;
+[0.0003731]	#0 /var/www/clients/client0/web1/web/libs/root-src/captcha.php(8): umiCaptcha::getDrawer()
+#1 /var/www/clients/client0/web1/web/captcha.php(3): require('/var/www/client...')
+#2 {main}

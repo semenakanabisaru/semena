@@ -1,0 +1,101 @@
+[_COOKIE]
+	[stat_id]
+	(string) cjfme03tovstnkkqmq35mgubt7
+
+	[customer-id]
+	(string) 12717
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1338651118
+
+	[http_referer]
+	(string) http://yandex.ru/yandsearch?text=%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D1%8B%D1%87&clid=139085&lr=51&msid=22898.14737.1338651043.56267
+
+	[http_target]
+	(string) /shipping/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) shipping/
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 5.1; U; Edition Yx; ru) Presto/2.10.229 Version/11.64
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) none
+
+	[Referer]
+	(string) http://yandex.ru/yandsearch?text=%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D1%8B%D1%87&clid=139085&lr=51&msid=22898.14737.1338651043.56267
+
+	[Cookie]
+	(string) stat_id=cjfme03tovstnkkqmq35mgubt7; customer-id=12717
+
+	[Connection]
+	(string) close
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) customer-id=12717; expires=Tue, 03-Jul-2012 15:32:27 GMT; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[2.3632870]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[2.4334569]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('DELETE FROM cms...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(407): l_mysql_query('DELETE FROM cms...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/properties/umiObjectPropertyRelation.php(41): umiObjectProperty-&gt;deleteCurrentRows()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(206): umiObjectPropertyRelation-&gt;saveValue()
+#4 /var/www/clients/client0/web1/web/classes/system/patterns/umiEntinty.php(100): umiObjectProperty-&gt;save()
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObject.php(404): umiEntinty-&gt;commit()
+#6 /var/www/clients/client0/web1/web/classes/system/patterns/umiObjectProxy.php(38): umiObject-&gt;commit()
+#7 /var/www/clients/client0/web1/web/classes/modules/emarket/classes/orders/order.php(501): umiObjectProxy-&gt;commit()
+#8 /var/www/clients/client0/web1/web/classes/modules/emarket/classes/orders/order.php(407): order-&gt;commit()
+#9 /var/www/clients/client0/web1/web/classes/modules/emarket/__purchasing.php(275): order-&gt;refresh()
+#10 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_purchasing-&gt;cart()
+#11 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#12 [internal function]: def_module-&gt;__call('cart', Array)
+#13 [internal function]: emarket-&gt;cart()
+#14 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#15 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#16 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#17 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#18 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#19 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#20 {main}

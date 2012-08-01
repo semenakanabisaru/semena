@@ -1,0 +1,139 @@
+[_COOKIE]
+	[user_captcha]
+	(string) 9993
+
+	[eip-panel-state-first]
+	(string) Y
+
+	[PHPSESSID]
+	(string) eqts4u9opt3msq7sv04lco5477
+
+	[stat_id]
+	(string) eqts4u9opt3msq7sv04lco5477
+
+	[umicms_session]
+	(string) 262b42f3620f4c9bbeefbf9f5e7a61b4
+
+	[_ym_visorc]
+	(string) w
+
+	[ilang]
+	(string) ru
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1335529140
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(integer) 10
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 1
+
+	[old_logged_in_value]
+	(boolean) 1
+
+	[e76fcad4b37585e78574f7b026a2a13d]
+	(array) ['['content', 'content', '1']']
+
+	[cms_login]
+	(string) admin
+
+	[cms_pass]
+	(string) bbe8180d60290154644a9b19677bdad1
+
+	[user_is_sv]
+	(boolean) 1
+
+	[paging]
+	(array) ['['['['['9']']']']']
+
+	[stat]
+	(array) ['eqts4u9opt3msq7sv04lco5477', '1', '10079', '15692', '5', '1', '1', '']
+
+	[003261e1c5b40af3dd897b8e06961540]
+	(array) ['['content', 'content', '12']']
+
+	[15404097aa032c7536e72030f31f429a]
+	(array) ['['content', 'content', '14']']
+
+
+[_GET]
+	[path]
+	(string) personal/orders/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.162 Safari/535.19
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) user_captcha=9993; eip-panel-state-first=Y; PHPSESSID=eqts4u9opt3msq7sv04lco5477; stat_id=eqts4u9opt3msq7sv04lco5477; umicms_session=262b42f3620f4c9bbeefbf9f5e7a61b4; _ym_visorc=w; ilang=ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Vary]
+	(string) Accept-Encoding
+
+	[Content-Encoding]
+	(string) gzip
+
+
+[0.0002961]	Unknown column '5762' in 'where clause' in query: SELECT  `tree_val` FROM  `cms3_object_content` WHERE  `5762` =5762 AND  `field_id` =232
+[0.0003121]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT  `tree_v...', false)
+#1 /var/www/clients/client0/web1/web/classes/modules/users/__custom.php(23): l_mysql_query('SELECT  `tree_v...')
+#2 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __custom_users-&gt;getInactiveIdUser('5762')
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#4 /var/www/clients/client0/web1/web/classes/modules/users/class.php(25): def_module-&gt;__call('getInactiveIdUs...', Array)
+#5 [internal function]: users-&gt;__call('getInactiveIdUs...', Array)
+#6 [internal function]: users-&gt;getInactiveIdUser('5762')
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#9 [internal function]: udataStream-&gt;stream_open('udata://users/g...', 'rb', 4, NULL)
+#10 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#11 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#12 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#13 {main}

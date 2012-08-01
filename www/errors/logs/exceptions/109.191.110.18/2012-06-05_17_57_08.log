@@ -1,0 +1,127 @@
+[_COOKIE]
+	[stat_id]
+	(string) 7cumpvf40ea2fuijecseh0hra3
+
+	[user_captcha]
+	(string) 3655
+
+	[PHPSESSID]
+	(string) 9c4sokvv43gjgc9a904im1bng2
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1338904628
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /?from=olk
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', '7cumpvf40ea2fuijecseh0hra3', '23985', '39359', '8', '1', '10', '10']
+
+	[e64a1f249ec43dff6844c5fc46db13ae]
+	(array) ['['content', 'content', '1']']
+
+	[15404097aa032c7536e72030f31f429a]
+	(array) ['['content', 'content', '14']']
+
+	[003261e1c5b40af3dd897b8e06961540]
+	(array) ['['content', 'content', '12']']
+
+	[12d06376b571b7a39780c1e9dba6d87e]
+	(array) ['['content', 'content', '4']']
+
+	[1e37649b2984ba99b99016ea85c87f26]
+	(array) ['['content', 'content', '28']']
+
+	[4bf3d7aa7070e3e3ba0a1ea660ef814b]
+	(array) ['['content', 'content', '268']']
+
+	[04c206817c2f411c0b506e376eda260d]
+	(array) ['['content', 'content', '13']']
+
+
+[_GET]
+	[path]
+	(string) users/restore/3984fec886d6a08eddb3cd6240bceadd/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) stat_id=7cumpvf40ea2fuijecseh0hra3; user_captcha=3655; PHPSESSID=9c4sokvv43gjgc9a904im1bng2; _ym_visorc=w
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0003660]	Not found template &quot;/forget/3984fec886d6a08eddb3cd6240bceadd&quot;.
+[0.0003941]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(15): umiTemplaterXSLT-&gt;prepareXSL('/forget/3984fec...')
+#1 /var/www/clients/client0/web1/web/classes/modules/def_module.php(515): umiTemplaterXSLT-&gt;parse(Array)
+#2 /var/www/clients/client0/web1/web/classes/modules/users/__forget.php(166): def_module::parseTemplateForMail('file://users/fo...', Array, false, 15442)
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __forget_users-&gt;restore('3984fec886d6a08...')
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#5 /var/www/clients/client0/web1/web/classes/modules/users/class.php(25): def_module-&gt;__call('restore', Array)
+#6 [internal function]: users-&gt;__call('restore', Array)
+#7 [internal function]: users-&gt;restore('3984fec886d6a08...')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#10 [internal function]: udataStream-&gt;stream_open('udata://users/r...', 'rb', 4, NULL)
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://users/r...')
+#12 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://users/r...')
+#13 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#14 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#15 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#16 {main}

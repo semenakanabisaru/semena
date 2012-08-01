@@ -1,0 +1,4 @@
+<FilesMatch "cngeoip.dat">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

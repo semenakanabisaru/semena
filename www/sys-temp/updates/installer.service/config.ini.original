@@ -1,0 +1,198 @@
+; Настройки системы
+[system]
+db-driver = mysql
+
+default-lang = ru
+default-skin = mac
+default-interface-lang = ru
+
+skins[] = mac
+
+interface-langs[] = "ru"
+interface-langs[] = "en"
+
+session-lifetime = 15 ; Minutes
+session-force-gc = 1
+default-date-format = "Y-m-d H:i:s"
+time-zone = "Europe/Moscow"
+default-currency = "RUR"
+eip.fake-delete = "0"
+use-old-client-js = "0"
+use-old-templater = "1"
+
+clean-eip-attributes = "0"
+
+; Настройки ядра
+[kernel]
+property-value-mode = "" ; XML_PROP_VALUE_MODE
+xslt-nested-menu = 1 ;XLST_NESTED_MENU
+disable-getvalue-optimization = 0 ; DISABLE_GETVAL_OPT
+selection-calc-found-rows-disable = 0; DISABLE_CALC_FOUND_ROWS
+;selection-max-joins = -1 ; MAX_SELECTION_TABLE_JOINS = 10
+selection-max-joins = -1
+cluster-cache-correction = 0 ; CLUSTER_CACHE_CORRECTION
+grab-all-keyword = "mode=all"
+use-reflection-extension = 0
+cluster-cache-correction = 0
+ignore-module-names-overwrite = 0 ; IGNORE_MODULE_NAMES_OVERWRITE
+pages-auto-index = 1 ;
+import-auto-index = 0
+enable-pre-auth = 1
+xml-format-output = 1 ; XML_FORMAT_OUTPUT
+matches-enabled = 1 ; enable or disable matches subsystems (also presented as umaps:// scheme)
+xml-macroses-disable = 0
+sql-query-cache = 1 ; SQL_QUERY_CACHE
+show-broken-macro = 1
+send-additional-status-header = 1
+ip-blacklist = ''
+max-guided-items = 50
+jpg-through-gd = 1;
+show-generate-time = 1;
+
+; Настройки режима отладки
+[debug]
+enabled = 0
+;filter.ip[] = "127.0.0.1"
+allowed-ip[] = "178.16.152.254"
+allowed-ip[] = "85.114.7.174"
+show-backtrace = "0" ; Показывать backtrace ошибки
+
+; Настройки подключения к базе данных
+[connections]
+core.type = mysql	; Тип подключения (сейчас доступем только "mysql")
+
+core.host = "%db-core-host%"	; Хост
+core.login = "%db-core-login%"		; Логин
+core.password = "%db-core-password%"	; Пароль
+core.dbname = "%db-core-name%"	; Имя базы данных
+core.port = "%db-core-port%"	; Порт
+core.persistent = 0	; Постоянное соединение
+core.compression = 0	; Использовать сжатие при передачи данных между БД и системой
+
+[streams]
+enable[] = "udata"
+enable[] = "utype"
+enable[] = "upage"
+enable[] = "uobject"
+enable[] = "ufs"
+enable[] = "usel"
+enable[] = "umap"
+enable[] = "uhttp"
+enable[] = "ulang"
+enable[] = "umess"
+
+udata.http.allow = 1
+;uobject.http.allow = 1
+;uobject.http.permissions = "all"
+upage.http.allow = 1
+umess.http.allow = 1
+;usel.http.allow = 1
+;uhttp.http.allow = 1
+;ufs.http.allow = 1
+
+user-agent = "UMI.CMS libxml agent"
+
+[includes]
+system.kernel = "~/classes/system/"
+system.kernel.streams = "~/classes/system/subsystems/streams/"
+system.kernel.assebled = "~/sys-temp/kernel.php"
+system.default-module = "~/classes/modules/"
+system.modules = "~/classes/modules/"
+system.virtual-modules = "~/classes/modules/"
+system.libs = "~/libs/"
+system.manifest = "~/sys-temp/manifest/"
+system.runtime-cache = "~/sys-temp/runtime-cache/"
+system.static-cache = "~/sys-temp/static-cache/"
+system.error = "~/errors/"
+system.stub = "~/errors/stub.php"
+
+templates.skins = "~/styles/skins/{skin}/"
+templates.tpl = "~/tpls/"
+templates.xsl = "~/xsltTpls/"
+
+; Настройки кеширования системы
+[cache]
+engine = "auto"				; Текущий кеширующий механизм
+static.enabled = 0			; Включение/выключение статического кеширования
+static.mode = "normal"				; Режим работы статического кеширования
+static.ignore-stat = 0		; Отключить сбор статистики при выдаче страниц из статического кеша
+streams.cache-enabled = 0			; Включение/выключение кеширования протоколов
+streams.cache-lifetime = 0	; Время жизни кеша протоколов в секундах
+not-allowed-methods[] = "emarket/cart" ; Методы, которые не нужны кешировать
+not-allowed-methods[] = "emarket/basket" ; Методы, которые не нужны кешировать
+not-allowed-streams[] = "" ; Протоколы, которые не нужно кешировать
+
+; Настройки страницы-заглушки
+[stub]
+enabled = 0
+;filter.ip[] = "127.0.0.1"
+;filter.ip[] = "192.168.0.100"
+
+
+[seo]
+alt-name-separator = "_"
+;url-extension = ".html"
+folder-redirect = 1
+calculate-last-modified = 0
+calculate-e-tag = 0
+watch-redirects-history = 1
+crawl-delay = 3
+index-redirect = "1" ; Редирект на главную при запросе index.php
+primary-domain-redirect = 0
+primary-www = 0
+
+
+[anti-spam]
+service.enabled = 0
+service.name = "akisment"
+akisment.wp-api-key = "6317fd125041";
+
+captcha.enabled = 1
+captcha.drawer = "default"
+
+[messages]
+catch-system-events = 0
+
+[modules]
+emarket.numbers = "default"
+emarket.currency.sync.source = "http://www.cbr.ru/scripts/XML_daily.asp"
+emarket.currency.sync.xsl = "cbr2internal.xsl"
+emarket.compare.max-items = 3
+emarket.order-types.optioned.groups[] = "catalog_option_props"
+
+exchange.splitter.limit = 25
+exchange.export.limit = 25
+exchange.commerceML.timeout = 0
+exchange.commerceML.splitter = "commerceML2"
+exchange.commerceML.renameFiles = 1
+exchange.translator.1c_price_type_id = "3c49a673-e8ba-11de-adfb-000c297d6967"
+exchange.translator.catalog_rubric_activity = 0
+exchange.translator.catalog_item_activity = 1
+exchange.translator.catalog_rubric_visible = 1
+exchange.translator.catalog_item_visible = 0
+exchange.translator.catalog_item_template = ""
+exchange.translator.catalog_rubric_template = ""
+banners.disable-update-optimization = 1
+
+
+[edit-in-place]
+allowed-types[] = "content::page <- *"
+allowed-types[] = "news::rubric <- *"
+allowed-types[] = "news::item <- news::rubric"
+allowed-types[] = "catalog::category <- *"
+allowed-types[] = "catalog::object <- catalog::category"
+allowed-types[] = "faq::project <- *"
+allowed-types[] = "faq::category <- faq::project"
+allowed-types[] = "faq::question <- faq::category"
+allowed-types[] = "forum::conf <- *"
+allowed-types[] = "forum::topic <- forum::conf"
+allowed-types[] = "filemanager::shared_file <- *"
+allowed-types[] = "photoalbum::album <- *"
+allowed-types[] = "photoalbum::photo <- photoalbum::album"
+allowed-types[] = "blogs20::blog <- *"
+allowed-types[] = "blogs20::post <- blogs20::blog"
+theme = "~/styles/skins/_eip/css/theme.css"
+
+[casual-skins]
+_picasa[] = "photoalbum::picasa"
+_eip[] = "content::eip_add_page"

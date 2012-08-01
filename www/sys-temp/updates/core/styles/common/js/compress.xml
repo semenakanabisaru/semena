@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filepack>
+	<pack path="compressed.js" type="js">
+		<file path="utilities.js" delete="false" />
+		<file path="relation.control.js" delete="false" />
+		<file path="symlink.control.js" delete="false" />
+		<file path="permissions.control.js" delete="false" />
+		<file path="file.control.js" delete="false" />
+		<file path="messages.js" delete="false" />
+	</pack>
+</filepack>

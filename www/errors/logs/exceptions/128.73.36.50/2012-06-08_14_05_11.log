@@ -1,0 +1,196 @@
+[_COOKIE]
+	[stat_id]
+	(string) 1hmf5850v4alt3arungf9ub3s3
+
+	[user_captcha]
+	(string) 5419
+
+	[PHPSESSID]
+	(string) i17f287n616i2b3t5o610mln93
+
+	[fcats]
+	(string) open_air
+
+	[acstate_active]
+	(string) 0
+
+	[acstate_opened]
+	(string) 0|1|1
+
+	[ftypes]
+	(string) sissified
+
+	[umicms_session]
+	(string) 16e8dc1e9826152f22c9173e80229d72
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1339149911
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /personal/
+
+	[user_id]
+	(integer) 16487
+
+	[is_admin]
+	(array) ['', '']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', '1hmf5850v4alt3arungf9ub3s3', '25533', '41674', '24', '1', '12', '12']
+
+	[003261e1c5b40af3dd897b8e06961540]
+	(array) ['['content', 'content', '12']']
+
+	[3f7aa31fbd03018769578149576dadfc]
+	(array) ['['catalog', 'category', '16']', '['catalog', 'object', '65']', '['catalog', 'object', '66']', '['catalog', 'object', '49']', '['catalog', 'object', '54']', '['catalog', 'object', '88']', '['catalog', 'object', '61']']
+
+	[821d731c2c77328bcf7ffdbb9ce16428]
+	(array) ['['catalog', 'object', '342']', '['catalog', 'object', '249']', '['catalog', 'object', '254']', '['catalog', 'object', '255']', '['catalog', 'object', '252']', '['catalog', 'object', '308']', '['catalog', 'object', '335']', '['catalog', 'object', '224']', '['catalog', 'object', '333']', '['catalog', 'object', '223']', '['catalog', 'object', '226']', '['catalog', 'object', '218']', '['catalog', 'object', '217']', '['catalog', 'object', '219']', '['catalog', 'object', '216']', '['catalog', 'object', '220']', '['catalog', 'object', '221']', '['catalog', 'object', '185']', '['catalog', 'object', '188']', '['catalog', 'object', '192']', '['catalog', 'object', '186']', '['catalog', 'object', '282']', '['catalog', 'object', '277']', '['catalog', 'object', '274']', '['catalog', 'object', '65']', '['catalog', 'object', '66']', '['catalog', 'object', '61']', '['catalog', 'object', '81']', '['catalog', 'object', '47']', '['catalog', 'object', '85']', '['catalog', 'object', '57']', '['catalog', 'object', '64']', '['catalog', 'object', '70']', '['catalog', 'object', '46']', '['catalog', 'object', '43']', '['catalog', 'object', '79']', '['catalog', 'object', '71']', '['catalog', 'object', '80']', '['catalog', 'object', '324']', '['catalog', 'object', '62']', '['catalog', 'object', '63']', '['catalog', 'object', '87']', '['catalog', 'object', '387']', '['catalog', 'object', '388']', '['catalog', 'object', '344']', '['catalog', 'object', '345']', '['catalog', 'object', '346']', '['catalog', 'object', '190']', '['catalog', 'object', '195']', '['catalog', 'object', '187']', '['catalog', 'object', '393']', '['catalog', 'object', '396']', '['catalog', 'object', '189']', '['catalog', 'object', '191']', '['catalog', 'object', '193']', '['catalog', 'object', '301']', '['catalog', 'object', '303']', '['catalog', 'object', '170']', '['catalog', 'object', '174']', '['catalog', 'object', '176']', '['catalog', 'object', '78']', '['catalog', 'object', '51']', '['catalog', 'object', '353']', '['catalog', 'object', '354']', '['catalog', 'object', '355']', '['catalog', 'object', '357']', '['catalog', 'object', '358']', '['catalog', 'object', '359']', '['catalog', 'object', '364']', '['catalog', 'object', '360']', '['catalog', 'object', '361']', '['catalog', 'object', '362']', '['catalog', 'object', '363']', '['catalog', 'object', '321']', '['catalog', 'object', '212']', '['catalog', 'object', '253']', '['catalog', 'object', '281']', '['catalog', 'object', '414']', '['catalog', 'object', '416']', '['catalog', 'object', '356']', '['catalog', 'object', '309']', '['catalog', 'object', '409']', '['catalog', 'object', '413']', '['catalog', 'object', '283']', '['catalog', 'object', '256']', '['catalog', 'object', '168']', '['catalog', 'object', '410']', '['catalog', 'object', '411']', '['catalog', 'object', '352']', '['catalog', 'object', '194']', '['catalog', 'object', '340']', '['catalog', 'object', '329']', '['catalog', 'object', '435']', '['catalog', 'object', '45']', '['catalog', 'object', '319']', '['catalog', 'object', '215']', '['catalog', 'object', '248']', '['catalog', 'object', '250']']
+
+	[7b844800b899a5ebd7ec17d4ab16313c]
+	(array) ['['catalog', 'object', '342']', '['catalog', 'object', '254']', '['catalog', 'object', '255']', '['catalog', 'object', '308']', '['catalog', 'object', '335']', '['catalog', 'object', '224']', '['catalog', 'object', '333']', '['catalog', 'object', '223']', '['catalog', 'object', '226']', '['catalog', 'object', '218']', '['catalog', 'object', '217']', '['catalog', 'object', '219']', '['catalog', 'object', '216']', '['catalog', 'object', '220']', '['catalog', 'object', '221']', '['catalog', 'object', '185']', '['catalog', 'object', '188']', '['catalog', 'object', '192']', '['catalog', 'object', '186']', '['catalog', 'object', '282']', '['catalog', 'object', '277']', '['catalog', 'object', '274']', '['catalog', 'object', '65']', '['catalog', 'object', '66']', '['catalog', 'object', '61']', '['catalog', 'object', '47']', '['catalog', 'object', '57']', '['catalog', 'object', '64']', '['catalog', 'object', '46']', '['catalog', 'object', '43']', '['catalog', 'object', '71']', '['catalog', 'object', '324']', '['catalog', 'object', '62']', '['catalog', 'object', '63']', '['catalog', 'object', '387']', '['catalog', 'object', '388']', '['catalog', 'object', '344']', '['catalog', 'object', '345']', '['catalog', 'object', '346']', '['catalog', 'object', '190']', '['catalog', 'object', '195']', '['catalog', 'object', '187']', '['catalog', 'object', '393']', '['catalog', 'object', '189']', '['catalog', 'object', '191']', '['catalog', 'object', '193']', '['catalog', 'object', '301']', '['catalog', 'object', '303']', '['catalog', 'object', '170']', '['catalog', 'object', '174']', '['catalog', 'object', '176']', '['catalog', 'object', '78']', '['catalog', 'object', '51']', '['catalog', 'object', '353']', '['catalog', 'object', '354']', '['catalog', 'object', '355']', '['catalog', 'object', '357']', '['catalog', 'object', '358']', '['catalog', 'object', '359']', '['catalog', 'object', '364']', '['catalog', 'object', '360']', '['catalog', 'object', '361']', '['catalog', 'object', '362']', '['catalog', 'object', '363']', '['catalog', 'object', '321']', '['catalog', 'object', '212']', '['catalog', 'object', '253']', '['catalog', 'object', '281']', '['catalog', 'object', '414']', '['catalog', 'object', '416']', '['catalog', 'object', '356']', '['catalog', 'object', '309']', '['catalog', 'object', '409']', '['catalog', 'object', '413']', '['catalog', 'object', '283']', '['catalog', 'object', '256']', '['catalog', 'object', '168']', '['catalog', 'object', '410']', '['catalog', 'object', '411']', '['catalog', 'object', '352']', '['catalog', 'object', '194']', '['catalog', 'object', '340']', '['catalog', 'object', '329']', '['catalog', 'object', '45']', '['catalog', 'object', '319']', '['catalog', 'object', '215']']
+
+	[25f5049102f112829c5b31eba077b63e]
+	(array) ['['catalog', 'object', '342']', '['catalog', 'object', '254']', '['catalog', 'object', '255']', '['catalog', 'object', '308']', '['catalog', 'object', '335']', '['catalog', 'object', '224']', '['catalog', 'object', '333']', '['catalog', 'object', '223']', '['catalog', 'object', '226']', '['catalog', 'object', '218']', '['catalog', 'object', '217']', '['catalog', 'object', '219']', '['catalog', 'object', '216']', '['catalog', 'object', '220']', '['catalog', 'object', '221']', '['catalog', 'object', '185']', '['catalog', 'object', '188']', '['catalog', 'object', '192']', '['catalog', 'object', '186']', '['catalog', 'object', '282']', '['catalog', 'object', '277']', '['catalog', 'object', '274']', '['catalog', 'object', '65']', '['catalog', 'object', '66']', '['catalog', 'object', '61']', '['catalog', 'object', '47']', '['catalog', 'object', '57']', '['catalog', 'object', '64']', '['catalog', 'object', '46']', '['catalog', 'object', '43']', '['catalog', 'object', '71']', '['catalog', 'object', '324']', '['catalog', 'object', '62']', '['catalog', 'object', '63']', '['catalog', 'object', '387']', '['catalog', 'object', '388']', '['catalog', 'object', '344']', '['catalog', 'object', '345']', '['catalog', 'object', '346']', '['catalog', 'object', '190']', '['catalog', 'object', '195']', '['catalog', 'object', '187']', '['catalog', 'object', '393']', '['catalog', 'object', '396']', '['catalog', 'object', '189']', '['catalog', 'object', '191']', '['catalog', 'object', '193']', '['catalog', 'object', '301']', '['catalog', 'object', '303']', '['catalog', 'object', '170']', '['catalog', 'object', '174']', '['catalog', 'object', '176']', '['catalog', 'object', '78']', '['catalog', 'object', '51']', '['catalog', 'object', '353']', '['catalog', 'object', '354']', '['catalog', 'object', '355']', '['catalog', 'object', '357']', '['catalog', 'object', '358']', '['catalog', 'object', '359']', '['catalog', 'object', '364']', '['catalog', 'object', '360']', '['catalog', 'object', '361']', '['catalog', 'object', '362']', '['catalog', 'object', '363']', '['catalog', 'object', '321']', '['catalog', 'object', '212']', '['catalog', 'object', '253']', '['catalog', 'object', '281']', '['catalog', 'object', '414']', '['catalog', 'object', '416']', '['catalog', 'object', '356']', '['catalog', 'object', '309']', '['catalog', 'object', '409']', '['catalog', 'object', '413']', '['catalog', 'object', '283']', '['catalog', 'object', '256']', '['catalog', 'object', '168']', '['catalog', 'object', '410']', '['catalog', 'object', '411']', '['catalog', 'object', '352']', '['catalog', 'object', '194']', '['catalog', 'object', '340']', '['catalog', 'object', '329']', '['catalog', 'object', '435']', '['catalog', 'object', '45']', '['catalog', 'object', '319']', '['catalog', 'object', '215']']
+
+	[382788815da8b7c279854e8bb98ba9a5]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '281']', '['catalog', 'object', '189']', '['catalog', 'object', '190']', '['catalog', 'object', '191']', '['catalog', 'object', '352']', '['catalog', 'object', '353']']
+
+	[41f8a3b1f74732266ff6ae7949479c72]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '409']', '['catalog', 'object', '410']', '['catalog', 'object', '354']', '['catalog', 'object', '355']', '['catalog', 'object', '356']', '['catalog', 'object', '357']']
+
+	[898df637cf6576e1ede19020d0194baa]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '358']', '['catalog', 'object', '359']', '['catalog', 'object', '411']', '['catalog', 'object', '360']', '['catalog', 'object', '361']', '['catalog', 'object', '329']']
+
+	[282267ff31a8050f982a405faf74c4ac]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '65']', '['catalog', 'object', '319']', '['catalog', 'object', '66']', '['catalog', 'object', '333']', '['catalog', 'object', '212']', '['catalog', 'object', '193']']
+
+	[ef621ef87092a7d8060faca079d6597e]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '340']', '['catalog', 'object', '308']', '['catalog', 'object', '301']', '['catalog', 'object', '61']', '['catalog', 'object', '224']', '['catalog', 'object', '253']']
+
+	[0d8820bd5fa117379d8e2718fe11a906]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '45']', '['catalog', 'object', '335']', '['catalog', 'object', '215']', '['catalog', 'object', '309']', '['catalog', 'object', '254']', '['catalog', 'object', '387']']
+
+	[44f02ce6746f6ef3fac173eb3b9168c3]
+	(array) ['['catalog', 'category', '408']', '['catalog', 'object', '409']', '['catalog', 'object', '410']', '['catalog', 'object', '411']']
+
+	[470a19f7d6392caad47e12a807aa0097]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '281']', '['catalog', 'object', '189']', '['catalog', 'object', '190']', '['catalog', 'object', '191']', '['catalog', 'object', '352']', '['catalog', 'object', '353']']
+
+	[2251deaf82196d5394c33d3364a024f6]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '409']', '['catalog', 'object', '410']', '['catalog', 'object', '354']', '['catalog', 'object', '355']', '['catalog', 'object', '356']', '['catalog', 'object', '357']']
+
+	[5da2915868e4ede5198175f874ee80e0]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '358']', '['catalog', 'object', '359']', '['catalog', 'object', '411']', '['catalog', 'object', '360']', '['catalog', 'object', '361']', '['catalog', 'object', '329']']
+
+	[5bf19bda0ff22afbeeb87c541b20fe4b]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '65']', '['catalog', 'object', '319']', '['catalog', 'object', '66']', '['catalog', 'object', '333']', '['catalog', 'object', '212']', '['catalog', 'object', '193']']
+
+	[f464db75e641100043605436f548e9e0]
+	(array) ['['users', 'author', '48']']
+
+	[3a2f96f24fc492380c07a005e1943258]
+	(array) ['['catalog', 'object', '48']', '['catalog', 'object', '111']']
+
+	[b03201b0a67fb55680d3e922a1931296]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '340']', '['catalog', 'object', '308']', '['catalog', 'object', '301']', '['catalog', 'object', '61']', '['catalog', 'object', '224']', '['catalog', 'object', '253']']
+
+	[91cdba3321c50c7b695c5ce0f81b4593]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '45']', '['catalog', 'object', '335']', '['catalog', 'object', '215']', '['catalog', 'object', '309']', '['catalog', 'object', '254']', '['catalog', 'object', '387']']
+
+	[d46e6b2bcab8e761b239ebb137a2d55a]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '185']', '['catalog', 'object', '195']', '['catalog', 'object', '303']', '['catalog', 'object', '188']', '['catalog', 'object', '388']', '['catalog', 'object', '168']']
+
+	[9f769660d09a1fd0ac4c1c2d4b785160]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '170']', '['catalog', 'object', '194']', '['catalog', 'object', '223']', '['catalog', 'object', '413']', '['catalog', 'object', '255']', '['catalog', 'object', '192']']
+
+	[be1c517f062b2e8e69f53b95a38cbcf2]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '364']', '['catalog', 'object', '321']', '['catalog', 'object', '393']', '['catalog', 'object', '226']', '['catalog', 'object', '218']', '['catalog', 'object', '217']']
+
+	[15404097aa032c7536e72030f31f429a]
+	(array) ['['content', 'content', '14']']
+
+	[cms_login]
+	(string) m5060
+
+	[cms_pass]
+	(string) 7dd150fe945850541d9345857ed34e64
+
+
+[_GET]
+	[path]
+	(string) users/restore/24b57f26d74e797c8de4036ced380c65/
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.10.229 Version/11.64
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Cookie]
+	(string) stat_id=1hmf5850v4alt3arungf9ub3s3; user_captcha=5419; PHPSESSID=i17f287n616i2b3t5o610mln93; fcats=open_air; acstate_active=0; acstate_opened=0%7C1%7C1; ftypes=sissified; umicms_session=16e8dc1e9826152f22c9173e80229d72; _ym_visorc=w
+
+	[Connection]
+	(string) Keep-Alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0019701]	Not found template &quot;/forget/24b57f26d74e797c8de4036ced380c65&quot;.
+[0.0027871]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(15): umiTemplaterXSLT-&gt;prepareXSL('/forget/24b57f2...')
+#1 /var/www/clients/client0/web1/web/classes/modules/def_module.php(515): umiTemplaterXSLT-&gt;parse(Array)
+#2 /var/www/clients/client0/web1/web/classes/modules/users/__forget.php(166): def_module::parseTemplateForMail('file://users/fo...', Array, false, 16487)
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __forget_users-&gt;restore('24b57f26d74e797...')
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#5 /var/www/clients/client0/web1/web/classes/modules/users/class.php(25): def_module-&gt;__call('restore', Array)
+#6 [internal function]: users-&gt;__call('restore', Array)
+#7 [internal function]: users-&gt;restore('24b57f26d74e797...')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#10 [internal function]: udataStream-&gt;stream_open('udata://users/r...', 'rb', 4, NULL)
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://users/r...')
+#12 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://users/r...')
+#13 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#14 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#15 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#16 {main}

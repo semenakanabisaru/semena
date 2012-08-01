@@ -1,0 +1,87 @@
+[_COOKIE]
+	[stat_id]
+	(string) 6rsm6pecsi0ri72cmihgcjku91
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1337826689
+
+	[http_referer]
+	(string) http://yandex.ru/touchsearch?app=my&clid=136442&text=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%BD%D0%B0%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%BC+%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BE%D0%BC+%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0+%D0%BA%D0%BE%D0%BD%D0%B0%D0%BF%D0%BB%D0%B8&lr=78
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) Semena-Kanabisa.ru
+
+	[Accept-Encoding]
+	(string) gzip
+
+	[Referer]
+	(string) http://yandex.ru/touchsearch?app=my&clid=136442&text=%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C+%D0%BD%D0%B0%D0%BB%D0%BE%D0%B6%D0%BD%D1%8B%D0%BC+%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BE%D0%BC+%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0+%D0%BA%D0%BE%D0%BD%D0%B0%D0%BF%D0%BB%D0%B8&lr=78
+
+	[Accept-Language]
+	(string) ru-RU, en-US
+
+	[x-wap-profile]
+	(string) http://gsm.lge.com/html/gsm/GT540_MR_M3_D2_CL.xml
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Linux; U; Android 2.1-update1; ru-ru; LG-GT540 Build/ERE27) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17 MMS/LG-Android-MMS-V1.0/1.2
+
+	[Cookie]
+	(string) stat_id=6rsm6pecsi0ri72cmihgcjku91
+
+	[Accept]
+	(string) application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+
+	[Accept-Charset]
+	(string) utf-8, iso-8859-1, utf-16, *;q=0.7
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=7m2dp17c2ah054glrfbqkcpr84; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.5070329]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[0.5744720]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT cp.metho...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(195): l_mysql_query('SELECT cp.metho...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(37): permissionsCollection-&gt;isAllowedMethod('298', 'content', 'sitetree')
+#3 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): permissionsCollection-&gt;__construct()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(53): singleton::getInstance('permissionsColl...')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(456): permissionsCollection::getInstance()
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#7 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#8 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#9 {main}

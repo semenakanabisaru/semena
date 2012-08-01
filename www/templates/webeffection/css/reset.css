@@ -1,0 +1,28 @@
+		
+	/* -----------------------------------------
+		
+		reset styles
+
+	----------------------------------------- */
+
+	html, body,
+	h1, h2, h3, h4, h5, h6,
+	ol, ul, li,
+	p, pre, code, address, variable, blockquote,
+	form, fieldset, input {
+		margin: 0; padding: 0;
+	}
+	h1, h2, h3, h4, h5, h6 { font-size: 1em; font-weight: normal; }
+	pre, code { font-size: 1em; }
+	address { font-style: normal; }
+	ul, ol { list-style: none; }
+	table { border-collapse: collapse; }
+	th, caption { font-weight: normal; text-align: left; }
+	td, th { vertical-align: top; }
+	a img, fieldset { border: none; }
+	a { outline: none;}
+	q:before, q:after { content: ''; }
+	
+	input.text, input.button {
+		overflow: visible; /* ie 6,7 fix */ 
+	}

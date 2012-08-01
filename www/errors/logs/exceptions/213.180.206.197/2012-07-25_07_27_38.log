@@ -1,0 +1,59 @@
+[_SESSION]
+	[starttime]
+	(integer) 1343186388
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Connection]
+	(string) close
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[TE]
+	(string) chunked,identity
+
+	[User-Agent]
+	(string) Mozilla/5.0 (compatible; YandexMetrika/2.0; +http://yandex.com/bots)
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=nkbj5tja27rs5dboaja891bvb4; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.8496940]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[6.6704810]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT h.rel, h...', true)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchyElement.php(444): l_mysql_query('SELECT h.rel, h...', true)
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/umiEntinty.php(19): umiHierarchyElement-&gt;loadInfo(false)
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(116): umiEntinty-&gt;__construct('1', false)
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1142): umiHierarchy-&gt;getElement('1', true)
+#5 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#6 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#7 {main}

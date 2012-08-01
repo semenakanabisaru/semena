@@ -1,0 +1,108 @@
+[_COOKIE]
+	[stat_id]
+	(string) vovcnnmmnopiunpck8rh2072p4
+
+	[user_captcha]
+	(string) 4688
+
+	[SS_ARE_Override_traceLevel]
+	(string) WARN
+
+	[PHPSESSID]
+	(string) c1naqt4fmamkedck3l7dl3g6s2
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1338383126
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /producers/green_house_seeds/?&per_page=24
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'vovcnnmmnopiunpck8rh2072p4', '21261', '1', '34783', '1', '302', '302']
+
+	[60beb7d100c167a778a2c27ff81f3b94]
+	(array) ['['catalog', 'category', '20']', '['catalog', 'object', '189']', '['catalog', 'object', '299']', '['catalog', 'object', '191']', '['catalog', 'object', '281']', '['catalog', 'object', '329']', '['catalog', 'object', '212']', '['catalog', 'object', '193']', '['catalog', 'object', '340']', '['catalog', 'object', '301']', '['catalog', 'object', '303']', '['catalog', 'object', '195']', '['catalog', 'object', '185']', '['catalog', 'object', '194']', '['catalog', 'object', '168']', '['catalog', 'object', '170']', '['catalog', 'object', '413']', '['catalog', 'object', '192']', '['catalog', 'object', '187']', '['catalog', 'object', '414']', '['catalog', 'object', '174']', '['catalog', 'object', '176']', '['catalog', 'object', '282']', '['catalog', 'object', '283']', '['catalog', 'object', '415']']
+
+
+[_GET]
+	[path]
+	(string) producers/green_house_seeds/
+
+	[per_page]
+	(string) 24
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[Cache-Control]
+	(string) max-age=0
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) stat_id=vovcnnmmnopiunpck8rh2072p4; user_captcha=4688; SS_ARE_Override.traceLevel=WARN; PHPSESSID=c1naqt4fmamkedck3l7dl3g6s2; _ym_visorc=w
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0003102]	Default domain could not be found
+[0.0003901]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#6 {main}

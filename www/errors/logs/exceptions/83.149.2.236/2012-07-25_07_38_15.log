@@ -1,0 +1,94 @@
+[_COOKIE]
+	[customer-id]
+	(string) 26761
+
+	[stat_id]
+	(string) gmpmvfiq9b8urstq54l838eu63
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343180515
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /producers/dutch_passion/mazar/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) producers/dutch_passion/mazar/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (iPad; CPU OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9B206 Safari/7534.48.3
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Cookie]
+	(string) customer-id=26761; stat_id=gmpmvfiq9b8urstq54l838eu63
+
+	[Connection]
+	(string) keep-alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) customer-id=26761; expires=Sat, 25-Aug-2012 03:16:24 GMT; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[35.4037502]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[54.9675901]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT  COUNT(o...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/selector/executor.php(153): l_mysql_query('SELECT  COUNT(o...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/selector/selector.php(121): selectorExecutor-&gt;length()
+#3 /var/www/clients/client0/web1/web/classes/modules/emarket/classes/orders/order.php(53): selector-&gt;length()
+#4 /var/www/clients/client0/web1/web/classes/modules/emarket/__purchasing.php(406): order::create(true)
+#5 /var/www/clients/client0/web1/web/classes/modules/emarket/__purchasing.php(274): __emarket_purchasing-&gt;getBasketOrder()
+#6 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_purchasing-&gt;cart()
+#7 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#8 [internal function]: def_module-&gt;__call('cart', Array)
+#9 [internal function]: emarket-&gt;cart()
+#10 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#12 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#13 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#14 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#15 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#16 {main}

@@ -1,0 +1,83 @@
+[_COOKIE]
+	[stat_id]
+	(string) 4hl1fi3614k8nl5erl6j0c9754
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343171595
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /users/activate/24a8f688e76336c9b20b7bca4a50b74f/
+
+
+[_GET]
+	[path]
+	(string) users/activate/24a8f688e76336c9b20b7bca4a50b74f/
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Android; Opera Mini/6.1.25577/28.2144; U; ru) Presto/2.8.119 Version/11.10
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru,en;q=0.9
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Cookie]
+	(string) stat_id=4hl1fi3614k8nl5erl6j0c9754
+
+	[Connection]
+	(string) Keep-Alive
+
+	[X-OperaMini-Features]
+	(string) advanced, file_system, camera, touch, folding, viewport, routing
+
+	[X-OperaMini-Phone-UA]
+	(string) Mozilla/5.0 (Linux; U; Android 2.1-update1; ru-ru; E15i Build/2.1.1.A.0.6) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17
+
+	[X-OperaMini-Phone]
+	(string) Android #
+
+	[x-forwarded-for]
+	(string) 80.83.238.93
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=b6ag7lsf5o98lr2bebd4ovjf83; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.6210711]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[0.6304121]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id FROM ...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(914): l_mysql_query('SELECT id FROM ...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1090): umiHierarchy-&gt;getIdByPath('/users', false, NULL)
+#3 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#4 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#5 {main}

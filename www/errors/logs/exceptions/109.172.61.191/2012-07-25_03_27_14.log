@@ -1,0 +1,97 @@
+[_SESSION]
+	[starttime]
+	(integer) 1343168423
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept-Encoding]
+	(string) gzip
+
+	[Accept-Language]
+	(string) ru-RU, en-US
+
+	[x-wap-profile]
+	(string) http://www.htcmms.com.tw/Android/Common/PG88/ua-profile.xml
+
+	[Keep-Alive]
+	(string) 115
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Linux; U; Android 2.3.5; ru-ru; HTC_DesireS_S510e Build/GRJ90) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1
+
+	[Connection]
+	(string) keep-alive
+
+	[Accept]
+	(string) application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+
+	[Accept-Charset]
+	(string) utf-8, iso-8859-1, utf-16, *;q=0.7
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=9hqmpo3mv72iuf9iirhh9eda42; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[29.3034739]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[30.2307398]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT field_id...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(340): l_mysql_query('SELECT field_id...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/properties/umiObjectPropertyInt.php(14): umiObjectProperty-&gt;getPropData()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(188): umiObjectPropertyInt-&gt;loadValue()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(32): umiObjectProperty-&gt;loadInfo()
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(44): umiObjectProperty-&gt;__construct(570, 75, 116)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObject.php(275): umiObjectProperty::getProperty(570, 75, 116)
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObject.php(370): umiObject-&gt;getPropByName('lockuser')
+#8 /var/www/clients/client0/web1/web/classes/system/utils/translators/wrappers/umiHierarchyElementWrapper.php(38): umiObject-&gt;getValue('lockuser')
+#9 /var/www/clients/client0/web1/web/classes/system/utils/translators/wrappers/umiHierarchyElementWrapper.php(4): umiHierarchyElementWrapper-&gt;translateData(Object(umiHierarchyElement))
+#10 /var/www/clients/client0/web1/web/classes/system/utils/translators/xmlTranslator.php(37): umiHierarchyElementWrapper-&gt;translate(Object(umiHierarchyElement))
+#11 /var/www/clients/client0/web1/web/classes/system/utils/translators/xmlTranslator.php(126): xmlTranslator-&gt;chooseTranslator(Object(DOMElement), Object(umiHierarchyElement))
+#12 /var/www/clients/client0/web1/web/classes/system/utils/translators/xmlTranslator.php(29): xmlTranslator-&gt;translateArray(Object(DOMElement), Array)
+#13 /var/www/clients/client0/web1/web/classes/system/utils/translators/xmlTranslator.php(22): xmlTranslator-&gt;chooseTranslator(Object(DOMElement), Array)
+#14 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/umiBaseStream.php(201): xmlTranslator-&gt;translateToXml(Object(DOMElement), Array)
+#15 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/usel/uselStream.php(167): umiBaseStream-&gt;translateToXml(Array)
+#16 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/usel/uselStream.php(35): uselStream-&gt;translateToXml(Array)
+#17 [internal function]: uselStream-&gt;stream_open('usel://usel_car...', 'rb', 4, NULL)
+#18 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#19 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#20 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#21 {main}

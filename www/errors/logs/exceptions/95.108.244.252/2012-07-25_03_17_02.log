@@ -1,0 +1,85 @@
+[_SESSION]
+	[starttime]
+	(integer) 1343171348
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /users/forget/
+
+	[user_id]
+	(string) 298
+
+
+[_GET]
+	[path]
+	(string) users/forget/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) Keep-Alive
+
+	[Accept]
+	(string) */*
+
+	[Accept-Encoding]
+	(string) gzip,deflate
+
+	[Accept-Language]
+	(string) ru, uk;q=0.8, be;q=0.8, en;q=0.7, *;q=0.01
+
+	[If-Modified-Since]
+	(string) Thu, 07 Jun 2012 13:23:03 GMT
+
+	[User-Agent]
+	(string) Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+
+	[From]
+	(string) support@search.yandex.ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=d6jrdnlmabb0al2ilf72cl70c1; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.7066841]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[1.1735902]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT field_id...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(340): l_mysql_query('SELECT field_id...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/properties/umiObjectPropertyRelation.php(14): umiObjectProperty-&gt;getPropData()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(188): umiObjectPropertyRelation-&gt;loadValue()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(32): umiObjectProperty-&gt;loadInfo()
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectProperty.php(44): umiObjectProperty-&gt;__construct(298, 34, 9)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObject.php(275): umiObjectProperty::getProperty(298, 34, 9)
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObject.php(370): umiObject-&gt;getPropByName('groups')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(282): umiObject-&gt;getValue('groups')
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(301): permissionsCollection-&gt;isSv('298')
+#10 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(164): permissionsCollection-&gt;isAdmin('298')
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(37): permissionsCollection-&gt;isAllowedMethod('298', 'content', 'sitetree')
+#12 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): permissionsCollection-&gt;__construct()
+#13 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(53): singleton::getInstance('permissionsColl...')
+#14 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(456): permissionsCollection::getInstance()
+#15 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#16 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#17 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#18 {main}

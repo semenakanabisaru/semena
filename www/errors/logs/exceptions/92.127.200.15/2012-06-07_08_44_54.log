@@ -1,0 +1,79 @@
+[_COOKIE]
+	[stat_id]
+	(string) a4ir7ksfae5pqccum4l3o0aq36
+
+	[PHPSESSID]
+	(string) 9eklg6ksiv8pvi9fjht98i0dk3
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1339044045
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /shipping/
+
+
+[_GET]
+	[path]
+	(string) shipping/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; rv:1.9.1.5) Gecko/20091102 Firefox/3.5.5 ( .NET CLR 3.5.30729; .NET4.0E)
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru,en-us;q=0.7,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip,deflate
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.7
+
+	[Keep-Alive]
+	(string) 300
+
+	[Connection]
+	(string) keep-alive
+
+	[Cookie]
+	(string) stat_id=a4ir7ksfae5pqccum4l3o0aq36; PHPSESSID=9eklg6ksiv8pvi9fjht98i0dk3
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.4302771]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[0.6142900]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id FROM ...', true)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/regedit/regedit.php(32): l_mysql_query('SELECT id FROM ...', true)
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/regedit/regedit.php(44): regedit-&gt;getKey('//modules/shipp...')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(970): regedit-&gt;getVal('//modules/shipp...')
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1050): cmsController-&gt;getSubPathType('shipping')
+#5 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#6 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#7 {main}

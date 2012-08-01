@@ -1,0 +1,133 @@
+[_COOKIE]
+	[stat_id]
+	(string) kdgiojb0vvn5tb75a514j1te17
+
+	[user_captcha]
+	(string) 4866
+
+	[customer-id]
+	(string) 11304
+
+	[PHPSESSID]
+	(string) p4hjt4udcsjj5q735jk4b57tg7
+
+	[_ym_visorc]
+	(string) w
+
+	[umi_captcha]
+	(string) 856b503e276cc491e7e6e0ac1b9f4b17
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1338146395
+
+	[http_referer]
+	(string) http://e.mail.ru/cgi-bin/msglist?ffsputnik=1
+
+	[http_target]
+	(string) /users/restore/2a971f8797c49911a140738671ec3a0d/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'kdgiojb0vvn5tb75a514j1te17', '16570', '1', '32253', '2', '283', '283']
+
+	[1e37649b2984ba99b99016ea85c87f26]
+	(array) ['['content', 'content', '28']']
+
+	[bbefd5d3bc28a1c26179a890e0f30178]
+	(array) ['['catalog', 'category', '20']', '['catalog', 'object', '191']', '['catalog', 'object', '193']', '['catalog', 'object', '301']', '['catalog', 'object', '185']', '['catalog', 'object', '187']']
+
+	[umi_captcha]
+	(string) 856b503e276cc491e7e6e0ac1b9f4b17
+
+	[umi_captcha_plain]
+	(string) 3622
+
+	[errors_1338145302]
+	(array) ['['Пользователь с таким e-mail'ом уже существует.', '', '']']
+
+	[errors_1338145315]
+	(array) ['['Пользователь с таким e-mail'ом уже существует.', '', '']']
+
+	[errors_1338145332]
+	(array) ['['Пользователь с таким e-mail'ом уже существует.', '', '']']
+
+
+[_GET]
+	[path]
+	(string) users/restore/cdb4c1c94b46561ff58e143a1b8a6966/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://e.mail.ru/cgi-bin/msglist?ffsputnik=1
+
+	[Cookie]
+	(string) stat_id=kdgiojb0vvn5tb75a514j1te17; user_captcha=4866; customer-id=11304; PHPSESSID=p4hjt4udcsjj5q735jk4b57tg7; _ym_visorc=w; umi_captcha=856b503e276cc491e7e6e0ac1b9f4b17
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0001841]	Not found template &quot;/forget/cdb4c1c94b46561ff58e143a1b8a6966&quot;.
+[0.0002010]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(15): umiTemplaterXSLT-&gt;prepareXSL('/forget/cdb4c1c...')
+#1 /var/www/clients/client0/web1/web/classes/modules/def_module.php(515): umiTemplaterXSLT-&gt;parse(Array)
+#2 /var/www/clients/client0/web1/web/classes/modules/users/__forget.php(166): def_module::parseTemplateForMail('file://users/fo...', Array, false, 10227)
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __forget_users-&gt;restore('cdb4c1c94b46561...')
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#5 /var/www/clients/client0/web1/web/classes/modules/users/class.php(25): def_module-&gt;__call('restore', Array)
+#6 [internal function]: users-&gt;__call('restore', Array)
+#7 [internal function]: users-&gt;restore('cdb4c1c94b46561...')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#10 [internal function]: udataStream-&gt;stream_open('udata://users/r...', 'rb', 4, NULL)
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://users/r...')
+#12 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://users/r...')
+#13 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#14 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#15 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#16 {main}

@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432894</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:54 +0400</rfc>
+      <utc>2012-04-26T13:34:54+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/news" val="news"/>
+    <key path="modules/news/name" val="news"/>
+    <key path="modules/news/filename" val="modules/news/class.php"/>
+    <key path="modules/news/config" val="1" update="1"/>
+    <key path="modules/news/default_method" val="archive" update="1"/>
+    <key path="modules/news/default_method_admin" val="lists" update="1"/>
+    <key path="modules/news/func_perms" val=""/>
+    <key path="modules/news/func_perms/view" val="Просмотр новостей"/>
+    <key path="modules/news/func_perms/lists" val="Управление новостями"/>
+    <key path="modules/news/func_perms/publish" val="Возможность публикации"/>
+    <key path="modules/news/per_page" val="10"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/news" name="news">/classes/modules/news</directory>
+    <directory path="./styles/skins/mac/data/modules/news" name="news">/styles/skins/mac/data/modules/news</directory>
+  </directories>
+  <files>
+    
+    <file path="./classes/modules/news/calendar.php" size="15016" ext="php" hash="f5463c3bc8d43bc65c4b78b19b137c9f" name="calendar.php">/classes/modules/news/calendar.php</file>
+    <file path="./classes/modules/news/permissions.php" size="404" ext="php" hash="0872e08c85caa9ba988f1bf39263c1cf" name="permissions.php">/classes/modules/news/permissions.php</file>
+    <file path="./classes/modules/news/__rss_import.php" size="3959" ext="php" hash="67c5692703ff43f851fd94a82521c5e7" name="__rss_import.php">/classes/modules/news/__rss_import.php</file>
+    <file path="./classes/modules/news/i18n.php" size="1403" ext="php" hash="55456821885b69fba42f5cad2a0a7b74" name="i18n.php">/classes/modules/news/i18n.php</file>
+    <file path="./classes/modules/news/__subjects.php" size="951" ext="php" hash="123a44bcf6134a0b7aa4f3b9b311858c" name="__subjects.php">/classes/modules/news/__subjects.php</file>
+    
+    <file path="./classes/modules/news/lang.php" size="1824" ext="php" hash="7c31fd9d3ddf8f478c2663df70d0c669" name="lang.php">/classes/modules/news/lang.php</file>
+    <file path="./classes/modules/news/events.php" size="88" ext="php" hash="0a6cd77c2725228fe27109cacbafcf7c" name="events.php">/classes/modules/news/events.php</file>
+    <file path="./classes/modules/news/class.php" size="16440" ext="php" hash="38ed204ed36949d218d1fee7e7c64710" name="class.php">/classes/modules/news/class.php</file>
+    <file path="./classes/modules/news/__admin.php" size="5813" ext="php" hash="9160f435c997cac3c9426731cf9f8ab5" name="__admin.php">/classes/modules/news/__admin.php</file>
+    <file path="./classes/modules/news/install.php" size="2086" ext="php" hash="dbed01f2f02794a85e7e9c40139c7fc1" name="install.php">/classes/modules/news/install.php</file>
+    
+    <file path="./styles/skins/mac/data/modules/news/list.modify.xsl" size="3682" ext="xsl" hash="db3d8e4b1645139c9e316104d945b8e9" name="list.modify.xsl">/styles/skins/mac/data/modules/news/list.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/news/list.view.xsl" size="1167" ext="xsl" hash="4f40b9cb0341c66148b73a6d52e66c6f" name="list.view.xsl">/styles/skins/mac/data/modules/news/list.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="745" guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" title="Статус страницы" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="svojstva_statusa_stranicy" title="Свойства статуса страницы" visible="visible" active="active">
+          <field id="9027" name="publish_status_id" title="id статуса" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="6" guid="users-users" title="Группы пользователей" parent-id="0" guide="guide" locked="locked">
+      <base module="users" method="users">Группы пользователей</base>
+      <fieldgroups>
+        <group name="svojstva_gruppy_polzovatelej" title="Свойства группы пользователей" locked="locked" active="active" visible="0">
+          <field id="8896" name="nazvanie" title="Название" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="693" guid="d69b923df6140a16aefc89546a384e0493641fbe" title="Страны" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="params_more" title="Дополнительно" visible="visible" active="active">
+          <field id="9342" name="country_iso_code" title="Код страны" visible="visible" locked="locked">
+            <tip>Страна в формате ISO 3166-1 alpha-2</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="803" guid="emarket-deliveryaddress" title="Адрес доставки" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="delivery_address">Адрес доставки</base>
+      <fieldgroups>
+        <group name="common" title="Основное" visible="visible" active="active">
+          <field id="9160" name="country" title="Страна" visible="visible" guide-id="693" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9161" name="index" title="Почтовый индекс" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9162" name="region" title="Регион" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9163" name="city" title="Город" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9164" name="street" title="Улица" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9165" name="house" title="Дом" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9166" name="flat" title="Квартира" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="780" guid="emarket-currency" title="Валюта" parent-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="currency">Валюта</base>
+      <fieldgroups>
+        <group name="props_currency" title="Свойства валюты" visible="visible" active="active">
+          <field id="9116" name="codename" title="Код валюты" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9117" name="nominal" title="Номинал" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9118" name="rate" title="Курс" visible="visible" required="required">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9119" name="prefix" title="Префикс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9120" name="suffix" title="Суффикс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="817" guid="emarket-legalperson" title="Юридическое лицо" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="legal_person">Юридическое лицо</base>
+      <fieldgroups>
+        <group name="general" title="Основное" visible="visible" active="active">
+          <field id="9250" name="contact_person" title="Контактное лицо" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9251" name="phone_number" title="Контактный телефон" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9252" name="fax" title="Факс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9134" name="email" title="E-mail" visible="visible" required="required">
+            <restriction id="2" name="email">E-mail</restriction>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9253" name="name" title="Наименование организации" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="addresses" title="Адреса" visible="visible" active="active">
+          <field id="9254" name="legal_address" title="Юридический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9255" name="defacto_address" title="Фактический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9256" name="post_address" title="Почтовый адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="payment" title="Информация для оплаты" visible="visible" active="active">
+          <field id="9257" name="inn" title="ИНН" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9258" name="account" title="Расчетный счет" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9259" name="bank" title="Наименование банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9260" name="bank_account" title="Кор. счет банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9261" name="bik" title="БИК" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9262" name="ogrn" title="ОГРН" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9337" name="kpp" title="КПП" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="825" guid="filemanagers" title="Файловые менеджеры" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="description" title="Свойства" visible="visible" locked="locked" active="active">
+          <field id="9361" name="fm_prefix" title="Префикс" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="4" guid="users-user" title="Пользователь" parent-id="0" guide="guide" locked="locked">
+      <base module="users" method="user">Пользователи</base>
+      <fieldgroups>
+        <group name="idetntify_data" title="Идентификационные данные" locked="locked" active="active" visible="0">
+          <field id="45" name="login" title="Логин" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="46" name="password" title="Пароль" visible="visible" locked="locked">
+            <type name="Пароль" data-type="password"/>
+          </field>
+          <field id="53" name="groups" title="Группы пользователей" locked="locked" guide-id="6">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="12" name="e-mail" title="E-mail" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8734" name="activate_code" title="Код активации" locked="locked" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9360" name="loginza" title="Провайдер регистрации(через Loginza)" visible="visible" locked="locked">
+            <tip>Адрес сервиса</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8735" name="is_activated" title="Активирован" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8967" name="last_request_time" title="Время последнего обращения" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8950" name="subscribed_pages" title="Подписки на изменения" locked="locked" system="system">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8968" name="rated_pages" title="Рейтингованные страницы" locked="locked" system="system">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8951" name="is_online" title="Пользователь on-line" locked="locked" system="system">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8969" name="messages_count" title="Количество сообщений" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="more_info" title="Дополнительная информация" visible="visible" active="active">
+          <field id="5569" name="orders_refs" title="Заказы" locked="locked" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8720" name="delivery_addresses" title="Адреса доставки" visible="visible" locked="locked" guide-id="803" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8901" name="user_dock" title="Пользовательская панель" locked="locked" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9049" name="preffered_currency" title="Предпочитаемая валюта" locked="locked" guide-id="780">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9050" name="user_settings_data" title="Настройки пользователя" locked="locked" system="system">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9300" name="legal_persons" title="Юридические лица" visible="visible" locked="locked" guide-id="817" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9362" name="filemanager" title="Файловый менеджер" locked="locked" guide-id="825">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9368" name="filemanager_directory" title="Доступные директории (для файлового менеджера elFinder)" locked="locked" guide-id="825">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9372" name="register_date" title="Дата регистрации">
+            <type name="Дата" data-type="date"/>
+          </field>
+        </group>
+        <group name="short_info" title="Персональная информация" visible="visible" active="active">
+          <field id="11" name="lname" title="Фамилия" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9" name="fname" title="Имя" visible="visible" locked="locked" required="required">
+            <tip>Это поле содержит Имя пользователя. Оно отображается в характеристиках пользователя и может быть изменено самим пользователем.</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="10" name="father_name" title="Отчество" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="delivery" title="Доставка" visible="visible" active="active"/>
+        <group name="statistic_info" title="Статистическая информация" visible="visible" active="active">
+          <field id="9370" name="referer" title="Адрес, с которого пришел пользователь">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9371" name="target" title="Адрес, на который пришел пользователь">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="{root-pages-type}" guid="root-pages-type" title="Раздел сайта" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле TITLE" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле H1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta DESCRIPTIONS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta KEYWORDS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="rate_props" title="Свойства рейтинга" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="18" guid="news-rubric" title="Лента новостей" parent-id="{root-pages-type}" guide="guide" locked="locked">
+      <base module="news" method="rubric">Ленты новостей</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" active="active" visible="0">
+          <field id="22" name="title" title="Поле TITLE" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле H1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta KEYWORDS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta DESCRIPTIONS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="67" name="readme" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+        <group name="menu_view" title="Отображение в меню" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="rate_voters" title="Количество проголосовавших" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="34" guid="news-subject" title="Сюжет публикации" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="news" method="subject">Сюжет публикации</base>
+      <fieldgroups/>
+    </type>
+    <type id="23" guid="news-item" title="Новость" parent-id="{root-pages-type}" locked="locked">
+      <base module="news" method="item">Новости</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="22" name="title" title="Поле TITLE" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="23" name="h1" title="Поле H1" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="24" name="meta_keywords" title="Поле meta KEYWORDS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="25" name="meta_descriptions" title="Поле meta DESCRIPTIONS" visible="visible" inheritable="inheritable" locked="locked" indexable="indexable">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8837" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+          <field id="71" name="anons" title="Анонс" visible="visible" locked="locked" indexable="indexable">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+          <field id="26" name="content" title="Контент" visible="visible" locked="locked" indexable="indexable">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+        </group>
+        <group name="item_props" title="Свойства публикации" locked="locked" active="active" visible="0">
+          <field id="72" name="source" title="Источник" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="73" name="source_url" title="URL источника" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="74" name="publish_time" title="Дата публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="75" name="begin_time" title="Дата начала активности" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="76" name="end_time" title="Дата завершения скидки" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+        </group>
+        <group name="menu_view" title="Отображение в меню" locked="locked" active="active" visible="0">
+          <field id="27" name="menu_pic_ua" title="Изображение неактивного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="28" name="menu_pic_a" title="Изображение активного раздела" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="29" name="header_pic" title="Изображение для заголовка" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="more_params" title="Дополнительные параметры" locked="locked" active="active" visible="0">
+          <field id="30" name="robots_deny" title="Запретить индексацию поисковиками" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="31" name="show_submenu" title="Показывать подменю" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="32" name="is_expanded" title="Меню всегда развернуто" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="33" name="is_unindexed" title="Исключить из поиска" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="news_images" title="Изображения новости" visible="visible" active="active">
+          <field id="77" name="anons_pic" title="Картинка для анонса" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="78" name="publish_pic" title="Картинка для публикации" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+        <group name="subjects_block" title="Сюжеты" visible="visible" locked="locked" active="active">
+          <field id="79" name="subjects" title="Входит в сюжеты" visible="visible" locked="locked" guide-id="34">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="rate_voters" title="Количество проголосовавших" locked="locked" active="active" visible="0">
+          <field id="8903" name="rate_voters" title="Количество проголосовавших" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8904" name="rate_sum" title="Сумма баллов" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="svojstva_publikacii" title="Актуальность публикации" visible="visible" locked="locked" active="0">
+          <field id="9024" name="expiration_date" title="Дата снятия с публикации" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9025" name="notification_date" title="Дата уведомления" visible="visible" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9026" name="publish_comments" title="Комментарий к публикации" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9029" name="publish_status" title="Статус публикации" visible="visible" locked="locked" guide-id="745">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="locks" title="Блокировка" visible="visible" locked="locked" active="active">
+          <field id="9030" name="locktime" title="Время блокировки" visible="visible" locked="locked" system="system">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9031" name="lockuser" title="Блокирующий пользователь" visible="visible" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="15" guid="users-users-15" name="Супервайзеры" type-id="6" type-guid="users-users">
+      <properties>
+        <group name="svojstva_gruppy_polzovatelej">
+          <title>Свойства группы пользователей</title>
+          <property id="8896" name="nazvanie" type="string">
+            <title>Название</title>
+            <value>Супервайзеры</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="2374" guid="users-users-2374" name="Зарегистрированные пользователи" type-id="6" type-guid="users-users">
+      <properties>
+        <group name="svojstva_gruppy_polzovatelej">
+          <title>Свойства группы пользователей</title>
+          <property id="8896" name="nazvanie" type="string">
+            <title>Название</title>
+            <value>Зарегистрированные пользователи</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="26315" guid="a1e3ae17e80ba2b4a3ddb1b855430346f74b8d48" name="США" type-id="693" type-guid="d69b923df6140a16aefc89546a384e0493641fbe" ownerId="14">
+      <properties>
+        <group name="params_more">
+          <title>Дополнительно</title>
+          <property id="9342" name="country_iso_code" type="string">
+            <title>Код страны</title>
+            <value>US</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="26341" guid="e9aa8c23a339224b25945aa9e99f09f578bdd483" name="Россия" type-id="693" type-guid="d69b923df6140a16aefc89546a384e0493641fbe" ownerId="14">
+      <properties>
+        <group name="params_more">
+          <title>Дополнительно</title>
+          <property id="9342" name="country_iso_code" type="string">
+            <title>Код страны</title>
+            <value>RU</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27226" guid="emarket-currency-27226" name="Российский рубль" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>RUR</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>1</value>
+          </property>
+          <property id="9120" name="suffix" type="string">
+            <title>Суффикс</title>
+            <value>руб</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27227" guid="emarket-currency-27227" name="Американский доллар" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>USD</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>31.5</value>
+          </property>
+          <property id="9119" name="prefix" type="string">
+            <title>Префикс</title>
+            <value>$</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27228" guid="emarket-currency-27228" name="Евро" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>EUR</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>35</value>
+          </property>
+          <property id="9119" name="prefix" type="string">
+            <title>Префикс</title>
+            <value>€</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27923" guid="filemanager-flash" name="Классический файловый менеджер" type-id="825" type-guid="filemanagers" ownerId="14">
+      <properties>
+        <group name="description">
+          <title>Свойства</title>
+          <property id="9361" name="fm_prefix" type="string">
+            <title>Префикс</title>
+            <value>flash</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27924" guid="filemanager-elfinder" name="Файловый менеджер elFinder" type-id="825" type-guid="filemanagers" ownerId="14">
+      <properties>
+        <group name="description">
+          <title>Свойства</title>
+          <property id="9361" name="fm_prefix" type="string">
+            <title>Префикс</title>
+            <value>elfinder</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="14" guid="system-supervisor" name="lyxsus" type-id="4" type-guid="users-user">
+      <properties>
+        <group name="idetntify_data">
+          <title>Идентификационные данные</title>
+          <property id="45" name="login" type="string">
+            <title>Логин</title>
+            <value>lyxsus</value>
+          </property>
+          <property id="46" name="password" type="password">
+            <title>Пароль</title>
+            <value>0d107d09f5bbe40cade3de5c71e9e9b7</value>
+          </property>
+          <property id="53" name="groups" type="relation" multiple="multiple">
+            <title>Группы пользователей</title>
+            <value>
+              <item id="15" guid="users-users-15" name="Супервайзеры" type-id="6" type-guid="users-users"/>
+            </value>
+          </property>
+          <property id="12" name="e-mail" type="string">
+            <title>E-mail</title>
+            <value>lyxsus@gmail.com</value>
+          </property>
+          <property id="8735" name="is_activated" type="boolean">
+            <title>Активирован</title>
+            <value>1</value>
+          </property>
+          <property id="8967" name="last_request_time" type="int">
+            <title>Время последнего обращения</title>
+            <value>1334843438</value>
+          </property>
+          <property id="8951" name="is_online" type="boolean">
+            <title>Пользователь on-line</title>
+            <value>0</value>
+          </property>
+          <property id="8969" name="messages_count" type="int">
+            <title>Количество сообщений</title>
+            <value>0</value>
+          </property>
+        </group>
+        <group name="more_info">
+          <title>Дополнительная информация</title>
+          <property id="8901" name="user_dock" type="string">
+            <title>Пользовательская панель</title>
+            <value>content,users,emarket,catalog,data,trash</value>
+          </property>
+          <property id="9050" name="user_settings_data" type="text">
+            <title>Настройки пользователя</title>
+            <value>a:15:{s:9:"dockState";a:1:{s:6:"common";s:6:"opened";}s:15:"tree-data-types";a:1:{s:8:"expanded";s:3:"{0}";}s:16:"tree-data-guides";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-data-guide_items";a:2:{s:8:"expanded";s:3:"{0}";s:12:"used-columns";s:183:"name[317px]|number[100px]|sid[100px]|class_name[100px]|payment_type_id[100px]|delivery_type_id[100px]|delivery_type_guid[100px]|modificator_type_id[100px]|modificator_type_guid[100px]";}s:22:"tree-emarket-discounts";a:1:{s:8:"expanded";s:3:"{0}";}s:23:"tree-content-sitetree-1";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-dispatches-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:9:"dockItems";a:1:{s:6:"common";s:125:"content;news;blogs20;seo;forum;comments;vote;webforms;photoalbum;dispatches;catalog;emarket;banners;users;stat;exchange;trash";}s:19:"tree-emarket-orders";a:1:{s:8:"expanded";s:3:"{0}";}s:15:"tree-data-trash";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-photoalbum-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:16:"tree-forum-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:24:"tree-forum-last_messages";a:1:{s:8:"expanded";s:3:"{0}";}s:18:"tree-blogs20-posts";a:1:{s:8:"expanded";s:3:"{0}";}s:18:"tree-blogs20-blogs";a:1:{s:8:"expanded";s:3:"{0}";}}</value>
+          </property>
+        </group>
+        <group name="short_info">
+          <title>Персональная информация</title>
+          <property id="11" name="lname" type="string">
+            <title>Фамилия</title>
+            <value>Антонинко</value>
+          </property>
+          <property id="9" name="fname" type="string">
+            <title>Имя</title>
+            <value>Сергей</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27085" guid="25ec3f9da5444fe6a125910137ec28200d4eaaa8" name="Опубликован" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" name="publish_status_id" type="string">
+            <title>id статуса</title>
+            <value>page_status_publish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27086" guid="8a6f804b3690f0592a3f17ed980a9df5f16bacd8" name="Снят с публикации" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" name="publish_status_id" type="string">
+            <title>id статуса</title>
+            <value>page_status_unpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27087" guid="f4df5d14f5a1aeeebfe3db75b73e57fef8bcc4f2" name="Готовится к снятию с публикации" type-id="745" type-guid="de8627f75ba1abcfafd00a0e75ad189105cfdc21" ownerId="14">
+      <properties>
+        <group name="svojstva_statusa_stranicy">
+          <title>Свойства статуса страницы</title>
+          <property id="9027" name="publish_status_id" type="string">
+            <title>id статуса</title>
+            <value>page_status_preunpublish</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <relations>
+    <relation type-id="803" field-name="country">
+      <guide id="693"/>
+    </relation>
+    <relation type-id="4" field-name="groups">
+      <guide id="6"/>
+    </relation>
+    <relation type-id="4" field-name="delivery_addresses">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="4" field-name="preffered_currency">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="4" field-name="legal_persons">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="4" field-name="filemanager">
+      <guide id="825"/>
+    </relation>
+    <relation type-id="4" field-name="filemanager_directory">
+      <guide id="825"/>
+    </relation>
+    <relation object-id="14" field-name="groups">
+      <object id="15"/>
+    </relation>
+    <relation type-id="{root-pages-type}" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="18" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+    <relation type-id="23" field-name="subjects">
+      <guide id="34"/>
+    </relation>
+    <relation type-id="23" field-name="publish_status">
+      <guide id="745"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions>
+    <restriction id="2" prefix="email" title="E-mail" field-type="string" is-multiple="">
+      <field field-name="email" type-id="817"/>
+    </restriction>
+  </restrictions>
+  <permissions>
+    <permission object-id="15">
+      <module name="content" method="" allow="1"/>
+      <module name="domain" method="2" allow="1"/>
+      <module name="content" method="sitetree" allow="1"/>
+      <module name="content" method="tickets" allow="1"/>
+      <module name="content" method="publish" allow="1"/>
+      <module name="users" method="" allow="1"/>
+      <module name="users" method="settings" allow="1"/>
+      <module name="users" method="users_list" allow="1"/>
+      <module name="users" method="profile" allow="1"/>
+      <module name="backup" method="" allow="1"/>
+      <module name="backup" method="config" allow="1"/>
+      <module name="data" method="" allow="1"/>
+      <module name="data" method="guides" allow="1"/>
+      <module name="data" method="trash" allow="1"/>
+      <module name="data" method="types" allow="1"/>
+      <module name="catalog" method="" allow="1"/>
+      <module name="catalog" method="tree" allow="1"/>
+      <module name="catalog" method="publish" allow="1"/>
+      <module name="news" method="" allow="1"/>
+      <module name="news" method="lists" allow="1"/>
+      <module name="news" method="publish" allow="1"/>
+      <module name="vote" method="" allow="1"/>
+      <module name="vote" method="add_poll" allow="1"/>
+      <module name="vote" method="edit_poll" allow="1"/>
+      <module name="vote" method="del_poll" allow="1"/>
+      <module name="vote" method="publish" allow="1"/>
+      <module name="search" method="" allow="1"/>
+      <module name="search" method="index" allow="1"/>
+      <module name="forum" method="" allow="1"/>
+      <module name="forum" method="last_messages" allow="1"/>
+      <module name="banners" method="" allow="1"/>
+      <module name="banners" method="places_list" allow="1"/>
+      <module name="banners" method="place_edit" allow="1"/>
+      <module name="banners" method="place_edit_do" allow="1"/>
+      <module name="banners" method="place_add" allow="1"/>
+      <module name="banners" method="place_add_do" allow="1"/>
+      <module name="banners" method="place_del" allow="1"/>
+      <module name="banners" method="banners_list" allow="1"/>
+      <module name="banners" method="banner_edit" allow="1"/>
+      <module name="banners" method="banner_edit_do" allow="1"/>
+      <module name="banners" method="banner_add" allow="1"/>
+      <module name="banners" method="banner_add_do" allow="1"/>
+      <module name="banners" method="banner_del" allow="1"/>
+      <module name="dispatches" method="" allow="1"/>
+      <module name="dispatches" method="dispatches_list" allow="1"/>
+      <module name="dispatches" method="releasees_list" allow="1"/>
+      <module name="dispatches" method="messages_list" allow="1"/>
+      <module name="dispatches" method="subscribers_list" allow="1"/>
+      <module name="dispatches" method="lists" allow="1"/>
+      <module name="comments" method="" allow="1"/>
+      <module name="comments" method="view_comments" allow="1"/>
+      <module name="webforms" method="" allow="1"/>
+      <module name="webforms" method="addresses" allow="1"/>
+      <module name="stat" method="" allow="1"/>
+      <module name="stat" method="json_get_referer_pages" allow="1"/>
+      <module name="stat" method="total" allow="1"/>
+      <module name="autoupdate" method="" allow="1"/>
+      <module name="autoupdate" method="versions" allow="1"/>
+      <module name="faq" method="" allow="1"/>
+      <module name="faq" method="projects_list" allow="1"/>
+      <module name="faq" method="publish" allow="1"/>
+      <module name="photoalbum" method="" allow="1"/>
+      <module name="photoalbum" method="albums_list" allow="1"/>
+      <module name="photoalbum" method="publish" allow="1"/>
+      <module name="filemanager" method="" allow="1"/>
+      <module name="filemanager" method="directory_list" allow="1"/>
+      <module name="eshop" method="" allow="1"/>
+      <module name="eshop" method="orders_list" allow="1"/>
+      <module name="eshop" method="stores" allow="1"/>
+      <module name="eshop" method="discount_cards" allow="1"/>
+      <module name="eshop" method="personal" allow="1"/>
+      <module name="blogs" method="edit" allow="1"/>
+      <module name="blogs" method="" allow="1"/>
+      <module name="geoip" method="" allow="1"/>
+      <module name="geoip" method="info" allow="1"/>
+      <module name="seo" method="" allow="1"/>
+      <module name="seo" method="seo" allow="1"/>
+    </permission>
+    <permission object-id="2374">
+      <module name="users" method="settings" allow="1"/>
+      <module name="eshop" method="personal" allow="1"/>
+      <module name="blogs20" method="add" allow="1"/>
+    </permission>
+    <permission object-id="26315">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26341">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27226">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27227">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27228">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27923">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27924">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="14"/>
+    <permission object-id="27085">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27086">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27087">
+      <owner id="14"/>
+    </permission>
+  </permissions>
+  <hierarchy/>
+</umidump>

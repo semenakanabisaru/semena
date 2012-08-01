@@ -1,0 +1,61 @@
+[_COOKIE]
+	[customer-id]
+	(string) 29758
+
+	[PHPSESSID]
+	(string) blk7ji0002ng5u7325cfcv3105
+
+	[stat_id]
+	(string) 9m64p933vpnessv46bb42mqg40
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343510458
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /emarket/save_payment_stage/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[errors_1343510446]
+	(array) ['['Выберите способ оплаты', '', '']']
+
+	[errors_1343510452]
+	(array) ['['Выберите способ оплаты', '', '']']
+
+	[errors_1343510458]
+	(array) ['['Выберите способ оплаты', '', '']']
+
+
+[_GET]
+	[path]
+	(string) /emarket/save_payment_stage/
+
+
+[0.0001569]	Can't find error redirect string
+[0.0001760]	#0 /home/semena-kanabisa.ru/www/classes/modules/def_module.php(947): def_module-&gt;errorPanic()
+#1 /home/semena-kanabisa.ru/www/classes/modules/emarket/__custom.php(124): def_module-&gt;errorNewMessage('???????????????...')
+#2 /home/semena-kanabisa.ru/www/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_custom-&gt;save_payment_stage('save_payment_st...')
+#3 /home/semena-kanabisa.ru/www/classes/modules/def_module.php(63): eval()
+#4 [internal function]: def_module-&gt;__call('save_payment_st...', Array)
+#5 [internal function]: emarket-&gt;save_payment_stage('save_payment_st...')
+#6 /home/semena-kanabisa.ru/www/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#7 /home/semena-kanabisa.ru/www/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#8 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#9 /home/semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://emarket...')
+#10 /home/semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://emarket...')
+#11 /home/semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#12 /home/semena-kanabisa.ru/www/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#13 /home/semena-kanabisa.ru/www/index.php(7): require('/home/semena-ka...')
+#14 {main}

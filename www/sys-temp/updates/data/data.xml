@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432894</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:54 +0400</rfc>
+      <utc>2012-04-26T13:34:54+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/data" val="data"/>
+    <key path="modules/data/name" val="data"/>
+    <key path="modules/data/filename" val="modules/data/class.php"/>
+    <key path="modules/data/config" val="1" update="1"/>
+    <key path="modules/data/default_method" val="test" update="1"/>
+    <key path="modules/data/default_method_admin" val="types" update="1"/>
+    <key path="modules/data/func_perms" val=""/>
+    <key path="modules/data/func_perms/main" val="Просмотр объектов"/>
+    <key path="modules/data/func_perms/guides" val="Управление справочниками"/>
+    <key path="modules/data/func_perms/trash" val="Мусорная корзина"/>
+    <key path="modules/data/func_perms/types" val="Управление шаблонами данных"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/data" name="data">/classes/modules/data</directory>
+    <directory path="./styles/skins/mac/data/modules/data" name="data">/styles/skins/mac/data/modules/data</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/data/__search.php" size="13106" ext="php" hash="aec58f267a0d333c2c50109ab7320c87" name="__search.php">/classes/modules/data/__search.php</file>
+    <file path="./classes/modules/data/__files.php" size="15340" ext="php" hash="ebbb26eb4c7ff0330d89f3abb5a29118" name="__files.php">/classes/modules/data/__files.php</file>
+    
+    <file path="./classes/modules/data/class.php" size="29986" ext="php" hash="a50f9d31998b3d95d97e3f49b22821cf" name="class.php">/classes/modules/data/class.php</file>
+    <file path="./classes/modules/data/__rss.php" size="6358" ext="php" hash="64fa2f324527ad1a8e5e5e421f31a4f5" name="__rss.php">/classes/modules/data/__rss.php</file>
+    <file path="./classes/modules/data/install.php" size="4650" ext="php" hash="aa0240388bee88aba06c12008bc3c5a9" name="install.php">/classes/modules/data/install.php</file>
+    <file path="./classes/modules/data/__json.php" size="5447" ext="php" hash="f679bfa281f660b2541a65b3c0799980" name="__json.php">/classes/modules/data/__json.php</file>
+    <file path="./classes/modules/data/permissions.php" size="1638" ext="php" hash="5cdf3c432835c8286b98ce0b62fc6d5e" name="permissions.php">/classes/modules/data/permissions.php</file>
+    <file path="./classes/modules/data/__guides.php" size="7127" ext="php" hash="c3569dbd51143b5779de9e8d48e8cbe9" name="__guides.php">/classes/modules/data/__guides.php</file>
+    <file path="./classes/modules/data/__trash.php" size="2209" ext="php" hash="a686fd770df151cb780b4b4beeacd30e" name="__trash.php">/classes/modules/data/__trash.php</file>
+    
+    <file path="./classes/modules/data/lang.php" size="1839" ext="php" hash="99fb866721c2a3a3ed6ab83af618fd77" name="lang.php">/classes/modules/data/lang.php</file>
+    <file path="./classes/modules/data/update.php" size="2315" ext="php" hash="40ac5193174ce26f33a7745f5f605341" name="update.php">/classes/modules/data/update.php</file>
+    <file path="./classes/modules/data/__admin.php" size="9330" ext="php" hash="30a646b44bd92c8c23cfd3909a43081a" name="__admin.php">/classes/modules/data/__admin.php</file>
+    <file path="./classes/modules/data/__client_reflection.php" size="36054" ext="php" hash="a39856ffa940d837ea29220632e7dcfc" name="__client_reflection.php">/classes/modules/data/__client_reflection.php</file>
+    <file path="./styles/skins/mac/data/modules/data/list.modify.xsl" size="1891" ext="xsl" hash="f42bcf0e17a26db884ca6c8ffab8770f" name="list.modify.xsl">/styles/skins/mac/data/modules/data/list.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/data/list.view.xsl" size="8464" ext="xsl" hash="b2c769fc1f31a4d8ac3b956b34bc48d8" name="list.view.xsl">/styles/skins/mac/data/modules/data/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/data/form.modify.xsl" size="6532" ext="xsl" hash="d08672c6ec5c5f5ff2007e09451c568c" name="form.modify.xsl">/styles/skins/mac/data/modules/data/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

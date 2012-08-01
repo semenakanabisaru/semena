@@ -1,0 +1,82 @@
+[_SESSION]
+	[starttime]
+	(integer) 1337825176
+
+	[http_referer]
+	(string) http://www.google.ru/search?hl=ru&source=hp&q=cemena+konapli&btnG=%D0%9F%D0%BE%D0%B8%D1%81%D0%BA+%D0%B2+Google&gbv=2&oq=&aq=&aqi=&aql=&gs_l=
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.26 (Windows NT 5.1; U; ru)
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru,en;q=0.9,ru-RU;q=0.8
+
+	[Accept-Charset]
+	(string) iso-8859-1, utf-8, utf-16, *;q=0.1
+
+	[Accept-Encoding]
+	(string) deflate, gzip, x-gzip, identity, *;q=0
+
+	[Referer]
+	(string) http://www.google.ru/search?hl=ru&source=hp&q=cemena+konapli&btnG=%D0%9F%D0%BE%D0%B8%D1%81%D0%BA+%D0%B2+Google&gbv=2&oq=&aq=&aqi=&aql=&gs_l=
+
+	[Connection]
+	(string) Keep-Alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=93e0fohn5m82g6sne4oiv31gf4; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[15.4865861]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[16.0002861]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT cp.metho...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(195): l_mysql_query('SELECT cp.metho...')
+#2 /var/www/clients/client0/web1/web/libs/system.php(39): permissionsCollection-&gt;isAllowedMethod('298', 'emarket', 'cart')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(92): system_is_allowed('emarket', 'cart')
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#5 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#7 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#8 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#9 {main}

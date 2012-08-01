@@ -1,0 +1,135 @@
+<!ENTITY search-default-text "Поиск">
+
+<!ENTITY yes "Да">
+<!ENTITY no "Нет">
+<!ENTITY welcome "Добро пожаловать,">
+<!ENTITY errors "Ошибки">
+<!ENTITY enter-captcha "Введите код с картинки">
+<!ENTITY reset-captcha "перезагрузить код">
+
+<!ENTITY login "Логин">
+<!ENTITY password "Пароль">
+<!ENTITY log-in "Войти">
+<!ENTITY log-out "Выход">
+<!ENTITY office "Кабинет">
+<!ENTITY registration "Регистрация">
+<!ENTITY forget-password "Забыли пароль?">
+<!ENTITY forget-button "Выслать пароль">
+<!ENTITY forget-message "На e-mail адрес, указанный Вами при регистрации, был выслан пароль.">
+
+<!ENTITY password-confirm "Подтвердите пароль">
+<!ENTITY e-mail "E-mail">
+<!ENTITY registration-do "Зарегистрироваться">
+<!ENTITY registration-done "Регистрация прошла успешно.">
+<!ENTITY registration-activation-note "Через несколько минут на ваш почтовый ящик придет письмо со ссылкой на активацию аккаунта.">
+<!ENTITY account-activated "Аккаунт успешно активирован.">
+<!ENTITY activation-error "Невозможно восстановить пароль: неверный код активации.">
+<!ENTITY user-reauth "Вы ввели неверный логин или пароль. Проверьте раскладку клавиатуры, не нажата ли клавиша «Caps Lock» и попробуйте ввести логин и пароль ещё раз:">
+<!ENTITY save-changes "Сохранить изменения">
+
+<!ENTITY news-archive "Архив новостей">
+<!ENTITY news-back "Назад к списку новостей">
+<!ENTITY news-realted "Похожие новости">
+
+<!ENTITY comments "Комментарии">
+<!ENTITY no-comments "Без комментариев">
+<!ENTITY comment-body "Текст комментария">
+<!ENTITY comment-submit "Добавить комментарий">
+
+
+<!ENTITY compare-title "Сравнение товаров">
+<!ENTITY compare-submit "Сравнить">
+<!ENTITY compare-add "Добавить к сравнению">
+<!ENTITY compare-del "Удалить из сравнения">
+<!ENTITY basket-add "Добавить в корзину">
+<!ENTITY clear-basket "Очистить корзину">
+
+<!ENTITY item-description "Описание">
+<!ENTITY recommended-items "Похожие товары">
+
+<!ENTITY basket "Корзина">
+<!ENTITY basket-empty "В корзине нет ни одного товара">
+<!ENTITY basket-items-text "товаров на сумму ">
+
+<!ENTITY view-orders-list "Посмотреть список заказов">
+
+<!ENTITY previous-page "Предыдущая">
+<!ENTITY next-page "Следующая">
+
+<!ENTITY apply "Применить">
+<!ENTITY reset "Сбросить">
+
+<!ENTITY range-from "от">
+<!ENTITY range-to "до">
+
+<!ENTITY summary-price "Итого">
+<!ENTITY basket-item "Наименование">
+<!ENTITY price "Цена">
+<!ENTITY price-actual "Цена с учетом скидки">
+<!ENTITY amount "Кол-во">
+<!ENTITY sum "Сумма">
+<!ENTITY sum-actual "Итого">
+<!ENTITY item-discount "Скидка на товар">
+<!ENTITY order-discount "Скидка на заказ">
+<!ENTITY discounted-sum "Итого с учетом скидок на товары">
+<!ENTITY delivery "Доставка">
+
+<!ENTITY delete "Удалить">
+<!ENTITY begin-purchase "Оформить">
+<!ENTITY continue "Продолжить">
+<!ENTITY choose-delivery-address "Выберите адрес доставки">
+<!ENTITY new-delivery-address "Новый адрес доставки">
+<!ENTITY self-delivery  "Самовывоз">
+<!ENTITY delivery-agent "Способ доставки">
+<!ENTITY choose-legal_person "Выберите юридическое лицо">
+<!ENTITY new-legal-person "Новое юридическое лицо">
+
+<!ENTITY empty-section-name "Название раздела">
+
+<!ENTITY empty-page-name "Название страницы">
+<!ENTITY empty-page-date "Дата создания">
+<!ENTITY empty-page-anons "Анонс новости">
+<!ENTITY empty-page-content "Содержание страницы">
+<!ENTITY empty "Пусто">
+
+<!ENTITY search-founded-left "По вашему запросу">
+<!ENTITY search-founded-right "найдено страниц">
+<!ENTITY search-founded-nothing "ничего не найдено">
+
+<!ENTITY empty-category "Товары отсутствуют">
+
+<!ENTITY order-number "№ Заказа">
+<!ENTITY order-status "Статус">
+<!ENTITY order-method "Способ оплаты">
+<!ENTITY order-sum "Сумма">
+<!ENTITY number "№">
+<!ENTITY date-from "от">
+<!ENTITY date-from-1 "с">
+
+<!ENTITY payment-type "Способы оплаты" >
+<!ENTITY payment-redirect-text "Нажмите кнопку 'Оплатить' для перехода на сайт платежной системы" >
+
+<!ENTITY copyright "Copyright 2010. Все права защищены.">
+
+<!ENTITY property-recommended "recommended_items">
+<!ENTITY property-description "description">
+<!ENTITY group-parameter "item_properties">
+<!ENTITY default-date-format "d.m.Y">
+<!ENTITY amount-prefix "шт">
+<!ENTITY specials-limit "9">
+<!ENTITY empty-photo "/images/design/nofoto.jpg">
+
+<!ENTITY emarket-order-failed "Не удалось совершить покупку">
+<!ENTITY emarket-order-successful "Заказ успешно добавлен.">
+
+<!ENTITY newsletters "Рассылки">
+<!ENTITY subscribe "Подписаться">
+
+<!ENTITY vote "Опрос">
+<!ENTITY reply "Ответить">
+<!ENTITY total-votes "Всего голосов">
+<!ENTITY poll-no-results "Результаты голосования отсутствуют">
+
+<!ENTITY max-file-size "Максимальный размер загружаемого файла">
+
+<!ENTITY user-not-permitted "Ваших прав недостаточно для просмотра данной страницы">

@@ -1,0 +1,81 @@
+[_COOKIE]
+	[stat_id]
+	(string) 8dqdu0u471j79bppif1cc00nb0
+
+	[customer-id]
+	(string) 28500
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343186680
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /?from=olk
+
+
+[_GET]
+	[path]
+	(string) 
+
+	[from]
+	(string) olk
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.16 (KHTML, like Gecko) Chrome/10.0.648.127 Safari/534.16
+
+	[Accept]
+	(string) application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) stat_id=8dqdu0u471j79bppif1cc00nb0; customer-id=28500
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=svq58dc3n5o5runmppgqs0uko5; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.2331290]	Default domain could not be found
+[0.8665512]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#6 {main}

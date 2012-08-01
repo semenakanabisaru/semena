@@ -1,0 +1,43 @@
+#u-quickpanel , #u-quickpanel-meta {
+	background-color: #2a2f37;
+	color: white;
+}
+#u-quickpanel div#butterfly,
+#u-quickpanel div#save_edit,
+#u-quickpanel div#edit,
+#u-quickpanel div#edit_menu,
+#u-quickpanel div#last_doc,
+#u-quickpanel div#changelog_dd,
+#u-quickpanel div#meta,
+#u-quickpanel div#note,
+#u-quickpanel div#seo{
+	border-right-color: black;
+	border-left-color: gray;
+}
+#u-quickpanel div#edit div,
+#u-quickpanel div#last_doc div,
+#u-quickpanel div#edit_menu div,
+#u-quickpanel div#changelog_dd div,
+#u-quickpanel div#butterfly div.bg {
+	background-color: #2a2f37;
+	border: 1px solid black;
+	color: white;
+}
+#u-quickpanel div#butterfly div.bg div.separate {
+	border-top-color: black !important;
+	border-bottom-color: gray !important;
+}
+#u-quickpanel div#butterfly div ul#u-mods-cont-left,
+#u-quickpanel div#butterfly div ul#u-mods-utils {
+	border-right-color: gray;
+}
+#u-quickpanel div#butterfly div ul#u-mods-cont-left li,
+#u-quickpanel div#butterfly div ul#u-mods-utils li {
+	border-right-color: black;
+}
+#u-quickpanel a {
+	color: white;
+}
+#u-quickpanel a:hover {
+	background-color: #7a879b;
+}

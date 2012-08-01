@@ -1,0 +1,85 @@
+[_COOKIE]
+	[stat_id]
+	(string) fonmebnl00ldpkkd0nir8evtf4
+
+	[customer-id]
+	(string) 28383
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343186025
+
+	[http_referer]
+	(string) http://dzagiseeds.ru/
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://dzagiseeds.ru/
+
+	[Cookie]
+	(string) stat_id=fonmebnl00ldpkkd0nir8evtf4; customer-id=28383
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=t520ubkjlann51fdvd77bqa857; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[1.3139482]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[1.4621952]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT COUNT(cp...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(314): l_mysql_query('SELECT COUNT(cp...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(164): permissionsCollection-&gt;isAdmin('298')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(37): permissionsCollection-&gt;isAllowedMethod('298', 'content', 'sitetree')
+#4 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): permissionsCollection-&gt;__construct()
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(53): singleton::getInstance('permissionsColl...')
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(456): permissionsCollection::getInstance()
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#8 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#9 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#10 {main}

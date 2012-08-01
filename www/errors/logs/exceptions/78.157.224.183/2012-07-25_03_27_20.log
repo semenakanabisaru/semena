@@ -1,0 +1,87 @@
+[_COOKIE]
+	[stat_id]
+	(string) ge5fcn9foor6pol0mk2k28g1u5
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343169207
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /shipping/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) shipping/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko/20100101 Firefox/11.0
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Cookie]
+	(string) stat_id=ge5fcn9foor6pol0mk2k28g1u5
+
+	[Cache-Control]
+	(string) max-age=259200
+
+	[Connection]
+	(string) keep-alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=b99g9ku9o18a4cjem39ahn1cg0; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[20.8060360]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[21.7972960]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT cp.metho...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(195): l_mysql_query('SELECT cp.metho...')
+#2 /var/www/clients/client0/web1/web/libs/system.php(39): permissionsCollection-&gt;isAllowedMethod('298', 'emarket', 'cart')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(92): system_is_allowed('emarket', 'cart')
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#5 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#7 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#8 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#9 {main}

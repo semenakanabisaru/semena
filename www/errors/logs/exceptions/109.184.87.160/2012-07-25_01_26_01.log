@@ -1,0 +1,85 @@
+[_COOKIE]
+	[stat_id]
+	(string) cqvlt6qnbhqkrhebv0vlui8kk0
+
+	[user_captcha]
+	(string) 1322
+
+	[customer-id]
+	(string) 28626
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343164456
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /producers/kannabia/flash_auto/
+
+
+[_GET]
+	[path]
+	(string) producers/kannabia/flash_auto/
+
+
+[Request headers]
+	[Accept]
+	(string) text/html, application/xhtml+xml, */*
+
+	[Accept-Language]
+	(string) ru-RU
+
+	[User-Agent]
+	(string) Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) Keep-Alive
+
+	[Cookie]
+	(string) stat_id=cqvlt6qnbhqkrhebv0vlui8kk0; user_captcha=1322; customer-id=28626
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=dh5r4er5t35isqlnq8q3skoqm5; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[1.2302952]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[1.5286090]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT `id` FRO...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectsCollection.php(114): l_mysql_query('SELECT `id` FRO...')
+#2 /var/www/clients/client0/web1/web/classes/modules/users/class.php(11): umiObjectsCollection-&gt;getObjectIdByGUID('users-users-15')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(66): users-&gt;__construct()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(92): cmsController-&gt;loadModule('users')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(32): cmsController-&gt;getModule('users')
+#6 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): permissionsCollection-&gt;__construct()
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(53): singleton::getInstance('permissionsColl...')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(1280): permissionsCollection::getInstance()
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(107): umiHierarchy-&gt;isAllowed('500')
+#10 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1113): umiHierarchy-&gt;getElement('500')
+#11 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#12 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#13 {main}

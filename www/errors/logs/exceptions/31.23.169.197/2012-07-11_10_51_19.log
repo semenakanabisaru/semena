@@ -1,0 +1,137 @@
+[_COOKIE]
+	[PHPSESSID]
+	(string) tg0g7dsm1iincss2ltpj3lido1
+
+	[stat_id]
+	(string) tg0g7dsm1iincss2ltpj3lido1
+
+	[acstate_active]
+	(string) 0
+
+	[acstate_opened]
+	(string) 0|1|1
+
+	[ftypes]
+	(string) mix
+
+	[umi_captcha]
+	(string) 65fc9fb4897a89789352e211ca2d398f
+
+	[user_captcha]
+	(string) 2711
+
+	[customer-id]
+	(string) 24606
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1341989479
+
+	[http_target]
+	(string) /cart_content/
+
+	[user_id]
+	(integer) 24569
+
+	[is_admin]
+	(array) ['', '']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'tg0g7dsm1iincss2ltpj3lido1', '38945', '1', '66309', '1', '427', '427']
+
+	[4bf3d7aa7070e3e3ba0a1ea660ef814b]
+	(array) ['['content', 'content', '268']']
+
+	[cms_login]
+	(string) lihochev@yandex.ru
+
+	[cms_pass]
+	(string) 1999cc2c25a06f8a76ee311e5c59f207
+
+
+[_GET]
+	[path]
+	(string) emarket/purchase/payment/courier/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[Cache-Control]
+	(string) max-age=0
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.47 Safari/536.11
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/users/auth/
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) PHPSESSID=tg0g7dsm1iincss2ltpj3lido1; stat_id=tg0g7dsm1iincss2ltpj3lido1; acstate_active=0; acstate_opened=0%7C1%7C1; ftypes=mix; umi_captcha=65fc9fb4897a89789352e211ca2d398f; user_captcha=2711; customer-id=24606; _ym_visorc=w
+
+	[DNT]
+	(string) 1
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Set-Cookie]
+	(string) customer-id=0; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0003161]	Unkown payment step &quot;courier&quot;
+[0.0014942]	#0 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_payment-&gt;payment(Object(order), 'courier', NULL, 'default')
+#1 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#2 /var/www/clients/client0/web1/web/classes/modules/emarket/__purchasing.php(484): def_module-&gt;__call('payment', Array)
+#3 /var/www/clients/client0/web1/web/classes/modules/emarket/__purchasing.php(484): emarket-&gt;payment(Object(order), 'courier', NULL, 'default')
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_purchasing-&gt;purchase()
+#5 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#6 [internal function]: def_module-&gt;__call('purchase', Array)
+#7 [internal function]: emarket-&gt;purchase()
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#10 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#12 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#13 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#14 {main}

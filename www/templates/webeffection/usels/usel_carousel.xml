@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selection>
+	<target expected-result="pages">
+		<type id='116' />
+	</target>
+	<property name="{property}" value="1" />
+</selection>

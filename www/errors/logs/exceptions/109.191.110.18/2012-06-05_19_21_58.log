@@ -1,0 +1,151 @@
+[_COOKIE]
+	[stat_id]
+	(string) 7cumpvf40ea2fuijecseh0hra3
+
+	[user_captcha]
+	(string) 3655
+
+	[PHPSESSID]
+	(string) lgjcuu8esk7lepc32p5nbvdgo2
+
+	[umi_captcha]
+	(string) 9d2682367c3935defcb1f9e247a97c0d
+
+	[acstate_active]
+	(string) 0
+
+	[acstate_opened]
+	(string) 1
+
+	[ftypes]
+	(string) sissified
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1338909718
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /?from=olk
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', '7cumpvf40ea2fuijecseh0hra3', '23985', '39409', '9', '1', '4964', '4964']
+
+	[e64a1f249ec43dff6844c5fc46db13ae]
+	(array) ['['content', 'content', '1']']
+
+	[aea7c2dc99358decc212a738bb72fc80]
+	(array) ['['content', 'content', '6']']
+
+	[umi_captcha]
+	(string) 9d2682367c3935defcb1f9e247a97c0d
+
+	[umi_captcha_plain]
+	(string) 1654
+
+	[e76fcad4b37585e78574f7b026a2a13d]
+	(array) ['['content', 'content', '1']']
+
+	[12d06376b571b7a39780c1e9dba6d87e]
+	(array) ['['content', 'content', '4']']
+
+	[f7184cb594eda4675ecaa6d0cfae1eec]
+	(array) ['['content', 'content', '3']']
+
+	[ea936dae8e57d209ac91a3af4dea9dbf]
+	(array) ['['catalog', 'object', '342']', '['catalog', 'object', '316']', '['catalog', 'object', '255']', '['catalog', 'object', '227']', '['catalog', 'object', '225']', '['catalog', 'object', '335']', '['catalog', 'object', '224']', '['catalog', 'object', '331']', '['catalog', 'object', '333']', '['catalog', 'object', '215']', '['catalog', 'object', '223']', '['catalog', 'object', '226']', '['catalog', 'object', '219']', '['catalog', 'object', '216']', '['catalog', 'object', '185']', '['catalog', 'object', '192']', '['catalog', 'object', '282']', '['catalog', 'object', '326']', '['catalog', 'object', '277']', '['catalog', 'object', '274']', '['catalog', 'object', '65']', '['catalog', 'object', '61']', '['catalog', 'object', '59']', '['catalog', 'object', '56']', '['catalog', 'object', '48']', '['catalog', 'object', '60']', '['catalog', 'object', '47']', '['catalog', 'object', '57']', '['catalog', 'object', '64']', '['catalog', 'object', '46']', '['catalog', 'object', '43']', '['catalog', 'object', '71']', '['catalog', 'object', '53']', '['catalog', 'object', '324']', '['catalog', 'object', '55']', '['catalog', 'object', '62']', '['catalog', 'object', '58']', '['catalog', 'object', '63']', '['catalog', 'object', '387']', '['catalog', 'object', '388']', '['catalog', 'object', '344']', '['catalog', 'object', '345']', '['catalog', 'object', '346']', '['catalog', 'object', '389']', '['catalog', 'object', '190']', '['catalog', 'object', '195']', '['catalog', 'object', '187']', '['catalog', 'object', '393']', '['catalog', 'object', '399']', '['catalog', 'object', '398']', '['catalog', 'object', '299']', '['catalog', 'object', '191']', '['catalog', 'object', '193']', '['catalog', 'object', '301']', '['catalog', 'object', '303']', '['catalog', 'object', '170']', '['catalog', 'object', '78']', '['catalog', 'object', '51']', '['catalog', 'object', '357']', '['catalog', 'object', '358']', '['catalog', 'object', '364']', '['catalog', 'object', '360']', '['catalog', 'object', '362']', '['catalog', 'object', '321']', '['catalog', 'object', '212']', '['catalog', 'object', '281']', '['catalog', 'object', '414']', '['catalog', 'object', '416']', '['catalog', 'object', '356']', '['catalog', 'object', '309']', '['catalog', 'object', '319']', '['catalog', 'object', '412']', '['catalog', 'object', '413']', '['catalog', 'object', '283']', '['catalog', 'object', '168']', '['catalog', 'object', '352']', '['catalog', 'object', '194']', '['catalog', 'object', '340']', '['catalog', 'object', '329']', '['catalog', 'object', '54']', '['catalog', 'object', '45']', '['catalog', 'object', '52']', '['catalog', 'object', '50']', '['catalog', 'object', '67']']
+
+	[6fe5e7809885ca45b94fb0347eae05a4]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '281']', '['catalog', 'object', '225']', '['catalog', 'object', '316']', '['catalog', 'object', '227']', '['catalog', 'object', '190']', '['catalog', 'object', '299']']
+
+	[a9873fe459041b7e1311fb7b0352cc46]
+	(array) ['['catalog', 'object', '281']', '['catalog', 'object', '285']', '['catalog', 'object', '284']', '['catalog', 'object', '422']']
+
+	[errors_1338909188]
+	(array) ['['Пользователя с таким email адресом не существует.', '', '']']
+
+
+[_GET]
+	[path]
+	(string) users/restore/98151ef5ec951c8b9f87d7af27e9951d/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) stat_id=7cumpvf40ea2fuijecseh0hra3; user_captcha=3655; PHPSESSID=lgjcuu8esk7lepc32p5nbvdgo2; umi_captcha=9d2682367c3935defcb1f9e247a97c0d; acstate_active=0; acstate_opened=1; ftypes=sissified; _ym_visorc=w
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0005181]	Not found template &quot;/forget/98151ef5ec951c8b9f87d7af27e9951d&quot;.
+[0.0005369]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(15): umiTemplaterXSLT-&gt;prepareXSL('/forget/98151ef...')
+#1 /var/www/clients/client0/web1/web/classes/modules/def_module.php(515): umiTemplaterXSLT-&gt;parse(Array)
+#2 /var/www/clients/client0/web1/web/classes/modules/users/__forget.php(166): def_module::parseTemplateForMail('file://users/fo...', Array, false, 15442)
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __forget_users-&gt;restore('98151ef5ec951c8...')
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#5 /var/www/clients/client0/web1/web/classes/modules/users/class.php(25): def_module-&gt;__call('restore', Array)
+#6 [internal function]: users-&gt;__call('restore', Array)
+#7 [internal function]: users-&gt;restore('98151ef5ec951c8...')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#10 [internal function]: udataStream-&gt;stream_open('udata://users/r...', 'rb', 4, NULL)
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://users/r...')
+#12 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://users/r...')
+#13 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#14 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#15 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#16 {main}

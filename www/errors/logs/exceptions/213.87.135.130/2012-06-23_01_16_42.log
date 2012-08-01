@@ -1,0 +1,92 @@
+[_COOKIE]
+	[stat_id]
+	(string) ontpa97ecufa6pnq6s3if08ps3
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1340399802
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /emarket/save_payment_stage/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[errors_1340399802]
+	(array) ['['Выберите способ оплаты', '', '']']
+
+
+[_GET]
+	[path]
+	(string) emarket/save_payment_stage/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_1 like Mac OS X; ru-ru) AppleWebKit/532.9 (KHTML, like Gecko) Version/4.0.5 Mobile/8B117 Safari/6531.22.7
+
+	[Accept]
+	(string) application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+
+	[Accept-Language]
+	(string) ru
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Cookie]
+	(string) stat_id=ontpa97ecufa6pnq6s3if08ps3
+
+	[Connection]
+	(string) keep-alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) customer-id=19956; expires=Mon, 23-Jul-2012 21:16:42 GMT; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0002480]	Can't find error redirect string
+[0.0003140]	#0 /var/www/clients/client0/web1/web/classes/modules/def_module.php(947): def_module-&gt;errorPanic()
+#1 /var/www/clients/client0/web1/web/classes/modules/emarket/__custom.php(124): def_module-&gt;errorNewMessage('???????????????...')
+#2 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_custom-&gt;save_payment_stage()
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#4 [internal function]: def_module-&gt;__call('save_payment_st...', Array)
+#5 [internal function]: emarket-&gt;save_payment_stage()
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#8 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://emarket...')
+#10 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://emarket...')
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#12 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#13 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#14 {main}

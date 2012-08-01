@@ -1,0 +1,177 @@
+[_COOKIE]
+	[ftgk]
+	(string) 15|20
+
+	[eip-panel-state]
+	(string) 
+
+	[eip-panel-state-first]
+	(string) Y
+
+	[stat_id]
+	(string) v9mcihi8f8mcurtdmamgq53685
+
+	[ftypes]
+	(string) sissified
+
+	[fcats]
+	(string) inside
+
+	[PHPSESSID]
+	(string) v9mcihi8f8mcurtdmamgq53685
+
+	[acstate_active]
+	(string) 0
+
+	[acstate_opened]
+	(string) 0|1|2|3|4
+
+	[_ym_visorc]
+	(string) w
+
+	[umicms_session]
+	(string) 0efacf4822144bbd8a930953c1d31e2f
+
+	[ilang]
+	(string) ru
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1341443129
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(integer) 9183
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 1
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'v9mcihi8f8mcurtdmamgq53685', '31618', '1', '61684', '3', '1', '1']
+
+	[e76fcad4b37585e78574f7b026a2a13d]
+	(array) ['['content', 'content', '1']']
+
+	[3e2d734f658b5121d99d86c1b4c0fa39]
+	(array) ['['catalog', 'object', '65']', '['catalog', 'object', '136']', '['catalog', 'object', '430']']
+
+	[cms_login]
+	(string) semyanich
+
+	[cms_pass]
+	(string) e85bbf00a9c9c82857c48c8ac5c397b0
+
+	[user_is_sv]
+	(boolean) 1
+
+	[paging]
+	(array) ['['['['['', '']']']']']
+
+
+[_GET]
+	[xmlMode]
+	(string) force
+
+	[path]
+	(string) admin/catalog/tree
+
+	[id]
+	(array) ['0']
+
+	[rel]
+	(array) ['23']
+
+	[domain_id]
+	(array) ['1']
+
+	[lang_id]
+	(array) ['1']
+
+	[permissions]
+	(string) 
+
+	[virtuals]
+	(string) 
+
+	[viewMode]
+	(string) full
+
+	[childs]
+	(string) 
+
+	[links]
+	(string) 
+
+	[templates]
+	(string) 
+
+	[r]
+	(string) 0.4251414742320776
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.47 Safari/536.11
+
+	[Accept]
+	(string) */*
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/admin/catalog/tree/
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) ftgk=15%7C20; eip-panel-state=; eip-panel-state-first=Y; stat_id=v9mcihi8f8mcurtdmamgq53685; ftypes=sissified; fcats=inside; PHPSESSID=v9mcihi8f8mcurtdmamgq53685; acstate_active=0; acstate_opened=0%7C1%7C2%7C3%7C4; _ym_visorc=w; umicms_session=0efacf4822144bbd8a930953c1d31e2f; ilang=ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0003760]	Default domain could not be found
+[0.0004010]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#6 {main}

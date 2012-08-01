@@ -1,0 +1,137 @@
+<!ENTITY search-default-text "Search">
+
+<!ENTITY yes "Yes">
+<!ENTITY no "No">
+<!ENTITY welcome "Welcome,">
+<!ENTITY errors "Errors">
+<!ENTITY enter-captcha "Enter the code">
+<!ENTITY reset-captcha "Reload the code">
+
+<!ENTITY login "Login">
+<!ENTITY password "Password">
+<!ENTITY log-in "Login">
+<!ENTITY log-out "Logout">
+<!ENTITY office "Profile">
+<!ENTITY registration "Registration">
+<!ENTITY forget-password "Forgot your password?">
+<!ENTITY forget-button "Resend password">
+<!ENTITY forget-message "Your password was sent to your e-mail.">
+<!ENTITY on-fast-edit "On Edit">
+<!ENTITY to-admin "To admin">
+
+<!ENTITY password-confirm "Repeat the password">
+<!ENTITY e-mail "E-mail">
+<!ENTITY registration-do "Register now">
+<!ENTITY registration-done "Registration successful.">
+<!ENTITY registration-activation-note "Please check your inbox and follow the link to activate your account.">
+<!ENTITY account-activated "Activation successful.">
+<!ENTITY activation-error "Incorrect activation code">
+<!ENTITY user-reauth "Incorrect login or password, please check and repeat.">
+<!ENTITY save-changes "Save changes">
+
+<!ENTITY news-archive "News archive">
+<!ENTITY news-back "Back to news archive">
+<!ENTITY news-realted "Related news">
+
+<!ENTITY comments "Comments">
+<!ENTITY no-comments "Not commented yet">
+<!ENTITY comment-body "Your comment">
+<!ENTITY comment-submit "Add comment">
+
+
+<!ENTITY compare-title "Goods compare">
+<!ENTITY compare-submit "Compare now">
+<!ENTITY compare-add "Add to compare">
+<!ENTITY compare-del "Remove from compare">
+<!ENTITY basket-add "Add to cart">
+<!ENTITY clear-basket "Clear cart">
+
+<!ENTITY item-description "Description">
+<!ENTITY recommended-items "Recommended items">
+
+<!ENTITY basket "Cart">
+<!ENTITY basket-empty "Your cart is empty">
+<!ENTITY basket-items-text "items for">
+
+<!ENTITY view-orders-list "Go to the orders list">
+
+<!ENTITY previous-page "Previous">
+<!ENTITY next-page "Next">
+
+<!ENTITY apply "Apply">
+<!ENTITY reset "Cancel">
+
+<!ENTITY range-from "from">
+<!ENTITY range-to "to">
+
+<!ENTITY summary-price "Summ">
+<!ENTITY basket-item "Title">
+<!ENTITY price "Price">
+<!ENTITY amount "Count">
+<!ENTITY sum "Summ">
+
+<!ENTITY item-discount "Item discount">
+<!ENTITY order-discount "Order discount">
+<!ENTITY discounted-sum "Discounted sum">
+<!ENTITY delivery "Delivery">
+
+<!ENTITY delete "Remove">
+<!ENTITY begin-purchase "Checkout">
+<!ENTITY continue "Continue">
+<!ENTITY choose-delivery-address "Choose your delivery address">
+<!ENTITY choose-self-delivery "or self-delivery">
+<!ENTITY or-new-delivery-address "or enter new delivery address">
+<!ENTITY new-delivery-address "New delivery address">
+<!ENTITY self-delivery  "Pickup">
+<!ENTITY delivery-agent "Delivery method">
+<!ENTITY choose-legal_person "Select legal person">
+<!ENTITY new-legal-person "New legal person">
+
+<!ENTITY empty-section-name "Section name">
+
+<!ENTITY empty-page-name "Page title">
+<!ENTITY empty-page-date "Date">
+<!ENTITY empty-page-anons "Announce">
+<!ENTITY empty-page-content "Content">
+<!ENTITY empty "Empty">
+
+<!ENTITY search-founded-left "By your request">
+<!ENTITY search-founded-right "found">
+<!ENTITY search-founded-nothing "nothing found">
+
+<!ENTITY empty-category "This category is empty">
+
+<!ENTITY order-number "Order number">
+<!ENTITY order-status "Order status">
+<!ENTITY order-method "Payment method">
+<!ENTITY order-sum "Order summ">
+<!ENTITY number "N">
+<!ENTITY date-from "from">
+<!ENTITY date-from-1 "from">
+
+<!ENTITY payment-type "Payment methods" >
+<!ENTITY payment-redirect-text "Click the Pay button to checkout" >
+
+<!ENTITY copyright "Copyright 2010. All rights reserved.">
+
+<!ENTITY property-recommended "recommended_items">
+<!ENTITY property-description "description">
+<!ENTITY group-parameter "item_properties">
+<!ENTITY default-date-format "d.m.Y">
+<!ENTITY amount-prefix "items">
+<!ENTITY specials-limit "9">
+<!ENTITY empty-photo "/images/design/nofoto.jpg">
+
+<!ENTITY emarket-order-failed "Order was failed">
+<!ENTITY emarket-order-successful "Order successfully saved.">
+
+<!ENTITY newsletters "Newsletters">
+<!ENTITY subscribe "Subscribe">
+
+<!ENTITY vote "Vote">
+<!ENTITY reply "Reply">
+<!ENTITY total-votes "Total votes">
+<!ENTITY poll-no-results "Poll no results">
+
+<!ENTITY max-file-size "Maximum upload file size">
+<!ENTITY user-not-permitted "You are not permitted to view this content">

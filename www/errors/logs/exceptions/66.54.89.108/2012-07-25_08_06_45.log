@@ -1,0 +1,100 @@
+[_SESSION]
+	[starttime]
+	(integer) 1343185774
+
+	[http_referer]
+	(string) http://www.google.ru/search?hl=ru&newwindow=1&sky=ee&q=%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0+%D0%BA%D0%BE%D0%BD%D0%BE%D0%BF%D0%BB%D0%B8&btnG=%D0%9F%D0%BE%D0%B8%D1%81%D0%BA
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Series40; NokiaC2-01/11.20; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/2.0.2.68.14
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-RU
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Accept-Charset]
+	(string) ISO-8859-1,utf-8;q=0.7,*;q=0.7
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://www.google.ru/search?hl=ru&newwindow=1&sky=ee&q=%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0+%D0%BA%D0%BE%D0%BD%D0%BE%D0%BF%D0%BB%D0%B8&btnG=%D0%9F%D0%BE%D0%B8%D1%81%D0%BA
+
+	[x-Mobile-Gateway]
+	(string) Novarra-Vision/8.1 (Default)
+
+	[X-Forwarded-For]
+	(string) 83.188.22.225
+
+	[X-WAP-PROFILE]
+	(string) "http://nds1.nds.nokia.com/uaprof/NC2-01r100.xml"
+
+	[X-Nokia-Device-Type]
+	(string) 0
+
+	[Via]
+	(string) 1.1 Novarra (Vision/8.1)
+
+	[X-Country-Code]
+	(string) 179
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=v4jns6cgrbo1ph04ou9dfk8u92; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[2.3754601]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[47.4931781]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT BIT_OR(c...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(245): l_mysql_query('SELECT BIT_OR(c...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(1281): permissionsCollection-&gt;isAllowedObject('298', 2)
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(107): umiHierarchy-&gt;isAllowed(2)
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/upage/upageStream.php(12): umiHierarchy-&gt;getElement(2)
+#5 [internal function]: upageStream-&gt;stream_open('upage://2', 'rb', 4, NULL)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#7 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#8 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#9 {main}

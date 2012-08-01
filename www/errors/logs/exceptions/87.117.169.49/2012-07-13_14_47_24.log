@@ -1,0 +1,125 @@
+[_COOKIE]
+	[stat_id]
+	(string) tmrmqre9oie9nusubbqhn5akc7
+
+	[PHPSESSID]
+	(string) 5kd74vceiq2mh8jask3f17s7b5
+
+	[ilang]
+	(string) ru
+
+	[umicms_session]
+	(string) 8303f0a0bc36d0cee1881b705f2be7ee
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1342176444
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /admin/
+
+	[user_id]
+	(integer) 10
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 1
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[cms_login]
+	(string) admin
+
+	[cms_pass]
+	(string) bbe8180d60290154644a9b19677bdad1
+
+	[user_is_sv]
+	(boolean) 1
+
+
+[_POST]
+	[orders]
+	(array) ['25010', '25001', '24996', '24992', '23293', '24980', '24972', '24968', '24960', '24952', '24926', '24898']
+
+
+[_GET]
+	[path]
+	(string) admin/stickers/generate_delivery_plan/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 5.1; rv:13.0) Gecko/20100101 Firefox/13.0.1
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/admin/stickers/index/
+
+	[Cookie]
+	(string) stat_id=tmrmqre9oie9nusubbqhn5akc7; PHPSESSID=5kd74vceiq2mh8jask3f17s7b5; ilang=ru; umicms_session=8303f0a0bc36d0cee1881b705f2be7ee
+
+	[Content-Type]
+	(string) application/x-www-form-urlencoded
+
+	[Content-Length]
+	(string) 227
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Set-Cookie]
+	(string) ilang=ru; expires=Mon, 13-Aug-2012 10:47:24 GMT; path=/
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0002272]	Could not open /var/www/semena-kanabisa.ru/web/files/orders_template.xls for reading! File does not exist.
+[0.0002601]	#0 /var/www/clients/client0/web1/web/classes/foreign_libs/PHPExcel/IOFactory.php(262): PHPExcel_Reader_Excel5-&gt;canRead('/var/www/semena...')
+#1 /var/www/clients/client0/web1/web/classes/foreign_libs/PHPExcel/IOFactory.php(196): PHPExcel_IOFactory::createReaderForFile('/var/www/semena...')
+#2 /var/www/clients/client0/web1/web/classes/modules/stickers/__admin.php(47): PHPExcel_IOFactory::load('/var/www/semena...')
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __stickers_adm-&gt;draw_delivery_plan(Array)
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#5 /var/www/clients/client0/web1/web/classes/modules/stickers/__admin.php(38): def_module-&gt;__call('draw_delivery_p...', Array)
+#6 /var/www/clients/client0/web1/web/classes/modules/stickers/__admin.php(38): stickers-&gt;draw_delivery_plan(Array)
+#7 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __stickers_adm-&gt;generate_delivery_plan()
+#8 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#9 /var/www/clients/client0/web1/web/classes/modules/def_module.php(129): def_module-&gt;__call('generate_delive...', Array)
+#10 /var/www/clients/client0/web1/web/classes/modules/def_module.php(129): stickers-&gt;generate_delivery_plan()
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(392): def_module-&gt;cms_callMethod('generate_delive...', NULL)
+#12 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(309): cmsController-&gt;prepareAdminSideGlobalVariables()
+#13 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#14 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#15 {main}

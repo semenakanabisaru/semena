@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filepack>
+	<pack path="compiled.js" type="js">
+		<file path="pageEditor.js" delete="false" />
+		<file path="editBox.js" delete="false" />
+		<file path="revisionsQueue.js" delete="false" />
+		<file path="revision.js" delete="false" />
+		<file path="inlineWYSIWYG.js" delete="false" />
+		<file path="selection.js" delete="false" />
+		<file path="editor-std-styles.js" delete="false" />
+		<file path="editor-std-buttons.js" delete="false" />
+		<file path="rgbcolor.js" delete="false" />
+		<file path="../panel/panel.js" delete="false" />
+		<file path="../panel/tickets.js" delete="false" />
+		<file path="../../../styles/common/js/relation.control.js" delete="false" />
+	</pack>
+</filepack>

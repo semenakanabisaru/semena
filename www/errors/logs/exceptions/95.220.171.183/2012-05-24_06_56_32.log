@@ -1,0 +1,77 @@
+[_SESSION]
+	[starttime]
+	(integer) 1337824959
+
+	[http_referer]
+	(string) http://yandex.ru/yandsearch?text=%f1%e5%ec%ff%ed%fb%f7
+
+	[http_target]
+	(string) /contacts/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) contacts/
+
+
+[Request headers]
+	[Accept]
+	(string) */*
+
+	[Referer]
+	(string) http://yandex.ru/yandsearch?text=%f1%e5%ec%ff%ed%fb%f7
+
+	[User-Agent]
+	(string) Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1)
+
+	[Accept-Language]
+	(string) en-us
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Pragma]
+	(string) no-cache
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=gl6h4hqdubf8q9a3ntbbbrdic7; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[19.1283951]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[19.2531381]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT name, pa...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectType.php(280): l_mysql_query('SELECT name, pa...')
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/umiEntinty.php(19): umiObjectType-&gt;loadInfo(false)
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectTypesCollection.php(259): umiEntinty-&gt;__construct('116')
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectTypesCollection.php(40): umiObjectTypesCollection-&gt;loadType('116')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/utype/utypeStream.php(20): umiObjectTypesCollection-&gt;getType('116')
+#6 [internal function]: utypeStream-&gt;stream_open('utype://116/', 'rb', 4, NULL)
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#8 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#9 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#10 {main}

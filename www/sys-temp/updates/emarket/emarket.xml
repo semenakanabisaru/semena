@@ -1,0 +1,2857 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432898</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:58 +0400</rfc>
+      <utc>2012-04-26T13:34:58+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/emarket" val="emarket"/>
+    <key path="modules/emarket/version" val="2.8.0.5"/>
+    <key path="modules/emarket/version_line" val="pro"/>
+    <key path="modules/emarket/name" val="emarket"/>
+    <key path="modules/emarket/title" val="Интернет-магазин"/>
+    <key path="modules/emarket/filename" val="modules/emarket/class.php"/>
+    <key path="modules/emarket/config" val="1" update="1"/>
+    <key path="modules/emarket/ico" val="ico_eshop"/>
+    <key path="modules/emarket/default_method_admin" val="orders" update="1"/>
+    <key path="modules/emarket/is_indexed" val="0"/>
+    <key path="modules/emarket/func_perms" val=""/>
+    <key path="modules/emarket/enable-discounts" val="1"/>
+    <key path="modules/emarket/enable-currency" val="1"/>
+    <key path="modules/emarket/enable-stores" val="1"/>
+    <key path="modules/emarket/enable-payment" val="1"/>
+    <key path="modules/emarket/enable-delivery" val="1"/>
+    <key path="modules/emarket/social_vkontakte_merchant_id" val=""/>
+    <key path="modules/emarket/social_vkontakte_key" val=""/>
+    <key path="modules/emarket/social_vkontakte_wishlist" val="1"/>
+    <key path="modules/emarket/social_vkontakte_order" val="1"/>
+    <key path="modules/emarket/social_vkontakte_testmode" val="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/emarket" name="emarket">/classes/modules/emarket</directory>
+    <directory path="./classes/modules/emarket/classes" name="classes">/classes/modules/emarket/classes</directory>
+    <directory path="./classes/modules/emarket/classes/stores" name="stores">/classes/modules/emarket/classes/stores</directory>
+    <directory path="./classes/modules/emarket/classes/customer" name="customer">/classes/modules/emarket/classes/customer</directory>
+    <directory path="./classes/modules/emarket/classes/delivery" name="delivery">/classes/modules/emarket/classes/delivery</directory>
+    <directory path="./classes/modules/emarket/classes/delivery/systems" name="systems">/classes/modules/emarket/classes/delivery/systems</directory>
+    <directory path="./classes/modules/emarket/classes/currency" name="currency">/classes/modules/emarket/classes/currency</directory>
+    <directory path="./classes/modules/emarket/classes/currency/updaters" name="updaters">/classes/modules/emarket/classes/currency/updaters</directory>
+    <directory path="./classes/modules/emarket/classes/social" name="social">/classes/modules/emarket/classes/social</directory>
+    <directory path="./classes/modules/emarket/classes/social/callbacks" name="callbacks">/classes/modules/emarket/classes/social/callbacks</directory>
+    <directory path="./classes/modules/emarket/classes/discounts" name="discounts">/classes/modules/emarket/classes/discounts</directory>
+    <directory path="./classes/modules/emarket/classes/discounts/modificators" name="modificators">/classes/modules/emarket/classes/discounts/modificators</directory>
+    <directory path="./classes/modules/emarket/classes/discounts/rules" name="rules">/classes/modules/emarket/classes/discounts/rules</directory>
+    <directory path="./classes/modules/emarket/classes/discounts/discounts" name="discounts">/classes/modules/emarket/classes/discounts/discounts</directory>
+    <directory path="./classes/modules/emarket/classes/payment" name="payment">/classes/modules/emarket/classes/payment</directory>
+    <directory path="./classes/modules/emarket/classes/payment/systems" name="systems">/classes/modules/emarket/classes/payment/systems</directory>
+    <directory path="./classes/modules/emarket/classes/orders" name="orders">/classes/modules/emarket/classes/orders</directory>
+    <directory path="./classes/modules/emarket/classes/orders/items" name="items">/classes/modules/emarket/classes/orders/items</directory>
+    <directory path="./classes/modules/emarket/classes/orders/number" name="number">/classes/modules/emarket/classes/orders/number</directory>
+    <directory path="./styles/skins/mac/data/modules/emarket" name="emarket">/styles/skins/mac/data/modules/emarket</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/emarket/__admin_delivery.php" size="3246" ext="php" hash="1d588258a7edf822affcb2200952b47f" name="__admin_delivery.php">/classes/modules/emarket/__admin_delivery.php</file>
+    
+    <file path="./classes/modules/emarket/__purchasing.php" size="27166" ext="php" hash="8173f42956d77ad0b27d1d3cd42a31b4" name="__purchasing.php">/classes/modules/emarket/__purchasing.php</file>
+    <file path="./classes/modules/emarket/__payments.php" size="5776" ext="php" hash="912f6ee6d5b2bc5e293d8b05abd348e6" name="__payments.php">/classes/modules/emarket/__payments.php</file>
+    <file path="./classes/modules/emarket/classes/stores/stores.php" size="410" ext="php" hash="9c7dd24d840fa345e07a40da5926f817" name="stores.php">/classes/modules/emarket/classes/stores/stores.php</file>
+    <file path="./classes/modules/emarket/classes/customer/customer.php" size="4987" ext="php" hash="f6bdab21ab907786dbeb781f739791a0" name="customer.php">/classes/modules/emarket/classes/customer/customer.php</file>
+    <file path="./classes/modules/emarket/classes/delivery/systems/russianpost.php" size="1839" ext="php" hash="8db1022931812c2423dd8c8279d96e87" name="russianpost.php">/classes/modules/emarket/classes/delivery/systems/russianpost.php</file>
+    <file path="./classes/modules/emarket/classes/delivery/systems/self.php" size="197" ext="php" hash="1d2eafb879ae8b5ff0b0e6be46d92966" name="self.php">/classes/modules/emarket/classes/delivery/systems/self.php</file>
+    <file path="./classes/modules/emarket/classes/delivery/systems/courier.php" size="486" ext="php" hash="b4e717931652f9266552e8d4f09ee284" name="courier.php">/classes/modules/emarket/classes/delivery/systems/courier.php</file>
+    <file path="./classes/modules/emarket/classes/delivery/delivery.php" size="2311" ext="php" hash="068ffaae6ae7bc260866c789a20eb36a" name="delivery.php">/classes/modules/emarket/classes/delivery/delivery.php</file>
+    <file path="./classes/modules/emarket/classes/currency/updaters/usd.php" size="136" ext="php" hash="51886062db70fa3fd03753cfd2aae467" name="usd.php">/classes/modules/emarket/classes/currency/updaters/usd.php</file>
+    <file path="./classes/modules/emarket/classes/currency/updaters/rur.php" size="139" ext="php" hash="28e3e2703ec7f3edab1f66615bdcaa9a" name="rur.php">/classes/modules/emarket/classes/currency/updaters/rur.php</file>
+    <file path="./classes/modules/emarket/classes/currency/currencyUpdater.php" size="1456" ext="php" hash="2201f118c016589b80569f2df6bc01a3" name="currencyUpdater.php">/classes/modules/emarket/classes/currency/currencyUpdater.php</file>
+    <file path="./classes/modules/emarket/classes/social/social_callbacks_handler.php" size="741" ext="php" hash="d76340ea14657369b30237b286a60302" name="social_callbacks_handler.php">/classes/modules/emarket/classes/social/social_callbacks_handler.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/modificators/absolute.php" size="175" ext="php" hash="420992c0e868f045fef66c45cc9fa04c" name="absolute.php">/classes/modules/emarket/classes/discounts/modificators/absolute.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/modificators/proc.php" size="196" ext="php" hash="a65a55c49fdc76f4058545509691d9e8" name="proc.php">/classes/modules/emarket/classes/discounts/modificators/proc.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/discountModificator.php" size="3570" ext="php" hash="c666999a66b04580aca8c43f3de9bc77" name="discountModificator.php">/classes/modules/emarket/classes/discounts/discountModificator.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/rules/allOrdersPrices.php" size="1695" ext="php" hash="2174be06edefb5c397137f98994a8024" name="allOrdersPrices.php">/classes/modules/emarket/classes/discounts/rules/allOrdersPrices.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/rules/dateRange.php" size="696" ext="php" hash="1043c3ea73c426e119219a68b6d1b85a" name="dateRange.php">/classes/modules/emarket/classes/discounts/rules/dateRange.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/rules/relatedItems.php" size="893" ext="php" hash="97fe28b8d4e221a232fd1a8cde14c763" name="relatedItems.php">/classes/modules/emarket/classes/discounts/rules/relatedItems.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/rules/orderPrice.php" size="392" ext="php" hash="0bfe77030db0b358b38fc289448f9234" name="orderPrice.php">/classes/modules/emarket/classes/discounts/rules/orderPrice.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/rules/userGroups.php" size="548" ext="php" hash="a6f7a8c36b06dd5fec7210f1859acc75" name="userGroups.php">/classes/modules/emarket/classes/discounts/rules/userGroups.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/rules/items.php" size="1015" ext="php" hash="f2a0b72fa438c162db8698a08f23f27a" name="items.php">/classes/modules/emarket/classes/discounts/rules/items.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/rules/users.php" size="482" ext="php" hash="f5c9b0686384fe74f25a5ca822dfd7e2" name="users.php">/classes/modules/emarket/classes/discounts/rules/users.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/discountRule.php" size="3465" ext="php" hash="da1172e25a4a3b6c9e35ebf87e165b15" name="discountRule.php">/classes/modules/emarket/classes/discounts/discountRule.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/discounts/orderDiscount.php" size="2005" ext="php" hash="794dd1a544a9f5eb1d7db63d3540d556" name="orderDiscount.php">/classes/modules/emarket/classes/discounts/discounts/orderDiscount.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/discounts/itemDiscount.php" size="2090" ext="php" hash="a438d716a56de58e258ddab42893bb94" name="itemDiscount.php">/classes/modules/emarket/classes/discounts/discounts/itemDiscount.php</file>
+    <file path="./classes/modules/emarket/classes/discounts/discount.php" size="6709" ext="php" hash="32fdbd6ee17d86b3a38062c1234da9da" name="discount.php">/classes/modules/emarket/classes/discounts/discount.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/dengionline.php" size="3509" ext="php" hash="e0f524770fa745cb40ef7dda122c7c0b" name="dengionline.php">/classes/modules/emarket/classes/payment/systems/dengionline.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/robox.php" size="1885" ext="php" hash="d85cc07fc09a963dab130eadf76045c7" name="robox.php">/classes/modules/emarket/classes/payment/systems/robox.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/social.php" size="700" ext="php" hash="b6a2f91d559a4f6da318ff97d33c0b89" name="social.php">/classes/modules/emarket/classes/payment/systems/social.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/payonline.php" size="2772" ext="php" hash="2ab432715097c583b6289f73dd84cc90" name="payonline.php">/classes/modules/emarket/classes/payment/systems/payonline.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/receipt.php" size="953" ext="php" hash="789393a79f953855d9696d6c52fb3f99" name="receipt.php">/classes/modules/emarket/classes/payment/systems/receipt.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/invoice.php" size="3142" ext="php" hash="a760b7d4f473e0d0a30828abdda41d4a" name="invoice.php">/classes/modules/emarket/classes/payment/systems/invoice.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/courier.php" size="675" ext="php" hash="9f301a5c0428f8112091e8606f437304" name="courier.php">/classes/modules/emarket/classes/payment/systems/courier.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/rbk.php" size="2835" ext="php" hash="82a7ad71d5f79a4db8869bcd39439443" name="rbk.php">/classes/modules/emarket/classes/payment/systems/rbk.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/chronopay.php" size="2296" ext="php" hash="767cc9098c89869d963e3a66f57a2c29" name="chronopay.php">/classes/modules/emarket/classes/payment/systems/chronopay.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/payanyway.php" size="2560" ext="php" hash="50d3fa8c687c4f94924fe7ac3a02bd70" name="payanyway.php">/classes/modules/emarket/classes/payment/systems/payanyway.php</file>
+    <file path="./classes/modules/emarket/classes/payment/systems/yandex.php" size="5384" ext="php" hash="545aab0182fc11b7edcd7dc17c807942" name="yandex.php">/classes/modules/emarket/classes/payment/systems/yandex.php</file>
+    <file path="./classes/modules/emarket/classes/payment/payment.php" size="2181" ext="php" hash="7cbff42d56e6c0826844c3845f8ae77b" name="payment.php">/classes/modules/emarket/classes/payment/payment.php</file>
+    <file path="./classes/modules/emarket/classes/orders/items/optioned.php" size="5168" ext="php" hash="b4dbb32505ff4013cccfe364706b232b" name="optioned.php">/classes/modules/emarket/classes/orders/items/optioned.php</file>
+    
+    <file path="./classes/modules/emarket/classes/orders/items/digital.php" size="761" ext="php" hash="7ceb9b899cf16979cde82804fc108595" name="digital.php">/classes/modules/emarket/classes/orders/items/digital.php</file>
+    <file path="./classes/modules/emarket/classes/orders/orderItem.php" size="12145" ext="php" hash="98967f1f9899b0cc1e1bab4456342702" name="orderItem.php">/classes/modules/emarket/classes/orders/orderItem.php</file>
+    <file path="./classes/modules/emarket/classes/orders/number/default.php" size="600" ext="php" hash="f7c2c01b8d78134525eab48ac5e96f11" name="default.php">/classes/modules/emarket/classes/orders/number/default.php</file>
+    <file path="./classes/modules/emarket/classes/orders/order.php" size="24164" ext="php" hash="b8c1e859ea8ede1c183fc03a4b9459ab" name="order.php">/classes/modules/emarket/classes/orders/order.php</file>
+    <file path="./classes/modules/emarket/__admin_currency.php" size="1791" ext="php" hash="3211932d8527ccfed73898394b96bdb0" name="__admin_currency.php">/classes/modules/emarket/__admin_currency.php</file>
+    <file path="./classes/modules/emarket/__events.php" size="4531" ext="php" hash="1fb5c0f7dc109b07f00c4da697846b49" name="__events.php">/classes/modules/emarket/__events.php</file>
+    <file path="./classes/modules/emarket/__admin_orders.php" size="3895" ext="php" hash="4743433b65371d9d0e8704bfbd024238" name="__admin_orders.php">/classes/modules/emarket/__admin_orders.php</file>
+    <file path="./classes/modules/emarket/events.php" size="791" ext="php" hash="b28a0dd7961a049f81fc00d469a6199c" name="events.php">/classes/modules/emarket/events.php</file>
+    <file path="./classes/modules/emarket/class.php" size="4333" ext="php" hash="0a49cb0c477374812a2328af61fc82cd" name="class.php">/classes/modules/emarket/class.php</file>
+    <file path="./classes/modules/emarket/__admin_payments.php" size="2653" ext="php" hash="8d79e23fd893468c3d52ca8ea10465a4" name="__admin_payments.php">/classes/modules/emarket/__admin_payments.php</file>
+    <file path="./classes/modules/emarket/includes.php" size="1102" ext="php" hash="e1505f406d61d7dbfd6e172397837326" name="includes.php">/classes/modules/emarket/includes.php</file>
+    <file path="./classes/modules/emarket/install.php" size="5343" ext="php" hash="daf614583414e4e3a0b6e53405ab58b1" name="install.php">/classes/modules/emarket/install.php</file>
+    <file path="./classes/modules/emarket/__notification.php" size="7675" ext="php" hash="d8c7b9cb1d3f2ad19e969e1bd2cb08cb" name="__notification.php">/classes/modules/emarket/__notification.php</file>
+    
+    <file path="./classes/modules/emarket/__discounts.php" size="1551" ext="php" hash="809fff2f019227d22f832a5fd9802a9f" name="__discounts.php">/classes/modules/emarket/__discounts.php</file>
+    <file path="./classes/modules/emarket/permissions.php" size="1188" ext="php" hash="e3ade9f01e9d0dc7575c84d0a0434671" name="permissions.php">/classes/modules/emarket/permissions.php</file>
+    <file path="./classes/modules/emarket/__stores.php" size="2044" ext="php" hash="512eda2f83ede17056c42190abf25f72" name="__stores.php">/classes/modules/emarket/__stores.php</file>
+    <file path="./classes/modules/emarket/__required.php" size="1286" ext="php" hash="572a3a71bc6528c7040e3c58decaa2d3" name="__required.php">/classes/modules/emarket/__required.php</file>
+    <file path="./classes/modules/emarket/i18n.php" size="6656" ext="php" hash="5e7d060e398473b0748d777ad4db61f3" name="i18n.php">/classes/modules/emarket/i18n.php</file>
+    
+    <file path="./classes/modules/emarket/__delivery.php" size="6899" ext="php" hash="144e10c92a85e4190855849bf6c5ec28" name="__delivery.php">/classes/modules/emarket/__delivery.php</file>
+    <file path="./classes/modules/emarket/lang.php" size="3541" ext="php" hash="1fcaf5205ee846aad53014c5c7c5ddcd" name="lang.php">/classes/modules/emarket/lang.php</file>
+    <file path="./classes/modules/emarket/__admin_discounts.php" size="5717" ext="php" hash="471b2aba7ea838f96cf7bcaab680315a" name="__admin_discounts.php">/classes/modules/emarket/__admin_discounts.php</file>
+    <file path="./classes/modules/emarket/__admin_stores.php" size="3671" ext="php" hash="5e2a9af0989bcfb51a711425d6ab2575" name="__admin_stores.php">/classes/modules/emarket/__admin_stores.php</file>
+    <file path="./classes/modules/emarket/__compare.php" size="10497" ext="php" hash="6bb62e1c70620a12aee46ed9fd8bb864" name="__compare.php">/classes/modules/emarket/__compare.php</file>
+    <file path="./classes/modules/emarket/__currency.php" size="8493" ext="php" hash="c581230279a299991a6e018ae7a8947b" name="__currency.php">/classes/modules/emarket/__currency.php</file>
+    <file path="./classes/modules/emarket/__admin.php" size="11120" ext="php" hash="3a8a81df2dfbb0eb31fd38ed54b233cc" name="__admin.php">/classes/modules/emarket/__admin.php</file>
+    <file path="./styles/skins/mac/data/modules/emarket/settings.modify.xsl" size="2588" ext="xsl" hash="5d3c2b09eb5586aa3740278a772db89a" name="settings.modify.xsl">/styles/skins/mac/data/modules/emarket/settings.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/emarket/order-edit.xsl" size="14696" ext="xsl" hash="d72b0838f0c2855789384ee7898408e0" name="order-edit.xsl">/styles/skins/mac/data/modules/emarket/order-edit.xsl</file>
+    <file path="./styles/skins/mac/data/modules/emarket/list.view.xsl" size="4001" ext="xsl" hash="9d17fd3780ddb114646d8c689397114d" name="list.view.xsl">/styles/skins/mac/data/modules/emarket/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/emarket/form.modify.xsl" size="11770" ext="xsl" hash="88a8ba458aaea1b74a13f683740aa9b8" name="form.modify.xsl">/styles/skins/mac/data/modules/emarket/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="780" guid="emarket-currency" title="Валюта" parent-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="currency">Валюта</base>
+      <fieldgroups>
+        <group name="props_currency" title="Свойства валюты" visible="visible" active="active">
+          <field id="9116" name="codename" title="Код валюты" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9117" name="nominal" title="Номинал" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9118" name="rate" title="Курс" visible="visible" required="required">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9119" name="prefix" title="Префикс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9120" name="suffix" title="Суффикс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="6" guid="users-users" title="Группы пользователей" parent-id="0" guide="guide" locked="locked">
+      <base module="users" method="users">Группы пользователей</base>
+      <fieldgroups>
+        <group name="svojstva_gruppy_polzovatelej" title="Свойства группы пользователей" locked="locked" active="active" visible="0">
+          <field id="8896" name="nazvanie" title="Название" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="693" guid="d69b923df6140a16aefc89546a384e0493641fbe" title="Страны" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="params_more" title="Дополнительно" visible="visible" active="active">
+          <field id="9342" name="country_iso_code" title="Код страны" visible="visible" locked="locked">
+            <tip>Страна в формате ISO 3166-1 alpha-2</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="803" guid="emarket-deliveryaddress" title="Адрес доставки" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="delivery_address">Адрес доставки</base>
+      <fieldgroups>
+        <group name="common" title="Основное" visible="visible" active="active">
+          <field id="9160" name="country" title="Страна" visible="visible" guide-id="693" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9161" name="index" title="Почтовый индекс" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9162" name="region" title="Регион" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9163" name="city" title="Город" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9164" name="street" title="Улица" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9165" name="house" title="Дом" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9166" name="flat" title="Квартира" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="817" guid="emarket-legalperson" title="Юридическое лицо" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="legal_person">Юридическое лицо</base>
+      <fieldgroups>
+        <group name="general" title="Основное" visible="visible" active="active">
+          <field id="9250" name="contact_person" title="Контактное лицо" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9251" name="phone_number" title="Контактный телефон" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9252" name="fax" title="Факс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9134" name="email" title="E-mail" visible="visible" required="required">
+            <restriction id="2" name="email">E-mail</restriction>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9253" name="name" title="Наименование организации" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="addresses" title="Адреса" visible="visible" active="active">
+          <field id="9254" name="legal_address" title="Юридический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9255" name="defacto_address" title="Фактический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9256" name="post_address" title="Почтовый адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="payment" title="Информация для оплаты" visible="visible" active="active">
+          <field id="9257" name="inn" title="ИНН" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9258" name="account" title="Расчетный счет" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9259" name="bank" title="Наименование банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9260" name="bank_account" title="Кор. счет банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9261" name="bik" title="БИК" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9262" name="ogrn" title="ОГРН" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9337" name="kpp" title="КПП" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="825" guid="filemanagers" title="Файловые менеджеры" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="description" title="Свойства" visible="visible" locked="locked" active="active">
+          <field id="9361" name="fm_prefix" title="Префикс" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="4" guid="users-user" title="Пользователь" parent-id="0" guide="guide" locked="locked">
+      <base module="users" method="user">Пользователи</base>
+      <fieldgroups>
+        <group name="idetntify_data" title="Идентификационные данные" locked="locked" active="active" visible="0">
+          <field id="45" name="login" title="Логин" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="46" name="password" title="Пароль" visible="visible" locked="locked">
+            <type name="Пароль" data-type="password"/>
+          </field>
+          <field id="53" name="groups" title="Группы пользователей" locked="locked" guide-id="6">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="12" name="e-mail" title="E-mail" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8734" name="activate_code" title="Код активации" locked="locked" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9360" name="loginza" title="Провайдер регистрации(через Loginza)" visible="visible" locked="locked">
+            <tip>Адрес сервиса</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8735" name="is_activated" title="Активирован" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8967" name="last_request_time" title="Время последнего обращения" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8950" name="subscribed_pages" title="Подписки на изменения" locked="locked" system="system">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8968" name="rated_pages" title="Рейтингованные страницы" locked="locked" system="system">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8951" name="is_online" title="Пользователь on-line" locked="locked" system="system">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8969" name="messages_count" title="Количество сообщений" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="more_info" title="Дополнительная информация" visible="visible" active="active">
+          <field id="5569" name="orders_refs" title="Заказы" locked="locked" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8720" name="delivery_addresses" title="Адреса доставки" visible="visible" locked="locked" guide-id="803" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8901" name="user_dock" title="Пользовательская панель" locked="locked" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9049" name="preffered_currency" title="Предпочитаемая валюта" locked="locked" guide-id="780">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9050" name="user_settings_data" title="Настройки пользователя" locked="locked" system="system">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9300" name="legal_persons" title="Юридические лица" visible="visible" locked="locked" guide-id="817" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9362" name="filemanager" title="Файловый менеджер" locked="locked" guide-id="825">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9368" name="filemanager_directory" title="Доступные директории (для файлового менеджера elFinder)" locked="locked" guide-id="825">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9372" name="register_date" title="Дата регистрации">
+            <type name="Дата" data-type="date"/>
+          </field>
+        </group>
+        <group name="short_info" title="Персональная информация" visible="visible" active="active">
+          <field id="11" name="lname" title="Фамилия" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9" name="fname" title="Имя" visible="visible" locked="locked" required="required">
+            <tip>Это поле содержит Имя пользователя. Оно отображается в характеристиках пользователя и может быть изменено самим пользователем.</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="10" name="father_name" title="Отчество" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="delivery" title="Доставка" visible="visible" active="active"/>
+        <group name="statistic_info" title="Статистическая информация" visible="visible" active="active">
+          <field id="9370" name="referer" title="Адрес, с которого пришел пользователь">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9371" name="target" title="Адрес, на который пришел пользователь">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="751" guid="emarket-orderstatus" title="Статус заказа" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="order_status">Статус заказа</base>
+      <fieldgroups>
+        <group name="order_status_props" title="Свойства статуса заказа" visible="visible" active="active">
+          <field id="9114" name="codename" title="Код статуса" visible="visible" guide-id="780" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="752" guid="emarket-orderdeliverystatus" title="Статус доставки" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="order_delivery_status">Статус доставки</base>
+      <fieldgroups>
+        <group name="order_status_props" title="Свойства статуса доставки" visible="visible" active="active">
+          <field id="9142" name="codename" title="Код статуса" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="753" guid="emarket-orderpaymentstatus" title="Статус оплаты" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="order_payment_status">Статус оплаты</base>
+      <fieldgroups>
+        <group name="order_status_props" title="Свойства статуса оплаты" visible="visible" active="active">
+          <field id="9114" name="codename" title="Код статуса" visible="visible" guide-id="780" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="754" guid="emarket-store" title="Склад" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="store">Склад</base>
+      <fieldgroups>
+        <group name="store_props" title="Свойства склада" visible="visible" active="active">
+          <field id="9194" name="primary" title="Основной" visible="visible">
+            <tip>Основной склад, с которого будут списываться товары при покупке, и с которым будет синхронизироваться 1C</tip>
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="779" guid="emarket-itemtype" title="Тип товара" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="item_type">Тип товара</base>
+      <fieldgroups>
+        <group name="item_type_props" title="Свойства типа товара" visible="visible" active="active">
+          <field id="9101" name="class_name" title="Идентификатор типа товара" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="762" guid="emarket-discounttype" title="Тип скидки" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount_type">Тип скидки</base>
+      <fieldgroups>
+        <group name="discount_type_props" title="Свойства типа скидки" visible="visible" active="active">
+          <field id="9075" name="codename" title="Строковой id" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9076" name="description" title="Описание" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="792" guid="96e388c0b3b7fd874b48621e850335a8f06ca58d" title="Справочник для поля &quot;Модификатор цены&quot;" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="793" guid="6fe3dfe314684a658c1b19ca7a8e3abd29afe23e" title="Справочник для поля &quot;Правила валидации&quot;" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="765" guid="emarket-discount" title="Скидка" parent-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount">Скидка</base>
+      <fieldgroups>
+        <group name="discount_props" title="Свойства скидки" visible="visible" active="active">
+          <field id="9079" name="discount_type_id" title="Тип скидки" visible="visible" guide-id="762" required="required">
+            <tip>Определяет область применения скидки</tip>
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9080" name="discount_modificator_id" title="Модификатор цены" visible="visible" guide-id="792">
+            <tip>Определяет, по какому принципу будет пересчитываться цена</tip>
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9081" name="discount_rules_id" title="Правила валидации" visible="visible" guide-id="793">
+            <tip>Определяют ограничения по применению скидки</tip>
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="9097" name="description" title="Описание" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="757" guid="emarket-itemoption" title="Опции товара" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="item_option">Опция товара</base>
+      <fieldgroups/>
+    </type>
+    <type id="756" guid="emarket-orderitem" title="Наименование в заказе" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="order_item">Наименование в заказе</base>
+      <fieldgroups>
+        <group name="item_props" title="Свойства наименования" visible="visible" active="active">
+          <field id="9072" name="item_amount" title="Количество единиц товара" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9071" name="item_price" title="Стоимость единицы товара" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9109" name="item_total_original_price" title="Стоимость наименования без скидки" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9073" name="item_total_price" title="Стоимость наименования" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9103" name="item_type_id" title="Тип товара" visible="visible" guide-id="779">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9104" name="item_link" title="Товар в магазине" visible="visible">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="9105" name="item_discount_id" title="Скидка на наименование" visible="visible" guide-id="765">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="item_optioned_props" title="Опции товара" visible="visible" active="active">
+          <field id="9070" name="options" title="Опции товара" visible="visible" guide-id="757">
+            <type name="Составное" data-type="optioned" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="760" guid="emarket-customer" title="Незарегистрированный покупатель" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="customer">Незарегистрированный покупатель</base>
+      <fieldgroups>
+        <group name="personal_info" title="Персональные данные" visible="visible" active="active">
+          <field id="9135" name="fname" title="Имя" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9136" name="lname" title="Фамилия" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9137" name="father_name" title="Отчество" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9199" name="preffered_currency" title="Предпочитаемая валюта" guide-id="780">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="contact_props" title="Контакты" visible="visible" active="active">
+          <field id="9134" name="email" title="E-mail" visible="visible" required="required">
+            <restriction id="2" name="email">E-mail</restriction>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9138" name="phone" title="Телефон" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9139" name="ip" title="IP-адрес">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="delivery" title="Доставка" active="active" visible="0">
+          <field id="9167" name="delivery_addresses" title="Адреса доставки" visible="visible" guide-id="803">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="yuridicheskie_dannye" title="Юридические данные" active="active" visible="0">
+          <field id="9301" name="legal_persons" title="Юридические лица" visible="visible" locked="locked" guide-id="817">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="770" guid="emarket-discountmodificatortype" title="Типы модификаторов скидок" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount_modificator_type">Тип модификатора скидки</base>
+      <fieldgroups>
+        <group name="discount_modificator_type_props" title="Свойства типа модификатора скидки" visible="visible" active="active">
+          <field id="9085" name="modificator_codename" title="Идентификатор" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9086" name="modificator_type_id" title="Тип данных (id)" visible="visible">
+            <restriction id="5" name="objectType">Тип данных</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9087" name="modificator_discount_types" title="Допустимые типы скидки" visible="visible" guide-id="762">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9239" name="modificator_type_guid" title="Тип данных (GUID)" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="772" guid="emarket-discountruletype" title="Типы правил для скидок" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount_rule_type">Тип правила скидки</base>
+      <fieldgroups>
+        <group name="discount_rule_type_props" title="Свойства типа правила скидки" visible="visible" active="active">
+          <field id="9089" name="rule_codename" title="Идентификатор" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9090" name="rule_type_id" title="Тип данных (id)" visible="visible">
+            <restriction id="5" name="objectType">Тип данных</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9091" name="rule_discount_types" title="Допустимые типы скидки" visible="visible" guide-id="762" required="required">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9240" name="rule_type_guid" title="Тип данных (GUID)" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="782" guid="emarket-deliverytype" title="Типы доставки" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="delivery_type">Тип доставки</base>
+      <fieldgroups>
+        <group name="delivery_type_props" title="Свойства типа доставки" visible="visible" active="active">
+          <field id="9122" name="class_name" title="Идентификатор типа доставки" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9126" name="delivery_type_id" title="Тип данных (id)" visible="visible">
+            <restriction id="5" name="objectType">Тип данных</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9237" name="delivery_type_guid" title="Тип данных (GUID)" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="787" guid="emarket-paymenttype" title="Типы способов оплаты" parent-id="7" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="payment_type">Тип способа доставки</base>
+      <fieldgroups>
+        <group name="payment_type_props" title="Свойства типа оплаты" visible="visible" active="active">
+          <field id="9130" name="class_name" title="Идентификатор типа оплаты" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9131" name="payment_type_id" title="Тип данных (id)" visible="visible">
+            <restriction id="5" name="objectType">Тип данных</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9238" name="payment_type_guid" title="Тип данных (guid)" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="788" guid="emarket-payment" title="Способ оплаты" parent-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="781" guid="emarket-delivery" title="Способ доставки" parent-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="delivery">Способ доставки</base>
+      <fieldgroups>
+        <group name="delivery_description_props" title="Описание способа доставки" visible="visible" active="active">
+          <field id="9121" name="description" title="Описание доставки" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9125" name="delivery_type_id" title="Тип доставки" guide-id="782" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="755" guid="emarket-order" title="Заказ" parent-id="0" guide="guide" locked="locked">
+      <base module="emarket" method="order">Заказ в магазине</base>
+      <fieldgroups>
+        <group name="order_props" title="Свойства заказа" visible="visible" active="active">
+          <field id="9064" name="order_items" title="Наименования заказа" visible="visible" guide-id="756">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9133" name="number" title="Номер заказа" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9344" name="social_order_id" title="Номер заказа в социальной сети" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9074" name="customer_id" title="Покупатель" visible="visible" guide-id="4">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9065" name="domain_id" title="Домен" visible="visible">
+            <restriction id="4" name="systemDomain">Домен системы</restriction>
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9066" name="manager_id" title="Ответственный менеджер" visible="visible" guide-id="4">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9067" name="status_id" title="Статус заказа" visible="visible" guide-id="751">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9108" name="total_original_price" title="Стоимость заказа без скидки" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9106" name="total_price" title="Стоимость заказа" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9107" name="total_amount" title="Количество товаров" visible="visible">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9169" name="status_change_date" title="Дата последнего изменения статуса заказа" visible="visible">
+            <tip>Выставляется автоматически, когда происходит изменение статуса заказа</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9177" name="order_date" title="Дата оформления заказа" visible="visible">
+            <tip>Дата, когда заказ был оформлен покупателем</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9195" name="is_reserved" title="Товары зарезервированы" system="system">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="statistic_info" title="Статистическая информация" visible="visible" active="active">
+          <field id="9359" name="http_referer" title="Адрес, с которого пришел пользователь" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9373" name="http_target" title="Адрес, на который пришел пользователь" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+        <group name="order_payment_props" title="Свойства оплаты заказа" visible="visible" active="active">
+          <field id="9129" name="payment_id" title="Способ оплаты" visible="visible" guide-id="788">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9068" name="payment_status_id" title="Статус оплаты" visible="visible" guide-id="753">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9191" name="payment_date" title="Дата оплаты" visible="visible">
+            <tip>Дата успешной оплаты заказа</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9192" name="payment_document_num" title="Номер платежного документа" visible="visible">
+            <tip>Заполняется системой автоматически</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9299" name="legal_person" title="Юридическое лицо" visible="visible" locked="locked" guide-id="817">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="order_delivery_props" title="Свойства доставки заказа" visible="visible" active="active">
+          <field id="9128" name="delivery_id" title="Способ доставки" visible="visible" guide-id="781">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9069" name="delivery_status_id" title="Статус доставки" visible="visible" guide-id="752">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9186" name="delivery_address" title="Адрес доставки" visible="visible" guide-id="803">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9193" name="delivery_allow_date" title="Дата разрешения доставки" visible="visible">
+            <tip>Заполняется системой автоматически, когда возможна доставка и заказ успешно оплачен</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9197" name="delivery_price" title="Стоимость доставки" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+        </group>
+        <group name="order_discount_props" title="Свойства скидки на заказ" visible="visible" active="active">
+          <field id="9110" name="order_discount_id" title="Скидка на заказ" visible="visible" guide-id="765">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="integration_date" title="Свойства для интеграции с 1С" visible="visible" active="active">
+          <field id="9168" name="need_export" title="Выгружать заказ в 1С при следующем сеансе связи" visible="visible">
+            <tip>Выставляется системой автоматически, когда заказ необходимо выгрузить в 1С</tip>
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="767" guid="81755a2845e39420c81902a3ce83dff1cfc782e7" title="Модификаторы цены скидок" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="discount_modificator_props" title="Свойства модификатора скидки" visible="visible" active="active">
+          <field id="9088" name="modificator_type_id" title="Тип модификатора" visible="visible" guide-id="770" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="768" guid="emarket-discountmodificator-768" title="Процент от суммы заказа" parent-id="767" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount_modificator">Модификатор цены скидки</base>
+      <fieldgroups>
+        <group name="discount_modificator_props" title="Свойства модификатора скидки" visible="visible" active="active">
+          <field id="9084" name="proc" title="Процент скидки" visible="visible" required="required">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9088" name="modificator_type_id" title="Тип модификатора" visible="visible" guide-id="770" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="800" guid="emarket-discountmodificator-800" title="Фиксированный размер скидки" parent-id="767" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="discount_modificator">Модификатор цены скидки</base>
+      <fieldgroups>
+        <group name="discount_modificator_props" title="Свойства модификатора скидки" visible="visible" active="active">
+          <field id="9088" name="modificator_type_id" title="Тип модификатора" visible="visible" guide-id="770" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9152" name="size" title="Размер скидки" visible="visible" required="required">
+            <tip>Размер скидки, который будет вычтен из стоимости заказа</tip>
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="773" guid="190c4a70068f9453e2320b650e94869a1306adb0" title="Правила скидок" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="discount_rule_props" title="Свойства правила скидки" visible="visible" active="active">
+          <field id="9092" name="rule_type_id" title="Тип правила" visible="visible" guide-id="772" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="777" guid="emarket-discountrule-777" title="На определенные товары" parent-id="773" locked="locked">
+      <base module="emarket" method="discount_rule">Правило скидки</base>
+      <fieldgroups>
+        <group name="discount_rule_props" title="Свойства правила скидки" visible="visible" active="active">
+          <field id="9092" name="rule_type_id" title="Тип правила" visible="visible" guide-id="772" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9096" name="catalog_items" title="Товары" visible="visible">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="794" guid="emarket-discountrule-794" title="На временной промежуток" parent-id="773" locked="locked">
+      <base module="emarket" method="discount_rule">Правило скидки</base>
+      <fieldgroups>
+        <group name="discount_rule_props" title="Свойства правила скидки" visible="visible" active="active">
+          <field id="9092" name="rule_type_id" title="Тип правила" visible="visible" guide-id="772" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9143" name="start_date" title="Начало действия скидки" visible="visible">
+            <tip>Определяет, с какого момента скидка будет действительна</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="9144" name="end_date" title="Окончание действия скидки" visible="visible">
+            <tip>Определяет, когда заканчивается срок действия скидки</tip>
+            <type name="Дата" data-type="date"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="795" guid="emarket-discountrule-795" title="На сумму заказа" parent-id="773" locked="locked">
+      <base module="emarket" method="discount_rule">Правило скидки</base>
+      <fieldgroups>
+        <group name="discount_rule_props" title="Свойства правила скидки" visible="visible" active="active">
+          <field id="9092" name="rule_type_id" title="Тип правила" visible="visible" guide-id="772" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9149" name="minimum" title="Минимальная стоимость заказа" visible="visible">
+            <tip>Минимальная стоимость заказа, когда действует скидка</tip>
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9150" name="maximum" title="Максимальная стоимость заказа" visible="visible">
+            <tip>Максимальная стоимость заказа, когда действует скидка</tip>
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="796" guid="emarket-discountrule-796" title="На сумму покупок пользователя" parent-id="773" locked="locked">
+      <base module="emarket" method="discount_rule">Правило скидки</base>
+      <fieldgroups>
+        <group name="discount_rule_props" title="Свойства правила скидки" visible="visible" active="active">
+          <field id="9092" name="rule_type_id" title="Тип правила" visible="visible" guide-id="772" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9147" name="minimal" title="Минимальная сумма" visible="visible">
+            <tip>Минимальная сумма стоимости заказов действия скидки</tip>
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9148" name="maximum" title="Максимальная сумма" visible="visible">
+            <tip>Максимальная сумма стоимости заказов действия скидки</tip>
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="797" guid="emarket-discountrule-797" title="На группу пользователей" parent-id="773" locked="locked">
+      <base module="emarket" method="discount_rule">Правило скидки</base>
+      <fieldgroups>
+        <group name="discount_rule_props" title="Свойства правила скидки" visible="visible" active="active">
+          <field id="9092" name="rule_type_id" title="Тип правила" visible="visible" guide-id="772" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9145" name="user_groups" title="Группы пользователей" visible="visible" guide-id="6" required="required">
+            <tip>Список групп пользователей, которым будет доступна эта скидка</tip>
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="798" guid="emarket-discountrule-798" title="На пользователей" parent-id="773" locked="locked">
+      <base module="emarket" method="discount_rule">Правило скидки</base>
+      <fieldgroups>
+        <group name="discount_rule_props" title="Свойства правила скидки" visible="visible" active="active">
+          <field id="9092" name="rule_type_id" title="Тип правила" visible="visible" guide-id="772" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9146" name="users" title="Пользователи" visible="visible" guide-id="4" required="required">
+            <tip>Пользователи, которым будет доступна скидка</tip>
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="799" guid="emarket-discountrule-799" title="На связанные товары" parent-id="773" locked="locked">
+      <base module="emarket" method="discount_rule">Правило скидки</base>
+      <fieldgroups>
+        <group name="discount_rule_props" title="Свойства правила скидки" visible="visible" active="active">
+          <field id="9092" name="rule_type_id" title="Тип правила" visible="visible" guide-id="772" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9151" name="related_items" title="Связанные товары" visible="visible" required="required">
+            <tip>Список товаров, которые должен положить в корзину пользователь, чтобы пойдействовала скидка</tip>
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="783" guid="emarket-delivery-783" title="Самовывоз" parent-id="781" locked="locked">
+      <base module="emarket" method="delivery">Способ доставки</base>
+      <fieldgroups>
+        <group name="delivery_description_props" title="Описание способа доставки" visible="visible" active="active">
+          <field id="9121" name="description" title="Описание доставки" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9125" name="delivery_type_id" title="Тип доставки" guide-id="782" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="784" guid="emarket-delivery-784" title="Курьерская доставка по Санкт-Петербургу" parent-id="781" locked="locked">
+      <base module="emarket" method="delivery">Способ доставки</base>
+      <fieldgroups>
+        <group name="delivery_description_props" title="Описание способа доставки" visible="visible" active="active">
+          <field id="9121" name="description" title="Описание доставки" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9125" name="delivery_type_id" title="Тип доставки" guide-id="782" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="delivery_courier_props" title="Свойства курьерской доставки" visible="visible" active="active">
+          <field id="9124" name="order_min_price" title="Стоимость заказа, после которой доставка бесплатна" visible="visible">
+            <tip>Стоимость заказа, после которой доставка производится бесплатно</tip>
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9127" name="price" title="Стоимость доставки" visible="visible">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="809" guid="cd8b7a4b8bb9bbf442a9d50fa465fe0e9d868a13" title="Вид отправления (почта России)" parent-id="7" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Общее" visible="visible" active="active">
+          <field id="9190" name="identifier" title="Идентификатор" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="810" guid="a1496d4ad0a359b6fe93d819e4a2141bd9d9ac35" title="Способ пересылки (почта России)" parent-id="7" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="common" title="Общее" visible="visible" active="active">
+          <field id="9190" name="identifier" title="Идентификатор" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="808" guid="emarket-delivery-808" title="Почта России" parent-id="781" locked="locked">
+      <base module="emarket" method="delivery">Способ доставки</base>
+      <fieldgroups>
+        <group name="delivery_description_props" title="Описание способа доставки" visible="visible" active="active">
+          <field id="9121" name="description" title="Описание доставки" visible="visible">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9125" name="delivery_type_id" title="Тип доставки" guide-id="782" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="settings" title="Настройки" visible="visible" active="active">
+          <field id="9187" name="viewpost" title="Вид отправления" visible="visible" guide-id="809" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9188" name="typepost" title="Способ пересылки" visible="visible" guide-id="810" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9189" name="setpostvalue" title="С объявленной ценностью" visible="visible">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="790" guid="emarket-payment-790" title="Yandex Money" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="settings" title="Параметры" visible="visible" active="active">
+          <field id="9155" name="shop_id" title="ShopId" visible="visible" required="required">
+            <tip>Номер магазина в ЦПП. Выдается ЦПП</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9156" name="scid" title="scid" visible="visible" required="required">
+            <tip>Номер витрины магазина в ЦПП. Выдается ЦПП</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9157" name="bank_id" title="BankId" visible="visible">
+            <tip>Код процессингового центра "Яндекс.Деньги"</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9179" name="shop_password" title="shopPassword" visible="visible" required="required">
+            <tip>Секретный пароль (20 случайных символов), указывается при заключении договора</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9198" name="demo_mode" title="Демо-режим" visible="visible">
+            <tip>Включить демо-режим</tip>
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="791" guid="emarket-payment-791" title="Платежная квитанция" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="settings" title="Параметры" visible="visible" active="active">
+          <field id="9180" name="reciever" title="Наименование получателя платежа" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9181" name="reciever_inn" title="ИНН получателя платежа" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9182" name="reciever_account" title="Номер счета получателя платежа" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9183" name="reciever_bank" title="Наименование банка получателя платежа" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9184" name="bik" title="БИК" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9185" name="reciever_bank_account" title="Номер кор./сч. банка получателя платежа" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="801" guid="emarket-payment-801" title="PayOnline System" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="settings" title="Параметры" visible="visible" active="active">
+          <field id="9153" name="merchant_id" title="Merchant ID" visible="visible" required="required">
+            <tip>Выдается при регистрации в PayOnline System</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9154" name="private_key" title="Секретный ключ" visible="visible" required="required">
+            <tip>Выдается при регистрации в PayOnline System</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="802" guid="emarket-payment-802" title="Курьеру при получении" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="812" guid="emarket-payment-812" title="Robokassa" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="settings" title="Параметры" visible="visible" active="active">
+          <field id="9200" name="login" title="Логин" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9201" name="password1" title="Пароль #1" visible="visible" required="required">
+            <tip>используется интерфейсом инициализации оплаты</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9202" name="password2" title="Пароль #2" visible="visible" required="required">
+            <tip>используется интерфейсом оповещения о платеже, XML-интерфейсах</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9203" name="test_mode" title="Тестовый режим" visible="visible">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="813" guid="emarket-payment-813" title="RBK Money" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="settings" title="Параметры" visible="visible" active="active">
+          <field id="9204" name="eshopid" title="Номер сайта продавца" visible="visible" required="required">
+            <tip>Номер сайта продавца, на который покупатель должен совершить платеж</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9205" name="secretkey" title="Секретный ключ" visible="visible" required="required">
+            <tip>Строка символов, добавляемая к реквизитам платежа, высылаемым продавцу вместе с оповещением</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="816" guid="emarket-payment-816" title="Счет для юридических лиц" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="organization" title="Данные организации" visible="visible" active="active">
+          <field id="9241" name="name" title="Наименование" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9242" name="legal_address" title="Юридический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9243" name="phone_number" title="Телефон" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9244" name="inn" title="ИНН" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9245" name="kpp" title="КПП" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9246" name="account" title="Номер счета" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9247" name="bank" title="Банк получателя" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9248" name="bank_account" title="Номер кор. счета банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9184" name="bik" title="БИК" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9249" name="sign_image" title="Изображение с подписями" visible="visible">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="821" guid="emarket-payment-social" title="Оплата в социальной сети" parent-id="788" guide="guide" public="public">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" active="active" visible="0">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="824" guid="emarket-payment-payanyway" title="PayAnyWay" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="settings" title="Параметры" visible="visible" active="active">
+          <field id="9353" name="mnt_system_url" title="Url платежной системы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9354" name="mnt_id" title="Идентификатор магазина" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9355" name="mnt_success_url" title="Url удачной оплаты" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9356" name="mnt_fail_url" title="Url неудачной оплаты" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9357" name="mnt_data_integrity_code" title="Код проверки целостности данных" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9358" name="mnt_test_mode" title="Тестовый режим" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="826" guid="emarket-payment-dengionline" title="Деньги Online" parent-id="788" locked="locked">
+      <base module="emarket" method="payment">Способ оплаты</base>
+      <fieldgroups>
+        <group name="payment_props" title="Свойства способа оплаты" visible="visible" active="active">
+          <field id="9132" name="payment_type_id" title="Тип оплаты" visible="visible" guide-id="787" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="settings" title="Параметры" visible="visible" active="active">
+          <field id="9363" name="project" title="Идентификатор проекта" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9364" name="key" title="Секретный ключ" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9365" name="source" title="Идентификатор владельца" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="15" guid="users-users-15" name="Супервайзеры" type-id="6" type-guid="users-users">
+      <properties>
+        <group name="svojstva_gruppy_polzovatelej">
+          <title>Свойства группы пользователей</title>
+          <property id="8896" name="nazvanie" type="string">
+            <title>Название</title>
+            <value>Супервайзеры</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="2374" guid="users-users-2374" name="Зарегистрированные пользователи" type-id="6" type-guid="users-users">
+      <properties>
+        <group name="svojstva_gruppy_polzovatelej">
+          <title>Свойства группы пользователей</title>
+          <property id="8896" name="nazvanie" type="string">
+            <title>Название</title>
+            <value>Зарегистрированные пользователи</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="26315" guid="a1e3ae17e80ba2b4a3ddb1b855430346f74b8d48" name="США" type-id="693" type-guid="d69b923df6140a16aefc89546a384e0493641fbe" ownerId="14">
+      <properties>
+        <group name="params_more">
+          <title>Дополнительно</title>
+          <property id="9342" name="country_iso_code" type="string">
+            <title>Код страны</title>
+            <value>US</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="26341" guid="e9aa8c23a339224b25945aa9e99f09f578bdd483" name="Россия" type-id="693" type-guid="d69b923df6140a16aefc89546a384e0493641fbe" ownerId="14">
+      <properties>
+        <group name="params_more">
+          <title>Дополнительно</title>
+          <property id="9342" name="country_iso_code" type="string">
+            <title>Код страны</title>
+            <value>RU</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27227" guid="emarket-currency-27227" name="Американский доллар" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>USD</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>31.5</value>
+          </property>
+          <property id="9119" name="prefix" type="string">
+            <title>Префикс</title>
+            <value>$</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27228" guid="emarket-currency-27228" name="Евро" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>EUR</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>35</value>
+          </property>
+          <property id="9119" name="prefix" type="string">
+            <title>Префикс</title>
+            <value>€</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27923" guid="filemanager-flash" name="Классический файловый менеджер" type-id="825" type-guid="filemanagers" ownerId="14">
+      <properties>
+        <group name="description">
+          <title>Свойства</title>
+          <property id="9361" name="fm_prefix" type="string">
+            <title>Префикс</title>
+            <value>flash</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27924" guid="filemanager-elfinder" name="Файловый менеджер elFinder" type-id="825" type-guid="filemanagers" ownerId="14">
+      <properties>
+        <group name="description">
+          <title>Свойства</title>
+          <property id="9361" name="fm_prefix" type="string">
+            <title>Префикс</title>
+            <value>elfinder</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="14" guid="system-supervisor" name="lyxsus" type-id="4" type-guid="users-user">
+      <properties>
+        <group name="idetntify_data">
+          <title>Идентификационные данные</title>
+          <property id="45" name="login" type="string">
+            <title>Логин</title>
+            <value>lyxsus</value>
+          </property>
+          <property id="46" name="password" type="password">
+            <title>Пароль</title>
+            <value>0d107d09f5bbe40cade3de5c71e9e9b7</value>
+          </property>
+          <property id="53" name="groups" type="relation" multiple="multiple">
+            <title>Группы пользователей</title>
+            <value>
+              <item id="15" guid="users-users-15" name="Супервайзеры" type-id="6" type-guid="users-users"/>
+            </value>
+          </property>
+          <property id="12" name="e-mail" type="string">
+            <title>E-mail</title>
+            <value>lyxsus@gmail.com</value>
+          </property>
+          <property id="8735" name="is_activated" type="boolean">
+            <title>Активирован</title>
+            <value>1</value>
+          </property>
+          <property id="8967" name="last_request_time" type="int">
+            <title>Время последнего обращения</title>
+            <value>1334843438</value>
+          </property>
+          <property id="8951" name="is_online" type="boolean">
+            <title>Пользователь on-line</title>
+            <value>0</value>
+          </property>
+          <property id="8969" name="messages_count" type="int">
+            <title>Количество сообщений</title>
+            <value>0</value>
+          </property>
+        </group>
+        <group name="more_info">
+          <title>Дополнительная информация</title>
+          <property id="8901" name="user_dock" type="string">
+            <title>Пользовательская панель</title>
+            <value>content,users,emarket,catalog,data,trash</value>
+          </property>
+          <property id="9050" name="user_settings_data" type="text">
+            <title>Настройки пользователя</title>
+            <value>a:15:{s:9:"dockState";a:1:{s:6:"common";s:6:"opened";}s:15:"tree-data-types";a:1:{s:8:"expanded";s:3:"{0}";}s:16:"tree-data-guides";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-data-guide_items";a:2:{s:8:"expanded";s:3:"{0}";s:12:"used-columns";s:183:"name[317px]|number[100px]|sid[100px]|class_name[100px]|payment_type_id[100px]|delivery_type_id[100px]|delivery_type_guid[100px]|modificator_type_id[100px]|modificator_type_guid[100px]";}s:22:"tree-emarket-discounts";a:1:{s:8:"expanded";s:3:"{0}";}s:23:"tree-content-sitetree-1";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-dispatches-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:9:"dockItems";a:1:{s:6:"common";s:125:"content;news;blogs20;seo;forum;comments;vote;webforms;photoalbum;dispatches;catalog;emarket;banners;users;stat;exchange;trash";}s:19:"tree-emarket-orders";a:1:{s:8:"expanded";s:3:"{0}";}s:15:"tree-data-trash";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-photoalbum-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:16:"tree-forum-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:24:"tree-forum-last_messages";a:1:{s:8:"expanded";s:3:"{0}";}s:18:"tree-blogs20-posts";a:1:{s:8:"expanded";s:3:"{0}";}s:18:"tree-blogs20-blogs";a:1:{s:8:"expanded";s:3:"{0}";}}</value>
+          </property>
+        </group>
+        <group name="short_info">
+          <title>Персональная информация</title>
+          <property id="11" name="lname" type="string">
+            <title>Фамилия</title>
+            <value>Антонинко</value>
+          </property>
+          <property id="9" name="fname" type="string">
+            <title>Имя</title>
+            <value>Сергей</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27226" guid="emarket-currency-27226" name="Российский рубль" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>RUR</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>1</value>
+          </property>
+          <property id="9120" name="suffix" type="string">
+            <title>Суффикс</title>
+            <value>руб</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27180" guid="emarket-itemtype-27180" name="Цифровой" type-id="779" type-guid="emarket-itemtype" ownerId="14">
+      <properties>
+        <group name="item_type_props">
+          <title>Свойства типа товара</title>
+          <property id="9101" name="class_name" type="string">
+            <title>Идентификатор типа товара</title>
+            <value>digital</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27181" guid="emarket-itemtype-27181" name="Составной" type-id="779" type-guid="emarket-itemtype" ownerId="14">
+      <properties>
+        <group name="item_type_props">
+          <title>Свойства типа товара</title>
+          <property id="9101" name="class_name" type="string">
+            <title>Идентификатор типа товара</title>
+            <value>optioned</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27131" guid="emarket-discounttype-27131" name="На товары каталога" type-id="762" type-guid="emarket-discounttype" ownerId="14">
+      <properties>
+        <group name="discount_type_props">
+          <title>Свойства типа скидки</title>
+          <property id="9075" name="codename" type="string">
+            <title>Строковой id</title>
+            <value>item</value>
+          </property>
+          <property id="9076" name="description" type="string">
+            <title>Описание</title>
+            <value>Скидки этого типа могут быть применены к товарам, либо разделам в каталоге</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27132" guid="emarket-discounttype-27132" name="На заказ" type-id="762" type-guid="emarket-discounttype" ownerId="14">
+      <properties>
+        <group name="discount_type_props">
+          <title>Свойства типа скидки</title>
+          <property id="9075" name="codename" type="string">
+            <title>Строковой id</title>
+            <value>order</value>
+          </property>
+          <property id="9076" name="description" type="string">
+            <title>Описание</title>
+            <value>Данный тип скидок используется для расчета итоговой цены заказа</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="2373" guid="system-guest" name="Гость" type-id="4" type-guid="users-user">
+      <properties>
+        <group name="idetntify_data">
+          <title>Идентификационные данные</title>
+          <property id="45" name="login" type="string">
+            <title>Логин</title>
+            <value>Гость</value>
+          </property>
+          <property id="46" name="password" type="password">
+            <title>Пароль</title>
+            <value>084e0343a0486ff05530df6c705c8bb4</value>
+          </property>
+          <property id="12" name="e-mail" type="string">
+            <title>E-mail</title>
+            <value>anonymous@somedomain.com</value>
+          </property>
+          <property id="8735" name="is_activated" type="boolean">
+            <title>Активирован</title>
+            <value>1</value>
+          </property>
+          <property id="8967" name="last_request_time" type="int">
+            <title>Время последнего обращения</title>
+            <value>0</value>
+          </property>
+          <property id="8951" name="is_online" type="boolean">
+            <title>Пользователь on-line</title>
+            <value>0</value>
+          </property>
+          <property id="8969" name="messages_count" type="int">
+            <title>Количество сообщений</title>
+            <value>0</value>
+          </property>
+        </group>
+        <group name="short_info">
+          <title>Персональная информация</title>
+          <property id="9" name="fname" type="string">
+            <title>Имя</title>
+            <value>Посетитель</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27258" guid="emarket-orderstatus-27258" name="Отменен" type-id="751" type-guid="emarket-orderstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса заказа</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>canceled</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27259" guid="emarket-orderstatus-27259" name="Отклонен" type-id="751" type-guid="emarket-orderstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса заказа</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>rejected</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27260" guid="emarket-orderstatus-27260" name="Оплачивается" type-id="751" type-guid="emarket-orderstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса заказа</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>payment</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27261" guid="emarket-orderstatus-27261" name="Доставляется" type-id="751" type-guid="emarket-orderstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса заказа</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>delivery</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27262" guid="emarket-orderstatus-27262" name="Ожидает проверки" type-id="751" type-guid="emarket-orderstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса заказа</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>waiting</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27263" guid="emarket-orderstatus-27263" name="Принят" type-id="751" type-guid="emarket-orderstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса заказа</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>accepted</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27264" guid="emarket-orderstatus-27264" name="Готов" type-id="751" type-guid="emarket-orderstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса заказа</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>ready</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27927" guid="emarket-orderstatus-editing" name="Редактируется" type-id="751" type-guid="emarket-orderstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса заказа</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>editing</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27236" guid="emarket-paymenttype-27236" name="Платежная квитанция" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>receipt</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>791</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-791</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27239" guid="emarket-paymenttype-27239" name="Yandex.Money" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>yandex</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>790</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-790</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27457" guid="emarket-paymenttype-27457" name="PayOnline System" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>payonline</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>801</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-801</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27458" guid="emarket-paymenttype-27458" name="Курьеру при получении" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>courier</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>802</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-802</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27486" guid="emarket-paymenttype-27486" name="Robokassa" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>robox</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>812</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-812</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27487" guid="emarket-paymenttype-27487" name="RBK Money" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>rbk</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>813</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-813</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27519" guid="emarket-paymenttype-27519" name="Счет для юридических лиц" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>invoice</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>816</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-816</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27922" guid="emarket-paymenttype-payanyway" name="PayAnyWay" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>payanyway</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>824</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-payanyway</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27926" guid="emarket-paymenttype-dengionline" name="Деньги Online" type-id="787" type-guid="emarket-paymenttype" ownerId="14">
+      <properties>
+        <group name="payment_type_props">
+          <title>Свойства типа оплаты</title>
+          <property id="9130" name="class_name" type="string">
+            <title>Идентификатор типа оплаты</title>
+            <value>dengionline</value>
+          </property>
+          <property id="9131" name="payment_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>826</value>
+          </property>
+          <property id="9238" name="payment_type_guid" type="string">
+            <title>Тип данных (guid)</title>
+            <value>emarket-payment-dengionline</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27380" guid="emarket-orderpaymentstatus-27380" name="Инициализирована" type-id="753" type-guid="emarket-orderpaymentstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса оплаты</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>initialized</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27381" guid="emarket-orderpaymentstatus-27381" name="Подтверждена" type-id="753" type-guid="emarket-orderpaymentstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса оплаты</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>validated</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27382" guid="emarket-orderpaymentstatus-27382" name="Отклонена" type-id="753" type-guid="emarket-orderpaymentstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса оплаты</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>declined</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27383" guid="emarket-orderpaymentstatus-27383" name="Принята" type-id="753" type-guid="emarket-orderpaymentstatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса оплаты</title>
+          <property id="9114" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>accepted</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27230" guid="emarket-deliverytype-27230" name="Самовывоз" type-id="782" type-guid="emarket-deliverytype" ownerId="14">
+      <properties>
+        <group name="delivery_type_props">
+          <title>Свойства типа доставки</title>
+          <property id="9122" name="class_name" type="string">
+            <title>Идентификатор типа доставки</title>
+            <value>self</value>
+          </property>
+          <property id="9126" name="delivery_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>783</value>
+          </property>
+          <property id="9237" name="delivery_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-delivery-783</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27233" guid="emarket-deliverytype-27233" name="Курьерская доставка" type-id="782" type-guid="emarket-deliverytype" ownerId="14">
+      <properties>
+        <group name="delivery_type_props">
+          <title>Свойства типа доставки</title>
+          <property id="9122" name="class_name" type="string">
+            <title>Идентификатор типа доставки</title>
+            <value>courier</value>
+          </property>
+          <property id="9126" name="delivery_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>784</value>
+          </property>
+          <property id="9237" name="delivery_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-delivery-784</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27481" guid="emarket-deliverytype-27481" name="Почта России" type-id="782" type-guid="emarket-deliverytype" ownerId="14">
+      <properties>
+        <group name="delivery_type_props">
+          <title>Свойства типа доставки</title>
+          <property id="9122" name="class_name" type="string">
+            <title>Идентификатор типа доставки</title>
+            <value>russianpost</value>
+          </property>
+          <property id="9126" name="delivery_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>808</value>
+          </property>
+          <property id="9237" name="delivery_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-delivery-808</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27377" guid="emarket-orderdeliverystatus-27377" name="Ожидает отгрузки" type-id="752" type-guid="emarket-orderdeliverystatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса доставки</title>
+          <property id="9142" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>waiting_shipping</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27378" guid="emarket-orderdeliverystatus-27378" name="Доставляется" type-id="752" type-guid="emarket-orderdeliverystatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса доставки</title>
+          <property id="9142" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>shipping</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27379" guid="emarket-orderdeliverystatus-27379" name="Доставлен" type-id="752" type-guid="emarket-orderdeliverystatus" ownerId="14">
+      <properties>
+        <group name="order_status_props">
+          <title>Свойства статуса доставки</title>
+          <property id="9142" name="codename" type="string">
+            <title>Код статуса</title>
+            <value>ready</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27136" guid="emarket-discountmodificatortype-27136" name="Процент от суммы" type-id="770" type-guid="emarket-discountmodificatortype" ownerId="14">
+      <properties>
+        <group name="discount_modificator_type_props">
+          <title>Свойства типа модификатора скидки</title>
+          <property id="9085" name="modificator_codename" type="string">
+            <title>Идентификатор</title>
+            <value>proc</value>
+          </property>
+          <property id="9086" name="modificator_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>768</value>
+          </property>
+          <property id="9087" name="modificator_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27132" guid="emarket-discounttype-27132" name="На заказ" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+              <item id="27131" guid="emarket-discounttype-27131" name="На товары каталога" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9239" name="modificator_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountmodificator-768</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27456" guid="emarket-discountmodificatortype-27456" name="Фиксированный размер" type-id="770" type-guid="emarket-discountmodificatortype" ownerId="14">
+      <properties>
+        <group name="discount_modificator_type_props">
+          <title>Свойства типа модификатора скидки</title>
+          <property id="9085" name="modificator_codename" type="string">
+            <title>Идентификатор</title>
+            <value>absolute</value>
+          </property>
+          <property id="9086" name="modificator_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>800</value>
+          </property>
+          <property id="9087" name="modificator_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27132" guid="emarket-discounttype-27132" name="На заказ" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9239" name="modificator_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountmodificator-800</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27150" guid="emarket-discountruletype-27150" name="На определенные товары" type-id="772" type-guid="emarket-discountruletype" ownerId="14">
+      <properties>
+        <group name="discount_rule_type_props">
+          <title>Свойства типа правила скидки</title>
+          <property id="9089" name="rule_codename" type="string">
+            <title>Идентификатор</title>
+            <value>items</value>
+          </property>
+          <property id="9090" name="rule_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>777</value>
+          </property>
+          <property id="9091" name="rule_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27131" guid="emarket-discounttype-27131" name="На товары каталога" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9240" name="rule_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountrule-777</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27393" guid="emarket-discountruletype-27393" name="На временной промежуток" type-id="772" type-guid="emarket-discountruletype" ownerId="14">
+      <properties>
+        <group name="discount_rule_type_props">
+          <title>Свойства типа правила скидки</title>
+          <property id="9089" name="rule_codename" type="string">
+            <title>Идентификатор</title>
+            <value>dateRange</value>
+          </property>
+          <property id="9090" name="rule_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>794</value>
+          </property>
+          <property id="9091" name="rule_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27132" guid="emarket-discounttype-27132" name="На заказ" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+              <item id="27131" guid="emarket-discounttype-27131" name="На товары каталога" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9240" name="rule_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountrule-794</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27394" guid="emarket-discountruletype-27394" name="На сумму заказа" type-id="772" type-guid="emarket-discountruletype" ownerId="14">
+      <properties>
+        <group name="discount_rule_type_props">
+          <title>Свойства типа правила скидки</title>
+          <property id="9089" name="rule_codename" type="string">
+            <title>Идентификатор</title>
+            <value>orderPrice</value>
+          </property>
+          <property id="9090" name="rule_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>795</value>
+          </property>
+          <property id="9091" name="rule_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27132" guid="emarket-discounttype-27132" name="На заказ" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9240" name="rule_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountrule-795</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27395" guid="emarket-discountruletype-27395" name="На сумму покупок пользователя" type-id="772" type-guid="emarket-discountruletype" ownerId="14">
+      <properties>
+        <group name="discount_rule_type_props">
+          <title>Свойства типа правила скидки</title>
+          <property id="9089" name="rule_codename" type="string">
+            <title>Идентификатор</title>
+            <value>allOrdersPrices</value>
+          </property>
+          <property id="9090" name="rule_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>796</value>
+          </property>
+          <property id="9091" name="rule_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27132" guid="emarket-discounttype-27132" name="На заказ" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+              <item id="27131" guid="emarket-discounttype-27131" name="На товары каталога" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9240" name="rule_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountrule-796</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27396" guid="emarket-discountruletype-27396" name="На группу пользователей" type-id="772" type-guid="emarket-discountruletype" ownerId="14">
+      <properties>
+        <group name="discount_rule_type_props">
+          <title>Свойства типа правила скидки</title>
+          <property id="9089" name="rule_codename" type="string">
+            <title>Идентификатор</title>
+            <value>userGroups</value>
+          </property>
+          <property id="9090" name="rule_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>797</value>
+          </property>
+          <property id="9091" name="rule_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27132" guid="emarket-discounttype-27132" name="На заказ" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+              <item id="27131" guid="emarket-discounttype-27131" name="На товары каталога" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9240" name="rule_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountrule-797</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27397" guid="emarket-discountruletype-27397" name="На пользователей" type-id="772" type-guid="emarket-discountruletype" ownerId="14">
+      <properties>
+        <group name="discount_rule_type_props">
+          <title>Свойства типа правила скидки</title>
+          <property id="9089" name="rule_codename" type="string">
+            <title>Идентификатор</title>
+            <value>users</value>
+          </property>
+          <property id="9090" name="rule_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>798</value>
+          </property>
+          <property id="9091" name="rule_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27132" guid="emarket-discounttype-27132" name="На заказ" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+              <item id="27131" guid="emarket-discounttype-27131" name="На товары каталога" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9240" name="rule_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountrule-798</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27398" guid="emarket-discountruletype-27398" name="На связанные товары" type-id="772" type-guid="emarket-discountruletype" ownerId="14">
+      <properties>
+        <group name="discount_rule_type_props">
+          <title>Свойства типа правила скидки</title>
+          <property id="9089" name="rule_codename" type="string">
+            <title>Идентификатор</title>
+            <value>relatedItems</value>
+          </property>
+          <property id="9090" name="rule_type_id" type="int">
+            <title>Тип данных (id)</title>
+            <value>799</value>
+          </property>
+          <property id="9091" name="rule_discount_types" type="relation" multiple="multiple">
+            <title>Допустимые типы скидки</title>
+            <value>
+              <item id="27131" guid="emarket-discounttype-27131" name="На товары каталога" type-id="762" type-guid="emarket-discounttype" ownerId="14"/>
+            </value>
+          </property>
+          <property id="9240" name="rule_type_guid" type="string">
+            <title>Тип данных (GUID)</title>
+            <value>emarket-discountrule-799</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27470" guid="f92878f18258dde6be466657afbe597f425f92bb" name="EMS обыкновенный" type-id="809" type-guid="cd8b7a4b8bb9bbf442a9d50fa465fe0e9d868a13" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>44</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27471" guid="c5f7a7eb8380a03c76ba26c22eb38118b6838b3b" name="EMS с объявленной ценностью" type-id="809" type-guid="cd8b7a4b8bb9bbf442a9d50fa465fe0e9d868a13" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>45</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27472" guid="47126638f57bd9d0f3e583b2b68ba080f16dc3b2" name="Заказная бандероль" type-id="809" type-guid="cd8b7a4b8bb9bbf442a9d50fa465fe0e9d868a13" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>23</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27473" guid="44213024959016ae285efe9dd256d1451c7a5194" name="Заказная бандероль 1 кл." type-id="809" type-guid="cd8b7a4b8bb9bbf442a9d50fa465fe0e9d868a13" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>52</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27474" guid="e280cf173f5e9d92679dfd30af723848ca911949" name="Ценная бандероль" type-id="809" type-guid="cd8b7a4b8bb9bbf442a9d50fa465fe0e9d868a13" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>26</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27475" guid="412392b58bd5e166cc32ce7d021041bd843fe3f6" name="Ценная бандероль 1 кл." type-id="809" type-guid="cd8b7a4b8bb9bbf442a9d50fa465fe0e9d868a13" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>53</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27476" guid="0c8124b837910c7341cb9d226319a31eeaa03756" name="Ценная посылка" type-id="809" type-guid="cd8b7a4b8bb9bbf442a9d50fa465fe0e9d868a13" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>36</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27477" guid="399872db6f3d1341ef99b406aa2a9e515292b0c9" name="Наземный" type-id="810" type-guid="a1496d4ad0a359b6fe93d819e4a2141bd9d9ac35" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>1</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27478" guid="417baf8cefb99325510d31e974835254c980828b" name="Авиа" type-id="810" type-guid="a1496d4ad0a359b6fe93d819e4a2141bd9d9ac35" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>2</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27479" guid="76377e05d0ffd4b0f6f0e72a45645f4be10f1c66" name="Комбинированный" type-id="810" type-guid="a1496d4ad0a359b6fe93d819e4a2141bd9d9ac35" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>3</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27480" guid="df383879afa5ac2e221b8fa0b0f2a6467da2886f" name="Ускоренный" type-id="810" type-guid="a1496d4ad0a359b6fe93d819e4a2141bd9d9ac35" ownerId="14">
+      <properties>
+        <group name="common">
+          <title>Общее</title>
+          <property id="9190" name="identifier" type="int">
+            <title>Идентификатор</title>
+            <value>4</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27147" guid="emarket-store-27147" name="Основной склад" type-id="754" type-guid="emarket-store" ownerId="14">
+      <properties>
+        <group name="store_props">
+          <title>Свойства склада</title>
+          <property id="9194" name="primary" type="boolean">
+            <title>Основной</title>
+            <value>1</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27135" guid="emarket-discountmodificator-768-27135" name="Тестовый процентный модификатор" type-id="768" type-guid="emarket-discountmodificator-768" ownerId="14">
+      <properties>
+        <group name="discount_modificator_props">
+          <title>Свойства модификатора скидки</title>
+          <property id="9084" name="proc" type="float">
+            <title>Процент скидки</title>
+            <value>12</value>
+          </property>
+          <property id="9088" name="modificator_type_id" type="relation">
+            <title>Тип модификатора</title>
+            <value>
+              <item id="27136" guid="emarket-discountmodificatortype-27136" name="Процент от суммы" type-id="770" type-guid="emarket-discountmodificatortype" ownerId="14"/>
+            </value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27438" guid="emarket-discountrule-798-27438" name="users" type-id="798" type-guid="emarket-discountrule-798" ownerId="14">
+      <properties>
+        <group name="discount_rule_props">
+          <title>Свойства правила скидки</title>
+          <property id="9092" name="rule_type_id" type="relation">
+            <title>Тип правила</title>
+            <value>
+              <item id="27397" guid="emarket-discountruletype-27397" name="На пользователей" type-id="772" type-guid="emarket-discountruletype" ownerId="14"/>
+            </value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <relations>
+    <relation type-id="803" field-name="country">
+      <guide id="693"/>
+    </relation>
+    <relation type-id="4" field-name="groups">
+      <guide id="6"/>
+    </relation>
+    <relation type-id="4" field-name="delivery_addresses">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="4" field-name="preffered_currency">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="4" field-name="legal_persons">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="4" field-name="filemanager">
+      <guide id="825"/>
+    </relation>
+    <relation type-id="4" field-name="filemanager_directory">
+      <guide id="825"/>
+    </relation>
+    <relation object-id="14" field-name="groups">
+      <object id="15"/>
+    </relation>
+    <relation type-id="751" field-name="codename">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="753" field-name="codename">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="765" field-name="discount_type_id">
+      <guide id="762"/>
+    </relation>
+    <relation type-id="765" field-name="discount_modificator_id">
+      <guide id="792"/>
+    </relation>
+    <relation type-id="765" field-name="discount_rules_id">
+      <guide id="793"/>
+    </relation>
+    <relation type-id="756" field-name="item_type_id">
+      <guide id="779"/>
+    </relation>
+    <relation type-id="756" field-name="item_discount_id">
+      <guide id="765"/>
+    </relation>
+    <relation type-id="756" field-name="options">
+      <guide id="757"/>
+    </relation>
+    <relation type-id="760" field-name="preffered_currency">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="760" field-name="delivery_addresses">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="760" field-name="legal_persons">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="770" field-name="modificator_discount_types">
+      <guide id="762"/>
+    </relation>
+    <relation type-id="772" field-name="rule_discount_types">
+      <guide id="762"/>
+    </relation>
+    <relation type-id="788" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="781" field-name="delivery_type_id">
+      <guide id="782"/>
+    </relation>
+    <relation type-id="755" field-name="order_items">
+      <guide id="756"/>
+    </relation>
+    <relation type-id="755" field-name="customer_id">
+      <guide id="4"/>
+    </relation>
+    <relation type-id="755" field-name="manager_id">
+      <guide id="4"/>
+    </relation>
+    <relation type-id="755" field-name="status_id">
+      <guide id="751"/>
+    </relation>
+    <relation type-id="755" field-name="payment_id">
+      <guide id="788"/>
+    </relation>
+    <relation type-id="755" field-name="payment_status_id">
+      <guide id="753"/>
+    </relation>
+    <relation type-id="755" field-name="legal_person">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_id">
+      <guide id="781"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_status_id">
+      <guide id="752"/>
+    </relation>
+    <relation type-id="755" field-name="delivery_address">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="755" field-name="order_discount_id">
+      <guide id="765"/>
+    </relation>
+    <relation object-id="27136" field-name="modificator_discount_types">
+      <object id="27132"/>
+      <object id="27131"/>
+    </relation>
+    <relation object-id="27456" field-name="modificator_discount_types">
+      <object id="27132"/>
+    </relation>
+    <relation type-id="767" field-name="modificator_type_id">
+      <guide id="770"/>
+    </relation>
+    <relation type-id="768" field-name="modificator_type_id">
+      <guide id="770"/>
+    </relation>
+    <relation type-id="800" field-name="modificator_type_id">
+      <guide id="770"/>
+    </relation>
+    <relation object-id="27150" field-name="rule_discount_types">
+      <object id="27131"/>
+    </relation>
+    <relation object-id="27393" field-name="rule_discount_types">
+      <object id="27132"/>
+      <object id="27131"/>
+    </relation>
+    <relation object-id="27394" field-name="rule_discount_types">
+      <object id="27132"/>
+    </relation>
+    <relation object-id="27395" field-name="rule_discount_types">
+      <object id="27132"/>
+      <object id="27131"/>
+    </relation>
+    <relation object-id="27396" field-name="rule_discount_types">
+      <object id="27132"/>
+      <object id="27131"/>
+    </relation>
+    <relation object-id="27397" field-name="rule_discount_types">
+      <object id="27132"/>
+      <object id="27131"/>
+    </relation>
+    <relation object-id="27398" field-name="rule_discount_types">
+      <object id="27131"/>
+    </relation>
+    <relation type-id="773" field-name="rule_type_id">
+      <guide id="772"/>
+    </relation>
+    <relation type-id="777" field-name="rule_type_id">
+      <guide id="772"/>
+    </relation>
+    <relation type-id="794" field-name="rule_type_id">
+      <guide id="772"/>
+    </relation>
+    <relation type-id="795" field-name="rule_type_id">
+      <guide id="772"/>
+    </relation>
+    <relation type-id="796" field-name="rule_type_id">
+      <guide id="772"/>
+    </relation>
+    <relation type-id="797" field-name="rule_type_id">
+      <guide id="772"/>
+    </relation>
+    <relation type-id="797" field-name="user_groups">
+      <guide id="6"/>
+    </relation>
+    <relation type-id="798" field-name="rule_type_id">
+      <guide id="772"/>
+    </relation>
+    <relation type-id="798" field-name="users">
+      <guide id="4"/>
+    </relation>
+    <relation type-id="799" field-name="rule_type_id">
+      <guide id="772"/>
+    </relation>
+    <relation type-id="783" field-name="delivery_type_id">
+      <guide id="782"/>
+    </relation>
+    <relation type-id="784" field-name="delivery_type_id">
+      <guide id="782"/>
+    </relation>
+    <relation type-id="808" field-name="delivery_type_id">
+      <guide id="782"/>
+    </relation>
+    <relation type-id="808" field-name="viewpost">
+      <guide id="809"/>
+    </relation>
+    <relation type-id="808" field-name="typepost">
+      <guide id="810"/>
+    </relation>
+    <relation type-id="790" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="791" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="801" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="802" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="812" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="813" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="816" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="821" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="824" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation type-id="826" field-name="payment_type_id">
+      <guide id="787"/>
+    </relation>
+    <relation object-id="27135" field-name="modificator_type_id">
+      <object id="27136"/>
+    </relation>
+    <relation object-id="27438" field-name="rule_type_id">
+      <object id="27397"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions>
+    <restriction id="2" prefix="email" title="E-mail" field-type="string" is-multiple="">
+      <field field-name="email" type-id="817"/>
+      <field field-name="email" type-id="760"/>
+    </restriction>
+    <restriction id="5" prefix="objectType" title="Тип данных" field-type="int" is-multiple="">
+      <field field-name="modificator_type_id" type-id="770"/>
+      <field field-name="rule_type_id" type-id="772"/>
+      <field field-name="delivery_type_id" type-id="782"/>
+      <field field-name="payment_type_id" type-id="787"/>
+    </restriction>
+    <restriction id="4" prefix="systemDomain" title="Домен системы" field-type="int" is-multiple="">
+      <field field-name="domain_id" type-id="755"/>
+    </restriction>
+  </restrictions>
+  <permissions>
+    <permission object-id="15">
+      <module name="content" method="" allow="1"/>
+      <module name="domain" method="2" allow="1"/>
+      <module name="content" method="sitetree" allow="1"/>
+      <module name="content" method="tickets" allow="1"/>
+      <module name="content" method="publish" allow="1"/>
+      <module name="users" method="" allow="1"/>
+      <module name="users" method="settings" allow="1"/>
+      <module name="users" method="users_list" allow="1"/>
+      <module name="users" method="profile" allow="1"/>
+      <module name="backup" method="" allow="1"/>
+      <module name="backup" method="config" allow="1"/>
+      <module name="data" method="" allow="1"/>
+      <module name="data" method="guides" allow="1"/>
+      <module name="data" method="trash" allow="1"/>
+      <module name="data" method="types" allow="1"/>
+      <module name="catalog" method="" allow="1"/>
+      <module name="catalog" method="tree" allow="1"/>
+      <module name="catalog" method="publish" allow="1"/>
+      <module name="news" method="" allow="1"/>
+      <module name="news" method="lists" allow="1"/>
+      <module name="news" method="publish" allow="1"/>
+      <module name="vote" method="" allow="1"/>
+      <module name="vote" method="add_poll" allow="1"/>
+      <module name="vote" method="edit_poll" allow="1"/>
+      <module name="vote" method="del_poll" allow="1"/>
+      <module name="vote" method="publish" allow="1"/>
+      <module name="search" method="" allow="1"/>
+      <module name="search" method="index" allow="1"/>
+      <module name="forum" method="" allow="1"/>
+      <module name="forum" method="last_messages" allow="1"/>
+      <module name="banners" method="" allow="1"/>
+      <module name="banners" method="places_list" allow="1"/>
+      <module name="banners" method="place_edit" allow="1"/>
+      <module name="banners" method="place_edit_do" allow="1"/>
+      <module name="banners" method="place_add" allow="1"/>
+      <module name="banners" method="place_add_do" allow="1"/>
+      <module name="banners" method="place_del" allow="1"/>
+      <module name="banners" method="banners_list" allow="1"/>
+      <module name="banners" method="banner_edit" allow="1"/>
+      <module name="banners" method="banner_edit_do" allow="1"/>
+      <module name="banners" method="banner_add" allow="1"/>
+      <module name="banners" method="banner_add_do" allow="1"/>
+      <module name="banners" method="banner_del" allow="1"/>
+      <module name="dispatches" method="" allow="1"/>
+      <module name="dispatches" method="dispatches_list" allow="1"/>
+      <module name="dispatches" method="releasees_list" allow="1"/>
+      <module name="dispatches" method="messages_list" allow="1"/>
+      <module name="dispatches" method="subscribers_list" allow="1"/>
+      <module name="dispatches" method="lists" allow="1"/>
+      <module name="comments" method="" allow="1"/>
+      <module name="comments" method="view_comments" allow="1"/>
+      <module name="webforms" method="" allow="1"/>
+      <module name="webforms" method="addresses" allow="1"/>
+      <module name="stat" method="" allow="1"/>
+      <module name="stat" method="json_get_referer_pages" allow="1"/>
+      <module name="stat" method="total" allow="1"/>
+      <module name="autoupdate" method="" allow="1"/>
+      <module name="autoupdate" method="versions" allow="1"/>
+      <module name="faq" method="" allow="1"/>
+      <module name="faq" method="projects_list" allow="1"/>
+      <module name="faq" method="publish" allow="1"/>
+      <module name="photoalbum" method="" allow="1"/>
+      <module name="photoalbum" method="albums_list" allow="1"/>
+      <module name="photoalbum" method="publish" allow="1"/>
+      <module name="filemanager" method="" allow="1"/>
+      <module name="filemanager" method="directory_list" allow="1"/>
+      <module name="eshop" method="" allow="1"/>
+      <module name="eshop" method="orders_list" allow="1"/>
+      <module name="eshop" method="stores" allow="1"/>
+      <module name="eshop" method="discount_cards" allow="1"/>
+      <module name="eshop" method="personal" allow="1"/>
+      <module name="blogs" method="edit" allow="1"/>
+      <module name="blogs" method="" allow="1"/>
+      <module name="geoip" method="" allow="1"/>
+      <module name="geoip" method="info" allow="1"/>
+      <module name="seo" method="" allow="1"/>
+      <module name="seo" method="seo" allow="1"/>
+    </permission>
+    <permission object-id="2374">
+      <module name="users" method="settings" allow="1"/>
+      <module name="eshop" method="personal" allow="1"/>
+      <module name="blogs20" method="add" allow="1"/>
+    </permission>
+    <permission object-id="26315">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26341">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27227">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27228">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27923">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27924">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="14"/>
+    <permission object-id="27226">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27180">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27181">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27131">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27132">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="2373">
+      <module name="stat" method="widgets" allow="1"/>
+      <module name="content" method="content" allow="1"/>
+      <module name="users" method="login" allow="1"/>
+      <module name="users" method="registrate" allow="1"/>
+      <module name="data" method="2373" allow="1"/>
+      <module name="data" method="main" allow="1"/>
+      <module name="catalog" method="view" allow="1"/>
+      <module name="news" method="view" allow="1"/>
+      <module name="vote" method="poll" allow="1"/>
+      <module name="vote" method="post" allow="1"/>
+      <module name="search" method="search" allow="1"/>
+      <module name="forum" method="view" allow="1"/>
+      <module name="banners" method="insert" allow="1"/>
+      <module name="banners" method="go_to" allow="1"/>
+      <module name="dispatches" method="subscribe" allow="1"/>
+      <module name="comments" method="insert" allow="1"/>
+      <module name="webforms" method="add" allow="1"/>
+      <module name="webforms" method="insert" allow="1"/>
+      <module name="webforms" method="messages" allow="1"/>
+      <module name="stat" method="tagsCloud" allow="1"/>
+      <module name="faq" method="projects" allow="1"/>
+      <module name="faq" method="post_question" allow="1"/>
+      <module name="photoalbum" method="albums" allow="1"/>
+      <module name="filemanager" method="list_files" allow="1"/>
+      <module name="filemanager" method="download" allow="1"/>
+      <module name="blogs20" method="common" allow="1"/>
+      <module name="emarket" method="purchasing" allow="1"/>
+      <module name="emarket" method="compare" allow="1"/>
+      <module name="domain" method="1" allow="1"/>
+      <module name="exchange" method="auto" allow="1"/>
+      <module name="exchange" method="get_export" allow="1"/>
+      <module name="social_networks" method="view" allow="1"/>
+    </permission>
+    <permission object-id="27258">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27259">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27260">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27261">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27262">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27263">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27264">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27927">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27236">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27239">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27457">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27458">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27486">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27487">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27519">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27922">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27926">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27380">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27381">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27382">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27383">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27230">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27233">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27481">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27377">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27378">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27379">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27136">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27456">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27150">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27393">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27394">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27395">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27396">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27397">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27398">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27470">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27471">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27472">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27473">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27474">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27475">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27476">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27477">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27478">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27479">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27480">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27147">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27135">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27438">
+      <owner id="14"/>
+    </permission>
+  </permissions>
+  <hierarchy/>
+</umidump>

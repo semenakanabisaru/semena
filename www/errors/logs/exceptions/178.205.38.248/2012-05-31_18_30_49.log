@@ -1,0 +1,171 @@
+[_COOKIE]
+	[stat_id]
+	(string) mibhhphc8nodcntmhorc1ainp7
+
+	[eip-panel-state]
+	(string) 
+
+	[umi_captcha]
+	(string) 6b1a864b240fc77e3a901e3470b243f9
+
+	[user_captcha]
+	(string) 8742
+
+	[PHPSESSID]
+	(string) q2hh9lifppk96durrpe2tftv31
+
+	[ftypes]
+	(string) sissified
+
+	[acstate_active]
+	(string) 0
+
+	[acstate_opened]
+	(string) 1|0
+
+	[fcats]
+	(string) greenhouse
+
+	[ilang]
+	(string) ru
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1338474649
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'mibhhphc8nodcntmhorc1ainp7', '11430', '1', '35769', '16', '1976', '1976']
+
+	[e76fcad4b37585e78574f7b026a2a13d]
+	(array) ['['content', 'content', '1']']
+
+	[http_referer]
+	(NULL) 
+
+	[88f4cd28cbdd222cf4037bd67f60267a]
+	(array) ['['catalog', 'object', '331']', '['catalog', 'object', '332']']
+
+	[ea936dae8e57d209ac91a3af4dea9dbf]
+	(array) ['['catalog', 'object', '222']', '['catalog', 'object', '342']', '['catalog', 'object', '255']', '['catalog', 'object', '256']', '['catalog', 'object', '308']', '['catalog', 'object', '319']', '['catalog', 'object', '331']', '['catalog', 'object', '226']', '['catalog', 'object', '218']', '['catalog', 'object', '217']', '['catalog', 'object', '219']', '['catalog', 'object', '216']', '['catalog', 'object', '337']', '['catalog', 'object', '221']', '['catalog', 'object', '185']', '['catalog', 'object', '192']', '['catalog', 'object', '282']', '['catalog', 'object', '283']', '['catalog', 'object', '277']', '['catalog', 'object', '61']', '['catalog', 'object', '59']', '['catalog', 'object', '56']', '['catalog', 'object', '48']', '['catalog', 'object', '50']', '['catalog', 'object', '60']', '['catalog', 'object', '57']', '['catalog', 'object', '64']', '['catalog', 'object', '46']', '['catalog', 'object', '43']', '['catalog', 'object', '71']', '['catalog', 'object', '53']', '['catalog', 'object', '324']', '['catalog', 'object', '55']', '['catalog', 'object', '62']', '['catalog', 'object', '63']', '['catalog', 'object', '387']', '['catalog', 'object', '388']', '['catalog', 'object', '344']', '['catalog', 'object', '345']', '['catalog', 'object', '346']', '['catalog', 'object', '389']', '['catalog', 'object', '329']', '['catalog', 'object', '393']', '['catalog', 'object', '299']', '['catalog', 'object', '193']', '['catalog', 'object', '340']', '['catalog', 'object', '301']', '['catalog', 'object', '303']', '['catalog', 'object', '168']', '['catalog', 'object', '170']', '['catalog', 'object', '174']', '['catalog', 'object', '176']', '['catalog', 'object', '78']', '['catalog', 'object', '51']', '['catalog', 'object', '351']', '['catalog', 'object', '353']', '['catalog', 'object', '354']', '['catalog', 'object', '356']', '['catalog', 'object', '358']', '['catalog', 'object', '359']', '['catalog', 'object', '364']', '['catalog', 'object', '361']', '['catalog', 'object', '362']', '['catalog', 'object', '363']', '['catalog', 'object', '416']', '['catalog', 'object', '321']', '['catalog', 'object', '409']', '['catalog', 'object', '411']', '['catalog', 'object', '413']', '['catalog', 'object', '414']', '['catalog', 'object', '415']', '['catalog', 'object', '212']', '['catalog', 'object', '253']']
+
+	[6fe5e7809885ca45b94fb0347eae05a4]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '351']', '['catalog', 'object', '299']', '['catalog', 'object', '331']', '['catalog', 'object', '353']', '['catalog', 'object', '409']', '['catalog', 'object', '354']']
+
+	[794a6f4fa9b98d257aa3fc2f40421233]
+	(array) ['['catalog', 'category', '307']', '['catalog', 'object', '308']', '['catalog', 'object', '321']', '['catalog', 'object', '393']']
+
+	[44f02ce6746f6ef3fac173eb3b9168c3]
+	(array) ['['catalog', 'category', '408']', '['catalog', 'object', '409']', '['catalog', 'object', '411']']
+
+	[5b67b690a55b1fea289e0c090a1b2de1]
+	(array) ['['catalog', 'category', '25']', '['catalog', 'object', '331']', '['catalog', 'object', '319']', '['catalog', 'object', '222']', '['catalog', 'object', '226']', '['catalog', 'object', '218']', '['catalog', 'object', '217']']
+
+	[3f7aa31fbd03018769578149576dadfc]
+	(array) ['['catalog', 'category', '16']', '['catalog', 'object', '61']', '['catalog', 'object', '81']', '['catalog', 'object', '89']', '['catalog', 'object', '59']', '['catalog', 'object', '387']', '['catalog', 'object', '56']']
+
+	[17f37069c8cfa6e427d89006c0a70bd3]
+	(array) ['['catalog', 'category', '16']', '['catalog', 'object', '61']', '['catalog', 'object', '81']', '['catalog', 'object', '89']', '['catalog', 'object', '59']', '['catalog', 'object', '387']', '['catalog', 'object', '56']', '['catalog', 'object', '388']', '['catalog', 'object', '48']', '['catalog', 'object', '50']', '['catalog', 'object', '86']', '['catalog', 'object', '60']', '['catalog', 'object', '85']', '['catalog', 'object', '57']', '['catalog', 'object', '78']', '['catalog', 'object', '64']', '['catalog', 'object', '46']', '['catalog', 'object', '43']', '['catalog', 'object', '79']', '['catalog', 'object', '71']', '['catalog', 'object', '80']', '['catalog', 'object', '297']', '['catalog', 'object', '53']', '['catalog', 'object', '342']', '['catalog', 'object', '344']']
+
+	[19c4f857f4e2712c7412159565ba26f3]
+	(array) ['['catalog', 'object', '61']', '['catalog', 'object', '132']']
+
+	[9694380a2a8125acb7ed4920101e9429]
+	(array) ['['catalog', 'object', '81']', '['catalog', 'object', '147']']
+
+	[076130d3df8fe01a214d9e1ef9072ba1]
+	(array) ['['catalog', 'category', '16']', '['catalog', 'object', '61']', '['catalog', 'object', '81']', '['catalog', 'object', '89']', '['catalog', 'object', '59']', '['catalog', 'object', '387']', '['catalog', 'object', '388']']
+
+	[3c4ce9ee84e0ce8910b8c9e0435dc0ca]
+	(array) ['['catalog', 'object', '321']', '['catalog', 'object', '322']', '['catalog', 'object', '323']']
+
+	[c7fb97479ba65d01438b339319c4f440]
+	(array) ['['catalog', 'object', '321']']
+
+	[7e1598b746b10bcddef3ad342185d571]
+	(array) ['['catalog', 'object', '342']', '['catalog', 'object', '308']', '['catalog', 'object', '319']', '['catalog', 'object', '61']', '['catalog', 'object', '59']', '['catalog', 'object', '56']', '['catalog', 'object', '48']', '['catalog', 'object', '50']', '['catalog', 'object', '60']', '['catalog', 'object', '57']', '['catalog', 'object', '64']', '['catalog', 'object', '46']', '['catalog', 'object', '43']', '['catalog', 'object', '71']', '['catalog', 'object', '324']', '['catalog', 'object', '62']', '['catalog', 'object', '63']', '['catalog', 'object', '387']', '['catalog', 'object', '388']', '['catalog', 'object', '344']', '['catalog', 'object', '345']', '['catalog', 'object', '389']', '['catalog', 'object', '329']', '['catalog', 'object', '393']', '['catalog', 'object', '299']', '['catalog', 'object', '340']', '['catalog', 'object', '301']', '['catalog', 'object', '78']', '['catalog', 'object', '51']', '['catalog', 'object', '351']', '['catalog', 'object', '353']', '['catalog', 'object', '354']', '['catalog', 'object', '356']', '['catalog', 'object', '358']', '['catalog', 'object', '359']', '['catalog', 'object', '364']', '['catalog', 'object', '361']', '['catalog', 'object', '362']', '['catalog', 'object', '363']', '['catalog', 'object', '416']', '['catalog', 'object', '321']', '['catalog', 'object', '409']', '['catalog', 'object', '411']', '['catalog', 'object', '413']', '['catalog', 'object', '414']', '['catalog', 'object', '415']', '['catalog', 'object', '253']']
+
+	[fe0c24d541c8822237914e394ff1f60e]
+	(array) ['['content', 'content', '30']', '['catalog', 'object', '351']', '['catalog', 'object', '299']', '['catalog', 'object', '353']', '['catalog', 'object', '409']', '['catalog', 'object', '354']', '['catalog', 'object', '356']']
+
+
+[_GET]
+	[path]
+	(string) results/
+
+	[order_filter]
+	(array) ['1']
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.52 Safari/536.5
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) stat_id=mibhhphc8nodcntmhorc1ainp7; eip-panel-state=; umi_captcha=6b1a864b240fc77e3a901e3470b243f9; user_captcha=8742; PHPSESSID=q2hh9lifppk96durrpe2tftv31; ftypes=sissified; acstate_active=0; acstate_opened=1%7C0; fcats=greenhouse; ilang=ru; _ym_visorc=w
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0009379]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[0.0017481]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('?SELECT DISTINC...', false)
+#1 /var/www/clients/client0/web1/web/classes/modules/custom.php(333): l_mysql_query('?SELECT DISTINC...')
+#2 [internal function]: custom-&gt;myAdvancedSearch('6')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#5 [internal function]: udataStream-&gt;stream_open('udata://custom/...', 'rb', 4, NULL)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#7 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#8 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#9 {main}

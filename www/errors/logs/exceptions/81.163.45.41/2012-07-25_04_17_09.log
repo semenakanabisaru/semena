@@ -1,0 +1,102 @@
+[_COOKIE]
+	[stat_id]
+	(string) 6f6gr9arrnt3cfv9b1s3f1bst4
+
+	[PHPSESSID]
+	(string) 4bd0ds043acijpoq1gtfttner0
+
+	[customer-id]
+	(string) 21329
+
+	[acstate_active]
+	(string) false
+
+	[acstate_opened]
+	(string) -1
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343175241
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[http_referer]
+	(string) http://www.google.ru/aclk?sa=L&ai=CjTg05QgPUOKYDpG5hQe1z4GABPHXhcUCyY-BnTaX2pvbXAgAEAFQgKmH8QNghIWAgPgcyAEBqQI9hjH9IktgPqoEGU_QtCBqIXLFbhWxhn97U5XVg0y_pr3R17o&sig=AOD64_2ePzrXaVddYPK1l6_UfWHH9iZlTg&ved=0CFoQ0Qw&adurl=http://Semena-Kanabisa.ru&rct=j&q=%D0%A1%D0%95%D0%9C%D0%95%D0%9D%D0%90%20%D0%9A%D0%90%D0%9D%D0%90%D0%91%D0%98%D0%A1%D0%90%20%D0%9D%D0%90%D0%9B%D0%9E%D0%96%D0%95%D0%9D%D0%9D%D0%AB%D0%9C%20%D0%9F%D0%9B%D0%90%D0%A2%D0%95%D0%96%D0%9E%D0%9C&cad=rjt
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.7.62 Version/11.01
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Charset]
+	(string) iso-8859-1, utf-8, utf-16, *;q=0.1
+
+	[Accept-Encoding]
+	(string) deflate, gzip, x-gzip, identity, *;q=0
+
+	[Referer]
+	(string) http://www.google.ru/url?sa=t&rct=j&q=%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%20%D0%BA%D0%B0%D0%BD%D0%BD%D0%B0%D0%B1%D0%B8%D1%81%D0%B0&source=web&cd=2&ved=0CHoQFjAB&url=http%3A%2F%2Fsemena-kanabisa.ru%2F&ei=0RYPUOy7F4mKhQfI4IGQBQ&usg=AFQjCNGEl-XwpiTrZPhKDkmhHYcFfYyd8w&cad=rjt
+
+	[Cookie]
+	(string) stat_id=6f6gr9arrnt3cfv9b1s3f1bst4; PHPSESSID=4bd0ds043acijpoq1gtfttner0; customer-id=21329; acstate_active=false; acstate_opened=-1
+
+	[Cookie2]
+	(string) $Version=1
+
+	[Connection]
+	(string) Keep-Alive, TE
+
+	[TE]
+	(string) deflate, gzip, chunked, identity, trailers
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.7908950]	Default domain could not be found
+[1.2055049]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#6 {main}

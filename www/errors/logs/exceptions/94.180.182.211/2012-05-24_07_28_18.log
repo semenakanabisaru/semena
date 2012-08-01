@@ -1,0 +1,135 @@
+[_COOKIE]
+	[toolbar_fonts]
+	(string) on
+
+	[SS_ARE_Override_traceLevel]
+	(string) WARN
+
+	[eip-panel-state-first]
+	(string) Y
+
+	[umi_captcha]
+	(string) bd85282513da4089c441926e1975898c
+
+	[expandExtendedFields]
+	(string) 1
+
+	[fprice]
+	(string) 0|4000
+
+	[stat_id]
+	(string) 2491oncouop5lqnc73jv5iihk4
+
+	[acstate_active]
+	(string) 0
+
+	[acstate_opened]
+	(string) 0|1|2|3|4
+
+	[ftgk]
+	(string) 20|100
+
+	[PHPSESSID]
+	(string) 2491oncouop5lqnc73jv5iihk4
+
+	[fproducers]
+	(string) 20|307
+
+	[umicms_session]
+	(string) eb30a16f34eefdf37a2c75e659c375d2
+
+	[ilang]
+	(string) ru
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1337829934
+
+	[http_target]
+	(string) /admin/catalog/
+
+	[user_id]
+	(integer) 10
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 1
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[cms_login]
+	(string) admin
+
+	[cms_pass]
+	(string) bbe8180d60290154644a9b19677bdad1
+
+	[user_is_sv]
+	(boolean) 1
+
+	[paging]
+	(array) ['['['['['', '', '2', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']']']']']
+
+	[http_referer]
+	(NULL) 
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) toolbar_fonts=on; SS_ARE_Override.traceLevel=WARN; eip-panel-state-first=Y; umi_captcha=bd85282513da4089c441926e1975898c; expandExtendedFields=1; fprice=0%7C4000; stat_id=2491oncouop5lqnc73jv5iihk4; acstate_active=0; acstate_opened=0%7C1%7C2%7C3%7C4; ftgk=20%7C100; PHPSESSID=2491oncouop5lqnc73jv5iihk4; fproducers=20%7C307; umicms_session=eb30a16f34eefdf37a2c75e659c375d2; ilang=ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[1.2257931]	Default domain could not be found
+[1.4179080]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#6 {main}

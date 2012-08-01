@@ -1,0 +1,93 @@
+[_COOKIE]
+	[stat_id]
+	(string) dulc7gljdfdksqdu4aqits1ad3
+
+	[customer-id]
+	(string) 24846
+
+	[PHPSESSID]
+	(string) 8r6316bj3soqm2vf982hh9f0v6
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343174819
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /?from=olk
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) cart_content/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows; U; Windows NT 6.1; ru; rv:1.9.2.25) Gecko/20111212 MRA 5.7 (build 03686) Firefox/3.6.25
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip,deflate
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.7
+
+	[Keep-Alive]
+	(string) 115
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/?from=olk
+
+	[Cookie]
+	(string) stat_id=dulc7gljdfdksqdu4aqits1ad3; customer-id=24846; PHPSESSID=8r6316bj3soqm2vf982hh9f0v6
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[1.5714719]	Default domain could not be found
+[28.6149759]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#6 {main}

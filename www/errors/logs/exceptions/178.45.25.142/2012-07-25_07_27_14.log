@@ -1,0 +1,76 @@
+[_COOKIE]
+	[stat_id]
+	(string) 19ak5bduq7lljegno7g12u8em6
+
+	[customer-id]
+	(string) 22888
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343186418
+
+	[http_target]
+	(string) /
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0.1
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://www.google.ru/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&sqi=2&ved=0CEwQFjAA&url=http%3A%2F%2Fsemena-kanabisa.ru%2F&ei=UmQPUI7eGuaJ4gT_z4DACg&usg=AFQjCNGEl-XwpiTrZPhKDkmhHYcFfYyd8w&sig2=vDi_Hf1d5vCePkJCAjvjsw
+
+	[Cookie]
+	(string) stat_id=19ak5bduq7lljegno7g12u8em6; customer-id=22888
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=5dfla3g5hghf5a10bosk93veh0; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[1.1085000]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[17.2729151]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT h.rel, h...', true)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchyElement.php(444): l_mysql_query('SELECT h.rel, h...', true)
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/umiEntinty.php(19): umiHierarchyElement-&gt;loadInfo(false)
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(116): umiEntinty-&gt;__construct('1', false)
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1142): umiHierarchy-&gt;getElement('1', true)
+#5 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#6 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#7 {main}

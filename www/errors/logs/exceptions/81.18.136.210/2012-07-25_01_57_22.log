@@ -1,0 +1,129 @@
+[_COOKIE]
+	[stat_id]
+	(string) d17bruqft01m9i3ab7dc5ut130
+
+	[PHPSESSID]
+	(string) 2kh4jcbrv5kt46nt8kbb1uhq97
+
+	[_ym_visorc]
+	(string) w
+
+	[acstate_active]
+	(string) false
+
+	[acstate_opened]
+	(string) -1
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343166877
+
+	[http_referer]
+	(string) http://go.mail.ru/search?mailru=1&q=%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D1%8B%D1%87+%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD+%D1%81%D0%B5%D0%BC%D1%8F%D0%BD&us=7&ussp=inv
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'd17bruqft01m9i3ab7dc5ut130', '15805', '1', '80679', '11', '337', '337']
+
+	[e76fcad4b37585e78574f7b026a2a13d]
+	(array) ['['content', 'content', '1']']
+
+	[622649e227af3467b37cf850b1916f9c]
+	(array) ['['catalog', 'category', '23']', '['catalog', 'object', '485']', '['catalog', 'object', '249']', '['catalog', 'object', '453']', '['catalog', 'object', '250']', '['catalog', 'object', '253']', '['catalog', 'object', '488']']
+
+	[0aaf0a92fe675b717ed2ba3946e4034c]
+	(array) ['['catalog', 'category', '23']', '['catalog', 'object', '254']', '['catalog', 'object', '251']', '['catalog', 'object', '255']', '['catalog', 'object', '487']', '['catalog', 'object', '489']', '['catalog', 'object', '256']']
+
+	[dc5f00ce28892f70e28d9cc5b08b2d0a]
+	(array) ['['catalog', 'category', '23']', '['catalog', 'object', '490']', '['catalog', 'object', '252']']
+
+	[96e2be88c8cf66ca4c553a44b1986788]
+	(array) ['['catalog', 'category', '350']', '['catalog', 'object', '353']', '['catalog', 'object', '354']', '['catalog', 'object', '355']', '['catalog', 'object', '356']', '['catalog', 'object', '358']', '['catalog', 'object', '359']']
+
+	[794a6f4fa9b98d257aa3fc2f40421233]
+	(array) ['['catalog', 'category', '307']', '['catalog', 'object', '467']', '['catalog', 'object', '441']', '['catalog', 'object', '309']', '['catalog', 'object', '321']', '['catalog', 'object', '439']', '['catalog', 'object', '393']']
+
+	[3cd57b6e153a99883c0c98ab8cfac74c]
+	(array) ['['catalog', 'category', '307']', '['catalog', 'object', '396']', '['catalog', 'object', '435']']
+
+	[3f7aa31fbd03018769578149576dadfc]
+	(array) ['['catalog', 'category', '16']', '['catalog', 'object', '65']', '['catalog', 'object', '66']', '['catalog', 'object', '54']', '['catalog', 'object', '88']', '['catalog', 'object', '49']', '['catalog', 'object', '446']']
+
+	[6709bed6ff04403e720554b44216d88e]
+	(array) ['['catalog', 'object', '49']', '['catalog', 'object', '112']', '['catalog', 'object', '315']']
+
+	[d4e3d066af7f6e59bbdbd58d459592fc]
+	(array) ['['catalog', 'category', '16']', '['catalog', 'object', '61']', '['catalog', 'object', '45']', '['catalog', 'object', '447']', '['catalog', 'object', '448']', '['catalog', 'object', '81']', '['catalog', 'object', '52']']
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 5.1; rv:13.0) Gecko/20100101 Firefox/13.0.1
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://go.mail.ru/search?mailru=1&q=%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D1%8B%D1%87+%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD+%D1%81%D0%B5%D0%BC%D1%8F%D0%BD&us=7&ussp=inv
+
+	[Cookie]
+	(string) stat_id=d17bruqft01m9i3ab7dc5ut130; PHPSESSID=2kh4jcbrv5kt46nt8kbb1uhq97; _ym_visorc=w; acstate_active=false; acstate_opened=-1
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[22.3784931]	Default domain could not be found
+[23.3267949]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#6 {main}

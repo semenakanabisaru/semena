@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432895</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:55 +0400</rfc>
+      <utc>2012-04-26T13:34:55+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/search" val="search"/>
+    <key path="modules/search/name" val="search"/>
+    <key path="modules/search/filename" val="modules/search/class.php"/>
+    <key path="modules/search/default_method" val="search_do" update="1"/>
+    <key path="modules/search/default_method_admin" val="index_control" update="1"/>
+    <key path="modules/search/func_perms" val=""/>
+    <key path="modules/search/func_perms/index" val="Управление переиндексацией"/>
+    <key path="modules/search/func_perms/search" val="Поиск по сайту"/>
+    <key path="modules/search/hightlight_color" val=""/>
+    <key path="modules/search/autoindex" val="1"/>
+    <key path="modules/search/per_page" val="10"/>
+    <key path="modules/search/one_iteration_index" val="5"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/search" name="search">/classes/modules/search</directory>
+    <directory path="./styles/skins/mac/data/modules/search" name="search">/styles/skins/mac/data/modules/search</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/search/permissions.php" size="239" ext="php" hash="62d805ff9fc77992d46232878abd9113" name="permissions.php">/classes/modules/search/permissions.php</file>
+    <file path="./classes/modules/search/i18n.php" size="1571" ext="php" hash="fbb8937d5daff575f92d20b8c877dde6" name="i18n.php">/classes/modules/search/i18n.php</file>
+    
+    <file path="./classes/modules/search/lang.php" size="2049" ext="php" hash="2d65457a80613263c6232b4589850599" name="lang.php">/classes/modules/search/lang.php</file>
+    <file path="./classes/modules/search/lang.en.php" size="1003" ext="php" hash="4cf84721209f2b3d7d5ff3607165ccdb" name="lang.en.php">/classes/modules/search/lang.en.php</file>
+    <file path="./classes/modules/search/update.php" size="458" ext="php" hash="20d684dd44678e7d593f99027594cf19" name="update.php">/classes/modules/search/update.php</file>
+    <file path="./classes/modules/search/class.php" size="6252" ext="php" hash="3f45368413804583b65f475310dc01a7" name="class.php">/classes/modules/search/class.php</file>
+    <file path="./classes/modules/search/__admin.php" size="2611" ext="php" hash="0c131be272df4e635c6760901f203649" name="__admin.php">/classes/modules/search/__admin.php</file>
+    <file path="./classes/modules/search/install.php" size="2178" ext="php" hash="613f3c7e11097116b4aa3cf759754f1b" name="install.php">/classes/modules/search/install.php</file>
+    
+    <file path="./styles/skins/mac/data/modules/search/settings.modify.xsl" size="2106" ext="xsl" hash="c5ef82bbac5bcc6805750f04904e9867" name="settings.modify.xsl">/styles/skins/mac/data/modules/search/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

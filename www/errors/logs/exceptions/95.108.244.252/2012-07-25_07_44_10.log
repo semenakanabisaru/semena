@@ -1,0 +1,82 @@
+[_SESSION]
+	[starttime]
+	(integer) 1343184752
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /producers/pyramid_seeds/?&order_filter%5Bpercent_tgk%5D=1
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) producers/pyramid_seeds/
+
+	[order_filter]
+	(array) ['1']
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) Keep-Alive
+
+	[Accept]
+	(string) */*
+
+	[Accept-Encoding]
+	(string) gzip,deflate
+
+	[Accept-Language]
+	(string) ru, uk;q=0.8, be;q=0.8, en;q=0.7, *;q=0.01
+
+	[User-Agent]
+	(string) Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+
+	[From]
+	(string) support@search.yandex.ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=7hiac9387pqojm7jhf36n94np2; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[28.8818679]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[30.3415718]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT BIT_OR(c...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(245): l_mysql_query('SELECT BIT_OR(c...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(1281): permissionsCollection-&gt;isAllowedObject('298', 2)
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(107): umiHierarchy-&gt;isAllowed(2)
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/upage/upageStream.php(12): umiHierarchy-&gt;getElement(2)
+#5 [internal function]: upageStream-&gt;stream_open('upage://2', 'rb', 4, NULL)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#7 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#8 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#9 {main}

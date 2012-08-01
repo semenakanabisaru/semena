@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432894</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:54 +0400</rfc>
+      <utc>2012-04-26T13:34:54+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/backup" val="backup"/>
+    <key path="modules/backup/name" val="backup"/>
+    <key path="modules/backup/title" val="Backups"/>
+    <key path="modules/backup/filename" val="modules/backup/class.php"/>
+    <key path="modules/backup/config" val="0" update="1"/>
+    <key path="modules/backup/default_method" val="temp_method" update="1"/>
+    <key path="modules/backup/default_method_admin" val="config" update="1"/>
+    <key path="modules/backup/max_timelimit" val="30"/>
+    <key path="modules/backup/max_save_actions" val="50"/>
+    <key path="modules/backup/enabled" val="1"/>
+    <key path="modules/backup/enabled_sys" val="1"/>
+    <key path="modules/backup/max_timelimit_sys" val="787"/>
+    <key path="modules/backup/max_save_arch_sys" val="45"/>
+    <key path="modules/backup/enabled_files" val="0"/>
+    <key path="modules/backup/max_timelimit_files" val="0"/>
+    <key path="modules/backup/max_save_arch_files" val="0"/>
+    <key path="modules/backup/enabled_img" val="1"/>
+    <key path="modules/backup/max_timelimit_img" val="0"/>
+    <key path="modules/backup/max_save_arch_img" val="0"/>
+    <key path="modules/backup/enabled_tpl" val="0"/>
+    <key path="modules/backup/max_timelimit_tpl" val="0"/>
+    <key path="modules/backup/max_save_arch_tpl" val="0"/>
+    <key path="modules/backup/func_perms" val=""/>
+    <key path="modules/backup/func_perms/config" val="Настройка" update="1"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/backup" name="backup">/classes/modules/backup</directory>
+    <directory path="./styles/skins/mac/data/modules/backup" name="backup">/styles/skins/mac/data/modules/backup</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/backup/permissions.php" size="35" ext="php" hash="d6e200ebb7f9ab8378c4f0fdb3172b73" name="permissions.php">/classes/modules/backup/permissions.php</file>
+    <file path="./classes/modules/backup/i18n.php" size="2056" ext="php" hash="c76fa88bcf3f5ea030a21c5311875413" name="i18n.php">/classes/modules/backup/i18n.php</file>
+    
+    <file path="./classes/modules/backup/lang.php" size="582" ext="php" hash="59cf9be742b1e03f58b228ee9f4a2812" name="lang.php">/classes/modules/backup/lang.php</file>
+    <file path="./classes/modules/backup/class.php" size="547" ext="php" hash="1c66e9dc1238177c250a5a40b8ded17a" name="class.php">/classes/modules/backup/class.php</file>
+    <file path="./classes/modules/backup/__admin.php" size="5153" ext="php" hash="8d580a8ade02c0b7dc4f10efed57383c" name="__admin.php">/classes/modules/backup/__admin.php</file>
+    <file path="./classes/modules/backup/install.php" size="1743" ext="php" hash="a0913d1ccfa6959e96753fe93c83be6b" name="install.php">/classes/modules/backup/install.php</file>
+    <file path="./styles/skins/mac/data/modules/backup/settings.modify.xsl" size="7210" ext="xsl" hash="7c995ac865965ffd459b7d24ecb438ad" name="settings.modify.xsl">/styles/skins/mac/data/modules/backup/settings.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

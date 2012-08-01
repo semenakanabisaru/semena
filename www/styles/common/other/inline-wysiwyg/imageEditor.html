@@ -1,0 +1,315 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Редактирование изображения</title>
+		<link type="text/css" rel="stylesheet" href="/styles/skins/_eip/css/popup_page.css" />
+		<style>
+			fieldset {
+				padding: 0;
+			}
+			fieldset ul,
+			fieldset legend {
+				padding: 0;
+				margin-left: 0;
+			}
+			fieldset legend a {
+				outline: none;
+			}
+			fieldset label span {
+				display: block;
+				margin: 10px 0 5px 0;
+			}
+			fieldset label input,
+			fieldset label textarea,
+			fieldset label select,
+			fieldset label table {
+				width: 90%;
+			}
+			fieldset input.size,
+			fieldset input.checkbox,
+			fieldset input.margin {
+				display: inline;
+			}
+			fieldset input.size {
+				width: 55px;
+			}
+			fieldset input.checkbox {
+				width: auto;
+			}
+			fieldset input.margin {
+				width: 48px;
+			}
+			div#group-preview {
+				height: 200px;
+				width: 355px;
+				overflow: auto;
+			}
+		</style>
+		<script src="/js/jquery/jquery.js"></script>
+		<script type="text/javascript" src="/js/jquery/jquery.umipopups.js" charset="utf-8"></script>
+
+		<script language="JavaScript" type="text/javascript">
+//		<!--
+			var image_editor, nodeParams;
+			function getArgs() {
+				var args = new Object();
+				var query = location.search.substring(1);
+				var pairs = query.split("&");
+				for(var i = 0; i < pairs.length; i++) {
+					var pos = pairs[i].indexOf('=');
+					if (pos == -1) continue;
+					var argname   = pairs[i].substring(0,pos);
+					var value     = pairs[i].substring(pos+1);
+					args[argname] = unescape(value);
+				}
+				return args;
+			}
+
+			function autoHeightIframe(mode) {
+				var eip_page = document.getElementById('eip_page');
+				var height = (mode == 'load') ? document.body.scrollHeight + 10 : eip_page.offsetHeight + 20;
+				height = (height > 500) ? 500 : height;
+				if (frameElement) {
+					frameElement.height = height;
+					frameElement.style.height = height;
+				}
+			}
+
+			function showTree() {
+
+				var folder = nodeParams.folder;
+				var file = (typeof nodeParams.file != 'undefined' ? nodeParams.file : '');
+
+				jQuery.ajax({
+					url: "/admin/data/get_filemanager_info/",
+					data: "folder=" + folder + '&file=' + file,
+					dataType: 'json',
+					complete: function(data){
+						data = eval('(' + data.responseText + ')');
+						var lang = data.lang;
+						var folder_hash = data.folder_hash;
+						var file_hash = data.file_hash;
+						var fm = data.filemanager;
+
+						var functionName = 'show' + fm + 'Tree';
+						eval(functionName + '(folder, file, folder_hash, file_hash, lang)');
+					}
+				});
+			}
+
+			function showflashTree(folder, file, folder_hash, file_hash, lang) {
+				var url = '/styles/common/other/filebrowser/umifilebrowser.html',
+					src = document.getElementById("src");
+				var date = new Date;
+				var ts = date.getTime();
+				window.parent.$.openPopupLayer({
+					'name'   : "Filemanager",
+					'title'  : 'Файловый менеджер',
+					'width'  : 660,
+					'height' : 460,
+					'url'    : url + '?' + 'ts=' + ts + '&image=1&folder=' + folder + (file ? '&file=' + file : ''),
+					'afterClose': function (value) {
+						if(typeof value == 'undefined') return;
+						if(typeof value == 'object') value = value.toString();
+						if(value.length > 0)  setTimeout(function(){
+							src.value = value;
+							jQuery('img#preview', image_editor).attr('src', value);
+						},100);
+					}
+				});
+			}
+
+			function showelfinderTree(folder, file, folder_hash, file_hash, lang) {
+				var url = '/styles/common/other/elfinder/umifilebrowser.html',
+					src = document.getElementById("src");
+				var date = new Date;
+				var ts = date.getTime();
+				var qs = '?' + 'ts=' + ts;
+				qs = qs + '&folder_hash=' + folder_hash;
+
+				qs = qs + '&file_hash=' + file_hash;
+				qs = qs + '&lang=' + lang;
+
+				window.parent.$.openPopupLayer({
+					'name'   : "Filemanager",
+					'title'  : 'Файловый менеджер',
+					'width'  : 660,
+					'height' : 530,
+					'url'    : url +  qs,
+					'afterClose': function (value) {
+						if(typeof value == 'undefined') return;
+						if(typeof value == 'object') value = value.toString();
+						if(value.length > 0)  setTimeout(function(){
+							src.value = value;
+							jQuery('img#preview', image_editor).attr('src', value);
+						},100);
+					},
+					'success' : function () {
+						window.parent.jQuery('#popupLayer_Filemanager .popupBody').append('<div id="watermark_wrapper"><label for="add_watermark">Водяной знак</label><input type="checkbox" name="add_watermark" id="add_watermark"></div>');
+					}
+				});
+			}
+
+			jQuery(document).ready(function () {
+				image_editor = jQuery('form#image_editor');
+				nodeParams = window.parent.inlineWYSIWYG.select.params;
+				if (typeof nodeParams.file != 'undefined') {
+					image_editor[0].elements.src.value = nodeParams.file;
+					jQuery('img#preview', image_editor).attr('src', nodeParams.file);
+				}
+				if (typeof nodeParams.css != 'undefined') {
+					var i, j, element;
+					for (i in nodeParams.css) {
+						element = image_editor[0][i];
+						switch (element.type) {
+							case "text": {
+								element.value = nodeParams.css[i];
+								break;
+							}
+							case "select-one":
+							case "select-multiple": {
+								for (j = 0; j < element.options.length; j++) {
+									if (element.options[j].value == nodeParams.css[i]) {
+										element.options[j].selected = true;
+									}
+								}
+							}
+						}
+					}
+				}
+				jQuery('#cancel').click(function () {
+					window.parent.$.closePopupLayer('ImageEditor');
+				});
+				image_editor.submit(function () {
+					var i, element, params = {'src':this.elements.src.value,'css':{},'length':0};
+					for (i = 0; i < this.elements.length; i++) {
+						element = this.elements[i];
+						if (typeof element.value == 'undefined' ||(!element.value && !element.value.length) || (!element.name && !element.name.length)) continue;
+						if (element.type == 'submit' || element.type == 'button') continue;
+						if (element.name == 'src' || element.name == 'constrain') continue;
+						if (element.name == 'vertical-align' && (element.value == 'right' || element.value == 'left')) {
+							params.css['float'] = element.value;
+						}
+						else if (element.className == 'margin' || element.className == 'size') {
+							params.css[element.name] = parseInt(element.value) + 'px';
+						}
+						else params.css[element.name] = element.value;
+						params.length++;
+					}
+					window.parent.$.closePopupLayer('ImageEditor', params);
+				});
+				jQuery('#src').change(function() {
+					if (this.value && this.value.length) {
+						jQuery('img#preview', image_editor).attr('src', this.value);
+					}
+				});
+				jQuery('#tree').click(function() {
+					showTree();
+				});
+				jQuery(image_editor[0].width).change(function() {
+					var form = this.form, tp, preview = document.getElementById('preview'), src;
+					if (window.parent.ie) {
+						src = document.createElement('img');
+						src.src = preview.src;
+						preview = src;
+					}
+					if (!form.constrain.checked || !preview.src) return;
+					if (form.width.value == "" || form.height.value == "") return;
+					tp = (parseInt(form.width.value) / parseInt(preview.width)) * preview.height;
+					form.height.value = tp.toFixed(0);
+				});
+				jQuery(image_editor[0].height).change(function() {
+					var form = this.form, tp, preview = document.getElementById('preview'), src;
+					if (window.parent.ie) {
+						src = document.createElement('img');
+						src.src = preview.src;
+						preview = src;
+					}
+					if (!form.constrain.checked || !preview.src) return;
+					if (form.width.value == "" || form.height.value == "") return;
+					tp = (parseInt(form.height.value) / parseInt(preview.height)) * preview.width;
+					form.width.value = tp.toFixed(0);
+				});
+				jQuery("fieldset legend a").click(function() {
+					var i;
+					if ((i = this.href.indexOf('#'))) {
+						var id = this.href.substring(i + 1),
+							src = jQuery('input#src', image_editor).val();
+						jQuery("fieldset").children().filter("div").hide();
+						if (id == 'group-preview' && src) {
+							jQuery('img#preview', image_editor).attr('src', src);
+						}
+						jQuery('div#' + id).show();
+						autoHeightIframe();
+					}
+					return false;
+				});
+				autoHeightIframe('load'); 
+			});
+// -->
+		</script>
+	</head>
+	<body class="eip_win">
+		<div id="eip_page">
+			<form id="image_editor">
+				<fieldset class="collapsible">
+					<legend title="Название: &quot;common&quot;"><a href="#group-common">Основные параметры</a></legend>
+					<div id="group-common">
+						<ul>
+							<li>
+								<label>
+									<span>Введите адрес:</span>
+									<input type="text" name="src" id="src" size="45" style="display:inline;" />
+									<img src="/images/cms/browse_folder.png" id="tree" alt="Выбрать изображение" title="Выбрать изображение" class="treeButton" />
+								</label>
+							</li>
+							<li>
+								<label>
+									<span>Выравнивание:</span>
+									<select name="vertical-align" id="align"> 
+										<option value="">-- Нет --</option> 
+										<option value="baseline">По базовой линии</option>
+										<option value="top">По верху</option>
+										<option value="middle">По центру</option>
+										<option value="bottom">По низу</option>
+										<option value="text-top">По верху текста</option>
+										<option value="text-bottom">По низу текста</option>
+										<option value="left">Влево</option>
+										<option value="right">Вправо</option>
+									</select>
+								</label>
+							</li>
+							<li>
+								<label>
+									<span>Размеры:</span>
+									<input type="text" class="size" maxlength="5" name="width" /> x 
+								</label>
+								<input type="text" class="size" maxlength="5" name="height" /> px 
+								<label><input type="checkbox" class="checkbox" name="constrain" checked="checked" /> Сохранять пропорции</label>
+							</li>
+							<li>
+								<label>
+									<span>Отступ:</span>
+									верх <input type="text" class="margin" maxlength="5" name="margin-top" />
+								</label>
+								право <input type="text" class="margin" maxlength="5" name="margin-right" />
+								низ <input type="text" class="margin" maxlength="5" name="margin-bottom" />
+								лево <input type="text" class="margin" maxlength="5" name="margin-left" />
+							</li>
+						</ul>
+					</div>
+				</fieldset>
+				<fieldset class="collapsible">
+					<legend title="Название: &quot;preview&quot;"><a href="#group-preview">Предпросмотр</a></legend>
+					<div id="group-preview" style="display:none;">
+						<img id="preview" src="" alt="" />
+					</div>
+				</fieldset>
+				<div class="eip_buttons">
+					<input type="button" value="Отменить" id="cancel" class="back" />
+					<input type="submit" value="Сохранить" class="primary ok" />
+				</div>
+			</form>
+		</div>
+	</body>
+</html>

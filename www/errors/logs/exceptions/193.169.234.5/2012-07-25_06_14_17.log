@@ -1,0 +1,84 @@
+[_SESSION]
+	[starttime]
+	(integer) 1343174737
+
+	[http_target]
+	(string) /producers/paradise_seeds/spoetnik_1/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) producers/paradise_seeds/spoetnik_1/
+
+
+[Request headers]
+	[User-agent]
+	(string) Mozilla/5.0 (compatible; statdom.ru/Bot; +http://statdom.ru/bot.html)
+
+	[Connection]
+	(string) keep-alive Te
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Te]
+	(string) trailers
+
+	[Accept-language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-encoding]
+	(string) gzip
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept-charset]
+	(string) utf-8;q=0.7,*;q=0.3
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=eeer8h10hqshqohivh0pefend5; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[30.6906669]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[31.6927400]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id FROM ...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(1113): l_mysql_query('SELECT id FROM ...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/selection/umiSelection.php(420): umiHierarchy-&gt;getDefaultElementId()
+#3 /var/www/clients/client0/web1/web/classes/modules/catalog/class.php(163): umiSelection-&gt;addHierarchyFilter(220, 0)
+#4 [internal function]: catalog-&gt;getObjectsList('0', '220')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#7 [internal function]: udataStream-&gt;stream_open('udata://catalog...', 'rb', 4, NULL)
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#9 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#10 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#11 {main}

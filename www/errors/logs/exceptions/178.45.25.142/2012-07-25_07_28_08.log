@@ -1,0 +1,84 @@
+[_COOKIE]
+	[stat_id]
+	(string) 19ak5bduq7lljegno7g12u8em6
+
+	[customer-id]
+	(string) 22888
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343185752
+
+	[http_referer]
+	(string) http://yandex.ru/yandsearch?text=%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D1%8B%D1%87&lr=42
+
+	[http_target]
+	(string) /
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0.1
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://yandex.ru/yandsearch?text=%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D1%8B%D1%87&lr=42
+
+	[Cookie]
+	(string) stat_id=19ak5bduq7lljegno7g12u8em6; customer-id=22888
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=60q27odb2uj4t84e8ceb3cjru6; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.1956310]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[1.9222379]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT `id` FRO...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectsCollection.php(114): l_mysql_query('SELECT `id` FRO...')
+#2 /var/www/clients/client0/web1/web/classes/modules/users/class.php(11): umiObjectsCollection-&gt;getObjectIdByGUID('users-users-15')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(66): users-&gt;__construct()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(92): cmsController-&gt;loadModule('users')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(32): cmsController-&gt;getModule('users')
+#6 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): permissionsCollection-&gt;__construct()
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(53): singleton::getInstance('permissionsColl...')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(456): permissionsCollection::getInstance()
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#10 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#11 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#12 {main}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432898</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:58 +0400</rfc>
+      <utc>2012-04-26T13:34:58+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/seo" val="seo"/>
+    <key path="modules/seo/name" val="seo"/>
+    <key path="modules/seo/filename" val="modules/seo/class.php"/>
+    <key path="modules/seo/config" val="1" update="1"/>
+    <key path="modules/seo/default_method" val="show" update="1"/>
+    <key path="modules/seo/default_method_admin" val="seo" update="1"/>
+    <key path="modules/seo/func_perms" val="Functions, that should have their own permissions."/>
+    <key path="modules/seo/func_perms/seo" val="SEO-функции"/>
+    <key path="modules/seo/megaindex-login" val="megaindex@umisoft.ru"/>
+    <key path="modules/seo/megaindex-password" val="et676e5rj"/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/seo" name="seo">/classes/modules/seo</directory>
+    <directory path="./styles/skins/mac/data/modules/seo" name="seo">/styles/skins/mac/data/modules/seo</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/seo/permissions.php" size="54" ext="php" hash="83c83c4ab0dc395367c08098ec5418f3" name="permissions.php">/classes/modules/seo/permissions.php</file>
+    <file path="./classes/modules/seo/i18n.php" size="1425" ext="php" hash="4db36aeb4e9e7c4baed75646e0bc197a" name="i18n.php">/classes/modules/seo/i18n.php</file>
+    
+    <file path="./classes/modules/seo/lang.php" size="156" ext="php" hash="bef81a65aba8c590e643c7956f7f702d" name="lang.php">/classes/modules/seo/lang.php</file>
+    <file path="./classes/modules/seo/.htaccess" size="14" ext="htaccess" hash="fa6ac27439a678fc3cda1b4b7da099e4" name=".htaccess">/classes/modules/seo/.htaccess</file>
+    <file path="./classes/modules/seo/class.php" size="522" ext="php" hash="6cd33ea191fb3d7f1735f473fe777f36" name="class.php">/classes/modules/seo/class.php</file>
+    <file path="./classes/modules/seo/__admin.php" size="9051" ext="php" hash="ed17840985e1ea92511f03c8206aa73c" name="__admin.php">/classes/modules/seo/__admin.php</file>
+    <file path="./classes/modules/seo/install.php" size="1625" ext="php" hash="3cbca61891f966110b0cdcc56afd530e" name="install.php">/classes/modules/seo/install.php</file>
+    <file path="./styles/skins/mac/data/modules/seo/settings.modify.xsl" size="2226" ext="xsl" hash="d051f52a3b1d784b614c072e1e2fb27f" name="settings.modify.xsl">/styles/skins/mac/data/modules/seo/settings.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/seo/settings.view.xsl" size="5218" ext="xsl" hash="b02645a14dae64a32acc47c7e1160e2e" name="settings.view.xsl">/styles/skins/mac/data/modules/seo/settings.view.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types/>
+  <objects/>
+  <pages/>
+  <relations/>
+  <options/>
+  <restrictions/>
+  <permissions/>
+  <hierarchy/>
+</umidump>

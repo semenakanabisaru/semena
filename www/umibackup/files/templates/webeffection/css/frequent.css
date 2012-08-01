@@ -1,0 +1,14 @@
+		
+	/* -----------------------------------------
+		
+		frequently used styles 
+
+	----------------------------------------- */
+
+	.break_before { page-break-before: always; }
+	.break_after { page-break-after: always; }
+ 	
+	.fr { float: right; } 
+	.fl { float: left; }	
+
+	.clear { clear: both; } 

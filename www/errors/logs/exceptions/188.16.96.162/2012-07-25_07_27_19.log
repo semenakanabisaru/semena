@@ -1,0 +1,78 @@
+[_COOKIE]
+	[stat_id]
+	(string) qdarf5qbr7lft07df353i1ctt6
+
+	[user_captcha]
+	(string) 9621
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343186680
+
+	[http_referer]
+	(string) http://yandex.ru/yandsearch?clid=139094&text=%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0+%D0%BA%D0%B0%D0%BD%D0%B0%D0%B1%D0%B8%D1%81%D0%B0&lr=50
+
+	[http_target]
+	(string) /
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 6.1; U; Edition Yx; ru) Presto/2.10.289 Version/12.00
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Referer]
+	(string) http://yandex.ru/yandsearch?clid=139094&text=%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0+%D0%BA%D0%B0%D0%BD%D0%B0%D0%B1%D0%B8%D1%81%D0%B0&lr=50
+
+	[Cookie]
+	(string) stat_id=qdarf5qbr7lft07df353i1ctt6; user_captcha=9621
+
+	[Connection]
+	(string) Keep-Alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=ieo2n5jdj821n1o8v9aier4746; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.1610720]	Default domain could not be found
+[0.5514050]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#6 {main}

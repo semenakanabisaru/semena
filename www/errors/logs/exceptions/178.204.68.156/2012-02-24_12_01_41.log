@@ -1,0 +1,153 @@
+[_COOKIE]
+	[stat_id]
+	(string) 4icdppqn19lc6l2c7b7vo33ia5
+
+	[PHPSESSID]
+	(string) gcidjfvsts269dlsaloplkt187
+
+	[umi_captcha]
+	(string) 16de63b2df373d5a9da881c8a1c58794
+
+	[user_captcha]
+	(string) 5516
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1330070501
+
+	[http_referer]
+	(NULL) 
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[umi_captcha]
+	(string) 16de63b2df373d5a9da881c8a1c58794
+
+	[umi_captcha_plain]
+	(string) 5516
+
+	[stat]
+	(array) ['', '4icdppqn19lc6l2c7b7vo33ia5', '9', '24', '10', '1', '5', '5']
+
+	[aea7c2dc99358decc212a738bb72fc80]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+	[user_captcha]
+	(string) 16de63b2df373d5a9da881c8a1c58794
+
+	[errors_1330068198]
+	(array) ['['Вы ввели неверный код с картинки', '', '']']
+
+	[f8b8cf5c00b3c5853e1c8f2d3b577428]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+	[6286c865b4ea01aafc0c0636cef81249]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+	[6c8158c0cfd93a29dceda6479df2f479]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+	[errors_1330068789]
+	(array) ['['Вы ввели неверный код с картинки', '', '']']
+
+	[3c076ed11ecf216728dc142e17664d5c]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+	[23580fbbfcf5b1a7b0b6e2d4457f4a9b]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+	[errors_1330069248]
+	(array) ['['Слишком короткий логин. Логин должен состоять не менее, чем из 3х символов.', '', '']']
+
+	[is_human]
+	(integer) 1
+
+	[errors_1330069670]
+	(array) ['['Неверно заполнено поле "Email" - Неверный e-mail', '101', 'input-wrong-field']']
+
+	[de7677d73429c07e8c2bb3a561b1dc72]
+	(array) ['['content', '', '6']', '['content', 'content', '6']']
+
+	[035ff029268c794a6e0b4e59fa73052c]
+	(array) ['['content', '', '5']', '['content', 'content', '5']']
+
+	[errors_1330070405]
+	(array) ['['Неизвестный адрес получателя', '', '']']
+
+	[errors_1330070412]
+	(array) ['['Неизвестный адрес получателя', '', '']']
+
+	[errors_1330070501]
+	(array) ['['Неизвестный адрес получателя', '', '']']
+
+
+[_GET]
+	[path]
+	(string) webforms/send/
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.10.229 Version/11.61
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Cookie]
+	(string) stat_id=4icdppqn19lc6l2c7b7vo33ia5; PHPSESSID=gcidjfvsts269dlsaloplkt187; umi_captcha=16de63b2df373d5a9da881c8a1c58794; user_captcha=5516
+
+	[Cache-Control]
+	(string) no-cache
+
+	[Connection]
+	(string) Keep-Alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0002549]	Can't find error redirect string
+[0.0002708]	#0 /var/www/clients/client0/web1/web/classes/modules/def_module.php(786): def_module-&gt;errorPanic()
+#1 /var/www/clients/client0/web1/web/classes/modules/webforms/class.php(183): def_module-&gt;errorNewMessage('%unknown_addres...')
+#2 /var/www/clients/client0/web1/web/classes/modules/webforms/class.php(194): webforms-&gt;checkAddressExistence(NULL)
+#3 /var/www/clients/client0/web1/web/classes/modules/webforms/class.php(378): webforms-&gt;guessAddressValue(NULL)
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(126): webforms-&gt;send()
+#5 /var/www/clients/client0/web1/web/libs/def_macroses.php(48): def_module-&gt;cms_callMethod('send', NULL)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/templaters/xslt/xslTemplater.php(22): macros_content()
+#7 /var/www/clients/client0/web1/web/libs/root-src/index.php(50): xslTemplater-&gt;init()
+#8 /var/www/clients/client0/web1/web/index.php(5): require('/var/www/client...')
+#9 {main}

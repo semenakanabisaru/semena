@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package last-revision="19629" client-revision="18827" generated="1335513432" key="3C5DE132635-DA3F94E84D4-C34598D725E" domain_key="3C5DE132635-DA3F94E84D4-C34598D725E" ip="78.47.65.150" host="semena-kanabisa.ru" edition="commerce" support_time="2013-02-15 11:49:42" owner_fname="" owner_lname="" owner_mname="" owner_email="alexander@webeffection.ru">
+  <component name="core" filesize="22280704" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="content" filesize="248320" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="news" filesize="131072" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="blogs20" filesize="159232" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="forum" filesize="153088" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="comments" filesize="102400" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="vote" filesize="120320" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="webforms" filesize="153600" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="photoalbum" filesize="159744" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="faq" filesize="116224" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="dispatches" filesize="179200" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="catalog" filesize="124928" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="emarket" filesize="514048" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="banners" filesize="170496" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="users" filesize="208896" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="stat" filesize="1265664" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="seo" filesize="40448" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="exchange" filesize="105984" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="social_networks" filesize="76800" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Добавлен модуль интеграции с социальными сетями.]]></version>
+  </component>
+  <component name="config" filesize="120832" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="data" filesize="215040" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="autoupdate" filesize="65024" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Улучшена работа установшика системы]]></version>
+  </component>
+  <component name="backup" filesize="36864" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="search" filesize="39424" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="webo" filesize="28160" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+  <component name="filemanager" filesize="90112" downloaded="1" extracted="1" checked="1" installed="1">
+    <version name="2.8.5.1" date="1335433222" revision="19629"><![CDATA[Ничего не изменилось]]></version>
+  </component>
+</package>

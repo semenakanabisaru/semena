@@ -1,0 +1,104 @@
+[_COOKIE]
+	[stat_id]
+	(string) 5fbba282ccpmsguhtskc7mche1
+
+	[customer-id]
+	(string) 16094
+
+	[acstate_active]
+	(string) false
+
+	[acstate_opened]
+	(string) -1
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1339042802
+
+	[http_target]
+	(string) /users/auth/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) users/auth/
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 6.1; WOW64; U; MRA 5.9 (build 4876); ru) Presto/2.10.229 Version/11.64
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/producers/green_house_seeds/
+
+	[Cookie]
+	(string) stat_id=5fbba282ccpmsguhtskc7mche1; customer-id=16094; acstate_active=false; acstate_opened=-1; _ym_visorc=w
+
+	[X-Forwarded-For]
+	(string) 10.104.169.239
+
+	[Cache-Control]
+	(string) max-age=259200
+
+	[Connection]
+	(string) keep-alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=rdm6sb5g77idltkrl3hv8blbq4; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[40.3386180]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[41.6119130]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT rel_id F...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(553): l_mysql_query('SELECT rel_id F...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(801): umiHierarchy-&gt;getAllParents(28, false, false)
+#3 /var/www/clients/client0/web1/web/classes/modules/content/class.php(149): umiHierarchy-&gt;getPathById('28', false, true)
+#4 [internal function]: content-&gt;menu('notemplate', '0', '28')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#7 [internal function]: udataStream-&gt;stream_open('udata://content...', 'rb', 4, NULL)
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#9 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#10 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#11 {main}

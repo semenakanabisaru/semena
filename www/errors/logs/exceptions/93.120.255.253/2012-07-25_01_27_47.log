@@ -1,0 +1,80 @@
+[_COOKIE]
+	[stat_id]
+	(string) cqvlt6qnbhqkrhebv0vlui8kk0
+
+	[user_captcha]
+	(string) 1322
+
+	[customer-id]
+	(string) 28626
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343164609
+
+	[http_referer]
+	(string) http://go.mail.ru/search?mailru=1&iewtf=%E2%98%A0&q=%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D1%8B%D1%87+%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD+%D1%81%D0%B5%D0%BC%D1%8F%D0%BD&us=4
+
+	[http_target]
+	(string) /
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Accept]
+	(string) text/html, application/xhtml+xml, */*
+
+	[Referer]
+	(string) http://go.mail.ru/search?mailru=1&iewtf=%E2%98%A0&q=%D1%81%D0%B5%D0%BC%D1%8F%D0%BD%D1%8B%D1%87+%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD+%D1%81%D0%B5%D0%BC%D1%8F%D0%BD&us=4
+
+	[Accept-Language]
+	(string) ru-RU
+
+	[User-Agent]
+	(string) Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) Keep-Alive
+
+	[Cookie]
+	(string) stat_id=cqvlt6qnbhqkrhebv0vlui8kk0; user_captcha=1322; customer-id=28626
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=mbvh2kvqff9cbmi5el0hb0l3e2; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[27.0990911]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[27.3321850]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id FROM ...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(1113): l_mysql_query('SELECT id FROM ...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1136): umiHierarchy-&gt;getDefaultElementId(1, 1)
+#3 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#4 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#5 {main}

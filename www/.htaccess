@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+####################### UMI_CMS_HTACCESS_BEGIN ###########################
+RewriteEngine On
+#php_value auto_prepend_file "/libs/opaf.umi.php"
+#To avoid manual css and js files recompile. Debug only.
+#RewriteRule (commonClient\.js)|(compressed\.js)|(compiled\.js)|(compiled\.css)|(compressed\.css) developerTools/preCompile.php [L]
+
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(sys\-temp|cache|xmldb|static|packages)\/.*$ /500/ [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^robots\.txt$  /sbots.php?path=$1%{QUERY_STRING} [L]
+RewriteRule ^sitemap\.xml$  /sitemap.php [L]
+
+RewriteRule ^config\.ini$ / [L,R]
+RewriteRule ^install\.ini$ / [L,R]
+RewriteRule ^install\.log$ / [L,R]
+RewriteRule ^umi\.nginx\.conf$ / [L,R]
+RewriteRule ^dbview\.php$ / [L,R]
+
+RewriteCond %{REQUEST_URI} !^styles
+RewriteCond %{REQUEST_URI} !^css
+RewriteCond %{REQUEST_URI} !\.css
+RewriteCond %{REQUEST_URI} !^js
+RewriteCond %{REQUEST_URI} !\.js
+RewriteCond %{REQUEST_URI} !^images
+RewriteCond %{REQUEST_URI} !^webstat
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)\.xml$ index.php?xmlMode=force&path=$1&%{QUERY_STRING} [L]
+
+RewriteRule ^\/?(udata|upage|uobject|ufs|usel|ulang|utype|umess|uhttp):?(\/\/)?(.*)$ releaseStreams.php?scheme=$1&path=$3?%{QUERY_STRING} [L]
+
+RewriteRule ^(.*)\.json$ index.php?jsonMode=force&viewMode=full&path=$1&%{QUERY_STRING} [L]
+
+RewriteCond %{REQUEST_URI} !^styles
+RewriteCond %{REQUEST_URI} !^css
+RewriteCond %{REQUEST_URI} !\.css
+RewriteCond %{REQUEST_URI} !^js
+RewriteCond %{REQUEST_URI} !\.js
+RewriteCond %{REQUEST_URI} !^images
+
+RewriteCond %{REQUEST_URI} !(\.ico|\.ICO)$
+RewriteCond %{REQUEST_URI} !(\.jpg|\.JPG)$
+RewriteCond %{REQUEST_URI} !(\.jpeg|\.JPEG)$
+RewriteCond %{REQUEST_URI} !(\.png|\.PNG)$
+RewriteCond %{REQUEST_URI} !(\.gif|\.GIF)$
+RewriteCond %{REQUEST_URI} !(\.css|\.CSS)$
+RewriteCond %{REQUEST_URI} !(\.js|\.JS)$
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php?path=$1&%{QUERY_STRING}  [L,E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+
+RewriteCond %{REQUEST_URI} (\.ico|\.ICO)$
+RewriteCond %{REQUEST_URI} (\.jpg|\.JPG)$
+RewriteCond %{REQUEST_URI} (\.jpeg|\.JPEG)$
+RewriteCond %{REQUEST_URI} (\.png|\.PNG)$
+RewriteCond %{REQUEST_URI} (\.gif|\.GIF)$
+RewriteCond %{REQUEST_URI} (\.css|\.CSS)$
+RewriteCond %{REQUEST_URI} (\.js|\.JS)$
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ [R=404]
+
+
+<IfModule mod_mime.c>
+AddType application/x-java-applet .class
+AddType text/x-component .htc
+</IfModule>
+
+<IfModule mod_security.c>
+SecFilterScanPOST Off
+</IfModule>
+
+<Files "whatsnew.txt">
+Deny from all
+</Files>
+
+
+
+######################## UMI_CMS_HTACCESS_END ############################

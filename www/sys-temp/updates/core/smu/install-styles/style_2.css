@@ -1,0 +1,467 @@
+body {
+	width: 900px;
+	margin: 20px auto;
+	overflow-y: scroll;
+	*overflow-y: none;
+	font-family: "MyriadProRegular", Arial, Verdana, Tahoma, Geneva, sans-serif;
+}
+a{
+	border:none;
+	outline:none;
+}
+img {
+	border:none;
+}
+form {
+	margin:0;
+	margin-top: 8px;
+	background: #f8f8f8;
+	border: 1px solid #cecece;
+	border-top-color: #ededed;
+	-moz-box-shadow: 5px 5px 5px #dadada, -0.4em 0 0.2em #dadada;
+	-webkit-box-shadow:5px 5px 5px #dadada, -0.4em 0 0.2em #dadada;
+	box-shadow:5px 5px 5px #dadada, -0.4em 0 0.2em #dadada;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	position: relative;
+	z-index: 10;
+}
+input {
+	line-height: 29px;
+	font-size: 18px;
+}
+a {
+	outline: none;
+	color: #26a1ff;
+}
+.header {
+	padding: 0;
+	background: url("http://www.install.umi-cms.ru/bg_gray_top.png") repeat-x center center ;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	/*behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	height: 89px;
+	margin: 0 1px;
+	overflow: hidden;
+	position: relative;
+	z-index: 20;
+}
+.header_last_block {
+	padding: 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
+	/*behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	height: 89px;
+	margin: 0 1px;
+	position: relative;
+	overflow: hidden;
+}
+.text_align {
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 30px;
+}
+.text_align2 {
+	text-align: center;
+}
+.text_align3 {
+	text-align: left;
+	padding-left:100px;
+}
+.text_align_if_error{
+	text-align: left;
+	margin-left:30px;
+}
+.the_end_p ol li {
+	white-space:pre-wrap;
+}
+.clear {
+	clear: both;
+}
+.display_none {
+	display: none;
+}
+p.check_user {
+	margin-left: 30px;
+	color: #4c535d;
+	font-size: 24px;
+	text-shadow: 1px 0.5px 0px #ffffff;
+	*padding-top: 23px;
+}
+.logo {
+	position: absolute;
+	top: 15px;
+	right: 30px;
+}
+.padding_big {
+	padding: 30px 0;
+}
+.padding_bigtop {
+	padding: 30px 0 0;
+}
+.b_input {
+	position: relative;
+	overflow: hidden;
+}
+.b_input input{
+	padding-left: 10px;
+	padding-top: 3px\0/;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	border: 1px solid #d1d1d1;
+	border-top-color: #828282;
+	width: 450px;
+	height: 30px;
+	line-height: 29px;
+	margin-left: 220px;
+}
+.b_input__clear {
+	background: url("http://www.install.umi-cms.ru/galochka.png") no-repeat right bottom;
+	outline: none;
+	z-index: 10;
+	height: 16px;
+	width: 16px;
+	position: absolute;
+	right: 225px;
+	top: 8px;
+}
+div.info, div.info1 {
+	color: #4f565e;
+	font-size: 12px;
+	width: 500px;
+	margin:10px 0 0 220px;
+	padding: 10px 0;
+}
+div.marn {
+	margin-bottom: 10px;
+}
+div.info .img_stop {
+	float: left;
+	height: 15px;
+	width: 14px;
+}
+div.info .img_stop_text {
+	display:block;
+	margin-left:24px;
+}
+.next_step {
+	text-align: right;
+}
+.next_step_submit {
+	background: url("http://www.install.umi-cms.ru/bg_blue_button.png") repeat-x center center;
+	height: 35px;/*39-4*/
+	color: white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	font-size: 12px;
+	border: 1px solid #3cbbe8;
+	text-align: center;
+	padding-bottom: 4px;
+}
+.marginr_px {
+	margin: 10px 32px 10px 10px;
+}
+.marginr_2px {
+	margin: 10px 0 10px 10px;
+}
+.back_step_submit {
+	background: url("http://www.install.umi-cms.ru/bg_but_gray.png") repeat-x center center;
+	height: 35px;/*39-4*/
+	color: white;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	font-size: 12px;
+	border: 1px solid #cfcfcf;
+	padding-bottom: 4px;
+}
+.display_block_left {
+	float: left;
+	color: #353944;
+	font-size: 20px;
+	text-align: left;
+}
+.posit_text {
+	margin-left: 20px;
+}
+.posit_text24px {
+	margin-left: 28px;
+	*padding-left: 28px;
+	*margin-left: 0;
+}
+.mar_left220px {
+	margin-left: 220px;
+	*padding-left: 220px;
+	*margin-left: 0;
+}
+.display_block_left input {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	border: 1px solid #d1d1d1;
+	border-top-color: #828282;
+	width: 220px;
+	height: 30px;
+	margin: 10px 0;
+	padding-left: 10px;
+}
+.display_page_4 {
+	color: #393939;
+	font-size: 20px;
+}
+.display_page_4 input {
+	margin-right: 20px;
+	margin-top: 30px;
+}
+.no_demo {
+	padding: 0px 26px 20px;
+	border-bottom: 1px solid #dfdfdf;
+	text-align: left;
+	margin: 0 2px 0;
+}
+.shadow_some {
+	-moz-box-shadow: inset 0px 8px 10px #f0f0f0;
+	-webkit-box-shadow: inset 0px 8px 10px #f0f0f0;
+	box-shadow: inset 0px 8px 10px #f0f0f0;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+}
+.demo_example_left {
+	float: left;
+	width: 48%;
+	text-align: left;
+	*height: 320px;
+}
+.demo_example_left p {
+	margin: 10px 100px 0 40px;
+	color: #0f0f0f;
+	font-size: 12px;
+}
+.style_p  {
+	padding:10px 200px 10px 0; 
+	color: #0f0f0f;
+	font-size: 12px;
+}
+.next_step_but {
+	background: url("http://www.install.umi-cms.ru/bg_blue_button.png") repeat-x center center;
+	height: 39px;
+	width: 110px;
+	vertical-align: bottom;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	border: 1px solid #3cbbe8;
+	float: right;
+	margin-right: 400px;
+}
+.next_step_but a {
+	color: white;
+	text-decoration: none;
+	font-size: 12px;
+}
+.next_step_but a span{
+	line-height:40px;
+}
+.the_end_p {
+	color: #4c535d;
+	font-size: 24px;
+}
+.blue_progress {
+	background: url("http://www.install.umi-cms.ru/bg_blue_load.png") repeat-x center center;
+	position: relative;
+	left: 224px;
+	bottom: 29px;
+	bottom: 31px\0/;
+	height: 25px;
+	width: 400px;
+	z-index: 10;
+	border: 1px solid #00a4db;
+	border-bottom-color: #1d80af;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+}
+p.vvod_key {
+	float: left;
+	width: 310px;
+	color: #353944;
+	font-size: 20px;
+	margin-left: 220px;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	*padding-left: 220px;
+	*margin: 0;
+}
+.slider {
+	*padding-top: 0;
+	float: left;
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+.slider a {
+	text-decoration: none;
+	color: #0092d4;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px dashed #0092d4;  
+}
+.footer {
+	position: relative;
+	background: url("http://www.install.umi-cms.ru/bg_black_bottom.png") repeat-x center center;
+	height: 111px;
+	width: 898px;
+	*width: 899px;
+	-moz-border-radius: 0 0 10px 10px;
+	-webkit-border-radius: 0 0 10px 10px;
+	border-radius: 0 0 10px 10px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+}
+.footer .step_up {
+	font-size: 18px;
+	color: white;
+	text-shadow: 0px -1px 0px #black;
+	/*behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	margin: 0 0 15px 30px;
+	padding-top:10px;
+}
+ul {
+	margin: 0 0 0 30px;
+	padding: 0; 
+	height: 40px;
+	width: 837px;
+	background: url("http://www.install.umi-cms.ru/bg_ul_gray.png") repeat-x;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/*behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	position: relative;
+	z-index: 30;
+}
+ul li {
+	float: left;
+	list-style-type: none;
+	padding-top: 6px;
+	width: 84px;
+	padding-left: 9px;
+	background: url("http://www.install.umi-cms.ru/border_li.png") no-repeat left center;
+
+}
+ul li div{
+	padding-bottom: 3px;
+	line-height: 13px;
+	color: #8a8a8a;
+	font-size: 12px;
+	text-shadow: 0px 1px 0px #ffffff;
+	/*behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+}
+li.list_style_noneleft {
+	background:#26b4ff;
+	-moz-border-radius: 6px 0 0 6px;
+	-webkit-border-radius: 6px 0 0 6px;
+	border-radius: 6px 0 0 6px;
+	/*behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	/* for IE */
+	/* background:#26b4ff url(http://www.install.umi-cms.ru/image-url.gif) left repeat-x; */
+	padding-bottom: 4px;
+	position: relative;
+	z-index: 40;
+}
+li.list_style_nonetwo{
+	background: #26b4ff url("http://www.install.umi-cms.ru/border_li.png") no-repeat left center;
+	padding-bottom: 4px;
+}
+li.list_style_noneright {
+	background: #26b4ff url("http://www.install.umi-cms.ru/border_li.png") no-repeat left center;
+	-moz-border-radius: 0 6px 6px 0;
+	-webkit-border-radius: 0 6px 6px 0;
+	border-radius: 0 6px 6px 0;
+	/*behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	padding-bottom: 4px;
+}
+.color_dif {
+	color: white!important;
+	text-shadow: 0px -1px 0px #0086ee;
+	/*behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+}
+.margintop20px {
+	margin-top: 20px;
+}
+.progressbar_img {
+	margin-left: 220px;
+}
+.progress_bardiv {
+	padding-left: 10px;
+	padding-top: 3px\0/;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+/*	behavior: url(http://www.install.umi-cms.ru/js/ie_css3.htc);*/
+	border: 1px solid #d1d1d1;
+	border-top-color: #828282;
+	width: 450px;
+	height: 30px;
+	margin-left: 220px;
+	background: #f3f3f3;
+}
+.progressbar_wrap {
+	height: 228px;
+	width: 430px;
+	padding: 20px 10px 20px 20px;
+	background: #f3f3f3 url("http://www.install.umi-cms.ru/bgdlkfld.gif") no-repeat scroll left center;
+	margin-left: 218px;
+}
+.vnutrenniy {
+	height: 213px;
+	margin: 10px 20px 10px;
+	color: #838383;
+	font-size: 12px;
+	overflow-y: scroll;
+}
+input.radio_but {
+	border: none;
+	width: auto;
+	height: auto;
+	margin: 10px 15px 10px 0;
+	padding-left: 0 0 10px 10px;
+}
+.error_with_warnings {
+	margin:10px 0 0 210px !important; 
+	background:#ffff99; 
+	opacity:0.8;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	width: 500px; 
+	padding: 10px !important;
+}
+.field_license_user {
+	margin-left:220px;
+}
+.field_license_user label {
+	display:block;
+	width:150px;
+	float:left;
+	margin:10px 0;
+}
+.field_license_user input {
+	margin:10px 0;
+	width:300px;
+}
+.demo_span {
+	bottom: 3px;
+	font-size: 12px;
+	margin-left: 40px;
+	position: relative;
+}

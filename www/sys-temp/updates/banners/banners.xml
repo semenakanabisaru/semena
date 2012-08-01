@@ -1,0 +1,1762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<umidump xmlns:xlink="http://www.w3.org/TR/xlink" version="2.0">
+  <meta>
+    <site-name><![CDATA[umicms.demo site]]></site-name>
+    <domain><![CDATA[updateserver.umihost.ru]]></domain>
+    <lang><![CDATA[ru]]></lang>
+    <source-name><![CDATA[system]]></source-name>
+    <generate-time>
+      <timestamp>1335432895</timestamp>
+      <rfc>Thu, 26 Apr 2012 13:34:55 +0400</rfc>
+      <utc>2012-04-26T13:34:55+04:00</utc>
+    </generate-time>
+  </meta>
+  <registry>
+    <key path="modules" val=""/>
+    <key path="modules/banners" val="banners"/>
+    <key path="modules/banners/name" val="banners"/>
+    <key path="modules/banners/filename" val="banners/class.php"/>
+    <key path="modules/banners/config" val="1" update="1"/>
+    <key path="modules/banners/default_method" val="insert_banner" update="1"/>
+    <key path="modules/banners/default_method_admin" val="lists" update="1"/>
+    <key path="modules/banners/is_indexed" val="0"/>
+    <key path="modules/banners/func_perms" val=""/>
+    <key path="modules/banners/func_perms/places_list" val="Редактирование мест показа"/>
+    <key path="modules/banners/func_perms/places_list/place_edit" val=""/>
+    <key path="modules/banners/func_perms/places_list/place_edit_do" val=""/>
+    <key path="modules/banners/func_perms/places_list/place_add" val=""/>
+    <key path="modules/banners/func_perms/places_list/place_add_do" val=""/>
+    <key path="modules/banners/func_perms/places_list/place_del" val=""/>
+    <key path="modules/banners/func_perms/banners_list" val="Редактирование баннеров"/>
+    <key path="modules/banners/func_perms/banners_list/banner_edit" val=""/>
+    <key path="modules/banners/func_perms/banners_list/banner_edit_do" val=""/>
+    <key path="modules/banners/func_perms/banners_list/banner_add" val=""/>
+    <key path="modules/banners/func_perms/banners_list/banner_add_do" val=""/>
+    <key path="modules/banners/func_perms/banners_list/banner_del" val=""/>
+    <key path="modules/banners/func_perms/insert" val="Просмотр баннеров"/>
+    <key path="modules/banners/func_perms/insert/go_to" val=""/>
+  </registry>
+  <directories>
+    <directory path="./classes/modules/banners" name="banners">/classes/modules/banners</directory>
+    <directory path="./styles/skins/mac/data/modules/banners" name="banners">/styles/skins/mac/data/modules/banners</directory>
+  </directories>
+  <files>
+    <file path="./classes/modules/banners/permissions.php" size="221" ext="php" hash="f61c33b10936d503af28523d6e92684c" name="permissions.php">/classes/modules/banners/permissions.php</file>
+    <file path="./classes/modules/banners/i18n.php" size="1994" ext="php" hash="30830ef493cad1925d66ca0edd5361c4" name="i18n.php">/classes/modules/banners/i18n.php</file>
+    
+    <file path="./classes/modules/banners/lang.php" size="971" ext="php" hash="bd54c10e64e021aa21276d4c1b3a6cc5" name="lang.php">/classes/modules/banners/lang.php</file>
+    <file path="./classes/modules/banners/__places.php" size="549" ext="php" hash="2f07440601ff28af2bab690732c5b86f" name="__places.php">/classes/modules/banners/__places.php</file>
+    <file path="./classes/modules/banners/class.php" size="21271" ext="php" hash="25f5949bdeee87e48a389ff6d2a57d4e" name="class.php">/classes/modules/banners/class.php</file>
+    <file path="./classes/modules/banners/__admin.php" size="1176" ext="php" hash="5850a091f22075a457dd3b55976ec559" name="__admin.php">/classes/modules/banners/__admin.php</file>
+    <file path="./classes/modules/banners/__banners.php" size="4644" ext="php" hash="51db880c15c680ed59678967b7847fd2" name="__banners.php">/classes/modules/banners/__banners.php</file>
+    <file path="./classes/modules/banners/forms.php" size="11431" ext="php" hash="bc0df144ea67b17789bc4442ec1b9980" name="forms.php">/classes/modules/banners/forms.php</file>
+    <file path="./classes/modules/banners/install.php" size="1139" ext="php" hash="e759e6339358219b74e03dde325dec08" name="install.php">/classes/modules/banners/install.php</file>
+    
+    <file path="./styles/skins/mac/data/modules/banners/settings.modify.xsl" size="486" ext="xsl" hash="89a9d5f5060c7e6b6b1e7cfa02f3de54" name="settings.modify.xsl">/styles/skins/mac/data/modules/banners/settings.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/list.modify.xsl" size="2284" ext="xsl" hash="62ca9460d235cc38c713ccac214a7635" name="list.modify.xsl">/styles/skins/mac/data/modules/banners/list.modify.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/list.view.xsl" size="1215" ext="xsl" hash="ea4327d6fa8abb99c15d8b6a5204d477" name="list.view.xsl">/styles/skins/mac/data/modules/banners/list.view.xsl</file>
+    <file path="./styles/skins/mac/data/modules/banners/form.modify.xsl" size="2144" ext="xsl" hash="5ef92ad6d05b5dc1d365a2aa9f32f22b" name="form.modify.xsl">/styles/skins/mac/data/modules/banners/form.modify.xsl</file>
+  </files>
+  <langs/>
+  <domains/>
+  <templates/>
+  <datatypes/>
+  <types>
+    <type id="7" guid="root-guides-type" title="Справочники" parent-id="0" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="671" guid="banners-place" title="Места показов баннеров" parent-id="7" guide="guide" locked="locked">
+      <base module="banners" method="place">Место показа баннера</base>
+      <fieldgroups>
+        <group name="common_props" title="Общие свойства" visible="visible" locked="locked" active="active">
+          <field id="8789" name="id" title="ID" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8790" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8839" name="is_show_rand_banner" title="Показ случайного баннера" visible="visible" locked="locked" filterable="filterable">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="739" guid="sytem-citylist" title="Список городов для geo" parent-id="7" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups/>
+    </type>
+    <type id="6" guid="users-users" title="Группы пользователей" parent-id="0" guide="guide" locked="locked">
+      <base module="users" method="users">Группы пользователей</base>
+      <fieldgroups>
+        <group name="svojstva_gruppy_polzovatelej" title="Свойства группы пользователей" locked="locked" active="active" visible="0">
+          <field id="8896" name="nazvanie" title="Название" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="693" guid="d69b923df6140a16aefc89546a384e0493641fbe" title="Страны" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="params_more" title="Дополнительно" visible="visible" active="active">
+          <field id="9342" name="country_iso_code" title="Код страны" visible="visible" locked="locked">
+            <tip>Страна в формате ISO 3166-1 alpha-2</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="803" guid="emarket-deliveryaddress" title="Адрес доставки" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="delivery_address">Адрес доставки</base>
+      <fieldgroups>
+        <group name="common" title="Основное" visible="visible" active="active">
+          <field id="9160" name="country" title="Страна" visible="visible" guide-id="693" required="required">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9161" name="index" title="Почтовый индекс" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9162" name="region" title="Регион" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9163" name="city" title="Город" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9164" name="street" title="Улица" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9165" name="house" title="Дом" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9166" name="flat" title="Квартира" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="780" guid="emarket-currency" title="Валюта" parent-id="0" guide="guide" public="public" locked="locked">
+      <base module="emarket" method="currency">Валюта</base>
+      <fieldgroups>
+        <group name="props_currency" title="Свойства валюты" visible="visible" active="active">
+          <field id="9116" name="codename" title="Код валюты" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9117" name="nominal" title="Номинал" visible="visible" required="required">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="9118" name="rate" title="Курс" visible="visible" required="required">
+            <type name="Число с точкой" data-type="float"/>
+          </field>
+          <field id="9119" name="prefix" title="Префикс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9120" name="suffix" title="Суффикс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="817" guid="emarket-legalperson" title="Юридическое лицо" parent-id="7" guide="guide" locked="locked">
+      <base module="emarket" method="legal_person">Юридическое лицо</base>
+      <fieldgroups>
+        <group name="general" title="Основное" visible="visible" active="active">
+          <field id="9250" name="contact_person" title="Контактное лицо" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9251" name="phone_number" title="Контактный телефон" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9252" name="fax" title="Факс" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9134" name="email" title="E-mail" visible="visible" required="required">
+            <restriction id="2" name="email">E-mail</restriction>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9253" name="name" title="Наименование организации" visible="visible" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="addresses" title="Адреса" visible="visible" active="active">
+          <field id="9254" name="legal_address" title="Юридический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9255" name="defacto_address" title="Фактический адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9256" name="post_address" title="Почтовый адрес" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="payment" title="Информация для оплаты" visible="visible" active="active">
+          <field id="9257" name="inn" title="ИНН" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9258" name="account" title="Расчетный счет" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9259" name="bank" title="Наименование банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9260" name="bank_account" title="Кор. счет банка" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9261" name="bik" title="БИК" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9262" name="ogrn" title="ОГРН" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9337" name="kpp" title="КПП" visible="visible">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="825" guid="filemanagers" title="Файловые менеджеры" parent-id="7" guide="guide" public="public" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="description" title="Свойства" visible="visible" locked="locked" active="active">
+          <field id="9361" name="fm_prefix" title="Префикс" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="4" guid="users-user" title="Пользователь" parent-id="0" guide="guide" locked="locked">
+      <base module="users" method="user">Пользователи</base>
+      <fieldgroups>
+        <group name="idetntify_data" title="Идентификационные данные" locked="locked" active="active" visible="0">
+          <field id="45" name="login" title="Логин" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="46" name="password" title="Пароль" visible="visible" locked="locked">
+            <type name="Пароль" data-type="password"/>
+          </field>
+          <field id="53" name="groups" title="Группы пользователей" locked="locked" guide-id="6">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="12" name="e-mail" title="E-mail" visible="visible" locked="locked" required="required">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8734" name="activate_code" title="Код активации" locked="locked" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9360" name="loginza" title="Провайдер регистрации(через Loginza)" visible="visible" locked="locked">
+            <tip>Адрес сервиса</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8735" name="is_activated" title="Активирован" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8967" name="last_request_time" title="Время последнего обращения" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8950" name="subscribed_pages" title="Подписки на изменения" locked="locked" system="system">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8968" name="rated_pages" title="Рейтингованные страницы" locked="locked" system="system">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8951" name="is_online" title="Пользователь on-line" locked="locked" system="system">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8969" name="messages_count" title="Количество сообщений" locked="locked" system="system">
+            <type name="Число" data-type="int"/>
+          </field>
+        </group>
+        <group name="more_info" title="Дополнительная информация" visible="visible" active="active">
+          <field id="5569" name="orders_refs" title="Заказы" locked="locked" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8720" name="delivery_addresses" title="Адреса доставки" visible="visible" locked="locked" guide-id="803" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="8901" name="user_dock" title="Пользовательская панель" locked="locked" system="system">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9049" name="preffered_currency" title="Предпочитаемая валюта" locked="locked" guide-id="780">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9050" name="user_settings_data" title="Настройки пользователя" locked="locked" system="system">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9300" name="legal_persons" title="Юридические лица" visible="visible" locked="locked" guide-id="817" system="system">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9362" name="filemanager" title="Файловый менеджер" locked="locked" guide-id="825">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="9368" name="filemanager_directory" title="Доступные директории (для файлового менеджера elFinder)" locked="locked" guide-id="825">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9372" name="register_date" title="Дата регистрации">
+            <type name="Дата" data-type="date"/>
+          </field>
+        </group>
+        <group name="short_info" title="Персональная информация" visible="visible" active="active">
+          <field id="11" name="lname" title="Фамилия" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="9" name="fname" title="Имя" visible="visible" locked="locked" required="required">
+            <tip>Это поле содержит Имя пользователя. Оно отображается в характеристиках пользователя и может быть изменено самим пользователем.</tip>
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="10" name="father_name" title="Отчество" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="delivery" title="Доставка" visible="visible" active="active"/>
+        <group name="statistic_info" title="Статистическая информация" visible="visible" active="active">
+          <field id="9370" name="referer" title="Адрес, с которого пришел пользователь">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="9371" name="target" title="Адрес, на который пришел пользователь">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="5" guid="banners-banner" title="Баннер" parent-id="0" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="8791" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="672" guid="banners-banner-image" title="Баннер с картинкой" parent-id="5" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="8791" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8799" name="image" title="Изображение" visible="visible" locked="locked">
+            <type name="Изображение" data-type="img_file"/>
+          </field>
+          <field id="8802" name="width" title="Ширина" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8803" name="height" title="Высота" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8804" name="alt" title="Альтернативный текст" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="674" guid="banners-banner-swf-quality" title="Качество флешки" parent-id="7" guide="guide" locked="locked">
+      <base/>
+      <fieldgroups>
+        <group name="props" title="Свойства" visible="visible" active="active">
+          <field id="8808" name="quality_value" title="Значение" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="673" guid="banners-banner-swf" title="Баннер с флешкой" parent-id="5" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="8791" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8805" name="swf" title="Флеш-ролик" visible="visible" locked="locked">
+            <type name="Флеш-ролик" data-type="swf_file"/>
+          </field>
+          <field id="8806" name="width" title="Ширина" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8807" name="height" title="Высота" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8809" name="swf_quality" title="Качество ролика" visible="visible" locked="locked" guide-id="674">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+    <type id="675" guid="banners-banner-html" title="Баннер с HTML" parent-id="5" locked="locked">
+      <base module="banners" method="banner">Баннер</base>
+      <fieldgroups>
+        <group name="common" title="Основные параметры" locked="locked" active="active" visible="0">
+          <field id="8791" name="descr" title="Описание" visible="visible" locked="locked">
+            <type name="Простой текст" data-type="text"/>
+          </field>
+          <field id="8796" name="is_active" title="Активен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+          <field id="8795" name="tags" title="Теги" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="redirect_props" title="Параметры перехода" locked="locked" active="active" visible="0">
+          <field id="8800" name="url" title="Url страницы" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="8801" name="open_in_new_window" title="Открывать в новом окне" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="view_params" title="Параметры показа" locked="locked" active="active" visible="0">
+          <field id="8792" name="views_count" title="Количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8793" name="clicks_count" title="Количество переходов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8794" name="max_views" title="Максимальное количество показов" visible="visible" locked="locked">
+            <type name="Число" data-type="int"/>
+          </field>
+          <field id="8840" name="show_start_date" title="Дата начала показа" visible="visible" inheritable="inheritable" locked="locked" filterable="filterable">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8836" name="show_till_date" title="Дата окончания показа" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Дата" data-type="date"/>
+          </field>
+          <field id="8902" name="user_tags" title="Показывать пользователям с тэгами" visible="visible" locked="locked">
+            <type name="Теги" data-type="tags" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="view_pages" title="Разделы отображения" visible="visible" locked="locked" active="active">
+          <field id="8797" name="view_pages" title="Страницы, на которых показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+          <field id="8798" name="place" title="Место показа" visible="visible" locked="locked" guide-id="671">
+            <type name="Выпадающий список с множественным выбором" data-type="relation" multiple="multiple"/>
+          </field>
+          <field id="9352" name="not_view_pages" title="Страницы, на которых не показывать баннер" visible="visible" locked="locked">
+            <type name="Ссылка на дерево" data-type="symlink" multiple="multiple"/>
+          </field>
+        </group>
+        <group name="time_targeting" title="Time-таргетинг" visible="visible" locked="locked" active="active">
+          <field id="17" name="time_targeting_by_month_days" title="По числам месяца" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="18" name="time_targeting_by_month" title="По месяцам" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="19" name="time_targeting_by_week_days" title="По дням недели" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="20" name="time_targeting_by_hours" title="По времени суток" visible="visible" locked="locked">
+            <type name="Строка" data-type="string"/>
+          </field>
+          <field id="16" name="time_targeting_is_active" title="Time-таргетинг включен" visible="visible" inheritable="inheritable" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+        <group name="banner_custom_props" title="Индивидуальные параметры баннера" visible="visible" locked="locked" active="active">
+          <field id="8810" name="html_content" title="HTML-содержание" visible="visible" locked="locked">
+            <type name="HTML-текст" data-type="wysiwyg"/>
+          </field>
+        </group>
+        <group name="city_targeting" title="Геотаргетинг" visible="visible" locked="locked" active="0">
+          <field id="8988" name="city_targeting_city" title="Город" visible="visible" locked="locked" guide-id="739">
+            <type name="Выпадающий список" data-type="relation"/>
+          </field>
+          <field id="8989" name="city_targeting_is_active" title="Геотаргетинг включен" visible="visible" locked="locked">
+            <type name="Кнопка-флажок" data-type="boolean"/>
+          </field>
+        </group>
+      </fieldgroups>
+    </type>
+  </types>
+  <objects>
+    <object id="15" guid="users-users-15" name="Супервайзеры" type-id="6" type-guid="users-users">
+      <properties>
+        <group name="svojstva_gruppy_polzovatelej">
+          <title>Свойства группы пользователей</title>
+          <property id="8896" name="nazvanie" type="string">
+            <title>Название</title>
+            <value>Супервайзеры</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="2374" guid="users-users-2374" name="Зарегистрированные пользователи" type-id="6" type-guid="users-users">
+      <properties>
+        <group name="svojstva_gruppy_polzovatelej">
+          <title>Свойства группы пользователей</title>
+          <property id="8896" name="nazvanie" type="string">
+            <title>Название</title>
+            <value>Зарегистрированные пользователи</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="26315" guid="a1e3ae17e80ba2b4a3ddb1b855430346f74b8d48" name="США" type-id="693" type-guid="d69b923df6140a16aefc89546a384e0493641fbe" ownerId="14">
+      <properties>
+        <group name="params_more">
+          <title>Дополнительно</title>
+          <property id="9342" name="country_iso_code" type="string">
+            <title>Код страны</title>
+            <value>US</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="26341" guid="e9aa8c23a339224b25945aa9e99f09f578bdd483" name="Россия" type-id="693" type-guid="d69b923df6140a16aefc89546a384e0493641fbe" ownerId="14">
+      <properties>
+        <group name="params_more">
+          <title>Дополнительно</title>
+          <property id="9342" name="country_iso_code" type="string">
+            <title>Код страны</title>
+            <value>RU</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27226" guid="emarket-currency-27226" name="Российский рубль" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>RUR</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>1</value>
+          </property>
+          <property id="9120" name="suffix" type="string">
+            <title>Суффикс</title>
+            <value>руб</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27227" guid="emarket-currency-27227" name="Американский доллар" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>USD</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>31.5</value>
+          </property>
+          <property id="9119" name="prefix" type="string">
+            <title>Префикс</title>
+            <value>$</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27228" guid="emarket-currency-27228" name="Евро" type-id="780" type-guid="emarket-currency" ownerId="14">
+      <properties>
+        <group name="props_currency">
+          <title>Свойства валюты</title>
+          <property id="9116" name="codename" type="string">
+            <title>Код валюты</title>
+            <value>EUR</value>
+          </property>
+          <property id="9117" name="nominal" type="int">
+            <title>Номинал</title>
+            <value>1</value>
+          </property>
+          <property id="9118" name="rate" type="float">
+            <title>Курс</title>
+            <value>35</value>
+          </property>
+          <property id="9119" name="prefix" type="string">
+            <title>Префикс</title>
+            <value>€</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27923" guid="filemanager-flash" name="Классический файловый менеджер" type-id="825" type-guid="filemanagers" ownerId="14">
+      <properties>
+        <group name="description">
+          <title>Свойства</title>
+          <property id="9361" name="fm_prefix" type="string">
+            <title>Префикс</title>
+            <value>flash</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="27924" guid="filemanager-elfinder" name="Файловый менеджер elFinder" type-id="825" type-guid="filemanagers" ownerId="14">
+      <properties>
+        <group name="description">
+          <title>Свойства</title>
+          <property id="9361" name="fm_prefix" type="string">
+            <title>Префикс</title>
+            <value>elfinder</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="14" guid="system-supervisor" name="lyxsus" type-id="4" type-guid="users-user">
+      <properties>
+        <group name="idetntify_data">
+          <title>Идентификационные данные</title>
+          <property id="45" name="login" type="string">
+            <title>Логин</title>
+            <value>lyxsus</value>
+          </property>
+          <property id="46" name="password" type="password">
+            <title>Пароль</title>
+            <value>0d107d09f5bbe40cade3de5c71e9e9b7</value>
+          </property>
+          <property id="53" name="groups" type="relation" multiple="multiple">
+            <title>Группы пользователей</title>
+            <value>
+              <item id="15" guid="users-users-15" name="Супервайзеры" type-id="6" type-guid="users-users"/>
+            </value>
+          </property>
+          <property id="12" name="e-mail" type="string">
+            <title>E-mail</title>
+            <value>lyxsus@gmail.com</value>
+          </property>
+          <property id="8735" name="is_activated" type="boolean">
+            <title>Активирован</title>
+            <value>1</value>
+          </property>
+          <property id="8967" name="last_request_time" type="int">
+            <title>Время последнего обращения</title>
+            <value>1334843438</value>
+          </property>
+          <property id="8951" name="is_online" type="boolean">
+            <title>Пользователь on-line</title>
+            <value>0</value>
+          </property>
+          <property id="8969" name="messages_count" type="int">
+            <title>Количество сообщений</title>
+            <value>0</value>
+          </property>
+        </group>
+        <group name="more_info">
+          <title>Дополнительная информация</title>
+          <property id="8901" name="user_dock" type="string">
+            <title>Пользовательская панель</title>
+            <value>content,users,emarket,catalog,data,trash</value>
+          </property>
+          <property id="9050" name="user_settings_data" type="text">
+            <title>Настройки пользователя</title>
+            <value>a:15:{s:9:"dockState";a:1:{s:6:"common";s:6:"opened";}s:15:"tree-data-types";a:1:{s:8:"expanded";s:3:"{0}";}s:16:"tree-data-guides";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-data-guide_items";a:2:{s:8:"expanded";s:3:"{0}";s:12:"used-columns";s:183:"name[317px]|number[100px]|sid[100px]|class_name[100px]|payment_type_id[100px]|delivery_type_id[100px]|delivery_type_guid[100px]|modificator_type_id[100px]|modificator_type_guid[100px]";}s:22:"tree-emarket-discounts";a:1:{s:8:"expanded";s:3:"{0}";}s:23:"tree-content-sitetree-1";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-dispatches-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:9:"dockItems";a:1:{s:6:"common";s:125:"content;news;blogs20;seo;forum;comments;vote;webforms;photoalbum;dispatches;catalog;emarket;banners;users;stat;exchange;trash";}s:19:"tree-emarket-orders";a:1:{s:8:"expanded";s:3:"{0}";}s:15:"tree-data-trash";a:1:{s:8:"expanded";s:3:"{0}";}s:21:"tree-photoalbum-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:16:"tree-forum-lists";a:1:{s:8:"expanded";s:3:"{0}";}s:24:"tree-forum-last_messages";a:1:{s:8:"expanded";s:3:"{0}";}s:18:"tree-blogs20-posts";a:1:{s:8:"expanded";s:3:"{0}";}s:18:"tree-blogs20-blogs";a:1:{s:8:"expanded";s:3:"{0}";}}</value>
+          </property>
+        </group>
+        <group name="short_info">
+          <title>Персональная информация</title>
+          <property id="11" name="lname" type="string">
+            <title>Фамилия</title>
+            <value>Антонинко</value>
+          </property>
+          <property id="9" name="fname" type="string">
+            <title>Имя</title>
+            <value>Сергей</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="26905" guid="sytem-citylist-26905" name="Москва" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26906" guid="sytem-citylist-26906" name="Санкт-Петербург" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26907" guid="sytem-citylist-26907" name="Новосибирск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26908" guid="sytem-citylist-26908" name="Екатеринбург" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26909" guid="sytem-citylist-26909" name="Нижний Новгород" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26910" guid="sytem-citylist-26910" name="Самара" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26911" guid="sytem-citylist-26911" name="Омск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26912" guid="sytem-citylist-26912" name="Казань" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26913" guid="sytem-citylist-26913" name="Челябинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26914" guid="sytem-citylist-26914" name="Ростов-на-Дону" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26915" guid="sytem-citylist-26915" name="Уфа" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26916" guid="sytem-citylist-26916" name="Пермь" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26917" guid="sytem-citylist-26917" name="Волгоград" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26918" guid="sytem-citylist-26918" name="Красноярск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26919" guid="sytem-citylist-26919" name="Саратов" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26920" guid="sytem-citylist-26920" name="Воронеж" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26921" guid="sytem-citylist-26921" name="Краснодар" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26922" guid="sytem-citylist-26922" name="Тольятти" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26923" guid="sytem-citylist-26923" name="Ижевск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26924" guid="sytem-citylist-26924" name="Ульяновск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26925" guid="sytem-citylist-26925" name="Ярославль" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26926" guid="sytem-citylist-26926" name="Барнаул" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26927" guid="sytem-citylist-26927" name="Владивосток" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26928" guid="sytem-citylist-26928" name="Хабаровск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26929" guid="sytem-citylist-26929" name="Иркутск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26930" guid="sytem-citylist-26930" name="Новокузнецк" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26931" guid="sytem-citylist-26931" name="Тюмень" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26932" guid="sytem-citylist-26932" name="Оренбург" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26933" guid="sytem-citylist-26933" name="Кемерово" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26934" guid="sytem-citylist-26934" name="Рязань" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26935" guid="sytem-citylist-26935" name="Пенза" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26936" guid="sytem-citylist-26936" name="Набережные Челны" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26937" guid="sytem-citylist-26937" name="Тула" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26938" guid="sytem-citylist-26938" name="Липецк" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26939" guid="sytem-citylist-26939" name="Астрахань" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26940" guid="sytem-citylist-26940" name="Томск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26941" guid="sytem-citylist-26941" name="Махачкала" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26942" guid="sytem-citylist-26942" name="Киров" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26943" guid="sytem-citylist-26943" name="Чебоксары" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26944" guid="sytem-citylist-26944" name="Калининград" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26945" guid="sytem-citylist-26945" name="Брянск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26946" guid="sytem-citylist-26946" name="Магнитогорск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26947" guid="sytem-citylist-26947" name="Иваново" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26948" guid="sytem-citylist-26948" name="Курск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26949" guid="sytem-citylist-26949" name="Тверь" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26950" guid="sytem-citylist-26950" name="Нижний Тагил" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26951" guid="sytem-citylist-26951" name="Ставрополь" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26952" guid="sytem-citylist-26952" name="Архангельск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26953" guid="sytem-citylist-26953" name="Белгород" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26954" guid="sytem-citylist-26954" name="Улан-Удэ" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26955" guid="sytem-citylist-26955" name="Владимир" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26956" guid="sytem-citylist-26956" name="Сочи" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26957" guid="sytem-citylist-26957" name="Калуга" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26958" guid="sytem-citylist-26958" name="Курган" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26959" guid="sytem-citylist-26959" name="Орёл" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26960" guid="sytem-citylist-26960" name="Смоленск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26961" guid="sytem-citylist-26961" name="Мурманск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26962" guid="sytem-citylist-26962" name="Владикавказ" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26963" guid="sytem-citylist-26963" name="Череповец" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26964" guid="sytem-citylist-26964" name="Волжский" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26965" guid="sytem-citylist-26965" name="Чита" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26966" guid="sytem-citylist-26966" name="Саранск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26967" guid="sytem-citylist-26967" name="Сургут" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26968" guid="sytem-citylist-26968" name="Вологда" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26969" guid="sytem-citylist-26969" name="Тамбов" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26970" guid="sytem-citylist-26970" name="Кострома" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26971" guid="sytem-citylist-26971" name="Комсомольск-на-Амуре" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26972" guid="sytem-citylist-26972" name="Нальчик" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26973" guid="sytem-citylist-26973" name="Петрозаводск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26974" guid="sytem-citylist-26974" name="Стерлитамак" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26975" guid="sytem-citylist-26975" name="Таганрог" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26976" guid="sytem-citylist-26976" name="Братск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26977" guid="sytem-citylist-26977" name="Дзержинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26978" guid="sytem-citylist-26978" name="Йошкар-Ола" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26979" guid="sytem-citylist-26979" name="Орск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26980" guid="sytem-citylist-26980" name="Шахты" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26981" guid="sytem-citylist-26981" name="Якутск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26982" guid="sytem-citylist-26982" name="Ангарск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26983" guid="sytem-citylist-26983" name="Нижневартовск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26984" guid="sytem-citylist-26984" name="Сыктывкар" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26985" guid="sytem-citylist-26985" name="Новороссийск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26986" guid="sytem-citylist-26986" name="Нижнекамск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26987" guid="sytem-citylist-26987" name="Бийск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26988" guid="sytem-citylist-26988" name="Грозный" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26989" guid="sytem-citylist-26989" name="Старый Оскол" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26990" guid="sytem-citylist-26990" name="Великий Новгород" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26991" guid="sytem-citylist-26991" name="Прокопьевск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26992" guid="sytem-citylist-26992" name="Рыбинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26993" guid="sytem-citylist-26993" name="Норильск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26994" guid="sytem-citylist-26994" name="Благовещенск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26995" guid="sytem-citylist-26995" name="Энгельс" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26996" guid="sytem-citylist-26996" name="Балаково" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26997" guid="sytem-citylist-26997" name="Петропавловск-Камчатский" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26998" guid="sytem-citylist-26998" name="Псков" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="26999" guid="sytem-citylist-26999" name="Северодвинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27000" guid="sytem-citylist-27000" name="Армавир" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27001" guid="sytem-citylist-27001" name="Златоуст" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27002" guid="sytem-citylist-27002" name="Балашиха" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27003" guid="sytem-citylist-27003" name="Каменск-Уральский" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27004" guid="sytem-citylist-27004" name="Химки" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27005" guid="sytem-citylist-27005" name="Сызрань" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27006" guid="sytem-citylist-27006" name="Подольск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27007" guid="sytem-citylist-27007" name="Новочеркасск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27008" guid="sytem-citylist-27008" name="Королёв" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27009" guid="sytem-citylist-27009" name="Южно-Сахалинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27010" guid="sytem-citylist-27010" name="Волгодонск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27011" guid="sytem-citylist-27011" name="Находка" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27012" guid="sytem-citylist-27012" name="Березники" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27013" guid="sytem-citylist-27013" name="Абакан" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27014" guid="sytem-citylist-27014" name="Мытищи" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27015" guid="sytem-citylist-27015" name="Люберцы" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27016" guid="sytem-citylist-27016" name="Рубцовск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27017" guid="sytem-citylist-27017" name="Майкоп" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27018" guid="sytem-citylist-27018" name="Салават" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27019" guid="sytem-citylist-27019" name="Уссурийск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27020" guid="sytem-citylist-27020" name="Миасс" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27021" guid="sytem-citylist-27021" name="Ковров" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27022" guid="sytem-citylist-27022" name="Коломна" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27023" guid="sytem-citylist-27023" name="Электросталь" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27024" guid="sytem-citylist-27024" name="Альметьевск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27025" guid="sytem-citylist-27025" name="Пятигорск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27026" guid="sytem-citylist-27026" name="Копейск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27027" guid="sytem-citylist-27027" name="Первоуральск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27028" guid="sytem-citylist-27028" name="Назрань" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27029" guid="sytem-citylist-27029" name="Одинцово" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27030" guid="sytem-citylist-27030" name="Невинномысск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27031" guid="sytem-citylist-27031" name="Кисловодск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27032" guid="sytem-citylist-27032" name="Димитровград" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27033" guid="sytem-citylist-27033" name="Хасавюрт" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27034" guid="sytem-citylist-27034" name="Новочебоксарск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27035" guid="sytem-citylist-27035" name="Новомосковск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27036" guid="sytem-citylist-27036" name="Серпухов" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27037" guid="sytem-citylist-27037" name="Орехово-Зуево" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27038" guid="sytem-citylist-27038" name="Муром" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27039" guid="sytem-citylist-27039" name="Камышин" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27040" guid="sytem-citylist-27040" name="Железнодорожный" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27041" guid="sytem-citylist-27041" name="Нефтекамск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27042" guid="sytem-citylist-27042" name="Новый Уренгой" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27043" guid="sytem-citylist-27043" name="Черкесск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27044" guid="sytem-citylist-27044" name="Ногинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27045" guid="sytem-citylist-27045" name="Новошахтинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27046" guid="sytem-citylist-27046" name="Нефтеюганск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27047" guid="sytem-citylist-27047" name="Щёлково" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27048" guid="sytem-citylist-27048" name="Елец" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27049" guid="sytem-citylist-27049" name="Ачинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27050" guid="sytem-citylist-27050" name="Новокуйбышевск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27051" guid="sytem-citylist-27051" name="Сергиев Посад" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27052" guid="sytem-citylist-27052" name="Ноябрьск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27053" guid="sytem-citylist-27053" name="Кызыл" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27054" guid="sytem-citylist-27054" name="Дербент" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27055" guid="sytem-citylist-27055" name="Октябрьский" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27056" guid="sytem-citylist-27056" name="Северск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27057" guid="sytem-citylist-27057" name="Ленинск-Кузнецкий" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27058" guid="sytem-citylist-27058" name="Арзамас" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27059" guid="sytem-citylist-27059" name="Обнинск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27060" guid="sytem-citylist-27060" name="Ухта" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27061" guid="sytem-citylist-27061" name="Междуреченск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27062" guid="sytem-citylist-27062" name="Киселёвск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27063" guid="sytem-citylist-27063" name="Новотроицк" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27064" guid="sytem-citylist-27064" name="Батайск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27065" guid="sytem-citylist-27065" name="Элиста" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27066" guid="sytem-citylist-27066" name="Артём" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27067" guid="sytem-citylist-27067" name="Жуковский" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27068" guid="sytem-citylist-27068" name="Великие Луки" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27069" guid="sytem-citylist-27069" name="Канск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27070" guid="sytem-citylist-27070" name="Магадан" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27071" guid="sytem-citylist-27071" name="Тобольск" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="27072" guid="sytem-citylist-27072" name="Глазов" type-id="739" type-guid="sytem-citylist" ownerId="14"/>
+    <object id="25974" guid="swf-banner-quality-low" name="Низкое" type-id="674" type-guid="banners-banner-swf-quality">
+      <properties>
+        <group name="props">
+          <title>Свойства</title>
+          <property id="8808" name="quality_value" type="string">
+            <title>Значение</title>
+            <value>low</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="25975" guid="swf-banner-quality-medium" name="Среднее" type-id="674" type-guid="banners-banner-swf-quality">
+      <properties>
+        <group name="props">
+          <title>Свойства</title>
+          <property id="8808" name="quality_value" type="string">
+            <title>Значение</title>
+            <value>normal</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+    <object id="25976" guid="swf-banner-quality-high" name="Высокое" type-id="674" type-guid="banners-banner-swf-quality">
+      <properties>
+        <group name="props">
+          <title>Свойства</title>
+          <property id="8808" name="quality_value" type="string">
+            <title>Значение</title>
+            <value>high</value>
+          </property>
+        </group>
+      </properties>
+    </object>
+  </objects>
+  <pages/>
+  <relations>
+    <relation type-id="803" field-name="country">
+      <guide id="693"/>
+    </relation>
+    <relation type-id="4" field-name="groups">
+      <guide id="6"/>
+    </relation>
+    <relation type-id="4" field-name="delivery_addresses">
+      <guide id="803"/>
+    </relation>
+    <relation type-id="4" field-name="preffered_currency">
+      <guide id="780"/>
+    </relation>
+    <relation type-id="4" field-name="legal_persons">
+      <guide id="817"/>
+    </relation>
+    <relation type-id="4" field-name="filemanager">
+      <guide id="825"/>
+    </relation>
+    <relation type-id="4" field-name="filemanager_directory">
+      <guide id="825"/>
+    </relation>
+    <relation object-id="14" field-name="groups">
+      <object id="15"/>
+    </relation>
+    <relation type-id="5" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="5" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="672" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="672" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="673" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="673" field-name="swf_quality">
+      <guide id="674"/>
+    </relation>
+    <relation type-id="673" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+    <relation type-id="675" field-name="place">
+      <guide id="671"/>
+    </relation>
+    <relation type-id="675" field-name="city_targeting_city">
+      <guide id="739"/>
+    </relation>
+  </relations>
+  <options/>
+  <restrictions>
+    <restriction id="2" prefix="email" title="E-mail" field-type="string" is-multiple="">
+      <field field-name="email" type-id="817"/>
+    </restriction>
+  </restrictions>
+  <permissions>
+    <permission object-id="15">
+      <module name="content" method="" allow="1"/>
+      <module name="domain" method="2" allow="1"/>
+      <module name="content" method="sitetree" allow="1"/>
+      <module name="content" method="tickets" allow="1"/>
+      <module name="content" method="publish" allow="1"/>
+      <module name="users" method="" allow="1"/>
+      <module name="users" method="settings" allow="1"/>
+      <module name="users" method="users_list" allow="1"/>
+      <module name="users" method="profile" allow="1"/>
+      <module name="backup" method="" allow="1"/>
+      <module name="backup" method="config" allow="1"/>
+      <module name="data" method="" allow="1"/>
+      <module name="data" method="guides" allow="1"/>
+      <module name="data" method="trash" allow="1"/>
+      <module name="data" method="types" allow="1"/>
+      <module name="catalog" method="" allow="1"/>
+      <module name="catalog" method="tree" allow="1"/>
+      <module name="catalog" method="publish" allow="1"/>
+      <module name="news" method="" allow="1"/>
+      <module name="news" method="lists" allow="1"/>
+      <module name="news" method="publish" allow="1"/>
+      <module name="vote" method="" allow="1"/>
+      <module name="vote" method="add_poll" allow="1"/>
+      <module name="vote" method="edit_poll" allow="1"/>
+      <module name="vote" method="del_poll" allow="1"/>
+      <module name="vote" method="publish" allow="1"/>
+      <module name="search" method="" allow="1"/>
+      <module name="search" method="index" allow="1"/>
+      <module name="forum" method="" allow="1"/>
+      <module name="forum" method="last_messages" allow="1"/>
+      <module name="banners" method="" allow="1"/>
+      <module name="banners" method="places_list" allow="1"/>
+      <module name="banners" method="place_edit" allow="1"/>
+      <module name="banners" method="place_edit_do" allow="1"/>
+      <module name="banners" method="place_add" allow="1"/>
+      <module name="banners" method="place_add_do" allow="1"/>
+      <module name="banners" method="place_del" allow="1"/>
+      <module name="banners" method="banners_list" allow="1"/>
+      <module name="banners" method="banner_edit" allow="1"/>
+      <module name="banners" method="banner_edit_do" allow="1"/>
+      <module name="banners" method="banner_add" allow="1"/>
+      <module name="banners" method="banner_add_do" allow="1"/>
+      <module name="banners" method="banner_del" allow="1"/>
+      <module name="dispatches" method="" allow="1"/>
+      <module name="dispatches" method="dispatches_list" allow="1"/>
+      <module name="dispatches" method="releasees_list" allow="1"/>
+      <module name="dispatches" method="messages_list" allow="1"/>
+      <module name="dispatches" method="subscribers_list" allow="1"/>
+      <module name="dispatches" method="lists" allow="1"/>
+      <module name="comments" method="" allow="1"/>
+      <module name="comments" method="view_comments" allow="1"/>
+      <module name="webforms" method="" allow="1"/>
+      <module name="webforms" method="addresses" allow="1"/>
+      <module name="stat" method="" allow="1"/>
+      <module name="stat" method="json_get_referer_pages" allow="1"/>
+      <module name="stat" method="total" allow="1"/>
+      <module name="autoupdate" method="" allow="1"/>
+      <module name="autoupdate" method="versions" allow="1"/>
+      <module name="faq" method="" allow="1"/>
+      <module name="faq" method="projects_list" allow="1"/>
+      <module name="faq" method="publish" allow="1"/>
+      <module name="photoalbum" method="" allow="1"/>
+      <module name="photoalbum" method="albums_list" allow="1"/>
+      <module name="photoalbum" method="publish" allow="1"/>
+      <module name="filemanager" method="" allow="1"/>
+      <module name="filemanager" method="directory_list" allow="1"/>
+      <module name="eshop" method="" allow="1"/>
+      <module name="eshop" method="orders_list" allow="1"/>
+      <module name="eshop" method="stores" allow="1"/>
+      <module name="eshop" method="discount_cards" allow="1"/>
+      <module name="eshop" method="personal" allow="1"/>
+      <module name="blogs" method="edit" allow="1"/>
+      <module name="blogs" method="" allow="1"/>
+      <module name="geoip" method="" allow="1"/>
+      <module name="geoip" method="info" allow="1"/>
+      <module name="seo" method="" allow="1"/>
+      <module name="seo" method="seo" allow="1"/>
+    </permission>
+    <permission object-id="2374">
+      <module name="users" method="settings" allow="1"/>
+      <module name="eshop" method="personal" allow="1"/>
+      <module name="blogs20" method="add" allow="1"/>
+    </permission>
+    <permission object-id="26315">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26341">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27226">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27227">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27228">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27923">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27924">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="14"/>
+    <permission object-id="26905">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26906">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26907">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26908">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26909">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26910">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26911">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26912">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26913">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26914">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26915">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26916">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26917">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26918">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26919">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26920">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26921">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26922">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26923">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26924">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26925">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26926">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26927">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26928">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26929">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26930">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26931">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26932">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26933">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26934">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26935">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26936">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26937">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26938">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26939">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26940">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26941">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26942">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26943">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26944">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26945">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26946">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26947">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26948">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26949">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26950">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26951">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26952">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26953">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26954">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26955">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26956">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26957">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26958">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26959">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26960">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26961">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26962">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26963">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26964">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26965">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26966">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26967">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26968">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26969">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26970">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26971">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26972">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26973">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26974">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26975">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26976">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26977">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26978">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26979">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26980">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26981">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26982">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26983">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26984">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26985">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26986">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26987">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26988">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26989">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26990">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26991">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26992">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26993">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26994">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26995">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26996">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26997">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26998">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="26999">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27000">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27001">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27002">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27003">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27004">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27005">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27006">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27007">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27008">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27009">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27010">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27011">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27012">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27013">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27014">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27015">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27016">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27017">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27018">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27019">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27020">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27021">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27022">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27023">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27024">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27025">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27026">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27027">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27028">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27029">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27030">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27031">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27032">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27033">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27034">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27035">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27036">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27037">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27038">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27039">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27040">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27041">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27042">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27043">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27044">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27045">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27046">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27047">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27048">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27049">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27050">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27051">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27052">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27053">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27054">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27055">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27056">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27057">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27058">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27059">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27060">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27061">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27062">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27063">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27064">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27065">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27066">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27067">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27068">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27069">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27070">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27071">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="27072">
+      <owner id="14"/>
+    </permission>
+    <permission object-id="25974"/>
+    <permission object-id="25975"/>
+    <permission object-id="25976"/>
+  </permissions>
+  <hierarchy/>
+</umidump>

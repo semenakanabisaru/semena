@@ -1,0 +1,116 @@
+[_COOKIE]
+	[PHPSESSID]
+	(string) 5vfjlmb5bgbf93jcef92r0mdp1
+
+	[stat_id]
+	(string) 5vfjlmb5bgbf93jcef92r0mdp1
+
+	[umicms_session]
+	(string) 6385f841fcdd084a0b3033b8732ae6ed
+
+	[ilang]
+	(string) ru
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1337827311
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /admin
+
+	[user_id]
+	(integer) 10
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 1
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[cms_login]
+	(string) admin
+
+	[cms_pass]
+	(string) bbe8180d60290154644a9b19677bdad1
+
+	[user_is_sv]
+	(boolean) 1
+
+	[paging]
+	(array) ['['['['['', '2', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']']']']']
+
+
+[_GET]
+	[path]
+	(string) admin/catalog/tree/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[Cache-Control]
+	(string) max-age=0
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.46 Safari/536.5
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/admin/catalog/edit/387/
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) PHPSESSID=5vfjlmb5bgbf93jcef92r0mdp1; stat_id=5vfjlmb5bgbf93jcef92r0mdp1; umicms_session=6385f841fcdd084a0b3033b8732ae6ed; ilang=ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.4028871]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[0.5205941]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id, name...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/templatesCollection.php(244): l_mysql_query('SELECT id, name...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/templatesCollection.php(13): templatesCollection-&gt;loadTemplates()
+#3 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): templatesCollection-&gt;__construct()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/templatesCollection.php(21): singleton::getInstance('templatesCollec...')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(35): templatesCollection::getInstance()
+#6 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): umiHierarchy-&gt;__construct()
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(48): singleton::getInstance('umiHierarchy')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1015): umiHierarchy::getInstance()
+#9 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#10 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#11 {main}

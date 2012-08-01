@@ -1,0 +1,53 @@
+[_COOKIE]
+	[stat_id]
+	(string) 19ak5bduq7lljegno7g12u8em6
+
+	[customer-id]
+	(string) 22888
+
+
+[_GET]
+	[path]
+	(string) 
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0.1
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Language]
+	(string) ru-ru,ru;q=0.8,en-us;q=0.5,en;q=0.3
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Connection]
+	(string) keep-alive
+
+	[Referer]
+	(string) http://www.google.ru/aclk?sa=L&ai=CZkLSsmEPUM-ZK4ze4ASvgoHwB_HXhcUCyY-BnTa-tKeRCggAEAEoAlCAqYfxA2CEhYCA1B3IAQGpAtrXsGI9Q2A-qgQdT9DWtWARyJzdYoa2PPAjQL-rVgMzuQnYuM-GRRg&sig=AOD64_3OwMPON0IXPr5sqBQVWFBl5kO3-Q&ved=0CFgQ0Qw&adurl=http://Semena-Kanabisa.ru&rct=j&q=%D0%BA%D0%BE%D0%BD%D0%BE%D0%BF%D0%BB%D1%8F+%D0%BF%D0%BE%D1%87%D1%82%D0%BE%D0%B9
+
+	[Cookie]
+	(string) stat_id=19ak5bduq7lljegno7g12u8em6; customer-id=22888
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[12.6383719]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[16.6213520]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SHOW TABLES LIK...', false)
+#1 /var/www/clients/client0/web1/web/libs/config.php(128): l_mysql_query('SHOW TABLES LIK...')
+#2 /var/www/clients/client0/web1/web/libs/root-src/index.php(3): require('/var/www/client...')
+#3 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#4 {main}

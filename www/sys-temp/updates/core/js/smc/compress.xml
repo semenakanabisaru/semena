@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<filepack>
+	<pack path="compressed.js" type="js">
+		<file path="Filter.js" delete="false" />
+		<file path="TableItem.js" delete="false" />
+		<file path="TreeToolbar.js" delete="false" />
+		<file path="TableToolbar.js" delete="false" />
+		<file path="Control.js" delete="false" />
+		<file path="FilterController.js" delete="false" />
+		<file path="TemplatesDataSet.js" delete="false" />
+		<file path="DataSet.js" delete="false" />
+		<file path="SettingsStore.js" delete="false" />
+		<file path="editableCell.js" delete="false" />
+		<file path="TreeItem.js" delete="false" />
+		<file path="context.js" delete="false" />
+		<file path="Session.js" delete="false" />
+	</pack>
+</filepack>

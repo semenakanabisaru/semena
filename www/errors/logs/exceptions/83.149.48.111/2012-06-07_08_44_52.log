@@ -1,0 +1,98 @@
+[_COOKIE]
+	[stat_id]
+	(string) 5fbba282ccpmsguhtskc7mche1
+
+	[customer-id]
+	(string) 16094
+
+	[acstate_active]
+	(string) false
+
+	[acstate_opened]
+	(string) -1
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1339043673
+
+	[http_target]
+	(string) /personal/orders/
+
+	[user_id]
+	(string) 298
+
+
+[_GET]
+	[path]
+	(string) personal/orders/
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 6.1; WOW64; U; MRA 5.9 (build 4876); ru) Presto/2.10.229 Version/11.64
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/producers/green_house_seeds/
+
+	[Cookie]
+	(string) stat_id=5fbba282ccpmsguhtskc7mche1; customer-id=16094; acstate_active=false; acstate_opened=-1; _ym_visorc=w
+
+	[X-Forwarded-For]
+	(string) 10.104.169.239
+
+	[Cache-Control]
+	(string) max-age=259200
+
+	[Connection]
+	(string) keep-alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=8uaf5t4p1nutp8jpq4hpc43mq4; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.6062710]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[0.9318252]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT COUNT(cp...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(314): l_mysql_query('SELECT COUNT(cp...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(164): permissionsCollection-&gt;isAdmin('298')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(37): permissionsCollection-&gt;isAllowedMethod('298', 'content', 'sitetree')
+#4 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): permissionsCollection-&gt;__construct()
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/models/permissions/permissionsCollection.php(53): singleton::getInstance('permissionsColl...')
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(1280): permissionsCollection::getInstance()
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(107): umiHierarchy-&gt;isAllowed('14')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1113): umiHierarchy-&gt;getElement('14')
+#9 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#10 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#11 {main}

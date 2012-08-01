@@ -1,0 +1,38 @@
+[_COOKIE]
+	[PHPSESSID]
+	(string) ipevo6nkklldt3quj71tpi33m5
+
+	[stat_id]
+	(string) ipevo6nkklldt3quj71tpi33m5
+
+	[sxd]
+	(string) U0tEMTAxOnJvb3Q6SHU2KHNLMm8h
+
+	[adminer_version]
+	(string) 3.4.0
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343294843
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /phpmyadmin
+
+
+[_GET]
+	[path]
+	(string) /phpmyadmin
+
+
+[0.0000889]	Default domain could not be found
+[0.0001068]	#0 /home/semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /home/semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /home/semena-kanabisa.ru/www/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /home/semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /home/semena-kanabisa.ru/www/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /home/semena-kanabisa.ru/www/index.php(7): require('/home/semena-ka...')
+#6 {main}

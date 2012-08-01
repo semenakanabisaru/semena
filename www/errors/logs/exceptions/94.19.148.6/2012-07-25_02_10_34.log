@@ -1,0 +1,89 @@
+[_COOKIE]
+	[stat_id]
+	(string) incjtffdk7fs04cv24cc1cgp74
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343163285
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /producers/joint_doctor/lowryder/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) producers/joint_doctor/lowryder/
+
+
+[Request headers]
+	[Accept]
+	(string) image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-shockwave-flash, application/x-ms-application, application/x-ms-xbap, application/vnd.ms-xpsdocument, application/xaml+xml, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+
+	[Accept-Language]
+	(string) ru
+
+	[User-Agent]
+	(string) Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; MRSPUTNIK 2, 4, 0, 405; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; AskTB5.6)
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) Keep-Alive
+
+	[Cookie]
+	(string) stat_id=incjtffdk7fs04cv24cc1cgp74; _ym_visorc=w
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=4tjesu5j0oonl4k2mllltjvpn2; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[17.5497839]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[17.6706219]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id FROM ...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(1113): l_mysql_query('SELECT id FROM ...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/selection/umiSelection.php(420): umiHierarchy-&gt;getDefaultElementId()
+#3 /var/www/clients/client0/web1/web/classes/modules/catalog/class.php(163): umiSelection-&gt;addHierarchyFilter(321, 0)
+#4 [internal function]: catalog-&gt;getObjectsList('0', '321')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#7 [internal function]: udataStream-&gt;stream_open('udata://catalog...', 'rb', 4, NULL)
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#9 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#10 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#11 {main}

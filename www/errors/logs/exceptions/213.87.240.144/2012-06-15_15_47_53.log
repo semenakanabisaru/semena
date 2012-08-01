@@ -1,0 +1,131 @@
+[_COOKIE]
+	[PHPSESSID]
+	(string) 6q0ser98f27h4qj692ea6djpc3
+
+	[stat_id]
+	(string) 6q0ser98f27h4qj692ea6djpc3
+
+	[_ym_visorc]
+	(string) w
+
+	[customer-id]
+	(string) 18152
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1339760872
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[http_target]
+	(string) /cart_content/
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', '6q0ser98f27h4qj692ea6djpc3', '28554', '46969', '8', '1', '12', '12']
+
+	[4bf3d7aa7070e3e3ba0a1ea660ef814b]
+	(array) ['['content', 'content', '268']']
+
+	[emarket]
+	(array) ['['0', '0']']
+
+	[f3ed7e21a51ea57541a9dbbeae86cfb5]
+	(array) ['['content', 'content', '269']']
+
+	[e9d9fc6eed24d6626461eb5299e6413b]
+	(array) ['['content', 'content', '272']']
+
+	[http_referer]
+	(NULL) 
+
+	[errors_1339760629]
+	(array) ['['Выберите способ оплаты', '', '']']
+
+	[15404097aa032c7536e72030f31f429a]
+	(array) ['['content', 'content', '14']']
+
+	[errors_1339760873]
+	(array) ['['Выберите способ оплаты', '', '']']
+
+
+[_GET]
+	[path]
+	(string) emarket/save_payment_stage/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[Cache-Control]
+	(string) max-age=0
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) PHPSESSID=6q0ser98f27h4qj692ea6djpc3; stat_id=6q0ser98f27h4qj692ea6djpc3; _ym_visorc=w; customer-id=18152
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Set-Cookie]
+	(string) customer-id=18152; expires=Mon, 16-Jul-2012 11:47:52 GMT; path=/
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0002341]	Can't find error redirect string
+[0.0002561]	#0 /var/www/clients/client0/web1/web/classes/modules/def_module.php(947): def_module-&gt;errorPanic()
+#1 /var/www/clients/client0/web1/web/classes/modules/emarket/__custom.php(124): def_module-&gt;errorNewMessage('???????????????...')
+#2 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_custom-&gt;save_payment_stage()
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#4 [internal function]: def_module-&gt;__call('save_payment_st...', Array)
+#5 [internal function]: emarket-&gt;save_payment_stage()
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#8 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://emarket...')
+#10 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://emarket...')
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#12 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#13 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#14 {main}

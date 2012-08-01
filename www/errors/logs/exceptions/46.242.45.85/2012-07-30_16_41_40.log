@@ -1,0 +1,53 @@
+[_COOKIE]
+	[_ym_visorc]
+	(string) w
+
+	[PHPSESSID]
+	(string) sl3is58u03mo49v0b4s42sgtb4
+
+	[stat_id]
+	(string) sl3is58u03mo49v0b4s42sgtb4
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343652100
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'sl3is58u03mo49v0b4s42sgtb4', '48757', '82264', '1', '1', '1', '1']
+
+	[c2f3f3aa1d0781514219c4ba6b8e645e]
+	(array) ['['content', 'content', '1']']
+
+
+[_GET]
+	[path]
+	(string) /
+
+
+[0.0001268]	Default domain could not be found
+[0.0001440]	#0 /home/dev.semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(681): cmsController-&gt;detectDomain()
+#1 /home/dev.semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#2 /home/dev.semena-kanabisa.ru/www/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#3 /home/dev.semena-kanabisa.ru/www/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#4 /home/dev.semena-kanabisa.ru/www/libs/root-src/index.php(71): cmsController::getInstance()
+#5 /home/dev.semena-kanabisa.ru/www/index.php(7): require('/home/dev.semen...')
+#6 {main}

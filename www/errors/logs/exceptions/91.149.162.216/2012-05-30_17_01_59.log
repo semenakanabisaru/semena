@@ -1,0 +1,42 @@
+[_GET]
+	[path]
+	(string) 
+
+	[from]
+	(string) olk
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.10.229 Version/11.64
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Connection]
+	(string) Keep-Alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0001750]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[0.1283700]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SHOW TABLES LIK...', false)
+#1 /var/www/clients/client0/web1/web/libs/config.php(128): l_mysql_query('SHOW TABLES LIK...')
+#2 /var/www/clients/client0/web1/web/libs/root-src/index.php(3): require('/var/www/client...')
+#3 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#4 {main}

@@ -1,0 +1,121 @@
+[_COOKIE]
+	[PHPSESSID]
+	(string) l28hfschehb5bn57rs076vggc0
+
+	[stat_id]
+	(string) l28hfschehb5bn57rs076vggc0
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343164077
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', 'l28hfschehb5bn57rs076vggc0', '1', '47916', '80668', '10', '10534', '10534']
+
+	[e76fcad4b37585e78574f7b026a2a13d]
+	(array) ['['content', 'content', '1']']
+
+	[13caab3cd544d156d45335d48c73b40a]
+	(array) ['['catalog', 'object', '412']', '['catalog', 'object', '420']']
+
+	[e844294df28b7bca6ec03a36cd7fbb3e]
+	(array) ['['catalog', 'object', '409']', '['catalog', 'object', '417']']
+
+	[99597df98fd3a9bc349d11b72d81fbf0]
+	(array) ['['catalog', 'object', '439']', '['catalog', 'object', '440']']
+
+	[8130105f3f55818b29341dd2892a4e0f]
+	(array) ['['catalog', 'object', '54']', '['catalog', 'object', '120']', '['catalog', 'object', '124']']
+
+	[08859dc2d2f70a905a7d8a34a5c51058]
+	(array) ['['catalog', 'object', '59']', '['catalog', 'object', '128']']
+
+	[efcdd2b94fc3d8b78667aeeae9d5058d]
+	(array) ['['catalog', 'object', '78']', '['catalog', 'object', '103']', '['catalog', 'object', '91']']
+
+	[564e67d3b356c7c91ce7421b620b3341]
+	(array) ['['catalog', 'object', '326']', '['catalog', 'object', '327']', '['catalog', 'object', '328']']
+
+	[bda53d789db3f93a13bdcacea0a57d70]
+	(array) ['['catalog', 'object', '508']', '['catalog', 'object', '530']']
+
+
+[_GET]
+	[path]
+	(string) producers/dutch_passion/purple_1/
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.10.229 Version/11.62
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/
+
+	[Cookie]
+	(string) PHPSESSID=l28hfschehb5bn57rs076vggc0; stat_id=l28hfschehb5bn57rs076vggc0; _ym_visorc=w
+
+	[Connection]
+	(string) Keep-Alive
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[31.6755421]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[31.7046380]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id FROM ...', true)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/regedit/regedit.php(32): l_mysql_query('SELECT id FROM ...', true)
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/regedit/regedit.php(44): regedit-&gt;getKey('//modules/produ...')
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(970): regedit-&gt;getVal('//modules/produ...')
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(1050): cmsController-&gt;getSubPathType('producers')
+#5 /var/www/clients/client0/web1/web/libs/root-src/index.php(73): cmsController-&gt;analyzePath()
+#6 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#7 {main}

@@ -1,0 +1,106 @@
+[_COOKIE]
+	[stat_id]
+	(string) rpd5mei8tu31cpdqrq355uk1u6
+
+	[customer-id]
+	(string) 27545
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1343163118
+
+	[http_target]
+	(string) /order_forming/
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[emarket]
+	(array) ['[]']
+
+
+[_GET]
+	[path]
+	(string) order_forming/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) keep-alive
+
+	[User-Agent]
+	(string) Mozilla/5.0 (Windows NT 6.1) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.46 Safari/535.11 MRCHROME
+
+	[Accept]
+	(string) text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+
+	[Referer]
+	(string) http://semena-kanabisa.ru/cart_content/
+
+	[Accept-Encoding]
+	(string) gzip,deflate,sdch
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
+
+	[Accept-Charset]
+	(string) windows-1251,utf-8;q=0.7,*;q=0.3
+
+	[Cookie]
+	(string) stat_id=rpd5mei8tu31cpdqrq355uk1u6; customer-id=27545
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) customer-id=27545; expires=Fri, 24-Aug-2012 20:53:30 GMT; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[22.6239531]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[22.7833431]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id FROM ...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/data/umiObjectTypesCollection.php(343): l_mysql_query('SELECT id FROM ...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/selector/executor.php(404): umiObjectTypesCollection-&gt;getChildClasses(78)
+#3 /var/www/clients/client0/web1/web/classes/system/subsystems/selector/executor.php(306): selectorExecutor-&gt;buildWhere()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/selector/executor.php(25): selectorExecutor-&gt;buildQuery('result')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/selector/selector.php(109): selectorExecutor-&gt;result()
+#6 /var/www/clients/client0/web1/web/classes/modules/emarket/classes/delivery/delivery.php(63): selector-&gt;result()
+#7 /var/www/clients/client0/web1/web/classes/modules/emarket/__delivery.php(130): delivery::getList(false)
+#8 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_delivery-&gt;renderDeliveryList(Object(order), 'notemplate')
+#9 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#10 /var/www/clients/client0/web1/web/classes/modules/emarket/__custom.php(22): def_module-&gt;__call('renderDeliveryL...', Array)
+#11 /var/www/clients/client0/web1/web/classes/modules/emarket/__custom.php(22): emarket-&gt;renderDeliveryList(Object(order), 'notemplate')
+#12 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __emarket_custom-&gt;fast_purchasing()
+#13 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#14 [internal function]: def_module-&gt;__call('fast_purchasing', Array)
+#15 [internal function]: emarket-&gt;fast_purchasing()
+#16 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#17 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#18 [internal function]: udataStream-&gt;stream_open('udata://emarket...', 'rb', 4, NULL)
+#19 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#20 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#21 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#22 {main}

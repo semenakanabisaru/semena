@@ -1,0 +1,118 @@
+[_COOKIE]
+	[PHPSESSID]
+	(string) 8te8ltkkptuberfb5jn0l4edp6
+
+	[stat_id]
+	(string) 8te8ltkkptuberfb5jn0l4edp6
+
+	[umicms_session]
+	(string) e1ed1a1d32d0874c382b450afdce5751
+
+	[_ym_visorc]
+	(string) w
+
+
+[_SESSION]
+	[starttime]
+	(integer) 1339156307
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /users/activate/9a2a2d9071288af8e9d77511d6817e16/
+
+	[user_id]
+	(integer) 16516
+
+	[is_admin]
+	(array) ['', '']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+	[old_logged_in_value]
+	(boolean) 
+
+	[stat]
+	(array) ['', '8te8ltkkptuberfb5jn0l4edp6', '1', '25629', '41778', '2', '12', '12']
+
+	[f7184cb594eda4675ecaa6d0cfae1eec]
+	(array) ['['content', 'content', '3']']
+
+	[15404097aa032c7536e72030f31f429a]
+	(array) ['['content', 'content', '14']']
+
+	[cms_login]
+	(string) sтверскойs
+
+	[cms_pass]
+	(string) e10adc3949ba59abbe56e057f20f883e
+
+
+[_GET]
+	[path]
+	(string) users/restore/5d7f3005d5dd7e50feae5648f1a88676/
+
+
+[Request headers]
+	[User-Agent]
+	(string) Opera/9.80 (Windows NT 6.1; U; ru) Presto/2.10.229 Version/11.64
+
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Accept]
+	(string) text/html, application/xml;q=0.9, application/xhtml+xml, image/png, image/webp, image/jpeg, image/gif, image/x-xbitmap, */*;q=0.1
+
+	[Accept-Language]
+	(string) ru-RU,ru;q=0.9,en;q=0.8
+
+	[Accept-Encoding]
+	(string) gzip, deflate
+
+	[Cookie]
+	(string) PHPSESSID=8te8ltkkptuberfb5jn0l4edp6; stat_id=8te8ltkkptuberfb5jn0l4edp6; umicms_session=e1ed1a1d32d0874c382b450afdce5751; _ym_visorc=w
+
+	[Connection]
+	(string) Keep-Alive
+
+	[X-Forwarded-For]
+	(string) 10.231.244.106
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0001569]	Not found template &quot;/forget/5d7f3005d5dd7e50feae5648f1a88676&quot;.
+[0.0154910]	#0 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(15): umiTemplaterXSLT-&gt;prepareXSL('/forget/5d7f300...')
+#1 /var/www/clients/client0/web1/web/classes/modules/def_module.php(515): umiTemplaterXSLT-&gt;parse(Array)
+#2 /var/www/clients/client0/web1/web/classes/modules/users/__forget.php(166): def_module::parseTemplateForMail('file://users/fo...', Array, false, 16516)
+#3 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63) : eval()'d code(1): __forget_users-&gt;restore('5d7f3005d5dd7e5...')
+#4 /var/www/clients/client0/web1/web/classes/modules/def_module.php(63): eval()
+#5 /var/www/clients/client0/web1/web/classes/modules/users/class.php(25): def_module-&gt;__call('restore', Array)
+#6 [internal function]: users-&gt;__call('restore', Array)
+#7 [internal function]: users-&gt;restore('5d7f3005d5dd7e5...')
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#10 [internal function]: udataStream-&gt;stream_open('udata://users/r...', 'rb', 4, NULL)
+#11 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(630): file_get_contents('udata://users/r...')
+#12 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(614): cmsController-&gt;executeStream('udata://users/r...')
+#13 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(312): cmsController-&gt;prepareClientSideGlobalVariablesForXSLT()
+#14 /var/www/clients/client0/web1/web/libs/root-src/index.php(130): cmsController-&gt;getGlobalVariables()
+#15 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#16 {main}

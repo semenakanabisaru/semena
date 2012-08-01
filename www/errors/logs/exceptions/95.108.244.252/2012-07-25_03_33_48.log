@@ -1,0 +1,76 @@
+[_SESSION]
+	[starttime]
+	(integer) 1343172416
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /users/forget/
+
+
+[_GET]
+	[path]
+	(string) users/forget/
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) Keep-Alive
+
+	[Accept]
+	(string) */*
+
+	[Accept-Encoding]
+	(string) gzip,deflate
+
+	[Accept-Language]
+	(string) ru, uk;q=0.8, be;q=0.8, en;q=0.7, *;q=0.01
+
+	[If-Modified-Since]
+	(string) Thu, 07 Jun 2012 13:23:03 GMT
+
+	[User-Agent]
+	(string) Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+
+	[From]
+	(string) support@search.yandex.ru
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=naqfu1d4ovspuh7g9j1me0p2t6; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[0.0338490]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[0.8744922]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id, pref...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/langsCollection.php(34): l_mysql_query('SELECT id, pref...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/langsCollection.php(14): langsCollection-&gt;loadLangs()
+#3 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): langsCollection-&gt;__construct()
+#4 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/langsCollection.php(22): singleton::getInstance('langsCollection')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(779): langsCollection::getInstance()
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(683): cmsController-&gt;detectLang()
+#7 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(40): cmsController-&gt;init()
+#8 /var/www/clients/client0/web1/web/classes/system/patterns/singletone.php(21): cmsController-&gt;__construct()
+#9 /var/www/clients/client0/web1/web/classes/system/subsystems/cmsController/cmsController.php(49): singleton::getInstance('cmsController')
+#10 /var/www/clients/client0/web1/web/libs/root-src/index.php(71): cmsController::getInstance()
+#11 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#12 {main}

@@ -1,0 +1,84 @@
+[_SESSION]
+	[starttime]
+	(integer) 1343169761
+
+	[http_referer]
+	(NULL) 
+
+	[http_target]
+	(string) /producers/dutch_passion/?&per_page=24&order_filter%5Bpercent_tgk%5D=1
+
+	[user_id]
+	(string) 298
+
+	[is_admin]
+	(array) ['']
+
+	[_umi_opaf_disabled_html]
+	(integer) 0
+
+
+[_GET]
+	[path]
+	(string) producers/dutch_passion/
+
+	[per_page]
+	(string) 24
+
+	[order_filter]
+	(array) ['1']
+
+
+[Request headers]
+	[Host]
+	(string) semena-kanabisa.ru
+
+	[Connection]
+	(string) Keep-alive
+
+	[Accept]
+	(string) */*
+
+	[From]
+	(string) googlebot(at)googlebot.com
+
+	[User-Agent]
+	(string) Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+
+	[Accept-Encoding]
+	(string) gzip,deflate
+
+
+[Response headers]
+	[X-Powered-By]
+	(string) PHP/5.3.6-13ubuntu3.6
+
+	[Set-Cookie]
+	(string) PHPSESSID=0pvt83qj1c4od1ur7goivodgl2; path=/
+
+	[Expires]
+	(string) Thu, 19 Nov 1981 08:52:00 GMT
+
+	[Cache-Control]
+	(string) no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+
+	[Pragma]
+	(string) no-cache
+
+	[Status]
+	(string) 500 Internal Server Error
+
+
+[2.6239858]	<p>Произошла критическая ошибка. Скорее всего, потребуется участие разработчиков.  Подробности по ссылке <a title="" target="_blank" href="http://errors.umi-cms.ru/17000/">17000</a></p>
+[2.8761878]	#0 /var/www/clients/client0/web1/web/libs/lib.php(111): mysqlConnection-&gt;query('SELECT id FROM ...', false)
+#1 /var/www/clients/client0/web1/web/classes/system/subsystems/models/hierarchy/umiHierarchy.php(1113): l_mysql_query('SELECT id FROM ...')
+#2 /var/www/clients/client0/web1/web/classes/system/subsystems/models/selection/umiSelection.php(420): umiHierarchy-&gt;getDefaultElementId()
+#3 /var/www/clients/client0/web1/web/classes/modules/catalog/class.php(163): umiSelection-&gt;addHierarchyFilter(16, 0)
+#4 [internal function]: catalog-&gt;getObjectsList('0', '16', '24', '0', '0')
+#5 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(98): call_user_func_array(Array, Array)
+#6 /var/www/clients/client0/web1/web/classes/system/subsystems/streams/udata/udataStream.php(15): udataStream-&gt;executeMacros(Array)
+#7 [internal function]: udataStream-&gt;stream_open('udata://catalog...', 'rb', 4, NULL)
+#8 /var/www/clients/client0/web1/web/classes/system/subsystems/umiTemplaters/types/umiTemplaterXSLT.php(45): XSLTProcessor-&gt;transformToXml(Object(DOMDocument))
+#9 /var/www/clients/client0/web1/web/libs/root-src/index.php(134): umiTemplaterXSLT-&gt;parse(Array, 'file:///var/www...')
+#10 /var/www/clients/client0/web1/web/index.php(7): require('/var/www/client...')
+#11 {main}
